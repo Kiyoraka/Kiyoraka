@@ -2,7 +2,7 @@ name: Update README with GitHub Stats
 
 on:
   schedule:
-    - cron: '40 14 * * *'  # Runs at 14:40 UTC daily
+    - cron: '0 */6 * * *'  # Runs every 6 hours (at 00:00, 06:00, 12:00, 18:00 UTC)
   workflow_dispatch:        # Allows manual trigger
 
 permissions:
@@ -13,21 +13,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4    # Updated to v4
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4  # Updated to v4
+        uses: actions/setup-node@v4
         with:
           node-version: '18'
-          cache: 'npm'              # Added caching for better performance
+          cache: 'npm'
 
       - name: Install dependencies
         run: |
-          npm ci                    # Using ci instead of install for clean installs
+          npm ci
 
       - name: Run GitHub Stats Script
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Using built-in token
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           node stats.js
 
