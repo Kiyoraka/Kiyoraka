@@ -19,7 +19,7 @@
 
 ## 📊 Detailed Battle Stats
   
-### ⚔️ Attack Power: ![Total Commits](https://img.shields.io/github/commit-activity/y/Kiyoraka/Kiyoraka?label=&style=flat)
+### ⚔️ Attack Power: ![](https://raw.githubusercontent.com/Kiyoraka/github-stats/master/generated/overview.svg#gh-dark-mode-only)
  
 ### 🛡️ Defense Power : ![Defense](https://img.shields.io/github/issues-closed/Kiyoraka/Kiyoraka?label=&style=flat)
 
