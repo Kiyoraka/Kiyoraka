@@ -1,16 +1,37 @@
-## Hi there 👋
+<div align="center">
+  
+  <!-- Replace with your banner image -->
+  ![Banner](./assets/banner.png)
 
-<!--
-**Kiyoraka/Kiyoraka** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  # 🎮 Developer Guild Card
+  
+  <!-- Replace with your profile image -->
+  <img src="./assets/profile.png" width="150" height="150" style="border-radius: 50%"/>
+  
+  ## 🏰 [Your Name]
+  ### ⚔️ Full-Stack Developer
+  
+  [![GitHub followers](https://img.shields.io/github/followers/yourusername?style=for-the-badge&logo=github)](https://github.com/yourusername)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourusername)
+  
+  ---
+  ### 📊 Stats
+  
+  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
+  
+  ---
+  ### 🎯 Skills
 
-Here are some ideas to get you started:
+  | Skill | Level |
+  |-------|-------|
+  | React | ⚔️⚔️⚔️⚔️⚔️ |
+  | AWS   | ⚔️⚔️⚔️⚔️  |
+  | Node  | ⚔️⚔️⚔️   |
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  ---
+  ### 🏆 Achievements
+  
+  ```text
+  🌟 Deployed 5 Full-Stack Apps
+  🛡️ AWS Certified Developer
+  ⚔️ 100+ GitHub Contributions
