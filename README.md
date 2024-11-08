@@ -1,7 +1,7 @@
 <div align="center">
   
   <!-- Replace with your banner image -->
-  ![Banner](./assets/banner.png)
+   <!-- ![Banner](./assets/banner.png) -->
 
   # 🎮 Developer Guild Card
   
