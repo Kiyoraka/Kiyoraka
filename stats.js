@@ -2,7 +2,7 @@ const axios = require('axios');
 const fs = require('fs');
 
 const USERNAME = 'Kiyoraka';
-const TOKEN = process.env.GITHUB_TOKEN; // Access token from environment variable
+const TOKEN = process.env.PERSONAL_GITHUB_TOKEN; // Access token from environment variable
 
 const fetchGitHubStats = async () => {
   try {
