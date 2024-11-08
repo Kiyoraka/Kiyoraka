@@ -9,11 +9,11 @@
 ##    
 ### 👤 Name : Kiyoraka Ken
 ### 🎖️ Class : Full-Stack Developer
-### ⭐ Level : 1
+### ⭐ Level : 4
 ---
 ## 📊 Detailed Battle Stats
 
-### ⚔️ Attack Power : 0
-### 🛡️ Defense Power : 0
-### ❤️ Health Point : 0
+### ⚔️ Attack Power : 20
+### 🛡️ Defense Power : 20
+### ❤️ Health Point : 100
 ---
