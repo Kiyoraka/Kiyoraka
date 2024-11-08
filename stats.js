@@ -247,7 +247,6 @@ const updateReadme = async () => {
 ---
 ## 💻 Programming Skills
 
-
 ${languageSkillsSection}
 ---`;
 
