@@ -5,7 +5,6 @@ const USERNAME = 'Kiyoraka';
 const TOKEN = process.env.PERSONAL_GITHUB_TOKEN;
 
 // Language icons mapping
-// Language icons mapping (Expanded)
 const LANGUAGE_ICONS = {
   // Web Languages
   JavaScript: '📜',
@@ -13,53 +12,27 @@ const LANGUAGE_ICONS = {
   HTML: '🌐',
   CSS: '🎨',
   PHP: '🐘',
-  WebAssembly: '⚡',
   
   // General Purpose Languages
   Python: '🐍',
   Java: '☕',
   'C++': '➕',
-  C: '🎯',
   'C#': '🎯',
   Ruby: '💎',
   Swift: '📱',
   Kotlin: '🔰',
   Go: '🐹',
   Rust: '🦀',
-  Shell: '🐚',
-  Groovy: '💫',
-  Julia: '🎯',
-  Fortran: '🔢',
-  COBOL: '💼',
-  Pascal: '📐',
-  
-  // Functional Languages
-  Haskell: '🎩',
-  Erlang: '☁️',
-  Elixir: '🔮',
-  'F#': '🎵',
-  Clojure: '⭕',
-  Scala: '⚡',
-  OCaml: '🐫',
   
   // Scripting Languages
   Lua: '🌙',
-  Perl: '🌟',
-  PowerShell: '💠',
   Bash: '📺',
-  'Visual Basic': '🎨',
-  MATLAB: '🧮',
-  R: '🧪',
-  
-  // Assembly & Low Level
-  Assembly: '🎮',
-  VHDL: '🔌',
-  Verilog: '⚡',
+  PowerShell: '💠',
+  'Batch': '📋',
+  Shell: '🐚',
   
   // Game Development
-  "Ren'Py": '🎭', // Visual Novel Engine
-  GDScript: '🎮', // Godot
-  UnrealScript: '🎥',
+  "Ren'Py": '🎭',
   Unity: '⚫',
   
   // Frontend Frameworks
@@ -69,7 +42,6 @@ const LANGUAGE_ICONS = {
   Svelte: '🎨',
   'Next.js': '▲',
   'Nuxt.js': '💚',
-  Gatsby: '💜',
   
   // Backend Frameworks
   'Express.js': '🚂',
@@ -77,136 +49,67 @@ const LANGUAGE_ICONS = {
   Flask: '🌪️',
   'Spring Boot': '🍃',
   Laravel: '🎵',
-  'Ruby on Rails': '🛤️',
+  Blade: '🗡️',
   FastAPI: '⚡',
   NestJS: '🐈',
   
   // Mobile Frameworks
   Flutter: '📱',
   'React Native': '📱',
-  Xamarin: '🔷',
-  Ionic: '⚡',
   
   // DevOps & Container
-  Dockerfile: '🐳',
+  Docker: '🐳',
+  'Docker Compose': '🐋',
   Kubernetes: '☸️',
-  Terraform: '🏗️',
-  Ansible: '📘',
   Jenkins: '👷',
   
   // Documentation & Data
-  'Jupyter Notebook': '📓',
   Markdown: '📝',
-  XML: '📑',
-  YAML: '⚙️',
   JSON: '📦',
+  YAML: '⚙️',
   GraphQL: '📊',
-  Protocol: '📡',
   
-  // Databases & Caching
+  // Databases
   PostgreSQL: '🐘',
   MySQL: '🐬',
   MongoDB: '🍃',
   Redis: '⚡',
-  Cassandra: '👁️',
-  Neo4j: '🎯',
-  'MS SQL': '💠',
-  Oracle: '🔶',
   SQLite: '🔷',
   
   // Cloud Platforms
   AWS: '☁️',
   Azure: '☁️',
-  GCP: '☁️',
   Vercel: '▲',
-  Netlify: '🌐',
   
-  // AI/ML Frameworks
-  TensorFlow: '🧠',
-  PyTorch: '🔥',
-  Keras: '❤️',
-  'Scikit-learn': '🔬',
-  
-  // Testing Frameworks
-  Jest: '🃏',
-  Mocha: '☕',
-  Cypress: '🎯',
-  Selenium: '🔍',
-  'JUnit': '✅',
-  
-  // Build Tools
-  Webpack: '📦',
-  Babel: '🏗️',
-  Grunt: '🐗',
-  Gulp: '🥤',
-  Maven: '🎯',
-  Gradle: '🐘',
-  
-  // Other Tools & Technologies
+  // Tools & Technologies
   Git: '🔄',
   npm: '📦',
   Yarn: '🧶',
-  Docker: '🐳',
   Linux: '🐧',
-  Vim: '💚',
   
   // Design Tools
   Figma: '🎨',
-  Sketch: '💎',
-  'Adobe XD': '📱',
   
   // State Management
   Redux: '💫',
-  Vuex: '📦',
-  MobX: '📊',
   
-  // CSS Frameworks & Tools
+  // CSS Frameworks
   'Tailwind CSS': '💨',
   Bootstrap: '🅱️',
   Sass: '💅',
-  'Styled Components': '💅',
   
   // Package Managers
   Composer: '🎼',
   Pip: '📦',
-  Cargo: '📦',
   
   // IDEs & Editors
   'VS Code': '💻',
   'Visual Studio': '🎯',
   'IntelliJ IDEA': '🧠',
-  Eclipse: '🌓',
-  PyCharm: '🐍',
-  WebStorm: '🌪️',
-
-   // Template Engines
-   Blade: '🗡️',    // Laravel's Blade template engine
-   'Laravel': '🎵', // Laravel Framework
-   Twig: '🌿',      // Symfony's template engine
-   EJS: '📄',       // Embedded JavaScript templating
-   Pug: '🐶',       // Pug template engine
-   
-   // Scripting & Batch Files
-   'Batch': '📋',   // Windows .bat files
-   'BAT': '📋',     // Alternative name for Batch files
-   'CMD': '⌨️',     // Command files
-   PowerShell: '💠', // Windows PowerShell
-   Bash: '📺',      // Unix shell
-   Shell: '🐚',     // Generic shell scripts
-   
-   // PHP Ecosystem
-   PHP: '🐘',
-   Composer: '🎼',
-   PHPUnit: '🧪',
-   'Laravel Mix': '🎚️',
-   'PHP-FPM': '⚡',
-   
-   // Build Scripts
-   'Makefile': '🏗️',
-   'Jenkinsfile': '👷',
-   'Docker Compose': '🐋',
-   'Nginx': '⚡',
-   'Apache': '🦅'
+  
+  // Server
+  'Nginx': '⚡',
+  'Apache': '🦅'
 };
 
 // Configure axios with longer timeout and retry logic
