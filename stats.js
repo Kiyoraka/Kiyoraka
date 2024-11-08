@@ -1,39 +1,90 @@
 const axios = require('axios');
 const fs = require('fs');
 
-const USERNAME = 'YOUR_GITHUB_USERNAME';
-const TOKEN = process.env.PERSONAL_GITHUB_TOKEN;
+const USERNAME = 'Kiyoraka';
+const TOKEN = process.env.GITHUB_TOKEN; // Changed to match workflow environment variable
 
 const fetchGitHubStats = async () => {
   try {
     const headers = {
-      'Authorization': `token ${TOKEN}`,
-      'User-Agent': USERNAME,
+      'Authorization': `Bearer ${TOKEN}`,
+      'User-Agent': 'Kiyoraka',
+      'Accept': 'application/vnd.github.v3+json', // Added explicit API version
     };
 
+    // Check rate limit before starting
+    await checkRateLimit(headers);
+
     // Fetch user data
-    const userData = await axios.get(`https://api.github.com/users/${USERNAME}`, { headers });
-    const repos = await axios.get(userData.data.repos_url, { headers });
+    const userData = await axios.get(`https://api.github.com/user`, { headers });
+    console.log(`Fetching data for user: ${userData.data.login}`);
+
+    // Fetch ALL repositories (both public and private)
+    let allRepos = [];
+    let page = 1;
+    let hasNextPage = true;
+
+    while (hasNextPage) {
+      const reposResponse = await axios.get(
+        `https://api.github.com/user/repos?per_page=100&page=${page}&type=all`,
+        { headers }
+      );
+      
+      if (reposResponse.data.length === 0) {
+        hasNextPage = false;
+      } else {
+        allRepos = [...allRepos, ...reposResponse.data];
+        page++;
+      }
+    }
+
+    console.log(`Total repositories found: ${allRepos.length}`);
 
     let totalCommits = 0;
     let totalIssues = 0;
-    const totalRepos = repos.data.length;
-    const accountCreationYear = new Date(userData.data.created_at).getFullYear();
+    let completedRepos = 0;
+    const startYear = new Date(userData.data.created_at).getFullYear();
     const currentYear = new Date().getFullYear();
-    const totalYears = currentYear - accountCreationYear;
+    const totalYears = Math.max(1, currentYear - accountCreationYear);
 
-    // Fetch data for each repository
+    // Fetch data for each repository (with rate limit consideration)
     for (const repo of repos.data) {
-      const repoStats = await axios.get(repo.url, { headers });
-      const commitsData = await axios.get(`${repo.url}/commits`, { headers });
-      const issuesData = await axios.get(`${repo.url}/issues`, { headers });
-      
-      totalCommits += commitsData.data.length;
-      totalIssues += issuesData.data.length;
+      if (!repo.fork) { // Skip forked repositories
+        const repoName = repo.full_name;
+        
+        try {
+          // Fetch contributor stats
+          const commitsData = await axios.get(`https://api.github.com/repos/${repoName}/stats/contributors`, { headers });
+          const userStats = commitsData.data.find(contrib => contrib.author?.login === USERNAME);
+          if (userStats) {
+            totalCommits += userStats.total;
+          }
+
+          // Fetch issues count
+          const issuesData = await axios.get(`https://api.github.com/repos/${repoName}/issues?state=all&creator=${USERNAME}`, {
+            headers,
+            params: { per_page: 1 }
+          });
+          
+          // Get total from Link header if available
+          const linkHeader = issuesData.headers.link;
+          if (linkHeader) {
+            const match = linkHeader.match(/&page=(\d+)>; rel="last"/);
+            if (match) {
+              totalIssues += parseInt(match[1]);
+            }
+          }
+        } catch (error) {
+          console.warn(`Error fetching data for ${repoName}:`, error.message);
+        }
+
+        // Add delay to avoid rate limiting
+        await new Promise(resolve => setTimeout(resolve, 1000));
+      }
     }
 
-    // Calculations
-    const level = Math.floor(totalCommits / totalRepos);
+    // Enhanced calculations
+    const level = Math.floor(totalCommits/ totalRepos) 
     const attackPower = totalCommits;
     const defensePower = totalCommits - totalIssues;
     const healthPoints = totalCommits * totalRepos;
@@ -41,7 +92,7 @@ const fetchGitHubStats = async () => {
     return { level, attackPower, defensePower, healthPoints };
   } catch (error) {
     console.error('Error fetching GitHub data:', error.message);
-    return null;
+    throw error; // Propagate error to fail the workflow
   }
 };
 
@@ -75,6 +126,9 @@ const updateReadme = async () => {
     `;
     fs.writeFileSync('README.md', readmeContent);
     console.log("README.md has been updated successfully!");
+  } catch (error) {
+    console.error('Error updating README:', error);
+    process.exit(1); // Exit with error to fail the workflow
   }
 };
 
