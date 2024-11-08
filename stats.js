@@ -318,7 +318,30 @@ const fetchGitHubStats = async () => {
         const healthPoints = Math.floor((totalCommits + attackPower + totalRepos) * 0.5);
         const manapoints = Math.floor((totalCommits + defensePower + totalRepos) * 0.5);
         const accuracypoint = Math.floor(issueRelatedCommits + level);
-        const speedpoint = Math.floor(totalSpeedPoints+ level); 
+        const speedpoint = Math.floor(totalSpeedPoints + level);
+
+        // Calculate total rank points
+        const totalRankPoints = attackPower + defensePower + healthPoints + manapoints + accuracypoint + speedpoint;
+
+        // Determine rank based on total points
+        let rank;
+        if (totalRankPoints <= 999) {
+            rank = 'G';
+        } else if (totalRankPoints <= 2999) {
+            rank = 'F';
+        } else if (totalRankPoints <= 6999) {
+            rank = 'D';
+        } else if (totalRankPoints <= 11999) {
+            rank = 'C';
+        } else if (totalRankPoints <= 19999) {
+            rank = 'B';
+        } else if (totalRankPoints <= 34999) {
+            rank = 'A';
+        } else if (totalRankPoints <= 99999) {
+            rank = 'S';
+        } else {
+            rank = 'X';
+        }
 
         return {
             level,
@@ -328,6 +351,7 @@ const fetchGitHubStats = async () => {
             manapoints,
             accuracypoint,
             speedpoint,
+            rank,
             languageStats,
             details: {
                 totalYears,
@@ -335,10 +359,10 @@ const fetchGitHubStats = async () => {
                 totalRepos,
                 totalLanguages,
                 publicRepos: publicRepoCount,
-                privateRepos: privateRepoCount
+                privateRepos: privateRepoCount,
+                totalRankPoints // Adding total rank points to details
             }
         };
-
     } catch (error) {
         console.error('Error details:', {
             message: error.message,
@@ -350,26 +374,26 @@ const fetchGitHubStats = async () => {
 };
 
 const updateReadme = async () => {
-  try {
-      console.log('Starting README update process...');
-      const stats = await fetchGitHubStats();
-      
-      if (!stats) {
-          throw new Error('Failed to fetch GitHub stats');
-      }
+    try {
+        console.log('Starting README update process...');
+        const stats = await fetchGitHubStats();
+        
+        if (!stats) {
+            throw new Error('Failed to fetch GitHub stats');
+        }
 
-      const { level, attackPower, defensePower, healthPoints, manapoints, accuracypoint, speedpoint, languageStats, details } = stats;
+        const { level, attackPower, defensePower, healthPoints, manapoints, accuracypoint, speedpoint, rank, languageStats, details } = stats;
 
-      // Create language skills section with icons
-      const languageSkillsSection = Object.entries(languageStats)
-          .sort(([, a], [, b]) => b - a)
-          .map(([language, points]) => {
-              const icon = LANGUAGE_ICONS[language] || '📝'; // Use default icon if not found
-              return `### ${icon} ${language} : ${points}`;
-          })
-          .join('\n');
+        // Create language skills section with icons
+        const languageSkillsSection = Object.entries(languageStats)
+            .sort(([, a], [, b]) => b - a)
+            .map(([language, points]) => {
+                const icon = LANGUAGE_ICONS[language] || '📝';
+                return `### ${icon} ${language} : ${points}`;
+            })
+            .join('\n');
 
-      const readmeContent = `
+        const readmeContent = `
 <div align="center">
 
 # 🎮 Developer Guild Card
@@ -378,13 +402,12 @@ const updateReadme = async () => {
 <img src="./assets/profile.png" width="150" height="150" style="border-radius: 50%"/>
 </div>
 
-##    
+## Developer Stats   
 ### 👤 Name : Kiyoraka Ken
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
-### 🔰 Rank  :    
+### 🔰 Rank : ${rank} 
 ### ⭐ Level : ${level}
-
 
 ---
 ## 📊 Battle Stats
@@ -402,13 +425,13 @@ const updateReadme = async () => {
 ${languageSkillsSection}
 ---`;
 
-      fs.writeFileSync('README.md', readmeContent.trim());
-      console.log('README.md updated successfully!');
+        fs.writeFileSync('README.md', readmeContent.trim());
+        console.log('README.md updated successfully!');
 
-  } catch (error) {
-      console.error('Failed to update README:', error);
-      process.exit(1);
-  }
+    } catch (error) {
+        console.error('Failed to update README:', error);
+        process.exit(1);
+    }
 };
 
 updateReadme();
