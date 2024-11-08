@@ -1,7 +1,4 @@
 <div align="center">
-  
-  <!-- Replace with your banner image -->
-   <!-- ![Banner](./assets/banner.png) -->
 
   # 🎮 Developer Guild Card
   
@@ -11,8 +8,12 @@
   ## 🏰 Name : Kiyoraka Ken
 
   ### ⚔️ CLass : Full-Stack Developer
+
   
 </div>
+  
+
+  
 
 ---
 
