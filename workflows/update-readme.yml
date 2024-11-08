@@ -5,6 +5,9 @@ on:
     - cron: '47 14 * * *' # Runs daily at 2:40 PM UTC
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
