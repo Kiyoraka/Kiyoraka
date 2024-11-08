@@ -5,46 +5,179 @@ const USERNAME = 'Kiyoraka';
 const TOKEN = process.env.PERSONAL_GITHUB_TOKEN;
 
 // Language icons mapping
+// Language icons mapping (Expanded)
 const LANGUAGE_ICONS = {
-  JavaScript: '🧠',
-  TypeScript: '🌳',
-  HTML: '🎨',
-  CSS: '✨',
+  // Web Languages
+  JavaScript: '📜',
+  TypeScript: '🔷',
+  HTML: '🌐',
+  CSS: '🎨',
+  PHP: '🐘',
+  WebAssembly: '⚡',
+  
+  // General Purpose Languages
   Python: '🐍',
   Java: '☕',
-  'C++': '⚙️',
-  C: '📟',
+  'C++': '➕',
+  C: '🎯',
   'C#': '🎯',
   Ruby: '💎',
-  PHP: '🐘',
-  Swift: '🦅',
-  Kotlin: '🎯',
-  Go: '🦦',
-  Rust: '⚙️',
+  Swift: '📱',
+  Kotlin: '🔰',
+  Go: '🐹',
+  Rust: '🦀',
   Shell: '🐚',
-  Vue: '🟩',
-  React: '⚛️',
-  Angular: '🔺',
-  Dart: '🏹',
-  Flutter: '🦋',
-  Scala: '🌟',
+  Groovy: '💫',
+  Julia: '🎯',
+  Fortran: '🔢',
+  COBOL: '💼',
+  Pascal: '📐',
+  
+  // Functional Languages
+  Haskell: '🎩',
+  Erlang: '☁️',
+  Elixir: '🔮',
+  'F#': '🎵',
+  Clojure: '⭕',
+  Scala: '⚡',
+  OCaml: '🐫',
+  
+  // Scripting Languages
   Lua: '🌙',
-  Perl: '🐪',
-  Haskell: '🎯',
-  R: '💫',
+  Perl: '🌟',
+  PowerShell: '💠',
+  Bash: '📺',
+  'Visual Basic': '🎨',
   MATLAB: '🧮',
-  Assembly: '🌩️',
-  Dockerfile: '🐋',
+  R: '🧪',
+  
+  // Assembly & Low Level
+  Assembly: '🎮',
+  VHDL: '🔌',
+  Verilog: '⚡',
+  
+  // Game Development
+  "Ren'Py": '🎭', // Visual Novel Engine
+  GDScript: '🎮', // Godot
+  UnrealScript: '🎥',
+  Unity: '⚫',
+  
+  // Frontend Frameworks
+  React: '⚛️',
+  Vue: '💚',
+  Angular: '🅰️',
+  Svelte: '🎨',
+  'Next.js': '▲',
+  'Nuxt.js': '💚',
+  Gatsby: '💜',
+  
+  // Backend Frameworks
+  'Express.js': '🚂',
+  Django: '🌶️',
+  Flask: '🌪️',
+  'Spring Boot': '🍃',
+  Laravel: '🎵',
+  'Ruby on Rails': '🛤️',
+  FastAPI: '⚡',
+  NestJS: '🐈',
+  
+  // Mobile Frameworks
+  Flutter: '📱',
+  'React Native': '📱',
+  Xamarin: '🔷',
+  Ionic: '⚡',
+  
+  // DevOps & Container
+  Dockerfile: '🐳',
+  Kubernetes: '☸️',
+  Terraform: '🏗️',
+  Ansible: '📘',
+  Jenkins: '👷',
+  
+  // Documentation & Data
   'Jupyter Notebook': '📓',
   Markdown: '📝',
   XML: '📑',
   YAML: '⚙️',
   JSON: '📦',
+  GraphQL: '📊',
+  Protocol: '📡',
+  
+  // Databases & Caching
   PostgreSQL: '🐘',
   MySQL: '🐬',
   MongoDB: '🍃',
-  "Ren'Py" : '📜',
-  Redis: '🔴'
+  Redis: '⚡',
+  Cassandra: '👁️',
+  Neo4j: '🎯',
+  'MS SQL': '💠',
+  Oracle: '🔶',
+  SQLite: '🔷',
+  
+  // Cloud Platforms
+  AWS: '☁️',
+  Azure: '☁️',
+  GCP: '☁️',
+  Vercel: '▲',
+  Netlify: '🌐',
+  
+  // AI/ML Frameworks
+  TensorFlow: '🧠',
+  PyTorch: '🔥',
+  Keras: '❤️',
+  'Scikit-learn': '🔬',
+  
+  // Testing Frameworks
+  Jest: '🃏',
+  Mocha: '☕',
+  Cypress: '🎯',
+  Selenium: '🔍',
+  'JUnit': '✅',
+  
+  // Build Tools
+  Webpack: '📦',
+  Babel: '🏗️',
+  Grunt: '🐗',
+  Gulp: '🥤',
+  Maven: '🎯',
+  Gradle: '🐘',
+  
+  // Other Tools & Technologies
+  Git: '🔄',
+  npm: '📦',
+  Yarn: '🧶',
+  Docker: '🐳',
+  Linux: '🐧',
+  Vim: '💚',
+  
+  // Design Tools
+  Figma: '🎨',
+  Sketch: '💎',
+  'Adobe XD': '📱',
+  
+  // State Management
+  Redux: '💫',
+  Vuex: '📦',
+  MobX: '📊',
+  
+  // CSS Frameworks & Tools
+  'Tailwind CSS': '💨',
+  Bootstrap: '🅱️',
+  Sass: '💅',
+  'Styled Components': '💅',
+  
+  // Package Managers
+  Composer: '🎼',
+  Pip: '📦',
+  Cargo: '📦',
+  
+  // IDEs & Editors
+  'VS Code': '💻',
+  'Visual Studio': '🎯',
+  'IntelliJ IDEA': '🧠',
+  Eclipse: '🌓',
+  PyCharm: '🐍',
+  WebStorm: '🌪️'
 };
 
 // Configure axios with longer timeout and retry logic
