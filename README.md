@@ -21,39 +21,25 @@
 
 <div align="center">
 
-<!-- Attack Power -->
-![Attack Power](https://img.shields.io/github/commit-activity/t/Kiyoraka/repo?label=⚔️%20Attack%20Power&style=for-the-badge)
+  ```text
+🎯 Character Status
+└── Level: ${YEAR-2024} Developer
+└── Class: Full Stack Warrior
+└── Guild: Open Source Contributors
 
-<!-- Defense Power -->
-![Defense](https://img.shields.io/github/issues-closed/Kiyoraka/repo?label=🛡️%20Defense%20Power&style=for-the-badge)
+⚔️ Attack Power Components:
+└── Commits: ![GitHub commits](https://img.shields.io/github/commit-activity/y/Kiyoraka/repo?style=flat-square)
+└── Pull Requests: ![GitHub PRs](https://img.shields.io/github/issues-pr/Kiyoraka/repo?style=flat-square)
+└── Issues Created: ![GitHub issues](https://img.shields.io/github/issues/Kiyoraka/repo?style=flat-square)
 
-<!-- HP -->
-![HP](https://img.shields.io/github/repositories/Kiyoraka?label=❤️%20Health%20Points&style=for-the-badge)
+🛡️ Defense Power Components:
+└── Issues Closed: ![GitHub issues-closed](https://img.shields.io/github/issues-closed/Kiyoraka/repo?style=flat-square)
+└── PRs Merged: ![GitHub PRs merged](https://img.shields.io/github/issues-pr-closed/Kiyoraka/repo?style=flat-square)
 
-</div>
-
-### SECOND
-
-<div align="center">
-
-<!-- Total Contributions Formula -->
-⚔️ Attack Power = ![Commits] + Pull Requests + Issues Created
-
-<!-- Defense Power Formula -->
-🛡️ Defense Power = Issues Closed + Pull Requests Merged
-
-<!-- Health Points Formula -->
-❤️ HP = Repositories × (Commits + Issues Closed)
-
-<!-- For Total Commits -->
-![Commits](https://img.shields.io/github/commit-activity/t/Kiyoraka/repo?style=for-the-badge)
-
-<!-- For Total Repositories -->
-![Repos](https://img.shields.io/github/repositories/Kiyoraka?style=for-the-badge)
-
-<!-- For Total Issues Closed -->
-![Issues](https://img.shields.io/github/issues-closed/Kiyoraka/repo?style=for-the-badge)
-
+❤️ HP Components:
+└── Repositories: ![GitHub repos](https://img.shields.io/github/repositories/Kiyoraka?style=flat-square)
+└── Total Activity: ![GitHub activity](https://img.shields.io/github/commit-activity/m/Kiyoraka/repo?style=flat-square)
+ ```
 </div>
 
 
