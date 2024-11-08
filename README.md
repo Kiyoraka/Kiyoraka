@@ -49,10 +49,10 @@
 ![Commits](https://img.shields.io/github/commit-activity/t/Kiyoraka/repo?style=for-the-badge)
 
 <!-- For Total Repositories -->
-![Repos](https://img.shields.io/github/repositories/yourusername?style=for-the-badge)
+![Repos](https://img.shields.io/github/repositories/Kiyoraka?style=for-the-badge)
 
 <!-- For Total Issues Closed -->
-![Issues](https://img.shields.io/github/issues-closed/yourusername/repo?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues-closed/Kiyoraka/repo?style=for-the-badge)
 
 </div>
 
