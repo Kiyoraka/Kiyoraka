@@ -8,11 +8,10 @@
   <!-- Replace with your profile image -->
   <img src="./assets/profile.png" width="150" height="150" style="border-radius: 50%"/>
   
-  ## 🏰 Kiyoraka Ken
-  ### ⚔️ Full-Stack Developer
+  ## 🏰 Name : Kiyoraka Ken
+
+  ### ⚔️ CLass : Full-Stack Developer
   
-  <!--  [![GitHub followers](https://img.shields.io/github/followers/yourusername?style=for-the-badge&logo=github)](https://github.com/Kiyoraka) -->
-  <!--  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Kiyoraka) -->
   
 
 ---
@@ -37,6 +36,22 @@
 ❤️ HP Components:
 └── Repositories: ![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Kiyoraka&label=Repositories&query=$.public_repos&style=flat-square)
 └── Total Activity: ![Activity](https://img.shields.io/github/commit-activity/y/Kiyoraka/Kiyoraka?style=flat-square)
+
+
+# My GitHub Statistics
+
+[![GitHub Commits](https://github-readme-stats.vercel.app/api?username=Kiyoraka&show_icons=true&count_private=true&hide=stars,issues,contribs&theme=radical)](https://github.com/YOUR_USERNAME)
+
+## 📊 Contribution Graph
+
+![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=Kiyoraka&theme=github)
+
+## 📈 Commit Statistics
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Kiyoraka&theme=dark)](https://github.com/YOUR_USERNAME)
+
+---
+*Note: These statistics are updated automatically using GitHub API data.*
 
 
 
