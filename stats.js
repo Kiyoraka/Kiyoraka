@@ -39,7 +39,7 @@ const fetchGitHubStats = async () => {
     }
 
     // Calculations
-    const level = Math.floor(totalCommits / totalYears);
+    const level = totalYears;
     const attackPower = totalCommits;
     const defensePower = Math.max(0, totalCommits - totalIssues);
     const healthPoints = totalCommits * totalRepos;
@@ -60,6 +60,7 @@ const updateReadme = async () => {
     // Update README.md file
     const readmeContent = `
 <div align="center">
+
 # 🎮 Developer Guild Card
 
 <!-- Replace with your profile image -->
@@ -69,13 +70,14 @@ const updateReadme = async () => {
 ##    
 ### 👤 Name : Kiyoraka Ken
 ### 🎖️ Class : Full-Stack Developer
-### Level : ${level}
+### ⭐ Level : ${level}
+
 ---
 ## 📊 Detailed Battle Stats
 
-### ⚔️ Attack Power : ${attackPower}
-### 🛡️ Defense Power : ${defensePower}
-### ❤️ Health Point : ${healthPoints}
+### ⚔️ Attack Power : ${attackPower} 
+### 🛡️ Defense Power : ${defensePower} 
+### ❤️ Health Point : ${healthPoints} 
 ---
     `;
     fs.writeFileSync('README.md', readmeContent.trim());
