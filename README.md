@@ -9,15 +9,19 @@
 
 ---
   
-  ## 🏰 Name : Kiyoraka Ken
+  ## 👤 Name : Kiyoraka Ken
 
-  ### ⚔️ CLass : Full-Stack Developer
+  ### 🎖️ CLass : Full-Stack Developer
   
 
 ---
 
-<div align="center">
+<div align="center"></div>
+  
 ### 📊 Detailed Battle Stats
+
+
+<div align="center"></div>
 
 🎯 Character Status
 └── Level: ${new Date().getFullYear()-2024} Developer
@@ -38,7 +42,7 @@
 └── Total Activity: ![Activity](https://img.shields.io/github/commit-activity/y/Kiyoraka/Kiyoraka?style=flat-square)
 
 
-</div>
+
 
 
 
