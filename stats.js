@@ -317,7 +317,7 @@ const updateReadme = async () => {
 ### 👤 Name : Kiyoraka Ken
 ### 🎖️ Class : Full-Stack Developer
 ### ⭐ Level : ${level}
-<!-- Level = ${details.totalYears} years + (${details.totalCommits} commits × 0.01) + (${details.totalRepos} repos ÷ ${details.totalLanguages} languages) -->
+
 
 ---
 ## 📊 Battle Stats
