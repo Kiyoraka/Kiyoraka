@@ -1,16 +1,16 @@
 const axios = require('axios');
 const fs = require('fs');
 
-
 const USERNAME = 'Kiyoraka';
-const TOKEN = process.env.TOKEN; // Access token from environment variable
+const TOKEN = process.env.GITHUB_TOKEN; // Changed to match workflow environment variable
 
 const fetchGitHubStats = async () => {
   try {
     const headers = {
-        'Authorization': `Bearer ${TOKEN}`,
-        'User-Agent': 'Kiyoraka',
-      };
+      'Authorization': `Bearer ${TOKEN}`,
+      'User-Agent': 'Kiyoraka',
+      'Accept': 'application/vnd.github.v3+json', // Added explicit API version
+    };
 
     // Fetch user data
     const userData = await axios.get(`https://api.github.com/users/${USERNAME}`, { headers });
@@ -21,66 +21,81 @@ const fetchGitHubStats = async () => {
     const totalRepos = repos.data.length;
     const accountCreationYear = new Date(userData.data.created_at).getFullYear();
     const currentYear = new Date().getFullYear();
-    const totalYears = currentYear - accountCreationYear;
+    const totalYears = Math.max(1, currentYear - accountCreationYear);
 
-    // Fetch data for each repository (use a reduced API call to avoid rate limits)
+    // Fetch data for each repository (with rate limit consideration)
     for (const repo of repos.data) {
-      const repoName = repo.full_name;
-      const commitsUrl = `https://api.github.com/repos/${repoName}/commits?per_page=1`;
-      const issuesUrl = `https://api.github.com/repos/${repoName}/issues?per_page=1`;
+      if (!repo.fork) { // Skip forked repositories
+        const repoName = repo.full_name;
+        
+        try {
+          // Fetch contributor stats
+          const commitsData = await axios.get(`https://api.github.com/repos/${repoName}/stats/contributors`, { headers });
+          const userStats = commitsData.data.find(contrib => contrib.author?.login === USERNAME);
+          if (userStats) {
+            totalCommits += userStats.total;
+          }
 
-      // Fetch commits count using the 'commits' API
-      const commitsData = await axios.get(`${repo.url}/contributors`, { headers });
-      const commitsCount = commitsData.data.find(contrib => contrib.login === USERNAME)?.contributions || 0;
-      totalCommits += commitsCount;
+          // Fetch issues count
+          const issuesData = await axios.get(`https://api.github.com/repos/${repoName}/issues?state=all&creator=${USERNAME}`, {
+            headers,
+            params: { per_page: 1 }
+          });
+          
+          // Get total from Link header if available
+          const linkHeader = issuesData.headers.link;
+          if (linkHeader) {
+            const match = linkHeader.match(/&page=(\d+)>; rel="last"/);
+            if (match) {
+              totalIssues += parseInt(match[1]);
+            }
+          }
+        } catch (error) {
+          console.warn(`Error fetching data for ${repoName}:`, error.message);
+        }
 
-      // Fetch issues count
-      const issuesData = await axios.get(issuesUrl, { headers });
-      totalIssues += issuesData.data.length;
+        // Add delay to avoid rate limiting
+        await new Promise(resolve => setTimeout(resolve, 1000));
+      }
     }
 
-    // Calculations
-    const level = Math.floor((totalCommits / totalYears) / totalRepos);
-    const attackPower = totalCommits;
-    const defensePower = Math.max(0, totalCommits - totalIssues);
-    const healthPoints = totalCommits * totalRepos;
+    // Enhanced calculations
+    const level = Math.max(1, Math.floor(Math.sqrt(totalCommits / 10)));
+    const attackPower = Math.floor(totalCommits * 0.8);
+    const defensePower = Math.floor((totalCommits - totalIssues) * 0.7);
+    const healthPoints = Math.floor(totalCommits * totalRepos * 0.5);
 
     return { level, attackPower, defensePower, healthPoints };
   } catch (error) {
     console.error('Error fetching GitHub data:', error.message);
-    return null;
+    throw error; // Propagate error to fail the workflow
   }
 };
 
 const updateReadme = async () => {
-  const stats = await fetchGitHubStats();
+  try {
+    const stats = await fetchGitHubStats();
+    
+    if (!stats) {
+      throw new Error('Failed to fetch GitHub stats');
+    }
 
-  if (stats) {
     const { level, attackPower, defensePower, healthPoints } = stats;
 
-    // Update README.md file
-    const readmeContent = `
-<div align="center">
-# 🎮 Developer Guild Card
+    // Read existing README to preserve any custom content
+    let readmeContent = fs.readFileSync('README.md', 'utf8');
 
-<!-- Replace with your profile image -->
-<img src="./assets/profile.png" width="150" height="150" style="border-radius: 50%"/>
-</div>
+    // Update stats while preserving the structure
+    readmeContent = readmeContent.replace(/### ⭐ Level : \d+/, `### ⭐ Level : ${level}`);
+    readmeContent = readmeContent.replace(/### ⚔️ Attack Power : \d+/, `### ⚔️ Attack Power : ${attackPower}`);
+    readmeContent = readmeContent.replace(/### 🛡️ Defense Power : \d+/, `### 🛡️ Defense Power : ${defensePower}`);
+    readmeContent = readmeContent.replace(/### ❤️ Health Point : \d+/, `### ❤️ Health Point : ${healthPoints}`);
 
-##    
-### 👤 Name : Kiyoraka Ken
-### 🎖️ Class : Full-Stack Developer
-### Level : ${level}
----
-## 📊 Detailed Battle Stats
-
-### ⚔️ Attack Power : ${attackPower}
-### 🛡️ Defense Power : ${defensePower}
-### ❤️ Health Point : ${healthPoints}
----
-    `;
-    fs.writeFileSync('README.md', readmeContent.trim());
+    fs.writeFileSync('README.md', readmeContent);
     console.log("README.md has been updated successfully!");
+  } catch (error) {
+    console.error('Error updating README:', error);
+    process.exit(1); // Exit with error to fail the workflow
   }
 };
 
