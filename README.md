@@ -17,41 +17,26 @@
 
 ---
 
-### 📊 Detailed Battle Stats
 
+### 📊 Detailed Battle Stats
 ```text
 🎯 Character Status
-└── Level: ${YEAR-2024} Developer
+└── Level: ${new Date().getFullYear()-2024} Developer
 └── Class: Full Stack Warrior
 └── Guild: Open Source Contributors
 
 ⚔️ Attack Power Components:
-└── Commits: ![GitHub commits](https://img.shields.io/github/commit-activity/t/Kiyoraka?style=flat-square&label=Commits)
-└── Pull Requests: ![PRs](https://img.shields.io/github/issues-pr-raw/Kiyoraka?style=flat-square&label=Pull%20Requests)
-└── Issues Created: ![Issues](https://img.shields.io/github/issues-raw/Kiyoraka?style=flat-square&label=Issues)
+└── Commits: ![Commits](https://img.shields.io/github/commits-since/Kiyoraka/Kiyoraka/main?style=flat-square)
+└── Pull Requests: ![PRs](https://img.shields.io/github/issues-pr/Kiyoraka/Kiyoraka?style=flat-square)
+└── Issues Created: ![Issues](https://img.shields.io/github/issues/Kiyoraka/Kiyoraka?style=flat-square)
 
 🛡️ Defense Power Components:
-└── Issues Closed: ![Closed Issues](https://img.shields.io/github/issues-closed-raw/Kiyoraka?style=flat-square&label=Closed%20Issues)
-└── PRs Merged: ![Merged PRs](https://img.shields.io/github/issues-pr-closed-raw/Kiyoraka?style=flat-square&label=Merged%20PRs)
+└── Issues Closed: ![Closed Issues](https://img.shields.io/github/issues-closed/Kiyoraka/Kiyoraka?style=flat-square)
+└── PRs Merged: ![Merged PRs](https://img.shields.io/github/issues-pr-closed/Kiyoraka/Kiyoraka?style=flat-square)
 
 ❤️ HP Components:
-└── Repositories: ![Repos](https://img.shields.io/github/repos-raw/Kiyoraka?style=flat-square&label=Repositories)
-└── Total Activity: ![Total](https://img.shields.io/github/commit-activity/t/Kiyoraka?style=flat-square&label=Total%20Activity)
-
-
-### 💫 Detailed Numbers
-
-<!-- For total commits across all repositories -->
-![Total Commits](https://img.shields.io/github/commit-activity/t/Kiyoraka?style=for-the-badge&label=Total%20Commits)
-
-<!-- For total repositories -->
-![Total Repositories](https://img.shields.io/github/repos/Kiyoraka?style=for-the-badge&label=Total%20Repositories)
-
-<!-- For total stars received -->
-![Total Stars](https://img.shields.io/github/stars/Kiyoraka?style=for-the-badge&label=Total%20Stars)
-
-<!-- For total followers -->
-![Followers](https://img.shields.io/github/followers/Kiyoraka?style=for-the-badge&label=Followers)
+└── Repositories: ![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Kiyoraka&label=Repositories&query=$.public_repos&style=flat-square)
+└── Total Activity: ![Activity](https://img.shields.io/github/commit-activity/y/Kiyoraka/Kiyoraka?style=flat-square)
 
 
 
