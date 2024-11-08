@@ -1,3 +1,12 @@
 token.txt
 run-stats.bat
 run-stats.bat
+node_modules/
+*.log
+.env
+.DS_Store
+coverage/
+.vscode/
+.idea/
+*.lock
+
