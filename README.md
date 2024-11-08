@@ -6,7 +6,7 @@
   # 🎮 Developer Guild Card
   
   <!-- Replace with your profile image -->
-  <img src="./assets/profile-img.jpg" width="150" height="150" style="border-radius: 50%"/>
+  <img src="./assets/profile.png" width="150" height="150" style="border-radius: 50%"/>
   
   ## 🏰 [Your Name]
   ### ⚔️ Full-Stack Developer
