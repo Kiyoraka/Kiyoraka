@@ -12,11 +12,11 @@
 
   ### ⚔️ CLass : Full-Stack Developer
   
-  
+</div>
 
 ---
 
-
+<div align="center">
 ### 📊 Detailed Battle Stats
 
 🎯 Character Status
@@ -38,7 +38,7 @@
 └── Total Activity: ![Activity](https://img.shields.io/github/commit-activity/y/Kiyoraka/Kiyoraka?style=flat-square)
 
 
-
+</div>
 
 
 
