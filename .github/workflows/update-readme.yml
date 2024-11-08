@@ -14,6 +14,13 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Create gitignore
+        run: |
+          echo "node_modules/" > .gitignore
+          echo "package-lock.json" >> .gitignore
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -27,7 +34,7 @@ jobs:
 
       - name: Run GitHub Stats Script
         env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+          PERSONAL_GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
         run: |
           node stats.js
 
@@ -35,6 +42,6 @@ jobs:
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update README stats"
-          git push
+          git add -f README.md
+          git commit -m "Update README stats" || echo "No changes to commit"
+          git push origin HEAD || echo "No changes to push"
