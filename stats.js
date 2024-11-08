@@ -402,7 +402,7 @@ const updateReadme = async () => {
 <img src="./assets/profile.png" width="150" height="150" style="border-radius: 50%"/>
 </div>
 
-## Developer Stats   
+ 
 ### 👤 Name : Kiyoraka Ken
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
