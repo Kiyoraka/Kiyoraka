@@ -6,10 +6,10 @@ const TOKEN = process.env.PERSONAL_GITHUB_TOKEN;
 
 // Language icons mapping
 const LANGUAGE_ICONS = {
-  JavaScript: '🟨',
-  TypeScript: '🔷',
-  HTML: '🟧',
-  CSS: '🟦',
+  JavaScript: '🧠',
+  TypeScript: '🌳',
+  HTML: '🎨',
+  CSS: '✨',
   Python: '🐍',
   Java: '☕',
   'C++': '⚙️',
@@ -33,7 +33,7 @@ const LANGUAGE_ICONS = {
   Haskell: '🎯',
   R: '📊',
   MATLAB: '🧮',
-  Assembly: '⚡',
+  Assembly: '🌩️',
   Dockerfile: '🐋',
   'Jupyter Notebook': '📓',
   Markdown: '📝',
