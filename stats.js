@@ -97,33 +97,24 @@ const fetchGitHubStats = async () => {
 };
 
 const updateReadme = async () => {
-  const stats = await fetchGitHubStats();
+  try {
+    const stats = await fetchGitHubStats();
+    
+    if (!stats) {
+      throw new Error('Failed to fetch GitHub stats');
+    }
 
-  if (stats) {
     const { level, attackPower, defensePower, healthPoints } = stats;
 
-    // Update README.md file
-    const readmeContent = `
-<div align="center">
+    // Read existing README to preserve any custom content
+    let readmeContent = fs.readFileSync('README.md', 'utf8');
 
-# 🎮 Developer Guild Card
+    // Update stats while preserving the structure
+    readmeContent = readmeContent.replace(/### ⭐ Level : \d+/, `### ⭐ Level : ${level}`);
+    readmeContent = readmeContent.replace(/### ⚔️ Attack Power : \d+/, `### ⚔️ Attack Power : ${attackPower}`);
+    readmeContent = readmeContent.replace(/### 🛡️ Defense Power : \d+/, `### 🛡️ Defense Power : ${defensePower}`);
+    readmeContent = readmeContent.replace(/### ❤️ Health Point : \d+/, `### ❤️ Health Point : ${healthPoints}`);
 
-<!-- Replace with your profile image -->
-<img src="./assets/profile.png" width="150" height="150" style="border-radius: 50%"/>
-</div>
-
-##    
-### 👤 Name : Kiyoraka Ken
-### 🎖️ Class : Full-Stack Developer
-### ⭐ Level : ${level}
----
-## 📊 Detailed Battle Stats
-
-### ⚔️ Attack Power : ${attackPower}
-### 🛡️ Defense Power : ${defensePower}
-### ❤️ Health Point : ${healthPoints}
----
-    `;
     fs.writeFileSync('README.md', readmeContent);
     console.log("README.md has been updated successfully!");
   } catch (error) {

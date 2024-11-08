@@ -48,7 +48,7 @@ if "!TOKEN!"=="" (
 )
 
 echo Setting up environment...
-set GITHUB_TOKEN=!TOKEN!
+set PERSONAL_GITHUB_TOKEN=!TOKEN!
 
 echo Running stats update...
 node stats.js
