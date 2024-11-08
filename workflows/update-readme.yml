@@ -2,7 +2,7 @@ name: Update README with GitHub Stats
 
 on:
   schedule:
-    - cron: '00 00 * * *' # Runs daily at 2:40 PM UTC
+    - cron: '47 14 * * *' # Runs daily at 2:40 PM UTC
   workflow_dispatch:
 
 jobs:
