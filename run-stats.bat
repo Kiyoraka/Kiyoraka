@@ -9,7 +9,7 @@ REM Set the TOKEN as an environment variable for this session
 set TOKEN=%TOKEN%
 
 REM Run the Node.js script
-node stat.js
+node stats.js
 
 REM Pause the terminal to see the output
 pause
