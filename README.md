@@ -21,16 +21,20 @@
 ---
 ## 💻 Programming Skills
 
-![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?logo=javascript&logoColor=black)  
-`👨‍💻 150 commits`
+<div align="center">
 
-![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)  
-`👨‍💻 75 commits`
+`JavaScript` • 150 commits  
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?logo=javascript&logoColor=black)
 
-![CSS](https://img.shields.io/badge/CSS-%231572B6.svg?logo=css3&logoColor=white)  
-`👨‍💻 45 commits`
+`HTML` • 75 commits  
+![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)
 
-![Python](https://img.shields.io/badge/Python-%233776AB.svg?logo=python&logoColor=white)  
-`👨‍💻 30 commits`
+`CSS` • 45 commits  
+![CSS](https://img.shields.io/badge/CSS-%231572B6.svg?logo=css3&logoColor=white)
+
+`Python` • 30 commits  
+![Python](https://img.shields.io/badge/Python-%233776AB.svg?logo=python&logoColor=white)
+
+</div>
 
 ---
