@@ -12,7 +12,7 @@
   ### ⚔️ Full-Stack Developer
   
   <!--  [![GitHub followers](https://img.shields.io/github/followers/yourusername?style=for-the-badge&logo=github)](https://github.com/Kiyoraka) -->
-  <!--  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Kiyoraka) -->
+  <!--  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Kiyoraka) 
   
   ---
   ### 📊 Stats
@@ -42,4 +42,4 @@
 </div>
 
 
-
+ -->
