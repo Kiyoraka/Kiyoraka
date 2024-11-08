@@ -1,5 +1,4 @@
 <div align="center">
-
 # 🎮 Developer Guild Card
 
 <!-- Replace with your profile image -->
