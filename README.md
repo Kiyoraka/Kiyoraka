@@ -32,6 +32,3 @@
   ### 🏆 Achievements
   
   ```text
-  🌟 Deployed 5 Full-Stack Apps
-  🛡️ AWS Certified Developer
-  ⚔️ 100+ GitHub Contributions
