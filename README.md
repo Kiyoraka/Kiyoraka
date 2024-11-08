@@ -8,7 +8,7 @@
 ##    
 ### 👤 Name : Kiyoraka Ken
 ### 🎖️ Class : Full-Stack Developer
-### Level : 5
+### ⭐ Level : 5
 ---
 ## 📊 Detailed Battle Stats
 
