@@ -11,35 +11,32 @@
   
   ## 👤 Name : Kiyoraka Ken
 
-  ### 🎖️ CLass : Full-Stack Developer
-  
+  ### 🎖️ Class : Full-Stack Developer
+
+  ### Level : ${new Date().getFullYear()-2024} Developer
 
 ---
 
-<div align="center"></div>
-  
+
+
 ### 📊 Detailed Battle Stats
+  
 
 
-<div align="center"></div>
 
-🎯 Character Status
-└── Level: ${new Date().getFullYear()-2024} Developer
-└── Class: Full Stack Warrior
-└── Guild: Open Source Contributors
 
 ⚔️ Attack Power Components:
-└── Commits: ![Commits](https://img.shields.io/github/commits-since/Kiyoraka/Kiyoraka/main?style=flat-square)
-└── Pull Requests: ![PRs](https://img.shields.io/github/issues-pr/Kiyoraka/Kiyoraka?style=flat-square)
-└── Issues Created: ![Issues](https://img.shields.io/github/issues/Kiyoraka/Kiyoraka?style=flat-square)
+ Commits: ![Commits](https://img.shields.io/github/commits-since/Kiyoraka/Kiyoraka/main?style=flat-square)
+ Pull Requests: ![PRs](https://img.shields.io/github/issues-pr/Kiyoraka/Kiyoraka?style=flat-square)
+Issues Created: ![Issues](https://img.shields.io/github/issues/Kiyoraka/Kiyoraka?style=flat-square)
 
 🛡️ Defense Power Components:
-└── Issues Closed: ![Closed Issues](https://img.shields.io/github/issues-closed/Kiyoraka/Kiyoraka?style=flat-square)
-└── PRs Merged: ![Merged PRs](https://img.shields.io/github/issues-pr-closed/Kiyoraka/Kiyoraka?style=flat-square)
+Issues Closed: ![Closed Issues](https://img.shields.io/github/issues-closed/Kiyoraka/Kiyoraka?style=flat-square)
+PRs Merged: ![Merged PRs](https://img.shields.io/github/issues-pr-closed/Kiyoraka/Kiyoraka?style=flat-square)
 
 ❤️ HP Components:
-└── Repositories: ![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Kiyoraka&label=Repositories&query=$.public_repos&style=flat-square)
-└── Total Activity: ![Activity](https://img.shields.io/github/commit-activity/y/Kiyoraka/Kiyoraka?style=flat-square)
+Repositories: ![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Kiyoraka&label=Repositories&query=$.public_repos&style=flat-square)
+Total Activity: ![Activity](https://img.shields.io/github/commit-activity/y/Kiyoraka/Kiyoraka?style=flat-square)
 
 
 
