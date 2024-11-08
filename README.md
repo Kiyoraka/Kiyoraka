@@ -1,4 +1,5 @@
 <div align="center">
+
 # 🎮 Developer Guild Card
 
 <!-- Replace with your profile image -->
@@ -8,11 +9,12 @@
 ##    
 ### 👤 Name : Kiyoraka Ken
 ### 🎖️ Class : Full-Stack Developer
-### ⭐ Level : 4
+### ⭐ Level : 3
+
 ---
 ## 📊 Detailed Battle Stats
 
-### ⚔️ Attack Power : 20
-### 🛡️ Defense Power : 20
-### ❤️ Health Point : 100
+### ⚔️ Attack Power : 121 
+### 🛡️ Defense Power : 121 
+### ❤️ Health Point : 605 
 ---
