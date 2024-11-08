@@ -36,44 +36,28 @@
 
 <div align="center">
 
-<!-- Attack Power (Contributions) -->
-<img src="https://github-readme-stats.vercel.app/api?username=Kiyoraka&show_icons=true&theme=radical&include_all_commits=true&hide=stars,prs,issues&custom_title=⚔️ Attack Power" />
+<!-- Total Contributions Formula -->
+⚔️ Attack Power = Commits + Pull Requests + Issues Created
 
-<!-- Defense Power (Problem Solving) -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?Kiyoraka=yourusername&layout=compact&theme=radical&custom_title=🛡️ Defense Stats" />
+<!-- Defense Power Formula -->
+🛡️ Defense Power = Issues Closed + Pull Requests Merged
 
-<!-- HP Bar (Streak) -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Kiyoraka&theme=radical&custom_title=❤️ HP Status" />
+<!-- Health Points Formula -->
+❤️ HP = Repositories × (Commits + Issues Closed)
 
-</div>
+<!-- For Total Commits -->
+![Commits](https://img.shields.io/github/commit-activity/t/yourusername/repo?style=for-the-badge)
 
+<!-- For Total Repositories -->
+![Repos](https://img.shields.io/github/repositories/yourusername?style=for-the-badge)
 
-
-<div align="center">
-
-```ascii
-╔══════════ BATTLE STATS ══════════╗
-
-⚔️ ATTACK POWER
-└─● Total Commits: ${commits}
-   └─○ Power Level: ${commits * 10}
-
-🛡️ DEFENSE POWER
-└─● Issues Solved: ${issues_closed}
-   └─○ Shield Rating: ${issues_closed * 15}
-
-❤️ HEALTH POINTS
-└─● Repositories: ${repos}
-   └─○ HP Pool: ${repos * commits}
-
-🌟 SPECIAL ABILITIES
-└─● Languages Mastered: ${languages}
-   └─○ Skill Points: ${languages * 100}
-
-╚════════════════════════════════╝
+<!-- For Total Issues Closed -->
+![Issues](https://img.shields.io/github/issues-closed/yourusername/repo?style=for-the-badge)
 
 </div>
-```
+
+
+
 
 
   <!-- 
