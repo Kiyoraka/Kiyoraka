@@ -1,0 +1,16 @@
+{
+  "name": "kiyoraka",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">",
+  "main": "stats.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5"
+  }
+}
