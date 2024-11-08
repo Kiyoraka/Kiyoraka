@@ -43,6 +43,7 @@ const LANGUAGE_ICONS = {
   PostgreSQL: '🐘',
   MySQL: '🐬',
   MongoDB: '🍃',
+  Renpy: '📜',
   Redis: '🔴'
 };
 
