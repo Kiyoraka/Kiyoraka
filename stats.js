@@ -316,6 +316,8 @@ const updateReadme = async () => {
 ##    
 ### 👤 Name : Kiyoraka Ken
 ### 🎖️ Class : Full-Stack Developer
+### 🎪 Guild : Kiyo Software Tech Lab 
+### 🔰 Rank  :    
 ### ⭐ Level : ${level}
 
 
