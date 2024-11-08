@@ -92,13 +92,27 @@ const fetchGitHubStats = async () => {
       for (const [language, bytes] of Object.entries(languagesData.data)) {
         const percentage = bytes / totalBytes;
         const languageCommits = Math.round(commitsCount * percentage);
-        
         languageStats[language] = (languageStats[language] || 0) + languageCommits;
       }
     }
 
-    // Calculations
-    const level = totalYears;
+    // Calculate total number of programming languages
+    const totalLanguages = Object.keys(languageStats).length;
+
+    // New level calculation
+    // Level = Total Years + (Total Commits * 0.01) + (Total Repos / Total Languages)
+    const level = Math.floor(
+      totalYears + 
+      (totalCommits * 0.01) + 
+      (totalRepos / (totalLanguages || 1))  // Prevent division by zero
+    );
+
+    console.log('\n📊 Level Calculation Details:');
+    console.log(`Total Years: ${totalYears}`);
+    console.log(`Commit Bonus: ${(totalCommits * 0.01).toFixed(2)}`);
+    console.log(`Repo/Language Bonus: ${(totalRepos / (totalLanguages || 1)).toFixed(2)}`);
+    console.log(`Final Level: ${level}`);
+
     const attackPower = totalCommits;
     const defensePower = Math.max(0, totalCommits - totalIssues);
     const healthPoints = totalCommits * totalRepos;
@@ -108,7 +122,14 @@ const fetchGitHubStats = async () => {
       attackPower, 
       defensePower, 
       healthPoints,
-      languageStats
+      languageStats,
+      // Add detailed stats for debugging
+      details: {
+        totalYears,
+        totalCommits,
+        totalRepos,
+        totalLanguages
+      }
     };
   } catch (error) {
     console.error('❌ Error fetching GitHub data:', error.message);
@@ -120,11 +141,11 @@ const updateReadme = async () => {
   const stats = await fetchGitHubStats();
 
   if (stats) {
-    const { level, attackPower, defensePower, healthPoints, languageStats } = stats;
+    const { level, attackPower, defensePower, healthPoints, languageStats, details } = stats;
 
-    // Create language skills section with icons
+    // Create language skills section
     const languageSkillsSection = Object.entries(languageStats)
-      .sort(([, a], [, b]) => b - a) // Sort by number of points
+      .sort(([, a], [, b]) => b - a) // Sort by points
       .map(([language, points]) => {
         const icon = LANGUAGE_ICONS[language] || '📝';
         return `### ${icon} ${language} : ${points}`;
@@ -144,7 +165,8 @@ const updateReadme = async () => {
 ##    
 ### 👤 Name : Kiyoraka Ken
 ### 🎖️ Class : Full-Stack Developer
-### ⭐ Level : ${level}
+### ⭐ Level : ${level} 
+<!-- Level = ${details.totalYears} years + (${details.totalCommits} commits × 0.01) + (${details.totalRepos} repos ÷ ${details.totalLanguages} languages) -->
 
 ---
 ## 📊 Detailed Battle Stats
@@ -154,7 +176,7 @@ const updateReadme = async () => {
 ### ❤️ Health Point : ${healthPoints} 
 
 ---
-## 💻 Programming Skills
+## 📊 Programming Skills
 
 ${languageSkillsSection}
 ---
