@@ -14,12 +14,37 @@
   <!--  [![GitHub followers](https://img.shields.io/github/followers/yourusername?style=for-the-badge&logo=github)](https://github.com/Kiyoraka) -->
   <!--  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Kiyoraka) -->
   
-  ---
-### 📊 Stats
-
 <div align="center">
+  
+# 🎮 Developer Stats Card
 
-  ```text
+## ⚔️ Battle Statistics
+
+<!-- Attack Power - Total Contributions -->
+![Total Contributions](https://img.shields.io/github/contributions/last-year/Kiyoraka?style=for-the-badge&label=⚔️%20Attack%20Power&color=red)
+
+<!-- Defense Power - Issues & PRs -->
+![Defense Power](https://img.shields.io/github/issues-pr-closed/Kiyoraka?style=for-the-badge&label=🛡️%20Defense%20Power&color=blue)
+
+<!-- HP - Repos & Activity -->
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Kiyoraka&show_icons=true&theme=radical&title_color=FF0000&text_color=FFFFFF&custom_title=❤️%20Health%20Points)
+
+<!-- Detailed Stats -->
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Kiyoraka&theme=dark)](https://github.com/Kiyoraka)
+
+<!-- Activity Graph -->
+[![Kiyoraka's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Kiyoraka&theme=react-dark)](https://github.com/Kiyoraka)
+
+<!-- Languages -->
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Kiyoraka&layout=compact&theme=radical)
+
+</div>
+
+---
+
+### 📊 Detailed Battle Stats
+
+```text
 🎯 Character Status
 └── Level: ${YEAR-2024} Developer
 └── Class: Full Stack Warrior
@@ -37,8 +62,6 @@
 ❤️ HP Components:
 └── Repositories: ![GitHub repos](https://img.shields.io/github/repositories/Kiyoraka?style=flat-square)
 └── Total Activity: ![GitHub activity](https://img.shields.io/github/commit-activity/m/Kiyoraka/repo?style=flat-square)
- ```
-</div>
 
 
 
