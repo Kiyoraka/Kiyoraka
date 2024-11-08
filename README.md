@@ -20,26 +20,26 @@
 <div align="center">
 
 <!-- Attack Power -->
-![Attack Power](https://img.shields.io/github/commit-activity/t/yourusername/repo?label=⚔️%20Attack%20Power&style=for-the-badge)
+![Attack Power](https://img.shields.io/github/commit-activity/t/Kiyoraka/repo?label=⚔️%20Attack%20Power&style=for-the-badge)
 
 <!-- Defense Power -->
-![Defense](https://img.shields.io/github/issues-closed/yourusername/repo?label=🛡️%20Defense%20Power&style=for-the-badge)
+![Defense](https://img.shields.io/github/issues-closed/Kiyoraka/repo?label=🛡️%20Defense%20Power&style=for-the-badge)
 
 <!-- HP -->
-![HP](https://img.shields.io/github/repositories/yourusername?label=❤️%20Health%20Points&style=for-the-badge)
+![HP](https://img.shields.io/github/repositories/Kiyoraka?label=❤️%20Health%20Points&style=for-the-badge)
 
 </div>
 
 <div align="center">
 
 <!-- Attack Power (Contributions) -->
-<img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical&include_all_commits=true&hide=stars,prs,issues&custom_title=⚔️ Attack Power" />
+<img src="https://github-readme-stats.vercel.app/api?username=Kiyoraka&show_icons=true&theme=radical&include_all_commits=true&hide=stars,prs,issues&custom_title=⚔️ Attack Power" />
 
 <!-- Defense Power (Problem Solving) -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical&custom_title=🛡️ Defense Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?Kiyoraka=yourusername&layout=compact&theme=radical&custom_title=🛡️ Defense Stats" />
 
 <!-- HP Bar (Streak) -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical&custom_title=❤️ HP Status" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Kiyoraka&theme=radical&custom_title=❤️ HP Status" />
 
 </div>
 
