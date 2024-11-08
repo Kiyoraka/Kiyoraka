@@ -6,44 +6,44 @@ const TOKEN = process.env.PERSONAL_GITHUB_TOKEN;
 
 // Language icons mapping
 const LANGUAGE_ICONS = {
-  JavaScript: '🟨 JavaScript',
-  TypeScript: '🔷 TypeScript',
-  HTML: '🟧 HTML',
-  CSS: '🟦 CSS',
-  Python: '🐍 Python',
-  Java: '☕ Java',
-  'C++': '⚙️ C++',
-  C: '📟 C',
-  'C#': '🎯 C#',
-  Ruby: '💎 Ruby',
-  PHP: '🐘 PHP',
-  Swift: '🦅 Swift',
-  Kotlin: '🎯 Kotlin',
-  Go: '🦦 Go',
-  Rust: '⚙️ Rust',
-  Shell: '🐚 Shell',
-  Vue: '🟩 Vue',
-  React: '⚛️ React',
-  Angular: '🔺 Angular',
-  Dart: '🎯 Dart',
-  Flutter: '🦋 Flutter',
-  Scala: '🌟 Scala',
-  Lua: '🌙 Lua',
-  Perl: '🐪 Perl',
-  Haskell: '🎯 Haskell',
-  R: '📊 R',
-  MATLAB: '🧮 MATLAB',
-  Assembly: '⚡ Assembly',
-  Dockerfile: '🐋 Dockerfile',
-  'Jupyter Notebook': '📓 Jupyter Notebook',
-  Markdown: '📝 Markdown',
-  XML: '📑 XML',
-  YAML: '⚙️ YAML',
-  JSON: '📦 JSON',
-  PostgreSQL: '🐘 PostgreSQL',
-  MySQL: '🐬 MySQL',
-  MongoDB: '🍃 MongoDB',
-  Redis: '🔴 Redis'
+  JavaScript: '🟨',
+  TypeScript: '🔷',
+  HTML: '🟧',
+  CSS: '🟦',
+  Python: '🐍',
+  Java: '☕',
+  'C++': '⚙️',
+  C: '📟',
+  'C#': '🎯',
+  Ruby: '💎',
+  PHP: '🐘',
+  Swift: '🦅',
+  Kotlin: '🎯',
+  Go: '🦦',
+  Rust: '⚙️',
+  Shell: '🐚',
+  Vue: '🟩',
+  React: '⚛️',
+  Angular: '🔺',
+  Dart: '🎯',
+  Flutter: '🦋',
+  Scala: '🌟',
+  Lua: '🌙',
+  Perl: '🐪',
+  Haskell: '🎯',
+  R: '📊',
+  MATLAB: '🧮',
+  Assembly: '⚡',
+  Dockerfile: '🐋',
+  'Jupyter Notebook': '📓',
+  Markdown: '📝',
+  XML: '📑',
+  YAML: '⚙️',
+  JSON: '📦',
+  PostgreSQL: '🐘',
+  MySQL: '🐬',
+  MongoDB: '🍃',
+  Redis: '🔴'
 };
 
 const fetchGitHubStats = async () => {
@@ -86,9 +86,6 @@ const fetchGitHubStats = async () => {
       const languagesUrl = `https://api.github.com/repos/${repoName}/languages`;
       const languagesData = await axios.get(languagesUrl, { headers });
       
-      // Log languages for this repository
-      console.log(`🔍 Languages in ${repoName}:`, languagesData.data);
-
       // Calculate commit distribution per language based on language percentage
       const totalBytes = Object.values(languagesData.data).reduce((a, b) => a + b, 0);
       
@@ -99,9 +96,6 @@ const fetchGitHubStats = async () => {
         languageStats[language] = (languageStats[language] || 0) + languageCommits;
       }
     }
-
-    // Log total language statistics
-    console.log('\n📊 Total language statistics:', languageStats);
 
     // Calculations
     const level = totalYears;
@@ -128,19 +122,14 @@ const updateReadme = async () => {
   if (stats) {
     const { level, attackPower, defensePower, healthPoints, languageStats } = stats;
 
-    // Create language skills section with icons and progress bars
+    // Create language skills section with icons
     const languageSkillsSection = Object.entries(languageStats)
-      .sort(([, a], [, b]) => b - a) // Sort by number of commits
-      .map(([language, commits]) => {
-        const icon = LANGUAGE_ICONS[language] || `📝 ${language}`;
-        // Create a simple text-based progress bar based on commit count
-        const maxBarLength = 20;
-        const percentage = commits / attackPower;
-        const filledBars = Math.round(percentage * maxBarLength);
-        const progressBar = '█'.repeat(filledBars) + '░'.repeat(maxBarLength - filledBars);
-        return `### ${icon}\n\`${progressBar}\` ${commits} commits`;
+      .sort(([, a], [, b]) => b - a) // Sort by number of points
+      .map(([language, points]) => {
+        const icon = LANGUAGE_ICONS[language] || '📝';
+        return `### ${icon} ${language} : ${points}`;
       })
-      .join('\n\n');
+      .join('\n');
 
     // Update README.md file
     const readmeContent = `
