@@ -119,6 +119,8 @@ const fetchGitHubStats = async () => {
 
         let totalCommits = 0;
         let totalIssues = 0;
+        let issueRelatedCommits = 0;
+        let totalSpeedPoints = 0;
         const totalRepos = repos.length;
         const accountCreationYear = new Date(userData.data.created_at).getFullYear();
         const currentYear = new Date().getFullYear();
@@ -127,6 +129,74 @@ const fetchGitHubStats = async () => {
         let languageStats = {};
         let privateRepoCount = 0;
         let publicRepoCount = 0;
+
+        // Function to calculate speed points based on completion time
+        async function calculateSpeedPoints(repoUrl, headers) {
+            try {
+                // Fetch closed issues
+                const issuesResponse = await apiCallWithRetry(
+                    `${repoUrl}/issues?state=closed&creator=${USERNAME}`,
+                    headers
+                );
+                
+                let totalSpeedPoints = 0;
+                const issues = issuesResponse.data;
+                
+                for (const issue of issues) {
+                    const createdDate = new Date(issue.created_at);
+                    const closedDate = new Date(issue.closed_at);
+                    
+                    // Calculate days taken to close the issue
+                    const daysToClose = Math.floor((closedDate - createdDate) / (1000 * 60 * 60 * 24));
+                    
+                    // Only consider issues closed within 30 days
+                    if (daysToClose <= 30) {
+                        // Calculate points based on completion time
+                        if (daysToClose <= 3) {
+                            totalSpeedPoints += 10;
+                        } else if (daysToClose <= 6) {
+                            totalSpeedPoints += 9;
+                        } else if (daysToClose <= 9) {
+                            totalSpeedPoints += 8;
+                        } else if (daysToClose <= 12) {
+                            totalSpeedPoints += 7;
+                        } else if (daysToClose <= 15) {
+                            totalSpeedPoints += 6;
+                        } else if (daysToClose <= 18) {
+                            totalSpeedPoints += 5;
+                        } else if (daysToClose <= 21) {
+                            totalSpeedPoints += 4;
+                        } else if (daysToClose <= 24) {
+                            totalSpeedPoints += 3;
+                        } else if (daysToClose <= 27) {
+                            totalSpeedPoints += 2;
+                        } else if (daysToClose <= 30) {
+                            totalSpeedPoints += 1;
+                        }
+                    }
+                }
+                
+                return totalSpeedPoints;
+            } catch (error) {
+                console.log(`Error calculating speed points: ${error.message}`);
+                return 0;
+            }
+        }
+
+        // Function to check if a commit is related to an issue
+        async function getIssueRelatedCommits(repoUrl, commits, headers) {
+            let issueRelatedCommits = 0;
+            
+            for (const commit of commits) {
+                // Check commit message for issue references (#number)
+                const message = commit.commit.message.toLowerCase();
+                if (message.includes('#') && /\#\d+/.test(message)) {
+                    issueRelatedCommits++;
+                }
+            }
+            
+            return issueRelatedCommits;
+        }
 
         // Process each repository
         for (const repo of repos) {
@@ -148,6 +218,14 @@ const fetchGitHubStats = async () => {
                 const commits = await fetchAllCommits(repo.url, USERNAME, headers);
                 const commitCount = commits.length;
                 totalCommits += commitCount;
+
+                // Count issue-related commits
+                const repoIssueCommits = await getIssueRelatedCommits(repo.url, commits, headers);
+                issueRelatedCommits += repoIssueCommits;
+
+                // Calculate speed points for this repo
+                const repoSpeedPoints = await calculateSpeedPoints(repo.url, headers);
+                totalSpeedPoints += repoSpeedPoints;
 
                 // Calculate language stats
                 const totalBytes = Object.values(languages).reduce((a, b) => a + b, 0);
@@ -173,6 +251,8 @@ const fetchGitHubStats = async () => {
         const defensePower = Math.floor(totalCommits / totalLanguages);
         const healthPoints = Math.floor((totalCommits + attackPower + totalRepos) * 0.5);
         const manapoints = Math.floor((totalCommits + defensePower + totalRepos) * 0.5);
+        const accuracypoint = Math.floor(issueRelatedCommits + level);
+        const speedpoint = Math.floor(totalSpeedPoints+ level); 
 
         return {
             level,
@@ -180,6 +260,8 @@ const fetchGitHubStats = async () => {
             defensePower,
             healthPoints,
             manapoints,
+            accuracypoint,
+            speedpoint,
             languageStats,
             details: {
                 totalYears,
@@ -210,7 +292,7 @@ const updateReadme = async () => {
           throw new Error('Failed to fetch GitHub stats');
       }
 
-      const { level, attackPower, defensePower, healthPoints, manapoints, languageStats, details } = stats;
+      const { level, attackPower, defensePower, healthPoints, manapoints, accuracypoint, speedpoint, languageStats, details } = stats;
 
       // Create language skills section with icons
       const languageSkillsSection = Object.entries(languageStats)
@@ -239,10 +321,12 @@ const updateReadme = async () => {
 ---
 ## 📊 Detailed Battle Stats
 
-### ⚔️ Attack Power : ${attackPower} 
+### ⚔️ Attack Power  : ${attackPower} 
 ### 🛡️ Defense Power : ${defensePower} 
-### ❤️ Health Point : ${healthPoints} 
-### 🔮 Mana Point : ${manapoints} 
+### ❤️ Health Point  : ${healthPoints} 
+### 🔮 Mana Point    : ${manapoints} 
+### 🎯 Accuracy      : ${accuracypoint} 
+### ⚡ Speed         : ${speedpoint}
 
 ---
 ## 💻 Programming Skills
