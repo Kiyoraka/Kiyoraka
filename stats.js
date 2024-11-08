@@ -177,7 +177,36 @@ const LANGUAGE_ICONS = {
   'IntelliJ IDEA': '🧠',
   Eclipse: '🌓',
   PyCharm: '🐍',
-  WebStorm: '🌪️'
+  WebStorm: '🌪️',
+
+   // Template Engines
+   Blade: '🗡️',    // Laravel's Blade template engine
+   'Laravel': '🎵', // Laravel Framework
+   Twig: '🌿',      // Symfony's template engine
+   EJS: '📄',       // Embedded JavaScript templating
+   Pug: '🐶',       // Pug template engine
+   
+   // Scripting & Batch Files
+   'Batch': '📋',   // Windows .bat files
+   'BAT': '📋',     // Alternative name for Batch files
+   'CMD': '⌨️',     // Command files
+   PowerShell: '💠', // Windows PowerShell
+   Bash: '📺',      // Unix shell
+   Shell: '🐚',     // Generic shell scripts
+   
+   // PHP Ecosystem
+   PHP: '🐘',
+   Composer: '🎼',
+   PHPUnit: '🧪',
+   'Laravel Mix': '🎚️',
+   'PHP-FPM': '⚡',
+   
+   // Build Scripts
+   'Makefile': '🏗️',
+   'Jenkinsfile': '👷',
+   'Docker Compose': '🐋',
+   'Nginx': '⚡',
+   'Apache': '🦅'
 };
 
 // Configure axios with longer timeout and retry logic
