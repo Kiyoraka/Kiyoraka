@@ -37,7 +37,7 @@
 <div align="center">
 
 <!-- Total Contributions Formula -->
-⚔️ Attack Power = Commits + Pull Requests + Issues Created
+⚔️ Attack Power = ![Commits] + Pull Requests + Issues Created
 
 <!-- Defense Power Formula -->
 🛡️ Defense Power = Issues Closed + Pull Requests Merged
@@ -46,7 +46,7 @@
 ❤️ HP = Repositories × (Commits + Issues Closed)
 
 <!-- For Total Commits -->
-![Commits](https://img.shields.io/github/commit-activity/t/yourusername/repo?style=for-the-badge)
+![Commits](https://img.shields.io/github/commit-activity/t/Kiyoraka/repo?style=for-the-badge)
 
 <!-- For Total Repositories -->
 ![Repos](https://img.shields.io/github/repositories/yourusername?style=for-the-badge)
