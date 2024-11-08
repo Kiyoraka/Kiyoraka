@@ -19,7 +19,7 @@
 
 
 ### 📊 Detailed Battle Stats
-```text
+
 🎯 Character Status
 └── Level: ${new Date().getFullYear()-2024} Developer
 └── Class: Full Stack Warrior
