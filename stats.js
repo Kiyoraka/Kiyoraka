@@ -2,7 +2,7 @@ const axios = require('axios');
 const fs = require('fs');
 
 const USERNAME = 'Kiyoraka';
-const TOKEN = process.env.GITHUB_TOKEN; // Changed to match workflow environment variable
+const TOKEN = process.env.PERSONAL_GITHUB_TOKEN; // Changed to match workflow environment variable
 
 const fetchGitHubStats = async () => {
   try {
