@@ -26,18 +26,17 @@
 └── Guild: Open Source Contributors
 
 ⚔️ Attack Power Components:
-└── Commits: ![GitHub commits](https://img.shields.io/github/commit-activity/y/Kiyoraka/repo?style=flat-square)
-└── Pull Requests: ![GitHub PRs](https://img.shields.io/github/issues-pr/Kiyoraka/repo?style=flat-square)
-└── Issues Created: ![GitHub issues](https://img.shields.io/github/issues/Kiyoraka/repo?style=flat-square)
+└── Commits: ![GitHub commits](https://img.shields.io/github/commit-activity/t/Kiyoraka?style=flat-square&label=Commits)
+└── Pull Requests: ![PRs](https://img.shields.io/github/issues-pr-raw/Kiyoraka?style=flat-square&label=Pull%20Requests)
+└── Issues Created: ![Issues](https://img.shields.io/github/issues-raw/Kiyoraka?style=flat-square&label=Issues)
 
 🛡️ Defense Power Components:
-└── Issues Closed: ![GitHub issues-closed](https://img.shields.io/github/issues-closed/Kiyoraka/repo?style=flat-square)
-└── PRs Merged: ![GitHub PRs merged](https://img.shields.io/github/issues-pr-closed/Kiyoraka/repo?style=flat-square)
+└── Issues Closed: ![Closed Issues](https://img.shields.io/github/issues-closed-raw/Kiyoraka?style=flat-square&label=Closed%20Issues)
+└── PRs Merged: ![Merged PRs](https://img.shields.io/github/issues-pr-closed-raw/Kiyoraka?style=flat-square&label=Merged%20PRs)
 
 ❤️ HP Components:
-└── Repositories: ![GitHub repos](https://img.shields.io/github/repositories/Kiyoraka?style=flat-square)
-└── Total Activity: ![GitHub activity](https://img.shields.io/github/commit-activity/m/Kiyoraka/repo?style=flat-square)
-
+└── Repositories: ![Repos](https://img.shields.io/github/repos-raw/Kiyoraka?style=flat-square&label=Repositories)
+└── Total Activity: ![Total](https://img.shields.io/github/commit-activity/t/Kiyoraka?style=flat-square&label=Total%20Activity)
 
 
 
