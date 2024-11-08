@@ -38,20 +38,7 @@
 └── Total Activity: ![Activity](https://img.shields.io/github/commit-activity/y/Kiyoraka/Kiyoraka?style=flat-square)
 
 
-# My GitHub Statistics
 
-[![GitHub Commits](https://github-readme-stats.vercel.app/api?username=Kiyoraka&show_icons=true&count_private=true&hide=stars,issues,contribs&theme=radical)](https://github.com/YOUR_USERNAME)
-
-## 📊 Contribution Graph
-
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=Kiyoraka&theme=github)
-
-## 📈 Commit Statistics
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Kiyoraka&theme=dark)](https://github.com/YOUR_USERNAME)
-
----
-*Note: These statistics are updated automatically using GitHub API data.*
 
 
 
