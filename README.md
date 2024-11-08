@@ -19,21 +19,10 @@
 
 ## 📊 Detailed Battle Stats
   
-### ⚔️ Attack Power: (Total Commit display in number)
+### ⚔️ Attack Power: ![Total Commits](https://img.shields.io/github/commit-activity/y/Kiyoraka/Kiyoraka?label=&style=flat)
  
-### 🛡️ Defense Power : (Total Commit display in number - Issues )
+### 🛡️ Defense Power : ![Defense](https://img.shields.io/github/issues-closed/Kiyoraka/Kiyoraka?label=&style=flat)
 
-### ❤️ Health point : (Total Commit display in number * Total Repositories  )
+### ❤️ Health point : https://img.shields.io/badge/dynamic/json?color=blue&label=Repositories&query=%24.public_repos&url=https://api.github.com/users/Kiyoraka
 
 ---
-
-
-
-
-
-
-
-
-
-
-
