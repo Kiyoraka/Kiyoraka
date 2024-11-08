@@ -39,6 +39,20 @@
 └── Total Activity: ![Total](https://img.shields.io/github/commit-activity/t/Kiyoraka?style=flat-square&label=Total%20Activity)
 
 
+### 💫 Detailed Numbers
+
+<!-- For total commits across all repositories -->
+![Total Commits](https://img.shields.io/github/commit-activity/t/Kiyoraka?style=for-the-badge&label=Total%20Commits)
+
+<!-- For total repositories -->
+![Total Repositories](https://img.shields.io/github/repos/Kiyoraka?style=for-the-badge&label=Total%20Repositories)
+
+<!-- For total stars received -->
+![Total Stars](https://img.shields.io/github/stars/Kiyoraka?style=for-the-badge&label=Total%20Stars)
+
+<!-- For total followers -->
+![Followers](https://img.shields.io/github/followers/Kiyoraka?style=for-the-badge&label=Followers)
+
 
 
 
