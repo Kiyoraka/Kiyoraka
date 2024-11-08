@@ -8,9 +8,9 @@ const TOKEN = process.env.TOKEN; // Access token from environment variable
 const fetchGitHubStats = async () => {
   try {
     const headers = {
-      'Authorization': `token ${TOKEN}`,
-      'User-Agent': USERNAME,
-    };
+        'Authorization': `Bearer ${TOKEN}`,
+        'User-Agent': 'Kiyoraka',
+      };
 
     // Fetch user data
     const userData = await axios.get(`https://api.github.com/users/${USERNAME}`, { headers });
