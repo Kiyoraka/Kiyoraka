@@ -320,7 +320,7 @@ const updateReadme = async () => {
 <!-- Level = ${details.totalYears} years + (${details.totalCommits} commits × 0.01) + (${details.totalRepos} repos ÷ ${details.totalLanguages} languages) -->
 
 ---
-## 📊 Detailed Battle Stats
+## 📊 Battle Stats
 
 ### ⚔️ Attack Power  : ${attackPower} 
 ### 🛡️ Defense Power : ${defensePower} 
