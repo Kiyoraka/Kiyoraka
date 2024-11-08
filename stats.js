@@ -39,7 +39,7 @@ const fetchGitHubStats = async () => {
     }
 
     // Calculations
-    const level = Math.floor((totalCommits * totalYears) / totalRepos);
+    const level = Math.floor(totalCommits / totalYears);
     const attackPower = totalCommits;
     const defensePower = Math.max(0, totalCommits - totalIssues);
     const healthPoints = totalCommits * totalRepos;
