@@ -17,23 +17,23 @@
 ## 📊 Battle Stats
 
 ### ⚔️ Attack Power  : 25 
-### 🛡️ Defense Power : 27 
-### ❤️ Health Point  : 157 
-### 🔮 Mana Point    : 158 
+### 🛡️ Defense Power : 28 
+### ❤️ Health Point  : 159 
+### 🔮 Mana Point    : 160 
 ### 🎯 Accuracy      : 7 
-### ⚡ Speed         : 16
+### ⚡ Speed         : 26
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 131
+### 📜 JavaScript : 133
 ### 🎭 Ren'Py : 34
-### 🐘 PHP : 31
-### 🎨 CSS : 20
+### 🐘 PHP : 33
+### 🎨 CSS : 21
 ### 🐍 Python : 16
 ### 🗡️ Blade : 14
 ### ☕ Java : 8
 ### 🎯 C# : 6
-### 🌐 HTML : 4
+### 🌐 HTML : 5
 ### 📝 Batchfile : 1
 ---
