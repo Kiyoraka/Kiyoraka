@@ -11,22 +11,22 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : G 
-### ⭐ Level : 6
+### ⭐ Level : 7
 
 ---
 ## 📊 Battle Stats
 
 ### ⚔️ Attack Power  : 26 
-### 🛡️ Defense Power : 28 
+### 🛡️ Defense Power : 29 
 ### ❤️ Health Point  : 163 
-### 🔮 Mana Point    : 164 
+### 🔮 Mana Point    : 165 
 ### 🎯 Accuracy      : 10 
-### ⚡ Speed         : 56
+### ⚡ Speed         : 57
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 136
+### 📜 JavaScript : 137
 ### 🐘 PHP : 35
 ### 🎭 Ren'Py : 34
 ### 🎨 CSS : 22
