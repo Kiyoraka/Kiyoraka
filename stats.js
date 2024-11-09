@@ -184,8 +184,8 @@ const fetchGitHubStats = async () => {
         console.log(`Found ${repos.length} repositories`);
 
         let totalCommits = 0;
-        let totalIssues = 0;
-        let issueRelatedCommits = 0;
+        let totalSolvedIssues = 0;
+        let reposWithSolvedIssues = new Set();
         let totalSpeedPoints = 0;
         const totalRepos = repos.length;
         const accountCreationYear = new Date(userData.data.created_at).getFullYear();
@@ -235,21 +235,6 @@ const fetchGitHubStats = async () => {
             }
         }
 
-        // Function to check if a commit is related to an issue
-        async function getIssueRelatedCommits(repoUrl, commits, headers) {
-            let issueRelatedCommits = 0;
-            
-            for (const commit of commits) {
-                // Check commit message for issue references (#number)
-                const message = commit.commit.message.toLowerCase();
-                if (message.includes('#') && /\#\d+/.test(message)) {
-                    issueRelatedCommits++;
-                }
-            }
-            
-            return issueRelatedCommits;
-        }
-
         // Process each repository
         for (const repo of repos) {
             const repoName = repo.full_name;
@@ -271,9 +256,17 @@ const fetchGitHubStats = async () => {
                 const commitCount = commits.length;
                 totalCommits += commitCount;
 
-                // Count issue-related commits
-                const repoIssueCommits = await getIssueRelatedCommits(repo.url, commits, headers);
-                issueRelatedCommits += repoIssueCommits;
+                // Fetch closed issues for accuracy calculation
+                const closedIssuesResponse = await apiCallWithRetry(
+                    `${repo.url}/issues?state=closed&creator=${USERNAME}`,
+                    headers
+                );
+
+                const solvedIssues = closedIssuesResponse.data.length;
+                if (solvedIssues > 0) {
+                    totalSolvedIssues += solvedIssues;
+                    reposWithSolvedIssues.add(repo.name);
+                }
 
                 // Calculate speed points for this repo
                 const repoSpeedPoints = await calculateSpeedPoints(repo.url, headers);
@@ -303,7 +296,7 @@ const fetchGitHubStats = async () => {
         const defensePower = Math.floor(totalCommits / totalLanguages);
         const healthPoints = Math.floor((totalCommits + attackPower + totalRepos) * 0.5);
         const manapoints = Math.floor((totalCommits + defensePower + totalRepos) * 0.5);
-        const accuracypoint = Math.floor(issueRelatedCommits + level);
+        const accuracypoint = Math.floor(totalSolvedIssues * reposWithSolvedIssues.size);
         const speedpoint = Math.floor(totalSpeedPoints+ level);
 
         // Calculate total rank points
@@ -346,7 +339,9 @@ const fetchGitHubStats = async () => {
                 totalLanguages,
                 publicRepos: publicRepoCount,
                 privateRepos: privateRepoCount,
-                totalRankPoints // Adding total rank points to details
+                totalRankPoints,
+                totalSolvedIssues,
+                reposWithSolvedIssuesCount: reposWithSolvedIssues.size
             }
         };
     } catch (error) {
@@ -368,7 +363,7 @@ const updateReadme = async () => {
             throw new Error('Failed to fetch GitHub stats');
         }
 
-        const { level, attackPower, defensePower, healthPoints, manapoints, accuracypoint, speedpoint, rank, languageStats, details } = stats;
+        const { level, attackPower, defensePower, healthPoints, manapoints, accuracypoint, speedpoint, rank, languageStats, issueRelatedCommits, details } = stats;
 
         // Create language skills section with icons
         const languageSkillsSection = Object.entries(languageStats)
