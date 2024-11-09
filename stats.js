@@ -218,23 +218,9 @@ const fetchGitHubStats = async () => {
                     // Only consider issues closed within 30 days
                     if (daysToClose <= 30) {
                         // Calculate points based on completion time
-                        if (daysToClose <= 3) {
-                            totalSpeedPoints += 10;
-                        } else if (daysToClose <= 6) {
-                            totalSpeedPoints += 9;
-                        } else if (daysToClose <= 9) {
-                            totalSpeedPoints += 8;
-                        } else if (daysToClose <= 12) {
-                            totalSpeedPoints += 7;
-                        } else if (daysToClose <= 15) {
-                            totalSpeedPoints += 6;
-                        } else if (daysToClose <= 18) {
-                            totalSpeedPoints += 5;
-                        } else if (daysToClose <= 21) {
-                            totalSpeedPoints += 4;
-                        } else if (daysToClose <= 24) {
+                        if (daysToClose <= 10) {
                             totalSpeedPoints += 3;
-                        } else if (daysToClose <= 27) {
+                        } else if (daysToClose <= 20) {
                             totalSpeedPoints += 2;
                         } else if (daysToClose <= 30) {
                             totalSpeedPoints += 1;
@@ -318,7 +304,7 @@ const fetchGitHubStats = async () => {
         const healthPoints = Math.floor((totalCommits + attackPower + totalRepos) * 0.5);
         const manapoints = Math.floor((totalCommits + defensePower + totalRepos) * 0.5);
         const accuracypoint = Math.floor(issueRelatedCommits + level);
-        const speedpoint = Math.floor(totalSpeedPoints + level);
+        const speedpoint = Math.floor(totalSpeedPoints+ level);
 
         // Calculate total rank points
         const totalRankPoints = attackPower + defensePower + healthPoints + manapoints + accuracypoint + speedpoint;
