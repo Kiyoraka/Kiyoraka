@@ -421,7 +421,10 @@ const updateReadme = async () => {
 ## 💻 Programming Skills
 
 ${languageSkillsSection}
----`;
+---
+<div align="center">
+  This profile auto update based on time github workflow set by the user.
+</div>`;
 
         fs.writeFileSync('README.md', readmeContent.trim());
         console.log('README.md updated successfully!');
