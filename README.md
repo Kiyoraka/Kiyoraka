@@ -4,6 +4,8 @@
 
 <!-- Replace with your profile image -->
 <img src="./assets/profile.png" width="150" height="150" style="border-radius: 50%"/>
+
+![](https://komarev.com/ghpvc/?username=Kiyoraka&style=flat)
 </div>
 
 ##  📌 Basic Info
