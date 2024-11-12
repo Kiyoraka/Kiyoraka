@@ -20,8 +20,8 @@
 
 ### ⚔️ Attack Power  : 29 
 ### 🛡️ Defense Power : 32 
-### ❤️ Health Point  : 181 
-### 🔮 Mana Point    : 183 
+### ❤️ Health Point  : 183 
+### 🔮 Mana Point    : 184 
 ### 🎯 Accuracy      : 10 
 ### ⚡ Speed         : 57
 
@@ -29,7 +29,7 @@
 ## 💻 Programming Skills
 
 ### 📜 JavaScript : 149
-### 🎭 Ren'Py : 39
+### 🎭 Ren'Py : 42
 ### 🐘 PHP : 35
 ### 🎨 CSS : 32
 ### 🐍 Python : 17
