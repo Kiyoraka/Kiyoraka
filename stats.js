@@ -156,6 +156,27 @@ async function fetchAllCommits(repoUrl, author, headers) {
     return allCommits;
 }
 
+//Fetch Today Commit
+async function getTodayCommits(repos, headers, username) {
+    const today = new Date().toISOString().split('T')[0];
+    let todayCommits = 0;
+
+    for (const repo of repos) {
+        try {
+            const commits = await fetchAllCommits(repo.url, username, headers);
+            const todayCommitsCount = commits.filter(commit => {
+                const commitDate = new Date(commit.commit.author.date).toISOString().split('T')[0];
+                return commitDate === today;
+            }).length;
+            todayCommits += todayCommitsCount;
+        } catch (error) {
+            console.log(`Error counting today's commits for ${repo.name}:`, error.message);
+        }
+    }
+
+    return todayCommits;
+}
+
 const fetchGitHubStats = async () => {
     if (!TOKEN) {
         throw new Error('PERSONAL_GITHUB_TOKEN is not set in environment variables');
@@ -337,6 +358,8 @@ const fetchGitHubStats = async () => {
             rank = 'X';
         }
 
+        const todayCommits = await getTodayCommits(repos, headers, USERNAME);
+
         return {
             level,
             attackPower,
@@ -350,6 +373,7 @@ const fetchGitHubStats = async () => {
             details: {
                 totalYears,
                 totalCommits,
+                todayCommits,
                 totalRepos,
                 totalLanguages,
                 publicRepos: publicRepoCount,
@@ -369,6 +393,63 @@ const fetchGitHubStats = async () => {
     }
 };
 
+//Fetch Weekly Quest
+async function getWeeklyQuest() {
+    const questData = JSON.parse(fs.readFileSync('Quest.json', 'utf8'));
+    const currentWeek = Math.floor((new Date().getTime() / (1000 * 60 * 60 * 24 * 7)));
+    return questData.weekly.special_quests[currentWeek % questData.weekly.special_quests.length];
+}
+
+//Fetch Monthly Quest
+async function getMonthlyQuest() {
+    const questData = JSON.parse(fs.readFileSync('Quest.json', 'utf8'));
+    const currentMonth = new Date().getMonth();
+    return questData.monthly.boss_raids[currentMonth];
+}
+
+//Fetch Seasonal Quest
+async function getSeasonalQuest() {
+    const questData = JSON.parse(fs.readFileSync('Quest.json', 'utf8'));
+    const currentMonth = new Date().getMonth();
+    const season = Math.floor(currentMonth / 3);
+    return questData.seasonal.epic_quests[season];
+}
+
+//Fetch Yearly Quest
+async function getYearlyQuest() {
+    const questData = JSON.parse(fs.readFileSync('Quest.json', 'utf8'));
+    return questData.yearly.legendary_quest;
+}
+
+// Modify the getDailyQuest function
+async function getDailyQuest(commits) {
+    const questData = JSON.parse(fs.readFileSync('Quest.json', 'utf8'));
+    
+    if (commits === 0) {
+        return questData.daily.idle[Math.floor(Math.random() * questData.daily.idle.length)];
+    }
+    
+    const tiers = {
+        novice: [1, 10],
+        intermediate: [11, 20],
+        advanced: [21, 50],
+        expert: [51, 100],
+        legendary: [101, 10000]
+    };
+
+    for (const [tier, [min, max]] of Object.entries(tiers)) {
+        if (commits >= min && commits <= max) {
+            return questData.daily[tier].quests[
+                Math.floor(Math.random() * questData.daily[tier].quests.length)
+            ];
+        }
+    }
+    
+    return questData.daily.legendary.quests[
+        Math.floor(Math.random() * questData.daily.legendary.quests.length)
+    ];
+}
+
 const updateReadme = async () => {
     try {
         console.log('Starting README update process...');
@@ -378,9 +459,18 @@ const updateReadme = async () => {
             throw new Error('Failed to fetch GitHub stats');
         }
 
-        const { level, attackPower, defensePower, healthPoints, manapoints, accuracypoint, speedpoint, rank, languageStats, issueRelatedCommits, details } = stats;
+        const { level, attackPower, defensePower, healthPoints, manapoints, accuracypoint, speedpoint, rank, languageStats, details } = stats;
 
-        // Create language skills section with icons
+        // Get all quests
+        const today = new Date().toISOString().split('T')[0];
+        const todayCommits = stats.details.todayCommits || 0;
+        const dailyQuest = await getDailyQuest(todayCommits);
+        const weeklyQuest = await getWeeklyQuest();
+        const monthlyQuest = await getMonthlyQuest();
+        const seasonalQuest = await getSeasonalQuest();
+        const yearlyQuest = await getYearlyQuest();
+
+        // Create language skills section
         const languageSkillsSection = Object.entries(languageStats)
             .sort(([, a], [, b]) => b - a)
             .map(([language, points]) => {
@@ -390,6 +480,7 @@ const updateReadme = async () => {
             .join('\n');
 
         const readmeContent = `
+
 <div align="center">
 
 # 🎮 Developer Guild Card
@@ -421,6 +512,29 @@ const updateReadme = async () => {
 ## 💻 Programming Skills
 
 ${languageSkillsSection}
+
+---
+## 📜 Active Quests
+
+### 🌅 Daily Quest
+
+#### Current Quest: ${dailyQuest}
+
+### 📅 Weekly Quest
+#### Current Mission: ${weeklyQuest}
+
+### 🌙 Monthly Raid
+#### ${monthlyQuest.raid}
+#### ${monthlyQuest.description}
+
+### 🌠 Seasonal Epic
+#### ${seasonalQuest.quest}
+#### ${seasonalQuest.description}
+
+### ⭐ Yearly Legend
+#### ${yearlyQuest.name}
+#### Current Phase: ${yearlyQuest.phases[Math.floor((new Date().getMonth()) / 1.5)]}
+
 ---
 <div align="center">
   This profile auto update based on time by github workflow set by the user.
