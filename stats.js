@@ -7,7 +7,7 @@ const TOKEN = process.env.PERSONAL_GITHUB_TOKEN;
 // Language icons mapping
 const LANGUAGE_ICONS = {
   // Web Languages
-  JavaScript: '📜',
+  JavaScript: '📋',
   TypeScript: '🔷',
   HTML: '🌐',
   CSS: '🎨',
@@ -33,7 +33,7 @@ const LANGUAGE_ICONS = {
   
   // Game Development
   "Ren'Py": '🎭',
-  Unity: '⚫',
+  Unity: '🎮',
   
   // Frontend Frameworks
   React: '⚛️',
@@ -76,17 +76,6 @@ const LANGUAGE_ICONS = {
   Redis: '⚡',
   SQLite: '🔷',
   
-  // Cloud Platforms
-  AWS: '☁️',
-  Azure: '☁️',
-  Vercel: '▲',
-  
-  // Tools & Technologies
-  Git: '🔄',
-  npm: '📦',
-  Yarn: '🧶',
-  Linux: '🐧',
-  
   // Design Tools
   Figma: '🎨',
   
@@ -98,18 +87,6 @@ const LANGUAGE_ICONS = {
   Bootstrap: '🅱️',
   Sass: '💅',
   
-  // Package Managers
-  Composer: '🎼',
-  Pip: '📦',
-  
-  // IDEs & Editors
-  'VS Code': '💻',
-  'Visual Studio': '🎯',
-  'IntelliJ IDEA': '🧠',
-  
-  // Server
-  'Nginx': '⚡',
-  'Apache': '🦅'
 };
 
 // Configure axios with longer timeout and retry logic
@@ -531,7 +508,7 @@ ${languageSkillsSection}
 #### ${seasonalQuest.quest}
 #### ${seasonalQuest.description}
 
-### ⭐ Yearly Legend
+### 👑 Yearly Legend
 #### ${yearlyQuest.name}
 #### Current Phase: ${yearlyQuest.phases[Math.floor((new Date().getMonth()) / 1.5)]}
 
