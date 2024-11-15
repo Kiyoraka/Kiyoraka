@@ -1,216 +1,261 @@
 {
-    "daily": {
-      "idle": [
-        "Drinking Coffee at home",
-        "Reading Documentation Scrolls",
-        "Maintaining Development Tools",
-        "Studying Ancient Code Manuscripts",
-        "Meditating on Design Patterns",
-        "Organizing Code Sanctuary",
-        "Sharpening Debug Tools",
-        "Brewing Algorithm Potions",
-        "Cataloging Code Libraries",
-        "Resting in IDE Haven"
-      ],
-      "novice": {
-        "range": [1, 50],
-        "quests": [
-          "Debug Patrol: Syntax Error Plains",
-          "Hunting Null Pointer Imps",
-          "Quest: Fix Runtime Exception Goblins",
-          "Patrol: Variable Scope Dungeon",
-          "Mission: Type Error Wildlands",
-          "Hunt: Console.log Spirits",
-          "Debug: Unit Test Gremlins",
-          "Quest: CSS Selector Specters",
-          "Mission: Git Conflict Critters",
-          "Raid: DOM Element Elementals"
-        ]
+  "daily": {
+    "idle": [
+      "Drinking Coffee at home",
+      "Reading Documentation Scrolls",
+      "Maintaining Development Tools",
+      "Studying Ancient Code Manuscripts",
+      "Meditating on Design Patterns",
+      "Organizing Code Sanctuary",
+      "Sharpening Debug Tools",
+      "Brewing Algorithm Potions",
+      "Cataloging Code Libraries",
+      "Resting in IDE Haven"
+    ],
+    "novice": {
+      "range": [1, 10],
+      "quests": [
+        "Debug Patrol: Syntax Error Plains",
+        "Hunting Null Pointer Imps",
+        "Quest: Fix Runtime Exception Goblins",
+        "Patrol: Variable Scope Dungeon",
+        "Mission: Type Error Wildlands",
+        "Hunt: Console.log Spirits",
+        "Debug: Unit Test Gremlins",
+        "Quest: CSS Selector Specters",
+        "Mission: Git Conflict Critters",
+        "Raid: DOM Element Elementals"
+      ]
+    },
+    "intermediate": {
+      "range": [11, 20],
+      "quests": [
+        "Raid: Recursive Function Cave",
+        "Hunting Memory Leak Demons",
+        "Quest: Infinite Loop Labyrinth",
+        "Debug: Async/Await Curse",
+        "Mission: Promise Chain Cavern",
+        "Hunt: State Management Specters",
+        "Raid: API Integration Abyss",
+        "Quest: Database Migration Maze",
+        "Debug: Authentication Apparitions",
+        "Mission: Cache Invalidation Caves"
+      ]
+    },
+    "advanced": {
+      "range": [21, 50],
+      "quests": [
+        "Epic: Microservices Mastery",
+        "Legendary: Cloud Architecture Summit",
+        "Quest: Database Optimization Odyssey",
+        "Mission: Security Hardening Crusade",
+        "Raid: Performance Tuning Temple",
+        "Hunt: Distributed Systems Dragons",
+        "Debug: Scalability Sphinx",
+        "Epic: Container Orchestration Oracle",
+        "Quest: Load Balancing Leviathan",
+        "Mission: High Availability Heroes"
+      ]
+    },
+    "expert": {
+      "range": [51, 100],
+      "quests": [
+        "Mythic: System Design Saga",
+        "Legend: Architecture Evolution",
+        "Epic: Infrastructure Innovation",
+        "Quest: Cloud Native Crusade",
+        "Raid: DevOps Dominion",
+        "Hunt: Kubernetes Kraken",
+        "Debug: Distributed Database Deity",
+        "Mission: Message Queue Mastery",
+        "Epic: Service Mesh Sorcery",
+        "Legend: Platform Engineering Phoenix"
+      ]
+    },
+    "legendary": {
+      "range": [101, 10000],
+      "quests": [
+        "Ultimate: System Architecture Ascension",
+        "Supreme: Cloud Platform Perfection",
+        "Divine: Infrastructure Innovation",
+        "Mythic: Distributed Systems Divinity",
+        "Epic: Performance Engineering Excellence",
+        "Legendary: Security Systems Supremacy",
+        "Ultimate: Database Design Dominion",
+        "Divine: API Architecture Ascendance",
+        "Supreme: DevOps Dynasty",
+        "Mythic: Platform Engineering Paradise"
+      ]
+    }
+  },
+  "weekly": {
+    "special_quests": [
+      "The Great Refactoring Challenge",
+      "Legacy Code Migration Marathon",
+      "API Integration Tournament",
+      "Database Optimization Crusade",
+      "Security Vulnerability Hunt",
+      "Performance Tuning Trial",
+      "Code Review Championship",
+      "Documentation Sprint Saga",
+      "Testing Framework Trials",
+      "UI/UX Enhancement Expedition",
+      "Microservices Migration Mission",
+      "DevOps Pipeline Challenge",
+      "Mobile App Optimization Quest",
+      "Cloud Infrastructure Expedition",
+      "Data Analytics Adventure",
+      "Machine Learning Marathon",
+      "Blockchain Integration Battle",
+      "IoT Implementation Initiative",
+      "Serverless Architecture Sprint",
+      "CI/CD Pipeline Project",
+      "API Gateway Guardians",
+      "Database Sharding Showdown",
+      "Cache Strategy Challenge",
+      "Message Queue Marathon",
+      "Load Balancing Legend",
+      "Security Hardening Hunt",
+      "Monitoring System Setup",
+      "Logging Infrastructure Launch",
+      "Error Handling Enhancement",
+      "Code Quality Crusade",
+      "Technical Debt Takedown",
+      "Authentication System Upgrade",
+      "Authorization Framework Fix",
+      "Data Migration Marathon",
+      "Schema Evolution Exercise",
+      "API Version Management",
+      "Service Discovery Setup",
+      "Container Orchestration Quest",
+      "Network Security Enhancement",
+      "Backup System Implementation",
+      "Disaster Recovery Design",
+      "High Availability Hunt",
+      "Performance Monitoring Mission",
+      "Code Documentation Drive",
+      "Test Coverage Challenge",
+      "Frontend Framework Update",
+      "Backend Service Upgrade",
+      "Database Index Optimization",
+      "Query Performance Quest",
+      "Memory Management Mission",
+      "Thread Safety Challenge",
+      "Concurrent Programming Project"
+    ]
+  },
+  "monthly": {
+    "boss_raids": [
+      {
+        "month": "January",
+        "raid": "Frost Giant: Legacy Monolith",
+        "description": "Convert ancient monolithic system into microservices"
       },
-      "intermediate": {
-        "range": [51, 100],
-        "quests": [
-          "Raid: Recursive Function Cave",
-          "Hunting Memory Leak Demons",
-          "Quest: Infinite Loop Labyrinth",
-          "Debug: Async/Await Curse",
-          "Mission: Promise Chain Cavern",
-          "Hunt: State Management Specters",
-          "Raid: API Integration Abyss",
-          "Quest: Database Migration Maze",
-          "Debug: Authentication Apparitions",
-          "Mission: Cache Invalidation Caves"
-        ]
+      {
+        "month": "February",
+        "raid": "Love Bug: Security Breach",
+        "description": "Patch critical security vulnerabilities"
+      },
+      {
+        "month": "March",
+        "raid": "Spring Cleaning: Technical Debt",
+        "description": "Massive refactoring and debt cleanup"
+      },
+      {
+        "month": "April",
+        "raid": "Rain Bearer: Data Flood",
+        "description": "Handle massive data migration and processing"
+      },
+      {
+        "month": "May",
+        "raid": "Blossom Boss: UI Revolution",
+        "description": "Complete UI/UX overhaul"
+      },
+      {
+        "month": "June",
+        "raid": "Summer Solstice: Performance Peak",
+        "description": "Optimize system performance"
+      },
+      {
+        "month": "July",
+        "raid": "Heat Wave: Server Stress",
+        "description": "Handle extreme load conditions"
+      },
+      {
+        "month": "August",
+        "raid": "Thunder Lord: Cloud Migration",
+        "description": "Migrate infrastructure to cloud"
+      },
+      {
+        "month": "September",
+        "raid": "Autumn Oracle: AI Integration",
+        "description": "Implement machine learning features"
+      },
+      {
+        "month": "October",
+        "raid": "Halloween Horror: Bug Hunt",
+        "description": "Fix critical production bugs"
+      },
+      {
+        "month": "November",
+        "raid": "Harvest Handler: Data Analytics",
+        "description": "Implement analytics system"
+      },
+      {
+        "month": "December",
+        "raid": "Frost Phoenix: System Resurrection",
+        "description": "Complete system modernization"
       }
-    },
-    "weekly": {
-      "special_quests": [
-        "The Great Refactoring Challenge",
-        "Legacy Code Migration Marathon",
-        "API Integration Tournament",
-        "Database Optimization Crusade",
-        "Security Vulnerability Hunt",
-        "Performance Tuning Trial",
-        "Code Review Championship",
-        "Documentation Sprint Saga",
-        "Testing Framework Trials",
-        "UI/UX Enhancement Expedition",
-        "Microservices Migration Mission",
-        "DevOps Pipeline Challenge",
-        "Mobile App Optimization Quest",
-        "Cloud Infrastructure Expedition",
-        "Data Analytics Adventure",
-        "Machine Learning Marathon",
-        "Blockchain Integration Battle",
-        "IoT Implementation Initiative",
-        "Serverless Architecture Sprint",
-        "CI/CD Pipeline Project",
-        "API Gateway Guardians",
-        "Database Sharding Showdown",
-        "Cache Strategy Challenge",
-        "Message Queue Marathon",
-        "Load Balancing Legend",
-        "Security Hardening Hunt",
-        "Monitoring System Setup",
-        "Logging Infrastructure Launch",
-        "Error Handling Enhancement",
-        "Code Quality Crusade",
-        "Technical Debt Takedown",
-        "Authentication System Upgrade",
-        "Authorization Framework Fix",
-        "Data Migration Marathon",
-        "Schema Evolution Exercise",
-        "API Version Management",
-        "Service Discovery Setup",
-        "Container Orchestration Quest",
-        "Network Security Enhancement",
-        "Backup System Implementation",
-        "Disaster Recovery Design",
-        "High Availability Hunt",
-        "Performance Monitoring Mission",
-        "Code Documentation Drive",
-        "Test Coverage Challenge",
-        "Frontend Framework Update",
-        "Backend Service Upgrade",
-        "Database Index Optimization",
-        "Query Performance Quest",
-        "Memory Management Mission",
-        "Thread Safety Challenge",
-        "Concurrent Programming Project"
-      ]
-    },
-    "monthly": {
-      "boss_raids": [
-        {
-          "month": "January",
-          "raid": "Frost Giant: Legacy Monolith",
-          "description": "Convert ancient monolithic system into microservices"
-        },
-        {
-          "month": "February",
-          "raid": "Love Bug: Security Breach",
-          "description": "Patch critical security vulnerabilities"
-        },
-        {
-          "month": "March",
-          "raid": "Spring Cleaning: Technical Debt",
-          "description": "Massive refactoring and debt cleanup"
-        },
-        {
-          "month": "April",
-          "raid": "Rain Bearer: Data Flood",
-          "description": "Handle massive data migration and processing"
-        },
-        {
-          "month": "May",
-          "raid": "Blossom Boss: UI Revolution",
-          "description": "Complete UI/UX overhaul"
-        },
-        {
-          "month": "June",
-          "raid": "Summer Solstice: Performance Peak",
-          "description": "Optimize system performance"
-        },
-        {
-          "month": "July",
-          "raid": "Heat Wave: Server Stress",
-          "description": "Handle extreme load conditions"
-        },
-        {
-          "month": "August",
-          "raid": "Thunder Lord: Cloud Migration",
-          "description": "Migrate infrastructure to cloud"
-        },
-        {
-          "month": "September",
-          "raid": "Autumn Oracle: AI Integration",
-          "description": "Implement machine learning features"
-        },
-        {
-          "month": "October",
-          "raid": "Halloween Horror: Bug Hunt",
-          "description": "Fix critical production bugs"
-        },
-        {
-          "month": "November",
-          "raid": "Harvest Handler: Data Analytics",
-          "description": "Implement analytics system"
-        },
-        {
-          "month": "December",
-          "raid": "Frost Phoenix: System Resurrection",
-          "description": "Complete system modernization"
-        }
-      ]
-    },
-    "seasonal": {
-      "epic_quests": [
-        {
-          "season": "Spring",
-          "quest": "The Great System Renewal",
-          "description": "Major platform upgrade and modernization",
-          "months": ["March", "April", "May"]
-        },
-        {
-          "season": "Summer",
-          "quest": "Scaling the Cloud Peaks",
-          "description": "Cloud infrastructure optimization and scaling",
-          "months": ["June", "July", "August"]
-        },
-        {
-          "season": "Fall",
-          "quest": "Data Harvest Festival",
-          "description": "Big data processing and analytics implementation",
-          "months": ["September", "October", "November"]
-        },
-        {
-          "season": "Winter",
-          "quest": "Legacy Code Hibernation",
-          "description": "Legacy system retirement and data archival",
-          "months": ["December", "January", "February"]
-        }
-      ]
-    },
-    "yearly": {
-      "legendary_quest": {
-        "name": "The Grand Architecture Evolution",
-        "description": "Complete system transformation from monolith to microservices",
-        "phases": [
-          "Phase 1: System Analysis and Planning",
-          "Phase 2: Infrastructure Modernization",
-          "Phase 3: Service Decomposition",
-          "Phase 4: Data Layer Transformation",
-          "Phase 5: API Gateway Implementation",
-          "Phase 6: Security Enhancement",
-          "Phase 7: Performance Optimization",
-          "Phase 8: Documentation and Knowledge Transfer"
-        ],
-        "rewards": [
-          "Legendary Architect Title",
-          "System Design Mastery Badge",
-          "Technical Leadership Recognition",
-          "Innovation Champion Status"
-        ]
+    ]
+  },
+  "seasonal": {
+    "epic_quests": [
+      {
+        "season": "Spring",
+        "quest": "The Great System Renewal",
+        "description": "Major platform upgrade and modernization",
+        "months": ["March", "April", "May"]
+      },
+      {
+        "season": "Summer",
+        "quest": "Scaling the Cloud Peaks",
+        "description": "Cloud infrastructure optimization and scaling",
+        "months": ["June", "July", "August"]
+      },
+      {
+        "season": "Fall",
+        "quest": "Data Harvest Festival",
+        "description": "Big data processing and analytics implementation",
+        "months": ["September", "October", "November"]
+      },
+      {
+        "season": "Winter",
+        "quest": "Legacy Code Hibernation",
+        "description": "Legacy system retirement and data archival",
+        "months": ["December", "January", "February"]
       }
+    ]
+  },
+  "yearly": {
+    "legendary_quest": {
+      "name": "The Grand Architecture Evolution",
+      "description": "Complete system transformation from monolith to microservices",
+      "phases": [
+        "Phase 1: System Analysis and Planning",
+        "Phase 2: Infrastructure Modernization",
+        "Phase 3: Service Decomposition",
+        "Phase 4: Data Layer Transformation",
+        "Phase 5: API Gateway Implementation",
+        "Phase 6: Security Enhancement",
+        "Phase 7: Performance Optimization",
+        "Phase 8: Documentation and Knowledge Transfer"
+      ],
+      "rewards": [
+        "Legendary Architect Title",
+        "System Design Mastery Badge",
+        "Technical Leadership Recognition",
+        "Innovation Champion Status"
+      ]
     }
   }
+}
