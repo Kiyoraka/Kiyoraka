@@ -28,7 +28,7 @@
         ]
       },
       "intermediate": {
-        "range": [51, 1000],
+        "range": [51, 100],
         "quests": [
           "Raid: Recursive Function Cave",
           "Hunting Memory Leak Demons",
