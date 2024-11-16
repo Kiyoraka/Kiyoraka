@@ -12,23 +12,23 @@
 ### 👤 Name : Kiyoraka Ken
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
-### 🔰 Rank : F 
+### 🔰 Rank : G 
 ### ⭐ Level : 8
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 293 
-### 🛡️ Defense Power : 264 
-### ❤️ Health Point  : 718 
-### 🔮 Mana Point    : 899 
-### 🎯 Accuracy      : 175 
-### ⚡ Speed         : 482
+### ⚔️ Attack Power  : 152 
+### 🛡️ Defense Power : 296 
+### ❤️ Health Point  : 628 
+### 🔮 Mana Point    : 417 
+### 🎯 Accuracy      : 89 
+### ⚡ Speed         : 191
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 155
+### 📋 JavaScript : 156
 ### 🎭 Ren'Py : 46
 ### 🐘 PHP : 35
 ### 🎨 CSS : 32
@@ -44,7 +44,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Drinking Coffee at home
+#### Current Quest: Patrol: Variable Scope Dungeon
 
 ### 📅 Weekly Quest
 #### Current Mission: Database Optimization Crusade

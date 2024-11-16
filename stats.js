@@ -305,60 +305,71 @@ const fetchGitHubStats = async () => {
             (totalRepos / totalLanguages)
         );
 
-        // Attack Power: Focus on commit density and impact
+        // Base stats multiplier 
+        const levelMultiplier = 1 + (level * 0.05); // 5% increase per level
+
+        // Attack Power: 
         const attackPower = Math.floor(
-            (totalCommits / Math.max(totalRepos, 1)) * // Base from commits per repo
-            Math.sqrt(level) * // Level scaling
-            3.5 + // Base multiplier
-            (totalSolvedIssues * 0.5) // Bonus from solved issues
+            (20 + // Base attack
+            (totalCommits / Math.max(totalRepos, 1)) * 0.8 + // Reduced commit density impact
+            (totalSolvedIssues * 0.15) + // Reduced issue bonus
+            (level * 8)) * // Reduced level bonus
+            levelMultiplier
         );
 
-        // Defense Power: Emphasize language diversity and code quality
+        // Defense Power: 
         const defensePower = Math.floor(
-            (totalCommits / Math.max(totalLanguages, 1)) * // Base from commits per language
-            (1 + (totalLanguages / 8)) * // Language diversity bonus
-            3.0 + // Base multiplier
-            (reposWithSolvedIssues.size * 5) // Repo quality bonus
+            (25 + // Base defense
+            (totalCommits / Math.max(totalLanguages, 1)) * 0.7 + // Reduced language efficiency impact
+            (totalLanguages * 8) + // Reduced language diversity bonus
+            (level * 10)) * // Level bonus
+            levelMultiplier
         );
 
-        // Health Points: Overall contribution vitality
+        // Health Points
         const healthPoints = Math.floor(
-            (totalCommits * 0.8 + // Commit base
-            totalRepos * 25 + // Repo contribution
-            level * 50) * // Level scaling
-            0.7 // Balance multiplier
+            (80 + // Base HP
+            (totalCommits * 0.2) + // Reduced commit impact
+            (totalRepos * 12) + // Reduced repo bonus
+            (level * 20)) * // Level bonus
+            (1 + (totalLanguages / 30)) // Reduced language diversity scaling
         );
 
-        // Mana Points: Technical versatility
+        // Mana Points
         const manapoints = Math.floor(
-            (totalCommits * 0.7 + // Commit base
-            totalLanguages * 50 + // Language bonus
-            level * 45) * // Level scaling
-            0.8 // Balance multiplier
+            (60 + // Base MP
+            (totalCommits * 0.15) + // Reduced commit bonus
+            (totalLanguages * 15) + // Reduced language bonus
+            (level * 15)) * // Reduced level bonus
+            (1 + (reposWithSolvedIssues.size / 25)) // Reduced quality scaling
         );
 
-        // Accuracy Points: Code quality focus
+        // Accuracy Points
         const accuracypoint = Math.floor(
-            (totalSolvedIssues * 8 + // Base from issues
-            reposWithSolvedIssues.size * 25) * // Distribution bonus
-            (1 + (level / 40)) // Level scaling
+            (15 + // Base accuracy
+            (totalSolvedIssues * 2) + // Reduced issue resolution bonus
+            (reposWithSolvedIssues.size * 3) + // Reduced repo quality bonus
+            (level * 4)) * // Level bonus
+            (1 + (level / 50)) // Reduced level scaling
         );
 
-        // Speed Points: Development efficiency
+        // Speed Points
         const speedpoint = Math.floor(
-            (totalSpeedPoints * 2.5 + // Base from quick completions
-            level * 15) * // Level bonus
-            (1 + (totalSolvedIssues / 80)) // Efficiency scaling
+            (20 + // Base speed
+            (totalSpeedPoints * 0.8) + // Reduced completion bonus
+            (level * 5) + // Reduced level bonus
+            (totalSolvedIssues * 0.3)) * // Reduced issue efficiency bonus
+            (1 + (level / 40)) // Reduced level scaling
         );
 
-        // Calculate total rank points with balanced weights
+        // Rank point calculation with adjusted weights
         const totalRankPoints = Math.floor(
-            attackPower * 1.2 +    // Offensive contribution
-            defensePower * 1.2 +   // Defensive contribution
-            healthPoints * 0.4 +   // Sustained development
-            manapoints * 0.4 +     // Technical diversity
-            accuracypoint * 1.0 +  // Code quality
-            speedpoint * 1.0       // Development efficiency
+            attackPower * 1.2 +    // Reduced offensive weight
+            defensePower * 1.1 +   // Reduced defensive weight
+            healthPoints * 0.4 +   // Reduced HP weight
+            manapoints * 0.4 +     // Reduced MP weight
+            accuracypoint * 0.9 +  // Reduced accuracy weight
+            speedpoint * 0.8       // Reduced speed weight
         );
 
         // Rank thresholds with smoother progression
