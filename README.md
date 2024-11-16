@@ -18,24 +18,24 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 152 
+### ⚔️ Attack Power  : 153 
 ### 🛡️ Defense Power : 296 
-### ❤️ Health Point  : 628 
-### 🔮 Mana Point    : 417 
+### ❤️ Health Point  : 630 
+### 🔮 Mana Point    : 418 
 ### 🎯 Accuracy      : 89 
 ### ⚡ Speed         : 191
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 156
+### 📋 JavaScript : 161
 ### 🎭 Ren'Py : 46
 ### 🐘 PHP : 35
-### 🎨 CSS : 32
+### 🎨 CSS : 34
 ### 🐍 Python : 30
 ### 🗡️ Blade : 28
 ### 📝 Batchfile : 12
-### 🌐 HTML : 11
+### 🌐 HTML : 12
 ### ☕ Java : 8
 ### 🎯 C# : 6
 
@@ -44,7 +44,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Patrol: Variable Scope Dungeon
+#### Current Quest: Quest: Fix Runtime Exception Goblins
 
 ### 📅 Weekly Quest
 #### Current Mission: Database Optimization Crusade
