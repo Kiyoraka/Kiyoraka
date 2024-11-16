@@ -304,32 +304,80 @@ const fetchGitHubStats = async () => {
             (totalCommits * 0.01) + 
             (totalRepos / totalLanguages)
         );
-        
-        const attackPower = Math.floor(totalCommits / totalRepos);
-        const defensePower = Math.floor(totalCommits / totalLanguages);
-        const healthPoints = Math.floor((totalCommits + attackPower + totalRepos) * 0.5);
-        const manapoints = Math.floor((totalCommits + defensePower + totalRepos) * 0.5);
-        const accuracypoint = Math.floor(totalSolvedIssues * reposWithSolvedIssues.size);
-        const speedpoint = Math.floor(totalSpeedPoints+ level);
 
-        // Calculate total rank points
-        const totalRankPoints = attackPower + defensePower + healthPoints + manapoints + accuracypoint + speedpoint;
+        // Attack Power: Focus on commit density and impact
+        const attackPower = Math.floor(
+            (totalCommits / Math.max(totalRepos, 1)) * // Base from commits per repo
+            Math.sqrt(level) * // Level scaling
+            3.5 + // Base multiplier
+            (totalSolvedIssues * 0.5) // Bonus from solved issues
+        );
 
-        // Determine rank based on total points
+        // Defense Power: Emphasize language diversity and code quality
+        const defensePower = Math.floor(
+            (totalCommits / Math.max(totalLanguages, 1)) * // Base from commits per language
+            (1 + (totalLanguages / 8)) * // Language diversity bonus
+            3.0 + // Base multiplier
+            (reposWithSolvedIssues.size * 5) // Repo quality bonus
+        );
+
+        // Health Points: Overall contribution vitality
+        const healthPoints = Math.floor(
+            (totalCommits * 0.8 + // Commit base
+            totalRepos * 25 + // Repo contribution
+            level * 50) * // Level scaling
+            0.7 // Balance multiplier
+        );
+
+        // Mana Points: Technical versatility
+        const manapoints = Math.floor(
+            (totalCommits * 0.7 + // Commit base
+            totalLanguages * 50 + // Language bonus
+            level * 45) * // Level scaling
+            0.8 // Balance multiplier
+        );
+
+        // Accuracy Points: Code quality focus
+        const accuracypoint = Math.floor(
+            (totalSolvedIssues * 8 + // Base from issues
+            reposWithSolvedIssues.size * 25) * // Distribution bonus
+            (1 + (level / 40)) // Level scaling
+        );
+
+        // Speed Points: Development efficiency
+        const speedpoint = Math.floor(
+            (totalSpeedPoints * 2.5 + // Base from quick completions
+            level * 15) * // Level bonus
+            (1 + (totalSolvedIssues / 80)) // Efficiency scaling
+        );
+
+        // Calculate total rank points with balanced weights
+        const totalRankPoints = Math.floor(
+            attackPower * 1.2 +    // Offensive contribution
+            defensePower * 1.2 +   // Defensive contribution
+            healthPoints * 0.4 +   // Sustained development
+            manapoints * 0.4 +     // Technical diversity
+            accuracypoint * 1.0 +  // Code quality
+            speedpoint * 1.0       // Development efficiency
+        );
+
+        // Rank thresholds with smoother progression
         let rank;
-        if (totalRankPoints <= 999) {
+        if (totalRankPoints <= 1200) {
             rank = 'G';
-        } else if (totalRankPoints <= 2999) {
+        } else if (totalRankPoints <= 3600) {
             rank = 'F';
-        } else if (totalRankPoints <= 6999) {
+        } else if (totalRankPoints <= 8400) {
+            rank = 'E';
+        } else if (totalRankPoints <= 14400) {
             rank = 'D';
-        } else if (totalRankPoints <= 11999) {
+        } else if (totalRankPoints <= 24000) {
             rank = 'C';
-        } else if (totalRankPoints <= 19999) {
+        } else if (totalRankPoints <= 42000) {
             rank = 'B';
-        } else if (totalRankPoints <= 34999) {
+        } else if (totalRankPoints <= 72000) {
             rank = 'A';
-        } else if (totalRankPoints <= 99999) {
+        } else if (totalRankPoints <= 120000) {
             rank = 'S';
         } else {
             rank = 'X';
