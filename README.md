@@ -29,7 +29,7 @@
 ## 💻 Programming Skills
 
 ### 📋 JavaScript : 170
-### 🎭 Ren'Py : 46
+### 🎭 Ren'Py : 47
 ### 🎨 CSS : 44
 ### 🐘 PHP : 35
 ### 🐍 Python : 30
@@ -44,7 +44,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Sharpening Debug Tools
+#### Current Quest: Debug: Unit Test Gremlins
 
 ### 📅 Weekly Quest
 #### Current Mission: Database Optimization Crusade
