@@ -18,22 +18,22 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 152 
-### 🛡️ Defense Power : 299 
-### ❤️ Health Point  : 653 
-### 🔮 Mana Point    : 422 
+### ⚔️ Attack Power  : 154 
+### 🛡️ Defense Power : 300 
+### ❤️ Health Point  : 657 
+### 🔮 Mana Point    : 425 
 ### 🎯 Accuracy      : 89 
 ### ⚡ Speed         : 191
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 170
+### 📋 JavaScript : 176
+### 🎨 CSS : 47
 ### 🎭 Ren'Py : 47
-### 🎨 CSS : 44
-### 🐘 PHP : 35
+### 🐘 PHP : 36
+### 🗡️ Blade : 34
 ### 🐍 Python : 30
-### 🗡️ Blade : 28
 ### 🌐 HTML : 18
 ### 📝 Batchfile : 12
 ### ☕ Java : 8
@@ -44,7 +44,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Debug: Unit Test Gremlins
+#### Current Quest: Mission: Promise Chain Cavern
 
 ### 📅 Weekly Quest
 #### Current Mission: Database Optimization Crusade
