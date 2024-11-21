@@ -44,10 +44,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Promise Chain Cavern
+#### Current Quest: Brewing Algorithm Potions
 
 ### 📅 Weekly Quest
-#### Current Mission: Database Optimization Crusade
+#### Current Mission: Security Vulnerability Hunt
 
 ### 🌙 Monthly Raid
 #### Harvest Handler: Data Analytics
