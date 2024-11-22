@@ -19,19 +19,19 @@
 ## 📊 Battle Stats
 
 ### ⚔️ Attack Power  : 154 
-### 🛡️ Defense Power : 300 
-### ❤️ Health Point  : 657 
-### 🔮 Mana Point    : 425 
+### 🛡️ Defense Power : 301 
+### ❤️ Health Point  : 660 
+### 🔮 Mana Point    : 426 
 ### 🎯 Accuracy      : 89 
 ### ⚡ Speed         : 191
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 176
-### 🎨 CSS : 47
+### 📋 JavaScript : 182
+### 🎨 CSS : 49
 ### 🎭 Ren'Py : 47
-### 🐘 PHP : 36
+### 🐘 PHP : 35
 ### 🗡️ Blade : 34
 ### 🐍 Python : 30
 ### 🌐 HTML : 18
@@ -44,7 +44,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Brewing Algorithm Potions
+#### Current Quest: Hunt: Console.log Spirits
 
 ### 📅 Weekly Quest
 #### Current Mission: Security Vulnerability Hunt
