@@ -44,7 +44,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Hunt: Console.log Spirits
+#### Current Quest: Maintaining Development Tools
 
 ### 📅 Weekly Quest
 #### Current Mission: Security Vulnerability Hunt
