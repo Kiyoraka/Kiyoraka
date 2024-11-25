@@ -12,33 +12,33 @@
 ### 👤 Name : Kiyoraka Ken
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
-### 🔰 Rank : F 
+### 🔰 Rank : G 
 ### ⭐ Level : 8
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 153 
-### 🛡️ Defense Power : 318 
-### ❤️ Health Point  : 714 
-### 🔮 Mana Point    : 462 
-### 🎯 Accuracy      : 89 
-### ⚡ Speed         : 191
+### ⚔️ Attack Power  : 15 
+### 🛡️ Defense Power : 31 
+### ❤️ Health Point  : 71 
+### 🔮 Mana Point    : 46 
+### 🎯 Accuracy      : 8 
+### ⚡ Speed         : 19
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 185
-### 🎨 CSS : 55
+### 📋 JavaScript : 187
+### 🎨 CSS : 58
 ### 🎭 Ren'Py : 47
-### 🐘 PHP : 40
+### 🐘 PHP : 43
 ### 🗡️ Blade : 34
 ### 🐍 Python : 30
-### 🌐 HTML : 19
+### 🌐 HTML : 20
 ### 📝 Batchfile : 13
 ### ☕ Java : 8
 ### 🎯 C# : 6
-### 📝 SCSS : 2
+### 📝 SCSS : 3
 ### 📝 Hack : 0
 
 ---
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Debug: Async/Await Curse
+#### Current Quest: Mission: Type Error Wildlands
 
 ### 📅 Weekly Quest
 #### Current Mission: Security Vulnerability Hunt

@@ -309,67 +309,67 @@ const fetchGitHubStats = async () => {
         const levelMultiplier = 1 + (level * 0.05); // 5% increase per level
 
         // Attack Power: 
-        const attackPower = Math.floor(
+        const attackPower = Math.floor((
             (20 + // Base attack
             (totalCommits / Math.max(totalRepos, 1)) * 0.8 + // Reduced commit density impact
             (totalSolvedIssues * 0.15) + // Reduced issue bonus
             (level * 8)) * // Reduced level bonus
             levelMultiplier
-        );
+        )*0.1);
 
         // Defense Power: 
-        const defensePower = Math.floor(
+        const defensePower = Math.floor((
             (25 + // Base defense
             (totalCommits / Math.max(totalLanguages, 1)) * 0.7 + // Reduced language efficiency impact
             (totalLanguages * 8) + // Reduced language diversity bonus
             (level * 10)) * // Level bonus
             levelMultiplier
-        );
+        )*0.1);
 
         // Health Points
-        const healthPoints = Math.floor(
+        const healthPoints = Math.floor((
             (80 + // Base HP
             (totalCommits * 0.2) + // Reduced commit impact
             (totalRepos * 12) + // Reduced repo bonus
             (level * 20)) * // Level bonus
             (1 + (totalLanguages / 30)) // Reduced language diversity scaling
-        );
+        )*0.1);
 
         // Mana Points
-        const manapoints = Math.floor(
+        const manapoints = Math.floor((
             (60 + // Base MP
             (totalCommits * 0.15) + // Reduced commit bonus
             (totalLanguages * 15) + // Reduced language bonus
             (level * 15)) * // Reduced level bonus
             (1 + (reposWithSolvedIssues.size / 25)) // Reduced quality scaling
-        );
+        )*0.1);
 
         // Accuracy Points
-        const accuracypoint = Math.floor(
+        const accuracypoint = Math.floor((
             (15 + // Base accuracy
             (totalSolvedIssues * 2) + // Reduced issue resolution bonus
             (reposWithSolvedIssues.size * 3) + // Reduced repo quality bonus
             (level * 4)) * // Level bonus
             (1 + (level / 50)) // Reduced level scaling
-        );
+        )*0.1);
 
         // Speed Points
-        const speedpoint = Math.floor(
+        const speedpoint = Math.floor((
             (20 + // Base speed
             (totalSpeedPoints * 0.8) + // Reduced completion bonus
             (level * 5) + // Reduced level bonus
             (totalSolvedIssues * 0.3)) * // Reduced issue efficiency bonus
             (1 + (level / 40)) // Reduced level scaling
-        );
+        )*0.1);
 
         // Rank point calculation with adjusted weights
         const totalRankPoints = Math.floor(
-            attackPower * 1.2 +    // Reduced offensive weight
-            defensePower * 1.1 +   // Reduced defensive weight
-            healthPoints * 0.4 +   // Reduced HP weight
-            manapoints * 0.4 +     // Reduced MP weight
-            accuracypoint * 0.9 +  // Reduced accuracy weight
-            speedpoint * 0.8       // Reduced speed weight
+            attackPower * 1.25 +    // Reduced offensive weight
+            defensePower * 1.25 +   // Reduced defensive weight
+            healthPoints * 1 +   // Reduced HP weight
+            manapoints * 1 +     // Reduced MP weight
+            accuracypoint * 1.5 +  // Reduced accuracy weight
+            speedpoint * 1.25      // Reduced speed weight
         );
 
         // Rank thresholds with smoother progression
