@@ -28,7 +28,7 @@
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 187
+### 📋 JavaScript : 188
 ### 🎨 CSS : 58
 ### 🎭 Ren'Py : 47
 ### 🐘 PHP : 43
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Type Error Wildlands
+#### Current Quest: Raid: API Integration Abyss
 
 ### 📅 Weekly Quest
 #### Current Mission: Security Vulnerability Hunt
