@@ -30,9 +30,9 @@
 
 ### 📋 JavaScript : 188
 ### 🎨 CSS : 58
-### 🎭 Ren'Py : 47
+### 🎭 Ren'Py : 48
 ### 🐘 PHP : 43
-### 🗡️ Blade : 34
+### 🗡️ Blade : 35
 ### 🐍 Python : 30
 ### 🌐 HTML : 20
 ### 📝 Batchfile : 13
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Maintaining Development Tools
+#### Current Quest: Mission: Type Error Wildlands
 
 ### 📅 Weekly Quest
 #### Current Mission: Security Vulnerability Hunt
