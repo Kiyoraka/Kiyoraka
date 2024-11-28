@@ -310,7 +310,7 @@ const fetchGitHubStats = async () => {
 
         // Attack Power: 
         const attackPower = Math.floor((
-            (20 + // Base attack
+            (25 + // Base attack
             (totalCommits / Math.max(totalRepos, 1)) * 0.8 + // Reduced commit density impact
             (totalSolvedIssues * 0.15) + // Reduced issue bonus
             (level * 8)) * // Reduced level bonus
@@ -319,9 +319,9 @@ const fetchGitHubStats = async () => {
 
         // Defense Power: 
         const defensePower = Math.floor((
-            (25 + // Base defense
+            (20 + // Base defense
             (totalCommits / Math.max(totalLanguages, 1)) * 0.7 + // Reduced language efficiency impact
-            (totalLanguages * 8) + // Reduced language diversity bonus
+            (totalLanguages * 1.5) + // Reduced language diversity bonus
             (level * 10)) * // Level bonus
             levelMultiplier
         )*0.1);
@@ -329,7 +329,7 @@ const fetchGitHubStats = async () => {
         // Health Points
         const healthPoints = Math.floor((
             (80 + // Base HP
-            (totalCommits * 0.2) + // Reduced commit impact
+            (totalCommits * 0.75) + // Reduced commit impact
             (totalRepos * 12) + // Reduced repo bonus
             (level * 20)) * // Level bonus
             (1 + (totalLanguages / 30)) // Reduced language diversity scaling
@@ -338,7 +338,7 @@ const fetchGitHubStats = async () => {
         // Mana Points
         const manapoints = Math.floor((
             (60 + // Base MP
-            (totalCommits * 0.15) + // Reduced commit bonus
+            (totalCommits * 0.75) + // Reduced commit bonus
             (totalLanguages * 15) + // Reduced language bonus
             (level * 15)) * // Reduced level bonus
             (1 + (reposWithSolvedIssues.size / 25)) // Reduced quality scaling
