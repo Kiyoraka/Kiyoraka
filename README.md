@@ -28,11 +28,11 @@
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 187
+### 📋 JavaScript : 188
 ### 🎨 CSS : 58
-### 🎭 Ren'Py : 47
+### 🎭 Ren'Py : 48
 ### 🐘 PHP : 43
-### 🗡️ Blade : 34
+### 🗡️ Blade : 35
 ### 🐍 Python : 30
 ### 🌐 HTML : 20
 ### 📝 Batchfile : 13
