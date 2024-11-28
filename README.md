@@ -13,28 +13,28 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : G 
-### ⭐ Level : 8
+### ⭐ Level : 11
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 15 
-### 🛡️ Defense Power : 31 
-### ❤️ Health Point  : 71 
-### 🔮 Mana Point    : 46 
-### 🎯 Accuracy      : 8 
-### ⚡ Speed         : 19
+### ⚔️ Attack Power  : 30 
+### 🛡️ Defense Power : 37 
+### ❤️ Health Point  : 224 
+### 🔮 Mana Point    : 135 
+### 🎯 Accuracy      : 16 
+### ⚡ Speed         : 35
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 188
-### 🎨 CSS : 58
+### 📋 JavaScript : 201
+### 🎨 CSS : 59
 ### 🎭 Ren'Py : 48
 ### 🐘 PHP : 43
+### 🌐 HTML : 37
 ### 🗡️ Blade : 35
 ### 🐍 Python : 30
-### 🌐 HTML : 20
 ### 📝 Batchfile : 13
 ### ☕ Java : 8
 ### 🎯 C# : 6
@@ -46,10 +46,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Type Error Wildlands
+#### Current Quest: Quest: Database Optimization Odyssey
 
 ### 📅 Weekly Quest
-#### Current Mission: Security Vulnerability Hunt
+#### Current Mission: Performance Tuning Trial
 
 ### 🌙 Monthly Raid
 #### Harvest Handler: Data Analytics
