@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Quest: Load Balancing Leviathan
+#### Current Quest: Maintaining Development Tools
 
 ### 📅 Weekly Quest
 #### Current Mission: Performance Tuning Trial
