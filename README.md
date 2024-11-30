@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Maintaining Development Tools
+#### Current Quest: Drinking Coffee at home
 
 ### 📅 Weekly Quest
 #### Current Mission: Performance Tuning Trial
