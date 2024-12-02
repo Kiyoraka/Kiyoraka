@@ -310,7 +310,7 @@ const fetchGitHubStats = async () => {
 
         // Attack Power: Modified to scale better with commits and repos
         const attackPower = Math.floor((
-            (35 + // Base attack
+            (5 + // Base attack
             (totalCommits * 0.5) + // Direct commit impact
             (totalRepos ) + // Reward for having repositories
             (totalSolvedIssues * 0.2) + // Issue resolution impact
@@ -320,7 +320,7 @@ const fetchGitHubStats = async () => {
 
         // Defense Power: Better balance between commits and languages
         const defensePower = Math.floor((
-            (30 + // Base defense
+            (5 + // Base defense
             (totalCommits * 0.5) + // Direct commit impact
             (totalLanguages * 1.5 ) + // Significant bonus for language diversity
             (level * 8)) * // Level bonus
@@ -347,19 +347,19 @@ const fetchGitHubStats = async () => {
 
         // Accuracy Points: Good balance with solved issues
         const accuracypoint = Math.floor((
-            (20 + // Base accuracy
+            (7 + // Base accuracy
             (totalSolvedIssues * 2.5) + // Issue resolution impact
             (reposWithSolvedIssues.size * 3.5) + // Repo quality impact
-            (level * 3)) * // Level bonus
+            (level * 9)) * // Level bonus
             (1 + (level / 45)) // Level scaling
         )*0.15);
 
         // Speed Points: Good overall balance
         const speedpoint = Math.floor((
-            (25 + // Base speed
+            (7 + // Base speed
             (totalSpeedPoints * 0.9) + // Completion bonus
-            (level * 4) + // Level bonus
-            (totalSolvedIssues * 0.4)) * // Issue efficiency bonus
+            (level * 9) + // Level bonus
+            (totalSolvedIssues * 1.5)) * // Issue efficiency bonus
             (1 + (level / 35)) // Level scaling
         )*0.15);
 

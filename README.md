@@ -18,19 +18,20 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 30 
-### 🛡️ Defense Power : 37 
-### ❤️ Health Point  : 224 
-### 🔮 Mana Point    : 135 
-### 🎯 Accuracy      : 16 
-### ⚡ Speed         : 35
+### ⚔️ Attack Power  : 86 
+### 🛡️ Defense Power : 87 
+### ❤️ Health Point  : 253 
+### 🔮 Mana Point    : 144 
+### 🎯 Accuracy      : 28 
+### ⚡ Speed         : 48
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 201
-### 🎨 CSS : 59
+### 📋 JavaScript : 233
+### 🎨 CSS : 73
 ### 🎭 Ren'Py : 48
+### 🌐 HTML : 44
 ### 🐘 PHP : 43
 ### 🗡️ Blade : 35
 ### 🐍 Python : 30
@@ -45,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Quest: Database Optimization Odyssey
+#### Current Quest: Mission: Type Error Wildlands
 
 ### 📅 Weekly Quest
 #### Current Mission: Performance Tuning Trial
