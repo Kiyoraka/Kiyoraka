@@ -13,25 +13,25 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : G 
-### ⭐ Level : 12
+### ⭐ Level : 13
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 86 
-### 🛡️ Defense Power : 87 
-### ❤️ Health Point  : 253 
-### 🔮 Mana Point    : 144 
-### 🎯 Accuracy      : 28 
-### ⚡ Speed         : 48
+### ⚔️ Attack Power  : 91 
+### 🛡️ Defense Power : 90 
+### ❤️ Health Point  : 264 
+### 🔮 Mana Point    : 148 
+### 🎯 Accuracy      : 31 
+### ⚡ Speed         : 51
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 233
-### 🎨 CSS : 73
+### 📋 JavaScript : 239
+### 🎨 CSS : 77
 ### 🎭 Ren'Py : 48
-### 🌐 HTML : 44
+### 🌐 HTML : 46
 ### 🐘 PHP : 43
 ### 🗡️ Blade : 35
 ### 🐍 Python : 30
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Type Error Wildlands
+#### Current Quest: Mission: Promise Chain Cavern
 
 ### 📅 Weekly Quest
 #### Current Mission: Performance Tuning Trial
