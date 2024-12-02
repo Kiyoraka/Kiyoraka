@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Promise Chain Cavern
+#### Current Quest: Debug: Async/Await Curse
 
 ### 📅 Weekly Quest
 #### Current Mission: Performance Tuning Trial
