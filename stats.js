@@ -323,7 +323,7 @@ const fetchGitHubStats = async () => {
             (5 + // Base defense
             (totalCommits * 0.5) + // Direct commit impact
             (totalLanguages * 1.5 ) + // Significant bonus for language diversity
-            (level * 8)) * // Level bonus
+            (level * 7)) * // Level bonus
             levelMultiplier
         )*0.15);
 
