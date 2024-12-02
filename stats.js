@@ -308,59 +308,61 @@ const fetchGitHubStats = async () => {
         // Base stats multiplier - slightly reduced to prevent exponential scaling
         const levelMultiplier = 1 + (level * 0.04); // 4% increase per level instead of 5%
 
-        // Attack Power: Balanced for more meaningful progression
+        // Attack Power: Modified to scale better with commits and repos
         const attackPower = Math.floor((
-            (35 + // Increased base attack from 25
-            (totalCommits / Math.max(totalRepos, 1)) * 0.9 + // Slightly increased commit density impact
-            (totalSolvedIssues * 0.2) + // Increased issue resolution impact
-            (level * 7)) * // Adjusted level bonus
+            (35 + // Base attack
+            (totalCommits * 0.5) + // Direct commit impact
+            (totalRepos ) + // Reward for having repositories
+            (totalSolvedIssues * 0.2) + // Issue resolution impact
+            (level * 7)) * // Level bonus
             levelMultiplier
-        )*0.15); // Adjusted final multiplier for better numbers
+        )*0.15);
 
-        // Defense Power: More emphasis on language diversity
+        // Defense Power: Better balance between commits and languages
         const defensePower = Math.floor((
-            (30 + // Increased base defense from 20
-            (totalCommits / Math.max(totalLanguages, 1)) * 0.8 + // Balanced language efficiency
-            (totalLanguages * 2) + // Increased language diversity bonus
-            (level * 8)) * // Slightly reduced level bonus
+            (30 + // Base defense
+            (totalCommits * 0.5) + // Direct commit impact
+            (totalLanguages * 1.5 ) + // Significant bonus for language diversity
+            (level * 8)) * // Level bonus
             levelMultiplier
         )*0.15);
 
-        // Health Points: More substantial scaling
+        // Health Points: Good scaling, no changes needed
         const healthPoints = Math.floor((
-            (100 + // Increased base HP from 80
-            (totalCommits * 0.8) + // Slightly increased commit impact
-            (totalRepos * 15) + // Increased repo bonus
-            (level * 25)) * // Increased level bonus
-            (1 + (totalLanguages / 25)) // Adjusted language diversity scaling
+            (100 + // Base HP
+            (totalCommits * 0.8) + // Commit impact
+            (totalRepos * 15) + // Repo bonus
+            (level * 25)) * // Level bonus
+            (1 + (totalLanguages / 25)) // Language diversity scaling
         )*0.15);
 
-        // Mana Points: Better scaling with languages
+        // Mana Points: Good scaling with languages and solved issues
         const manapoints = Math.floor((
-            (75 + // Increased base MP from 60
-            (totalCommits * 0.8) + // Slightly increased commit impact
-            (totalLanguages * 18) + // Increased language bonus
-            (level * 12)) * // Balanced level bonus
-            (1 + (reposWithSolvedIssues.size / 20)) // Adjusted quality scaling
+            (75 + // Base MP
+            (totalCommits * 0.8) + // Commit impact
+            (totalLanguages * 18) + // Language bonus
+            (level * 12)) * // Level bonus
+            (1 + (reposWithSolvedIssues.size / 20)) // Quality scaling
         )*0.15);
 
-        // Accuracy Points: More meaningful progression
+        // Accuracy Points: Good balance with solved issues
         const accuracypoint = Math.floor((
-            (20 + // Increased base accuracy from 15
-            (totalSolvedIssues * 2.5) + // Increased issue resolution impact
-            (reposWithSolvedIssues.size * 3.5) + // Increased repo quality impact
-            (level * 3)) * // Balanced level bonus
-            (1 + (level / 45)) // Adjusted level scaling
+            (20 + // Base accuracy
+            (totalSolvedIssues * 2.5) + // Issue resolution impact
+            (reposWithSolvedIssues.size * 3.5) + // Repo quality impact
+            (level * 3)) * // Level bonus
+            (1 + (level / 45)) // Level scaling
         )*0.15);
 
-        // Speed Points: Better balanced progression
+        // Speed Points: Good overall balance
         const speedpoint = Math.floor((
-            (25 + // Increased base speed from 20
-            (totalSpeedPoints * 0.9) + // Increased completion bonus
-            (level * 4) + // Balanced level bonus
-            (totalSolvedIssues * 0.4)) * // Increased issue efficiency bonus
-            (1 + (level / 35)) // Adjusted level scaling
+            (25 + // Base speed
+            (totalSpeedPoints * 0.9) + // Completion bonus
+            (level * 4) + // Level bonus
+            (totalSolvedIssues * 0.4)) * // Issue efficiency bonus
+            (1 + (level / 35)) // Level scaling
         )*0.15);
+
 
         // Rank point calculation with adjusted weights
         const totalRankPoints = Math.floor(
