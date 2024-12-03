@@ -18,35 +18,35 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 91 
-### 🛡️ Defense Power : 90 
-### ❤️ Health Point  : 264 
-### 🔮 Mana Point    : 148 
+### ⚔️ Attack Power  : 92 
+### 🛡️ Defense Power : 91 
+### ❤️ Health Point  : 269 
+### 🔮 Mana Point    : 149 
 ### 🎯 Accuracy      : 31 
 ### ⚡ Speed         : 51
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 239
-### 🎨 CSS : 77
+### 📋 JavaScript : 241
+### 🎨 CSS : 79
 ### 🎭 Ren'Py : 48
 ### 🌐 HTML : 46
-### 🐘 PHP : 43
+### 🐘 PHP : 45
 ### 🗡️ Blade : 35
 ### 🐍 Python : 30
 ### 📝 Batchfile : 16
 ### ☕ Java : 8
 ### 🎯 C# : 6
 ### 📝 SCSS : 3
-### 📝 Hack : 0
+### 📝 Hack : 2
 
 ---
 ## 📜 Active Quests
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Debug: Async/Await Curse
+#### Current Quest: Debug Patrol: Syntax Error Plains
 
 ### 📅 Weekly Quest
 #### Current Mission: Performance Tuning Trial
