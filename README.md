@@ -13,29 +13,29 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : G 
-### ⭐ Level : 13
+### ⭐ Level : 14
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 92 
-### 🛡️ Defense Power : 91 
-### ❤️ Health Point  : 269 
-### 🔮 Mana Point    : 149 
-### 🎯 Accuracy      : 31 
-### ⚡ Speed         : 51
+### ⚔️ Attack Power  : 102 
+### 🛡️ Defense Power : 100 
+### ❤️ Health Point  : 295 
+### 🔮 Mana Point    : 156 
+### 🎯 Accuracy      : 33 
+### ⚡ Speed         : 54
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 241
-### 🎨 CSS : 79
-### 🎭 Ren'Py : 48
-### 🌐 HTML : 46
-### 🐘 PHP : 45
+### 📋 JavaScript : 248
+### 🎨 CSS : 92
+### 🐘 PHP : 58
+### 🌐 HTML : 50
+### 🎭 Ren'Py : 50
 ### 🗡️ Blade : 35
 ### 🐍 Python : 30
-### 📝 Batchfile : 16
+### 📝 Batchfile : 17
 ### ☕ Java : 8
 ### 🎯 C# : 6
 ### 📝 SCSS : 3
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Debug Patrol: Syntax Error Plains
+#### Current Quest: Debug: Scalability Sphinx
 
 ### 📅 Weekly Quest
 #### Current Mission: Performance Tuning Trial
