@@ -46,10 +46,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Debug: Scalability Sphinx
+#### Current Quest: Resting in IDE Haven
 
 ### 📅 Weekly Quest
-#### Current Mission: Performance Tuning Trial
+#### Current Mission: Code Review Championship
 
 ### 🌙 Monthly Raid
 #### Frost Phoenix: System Resurrection
