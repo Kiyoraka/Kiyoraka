@@ -20,7 +20,7 @@
 
 ### ⚔️ Attack Power  : 102 
 ### 🛡️ Defense Power : 100 
-### ❤️ Health Point  : 295 
+### ❤️ Health Point  : 298 
 ### 🔮 Mana Point    : 156 
 ### 🎯 Accuracy      : 33 
 ### ⚡ Speed         : 54
@@ -28,7 +28,7 @@
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 248
+### 📋 JavaScript : 249
 ### 🎨 CSS : 92
 ### 🐘 PHP : 58
 ### 🌐 HTML : 50
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Resting in IDE Haven
+#### Current Quest: Mission: Type Error Wildlands
 
 ### 📅 Weekly Quest
 #### Current Mission: Code Review Championship
