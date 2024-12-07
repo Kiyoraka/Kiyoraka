@@ -18,27 +18,27 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 102 
-### 🛡️ Defense Power : 100 
-### ❤️ Health Point  : 298 
-### 🔮 Mana Point    : 156 
+### ⚔️ Attack Power  : 106 
+### 🛡️ Defense Power : 103 
+### ❤️ Health Point  : 306 
+### 🔮 Mana Point    : 160 
 ### 🎯 Accuracy      : 33 
 ### ⚡ Speed         : 54
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 249
-### 🎨 CSS : 92
-### 🐘 PHP : 58
-### 🌐 HTML : 50
+### 📋 JavaScript : 255
+### 🎨 CSS : 100
+### 🐘 PHP : 66
+### 🌐 HTML : 54
 ### 🎭 Ren'Py : 50
 ### 🗡️ Blade : 35
 ### 🐍 Python : 30
 ### 📝 Batchfile : 17
 ### ☕ Java : 8
 ### 🎯 C# : 6
-### 📝 SCSS : 3
+### 📝 SCSS : 5
 ### 📝 Hack : 2
 
 ---
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Type Error Wildlands
+#### Current Quest: Raid: Performance Tuning Temple
 
 ### 📅 Weekly Quest
 #### Current Mission: Code Review Championship
