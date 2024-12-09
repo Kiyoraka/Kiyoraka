@@ -13,25 +13,25 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : G 
-### ⭐ Level : 14
+### ⭐ Level : 15
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 110 
-### 🛡️ Defense Power : 107 
-### ❤️ Health Point  : 313 
-### 🔮 Mana Point    : 165 
-### 🎯 Accuracy      : 34 
-### ⚡ Speed         : 61
+### ⚔️ Attack Power  : 115 
+### 🛡️ Defense Power : 112 
+### ❤️ Health Point  : 326 
+### 🔮 Mana Point    : 167 
+### 🎯 Accuracy      : 37 
+### ⚡ Speed         : 64
 
 ---
 ## 💻 Programming Skills
 
 ### 📋 JavaScript : 270
-### 🎨 CSS : 111
+### 🎨 CSS : 112
 ### 🐘 PHP : 71
-### 🌐 HTML : 67
+### 🌐 HTML : 69
 ### 🎭 Ren'Py : 50
 ### 🗡️ Blade : 35
 ### 🐍 Python : 18
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Security Hardening Crusade
+#### Current Quest: Debug Patrol: Syntax Error Plains
 
 ### 📅 Weekly Quest
 #### Current Mission: Code Review Championship
