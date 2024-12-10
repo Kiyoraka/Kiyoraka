@@ -18,7 +18,7 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 115 
+### ⚔️ Attack Power  : 116 
 ### 🛡️ Defense Power : 112 
 ### ❤️ Health Point  : 326 
 ### 🔮 Mana Point    : 167 
@@ -28,8 +28,8 @@
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 270
-### 🎨 CSS : 112
+### 📋 JavaScript : 271
+### 🎨 CSS : 114
 ### 🐘 PHP : 71
 ### 🌐 HTML : 69
 ### 🎭 Ren'Py : 50
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Debug Patrol: Syntax Error Plains
+#### Current Quest: Debug: Unit Test Gremlins
 
 ### 📅 Weekly Quest
 #### Current Mission: Code Review Championship
