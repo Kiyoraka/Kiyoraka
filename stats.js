@@ -6,51 +6,113 @@ const TOKEN = process.env.PERSONAL_GITHUB_TOKEN;
 
 // Language icons mapping
 const LANGUAGE_ICONS = {
-    // Web Languages
-    HTML: '🌐',           // .html, .htm
-    CSS: '🎨',            // .css
-    JavaScript: '📋',     // .js, .jsx
-    TypeScript: '🔷',     // .ts, .tsx
-    PHP: '🐘',            // .php
-    
-    // CSS Preprocessors
-    SCSS: '💅',           // .scss
-    Sass: '💅',           // .sass
-    Less: '💄',           // .less
-    
-    // Programming Languages
-    Python: '🐍',         // .py
-    Java: '☕',           // .java
-    'C++': '➕',          // .cpp, .cc
-    'C#': '🎯',           // .cs
-    Ruby: '💎',           // .rb
-    Swift: '📱',          // .swift
-    Kotlin: '🔰',         // .kt
-    Go: '🐹',            // .go
-    Rust: '🦀',          // .rs
-    Hack: '⚡',           // .hack
-    
-    // Shell Scripts
-    Shell: '🐚',          // .sh
-    Bash: '📺',           // .bash
-    PowerShell: '💠',     // .ps1
-    Batch: '📋',         // .bat, .cmd
-    
-    // Data & Config
-    JSON: '📦',           // .json
-    YAML: '⚙️',           // .yml, .yaml
-    XML: '📄',            // .xml
-    Markdown: '📝',       // .md
-    
-    // Database
-    SQL: '🗃️',           // .sql
-    
-    // Other Common
-    R: '📊',              // .r
-    Perl: '🐪',           // .pl
-    Lua: '🌙',           // .lua
-    Scala: '⚡',          // .scala
-    Dart: '🎯', 
+  // Web & Frontend Languages
+  HTML: '🌐',           // .html, .htm
+  CSS: '🎨',            // .css
+  JavaScript: '📋',     // .js, .jsx
+  TypeScript: '🔷',     // .ts, .tsx
+  PHP: '🐘',            // .php
+  WebAssembly: '⚡',    // .wasm
+  
+  // CSS Preprocessors & Variants
+  SCSS: '💅',           // .scss
+  Sass: '💅',           // .sass
+  Less: '💄',           // .less
+  Stylus: '🎨',         // .styl
+  
+  // Core Programming Languages
+  Python: '🐍',         // .py
+  Java: '☕',           // .java
+  'C++': '➕',          // .cpp, .cc, .cxx
+  'C#': '🎯',           // .cs
+  C: '©️',              // .c
+  Ruby: '💎',           // .rb
+  Swift: '🏃',          // .swift
+  Kotlin: '🔰',         // .kt
+  Go: '🐹',            // .go
+  Rust: '🦀',          // .rs
+  Hack: '⚡',           // .hack
+  Perl: '🐪',           // .pl, .pm
+  Lua: '🌙',           // .lua
+  R: '📊',              // .r
+  Julia: '🔯',          // .jl
+  Scala: '⚡',          // .scala
+  Dart: '🎯',          // .dart
+  Haskell: 'λ',        // .hs
+  Erlang: '☎️',         // .erl
+  Elixir: '💧',         // .ex, .exs
+  Clojure: '🔄',        // .clj
+  'F#': '🎼',           // .fs
+  MATLAB: '🧮',         // .m
+  Pascal: '📐',         // .pas
+  Fortran: '🔢',        // .f, .for
+  Groovy: '🎵',         // .groovy
+  
+  // Shell & Scripting
+  Shell: '🐚',          // .sh
+  Bash: '📺',           // .bash
+  PowerShell: '💠',     // .ps1
+  Batch: '📋',          // .bat, .cmd
+  AWK: '🔍',            // .awk
+  Tcl: '🔧',            // .tcl
+  
+  // Game Development
+  "Ren'Py": '🎭',       // .rpy
+  GDScript: '🎮',       // .gd
+  UnrealScript: '🎯',   // .uc
+  GLSL: '🌈',           // .glsl
+  HLSL: '🎨',           // .hlsl
+  
+  // System & Low-Level
+  Assembly: '⚙️',       // .asm
+  'Objective-C': '🎯',  // .m, .mm
+  'Objective-C++': '🎯',// .mm
+  VHDL: '💻',           // .vhdl
+  Verilog: '🔌',        // .v
+  
+  // Web3 & Blockchain
+  Solidity: '💎',       // .sol
+  Vyper: '🐍',          // .vy
+  
+  // Data & Config Languages
+  JSON: '📦',           // .json
+  YAML: '⚙️',           // .yml, .yaml
+  XML: '📄',            // .xml
+  TOML: '📝',           // .toml
+  INI: '📋',            // .ini
+  Markdown: '📝',       // .md
+  AsciiDoc: '📄',       // .adoc
+  
+  // Query & Database
+  SQL: '🗃️',           // .sql
+  GraphQL: '📊',        // .graphql, .gql
+  CQL: '🗄️',           // .cql
+  PLpgSQL: '🐘',        // .pgsql
+  
+  // Template Languages
+  Handlebars: '🤲',     // .hbs
+  EJS: '📑',            // .ejs
+  Twig: '🌱',           // .twig
+  Jinja: '🐍',          // .jinja
+  
+  // Build & Config
+  Dockerfile: '🐳',     // Dockerfile
+  HCL: '⚙️',            // .hcl
+  Makefile: '🔨',       // Makefile
+  CMake: '🏗️',         // CMakeLists.txt
+  
+  // Other Notable Languages
+  APL: '⌨️',            // .apl
+  COBOL: '👴',          // .cob, .cbl
+  D: '🔵',              // .d
+  Elm: '🌳',            // .elm
+  Forth: '4️⃣',         // .forth
+  Lisp: '👄',           // .lisp
+  Prolog: '🧩',         // .pl
+  Racket: '🎾',         // .rkt
+  Scheme: '🔄',         // .scm
+  Smalltalk: '💭',      // .st
+  Vim: '📝',            // .vim
   
 };
 
