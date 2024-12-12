@@ -18,9 +18,9 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 119 
-### 🛡️ Defense Power : 115 
-### ❤️ Health Point  : 337 
+### ⚔️ Attack Power  : 120 
+### 🛡️ Defense Power : 116 
+### ❤️ Health Point  : 338 
 ### 🔮 Mana Point    : 171 
 ### 🎯 Accuracy      : 37 
 ### ⚡ Speed         : 64
@@ -28,11 +28,11 @@
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 281
+### 📋 JavaScript : 284
 ### 🎨 CSS : 123
 ### 🐘 PHP : 74
 ### 🌐 HTML : 72
-### 📝 Ren'Py : 50
+### 🎭 Ren'Py : 50
 ### 📝 Blade : 35
 ### 🐍 Python : 18
 ### 📝 Batchfile : 16
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Raid: Performance Tuning Temple
+#### Current Quest: Mission: Security Hardening Crusade
 
 ### 📅 Weekly Quest
 #### Current Mission: Documentation Sprint Saga
