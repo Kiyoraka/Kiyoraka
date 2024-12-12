@@ -28,14 +28,14 @@
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 284
+### 📋 JavaScript : 285
 ### 🎨 CSS : 123
 ### 🐘 PHP : 74
 ### 🌐 HTML : 72
 ### 🎭 Ren'Py : 50
 ### 📝 Blade : 35
 ### 🐍 Python : 18
-### 📝 Batchfile : 16
+### 📝 Batchfile : 17
 ### 💅 SCSS : 8
 ### ☕ Java : 8
 ### 🎯 C# : 6
