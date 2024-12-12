@@ -13,43 +13,43 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : G 
-### ⭐ Level : 12
+### ⭐ Level : 15
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 86 
-### 🛡️ Defense Power : 87 
-### ❤️ Health Point  : 253 
-### 🔮 Mana Point    : 144 
-### 🎯 Accuracy      : 28 
-### ⚡ Speed         : 48
+### ⚔️ Attack Power  : 119 
+### 🛡️ Defense Power : 115 
+### ❤️ Health Point  : 337 
+### 🔮 Mana Point    : 170 
+### 🎯 Accuracy      : 37 
+### ⚡ Speed         : 64
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 233
-### 🎨 CSS : 73
-### 🎭 Ren'Py : 48
-### 🌐 HTML : 44
-### 🐘 PHP : 43
-### 🗡️ Blade : 35
-### 🐍 Python : 30
+### 📋 JavaScript : 279
+### 🎨 CSS : 123
+### 🐘 PHP : 74
+### 🌐 HTML : 72
+### 📝 Ren'Py : 50
+### 📝 Blade : 35
+### 🐍 Python : 18
 ### 📝 Batchfile : 16
+### 💅 SCSS : 8
 ### ☕ Java : 8
 ### 🎯 C# : 6
-### 📝 SCSS : 3
-### 📝 Hack : 0
+### ⚡ Hack : 2
 
 ---
 ## 📜 Active Quests
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Type Error Wildlands
+#### Current Quest: Raid: Performance Tuning Temple
 
 ### 📅 Weekly Quest
-#### Current Mission: Performance Tuning Trial
+#### Current Mission: Documentation Sprint Saga
 
 ### 🌙 Monthly Raid
 #### Frost Phoenix: System Resurrection

@@ -6,86 +6,51 @@ const TOKEN = process.env.PERSONAL_GITHUB_TOKEN;
 
 // Language icons mapping
 const LANGUAGE_ICONS = {
-  // Web Languages
-  JavaScript: '📋',
-  TypeScript: '🔷',
-  HTML: '🌐',
-  CSS: '🎨',
-  PHP: '🐘',
-  
-  // General Purpose Languages
-  Python: '🐍',
-  Java: '☕',
-  'C++': '➕',
-  'C#': '🎯',
-  Ruby: '💎',
-  Swift: '📱',
-  Kotlin: '🔰',
-  Go: '🐹',
-  Rust: '🦀',
-  
-  // Scripting Languages
-  Lua: '🌙',
-  Bash: '📺',
-  PowerShell: '💠',
-  'Batch': '📋',
-  Shell: '🐚',
-  
-  // Game Development
-  "Ren'Py": '🎭',
-  Unity: '🎮',
-  
-  // Frontend Frameworks
-  React: '⚛️',
-  Vue: '💚',
-  Angular: '🅰️',
-  Svelte: '🎨',
-  'Next.js': '▲',
-  'Nuxt.js': '💚',
-  
-  // Backend Frameworks
-  'Express.js': '🚂',
-  Django: '🌶️',
-  Flask: '🌪️',
-  'Spring Boot': '🍃',
-  Laravel: '🎵',
-  Blade: '🗡️',
-  FastAPI: '⚡',
-  NestJS: '🐈',
-  
-  // Mobile Frameworks
-  Flutter: '📱',
-  'React Native': '📱',
-  
-  // DevOps & Container
-  Docker: '🐳',
-  'Docker Compose': '🐋',
-  Kubernetes: '☸️',
-  Jenkins: '👷',
-  
-  // Documentation & Data
-  Markdown: '📝',
-  JSON: '📦',
-  YAML: '⚙️',
-  GraphQL: '📊',
-  
-  // Databases
-  PostgreSQL: '🐘',
-  MySQL: '🐬',
-  MongoDB: '🍃',
-  Redis: '⚡',
-  SQLite: '🔷',
-  
-  // Design Tools
-  Figma: '🎨',
-  
-  // State Management
-  Redux: '💫',
-  
-  // CSS Frameworks
-  'Tailwind CSS': '💨',
-  Bootstrap: '🅱️',
-  Sass: '💅',
+    // Web Languages
+    HTML: '🌐',           // .html, .htm
+    CSS: '🎨',            // .css
+    JavaScript: '📋',     // .js, .jsx
+    TypeScript: '🔷',     // .ts, .tsx
+    PHP: '🐘',            // .php
+    
+    // CSS Preprocessors
+    SCSS: '💅',           // .scss
+    Sass: '💅',           // .sass
+    Less: '💄',           // .less
+    
+    // Programming Languages
+    Python: '🐍',         // .py
+    Java: '☕',           // .java
+    'C++': '➕',          // .cpp, .cc
+    'C#': '🎯',           // .cs
+    Ruby: '💎',           // .rb
+    Swift: '📱',          // .swift
+    Kotlin: '🔰',         // .kt
+    Go: '🐹',            // .go
+    Rust: '🦀',          // .rs
+    Hack: '⚡',           // .hack
+    
+    // Shell Scripts
+    Shell: '🐚',          // .sh
+    Bash: '📺',           // .bash
+    PowerShell: '💠',     // .ps1
+    Batch: '📋',         // .bat, .cmd
+    
+    // Data & Config
+    JSON: '📦',           // .json
+    YAML: '⚙️',           // .yml, .yaml
+    XML: '📄',            // .xml
+    Markdown: '📝',       // .md
+    
+    // Database
+    SQL: '🗃️',           // .sql
+    
+    // Other Common
+    R: '📊',              // .r
+    Perl: '🐪',           // .pl
+    Lua: '🌙',           // .lua
+    Scala: '⚡',          // .scala
+    Dart: '🎯', 
   
 };
 
