@@ -1,0 +1,48 @@
+name: Update Profile with GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 23 * * *'  # Runs every 7 am daily UTC +8
+  workflow_dispatch:        # Allows manual trigger
+
+permissions:
+  contents: write          # Needed for pushing changes
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Create gitignore
+        run: |
+          echo "node_modules/" > .gitignore
+          echo "package-lock.json" >> .gitignore
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          npm install axios
+          npm install fs
+
+      - name: Run Career Path Analysis Script
+        env:
+          PERSONAL_GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+        run: |
+          node my-profile.js
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f README.md
+          git commit -m "Update career profile stats" || echo "No changes to commit"
+          git push origin HEAD || echo "No changes to push"
