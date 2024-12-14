@@ -18,24 +18,24 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 120 
-### 🛡️ Defense Power : 116 
-### ❤️ Health Point  : 338 
-### 🔮 Mana Point    : 171 
+### ⚔️ Attack Power  : 123 
+### 🛡️ Defense Power : 119 
+### ❤️ Health Point  : 343 
+### 🔮 Mana Point    : 175 
 ### 🎯 Accuracy      : 37 
 ### ⚡ Speed         : 64
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 285
-### 🎨 CSS : 123
-### 🐘 PHP : 74
+### 📋 JavaScript : 289
+### 🎨 CSS : 127
+### 🐘 PHP : 93
 ### 🌐 HTML : 72
 ### 🎭 Ren'Py : 50
 ### 📝 Blade : 35
 ### 🐍 Python : 18
-### 📝 Batchfile : 17
+### 📝 Batchfile : 16
 ### 💅 SCSS : 8
 ### ☕ Java : 8
 ### 🎯 C# : 6
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Drinking Coffee at home
+#### Current Quest: Mission: High Availability Heroes
 
 ### 📅 Weekly Quest
 #### Current Mission: Documentation Sprint Saga
