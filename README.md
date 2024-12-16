@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Git Conflict Critters
+#### Current Quest: Resting in IDE Haven
 
 ### 📅 Weekly Quest
 #### Current Mission: Documentation Sprint Saga
