@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Patrol: Variable Scope Dungeon
+#### Current Quest: Brewing Algorithm Potions
 
 ### 📅 Weekly Quest
 #### Current Mission: Documentation Sprint Saga
