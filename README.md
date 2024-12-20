@@ -19,8 +19,8 @@
 ## 📊 Battle Stats
 
 ### ⚔️ Attack Power  : 132 
-### 🛡️ Defense Power : 127 
-### ❤️ Health Point  : 360 
+### 🛡️ Defense Power : 128 
+### ❤️ Health Point  : 364 
 ### 🔮 Mana Point    : 181 
 ### 🎯 Accuracy      : 39 
 ### ⚡ Speed         : 67
@@ -28,14 +28,14 @@
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 303
-### 🎨 CSS : 134
+### 📋 JavaScript : 304
+### 🎨 CSS : 135
 ### 🐘 PHP : 93
 ### 🌐 HTML : 79
 ### 🎭 Ren'Py : 50
 ### 📝 Blade : 35
 ### 🐍 Python : 18
-### 📝 Batchfile : 16
+### 📝 Batchfile : 17
 ### 💅 SCSS : 8
 ### ☕ Java : 8
 ### 🎯 C# : 6
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Raid: API Integration Abyss
+#### Current Quest: Mission: Git Conflict Critters
 
 ### 📅 Weekly Quest
 #### Current Mission: Testing Framework Trials
