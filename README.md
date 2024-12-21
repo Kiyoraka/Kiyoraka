@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Git Conflict Critters
+#### Current Quest: Brewing Algorithm Potions
 
 ### 📅 Weekly Quest
 #### Current Mission: Testing Framework Trials
