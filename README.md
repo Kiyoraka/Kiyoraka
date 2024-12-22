@@ -18,9 +18,9 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 132 
+### ⚔️ Attack Power  : 133 
 ### 🛡️ Defense Power : 128 
-### ❤️ Health Point  : 364 
+### ❤️ Health Point  : 365 
 ### 🔮 Mana Point    : 181 
 ### 🎯 Accuracy      : 39 
 ### ⚡ Speed         : 67
@@ -28,7 +28,7 @@
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 304
+### 📋 JavaScript : 305
 ### 🎨 CSS : 135
 ### 🐘 PHP : 93
 ### 🌐 HTML : 79
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Brewing Algorithm Potions
+#### Current Quest: Debug: Unit Test Gremlins
 
 ### 📅 Weekly Quest
 #### Current Mission: Testing Framework Trials
