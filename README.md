@@ -32,7 +32,7 @@
 ### 🎨 CSS : 135
 ### 🐘 PHP : 93
 ### 🌐 HTML : 79
-### 🎭 Ren'Py : 52
+### 🎭 Ren'Py : 53
 ### 📝 Blade : 35
 ### 🐍 Python : 18
 ### 📝 Batchfile : 17
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Debug Patrol: Syntax Error Plains
+#### Current Quest: Debug: Unit Test Gremlins
 
 ### 📅 Weekly Quest
 #### Current Mission: UI/UX Enhancement Expedition
