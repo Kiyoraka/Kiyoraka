@@ -18,21 +18,21 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 133 
-### 🛡️ Defense Power : 128 
-### ❤️ Health Point  : 365 
-### 🔮 Mana Point    : 182 
+### ⚔️ Attack Power  : 134 
+### 🛡️ Defense Power : 129 
+### ❤️ Health Point  : 366 
+### 🔮 Mana Point    : 183 
 ### 🎯 Accuracy      : 39 
 ### ⚡ Speed         : 67
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 305
-### 🎨 CSS : 135
+### 📋 JavaScript : 306
+### 🎨 CSS : 136
 ### 🐘 PHP : 93
-### 🌐 HTML : 79
-### 🎭 Ren'Py : 53
+### 🌐 HTML : 82
+### 🎭 Ren'Py : 57
 ### 📝 Blade : 35
 ### 🐍 Python : 18
 ### 📝 Batchfile : 17
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Resting in IDE Haven
+#### Current Quest: Raid: DOM Element Elementals
 
 ### 📅 Weekly Quest
 #### Current Mission: UI/UX Enhancement Expedition
