@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Raid: DOM Element Elementals
+#### Current Quest: Resting in IDE Haven
 
 ### 📅 Weekly Quest
 #### Current Mission: UI/UX Enhancement Expedition
