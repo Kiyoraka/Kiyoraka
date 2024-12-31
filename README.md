@@ -32,7 +32,7 @@
 ### 🎨 CSS : 136
 ### 🐘 PHP : 93
 ### 🌐 HTML : 82
-### 🎭 Ren'Py : 57
+### 🎭 Ren'Py : 58
 ### 📝 Blade : 35
 ### 🐍 Python : 18
 ### 📝 Batchfile : 17
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Resting in IDE Haven
+#### Current Quest: Hunt: Console.log Spirits
 
 ### 📅 Weekly Quest
 #### Current Mission: UI/UX Enhancement Expedition
