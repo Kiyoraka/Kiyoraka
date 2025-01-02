@@ -46,10 +46,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Type Error Wildlands
+#### Current Quest: Cataloging Code Libraries
 
 ### 📅 Weekly Quest
-#### Current Mission: UI/UX Enhancement Expedition
+#### Current Mission: Microservices Migration Mission
 
 ### 🌙 Monthly Raid
 #### Frost Giant: Legacy Monolith
