@@ -20,8 +20,8 @@
 
 ### ⚔️ Attack Power  : 145 
 ### 🛡️ Defense Power : 140 
-### ❤️ Health Point  : 378 
-### 🔮 Mana Point    : 187 
+### ❤️ Health Point  : 379 
+### 🔮 Mana Point    : 188 
 ### 🎯 Accuracy      : 44 
 ### ⚡ Speed         : 74
 
@@ -32,7 +32,7 @@
 ### 🎨 CSS : 136
 ### 🐘 PHP : 93
 ### 🌐 HTML : 82
-### 🎭 Ren'Py : 63
+### 🎭 Ren'Py : 64
 ### 📝 Blade : 35
 ### 🐍 Python : 18
 ### 📝 Batchfile : 17
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Resting in IDE Haven
+#### Current Quest: Mission: Git Conflict Critters
 
 ### 📅 Weekly Quest
 #### Current Mission: Microservices Migration Mission
