@@ -18,9 +18,9 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 145 
-### 🛡️ Defense Power : 140 
-### ❤️ Health Point  : 379 
+### ⚔️ Attack Power  : 146 
+### 🛡️ Defense Power : 141 
+### ❤️ Health Point  : 380 
 ### 🔮 Mana Point    : 188 
 ### 🎯 Accuracy      : 44 
 ### ⚡ Speed         : 74
@@ -32,7 +32,7 @@
 ### 🎨 CSS : 136
 ### 🐘 PHP : 93
 ### 🌐 HTML : 82
-### 🎭 Ren'Py : 64
+### 🎭 Ren'Py : 69
 ### 📝 Blade : 35
 ### 🐍 Python : 18
 ### 📝 Batchfile : 17
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Git Conflict Critters
+#### Current Quest: Patrol: Variable Scope Dungeon
 
 ### 📅 Weekly Quest
 #### Current Mission: Microservices Migration Mission
