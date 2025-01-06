@@ -18,24 +18,24 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 146 
-### 🛡️ Defense Power : 141 
-### ❤️ Health Point  : 380 
-### 🔮 Mana Point    : 188 
+### ⚔️ Attack Power  : 148 
+### 🛡️ Defense Power : 143 
+### ❤️ Health Point  : 383 
+### 🔮 Mana Point    : 191 
 ### 🎯 Accuracy      : 44 
 ### ⚡ Speed         : 74
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 306
-### 🎨 CSS : 136
+### 📋 JavaScript : 323
+### 🎨 CSS : 137
 ### 🐘 PHP : 93
-### 🌐 HTML : 82
+### 🌐 HTML : 83
 ### 🎭 Ren'Py : 69
 ### 📝 Blade : 35
 ### 🐍 Python : 18
-### 📝 Batchfile : 17
+### 📝 Batchfile : 16
 ### 💅 SCSS : 8
 ### ☕ Java : 8
 ### 🎯 C# : 6
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Patrol: Variable Scope Dungeon
+#### Current Quest: Quest: Database Migration Maze
 
 ### 📅 Weekly Quest
 #### Current Mission: Microservices Migration Mission
