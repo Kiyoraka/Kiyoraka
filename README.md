@@ -28,7 +28,7 @@
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 323
+### 📋 JavaScript : 325
 ### 🎨 CSS : 137
 ### 🐘 PHP : 93
 ### 🌐 HTML : 83
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Quest: Database Migration Maze
+#### Current Quest: Mission: Git Conflict Critters
 
 ### 📅 Weekly Quest
 #### Current Mission: Microservices Migration Mission
