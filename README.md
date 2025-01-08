@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Git Conflict Critters
+#### Current Quest: Studying Ancient Code Manuscripts
 
 ### 📅 Weekly Quest
 #### Current Mission: Microservices Migration Mission
