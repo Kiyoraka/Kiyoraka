@@ -18,7 +18,7 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 148 
+### ⚔️ Attack Power  : 149 
 ### 🛡️ Defense Power : 143 
 ### ❤️ Health Point  : 383 
 ### 🔮 Mana Point    : 191 
@@ -32,7 +32,7 @@
 ### 🎨 CSS : 137
 ### 🐘 PHP : 93
 ### 🌐 HTML : 83
-### 🎭 Ren'Py : 69
+### 🎭 Ren'Py : 71
 ### 📝 Blade : 35
 ### 🐍 Python : 18
 ### 📝 Batchfile : 16
@@ -46,10 +46,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Studying Ancient Code Manuscripts
+#### Current Quest: Patrol: Variable Scope Dungeon
 
 ### 📅 Weekly Quest
-#### Current Mission: Microservices Migration Mission
+#### Current Mission: DevOps Pipeline Challenge
 
 ### 🌙 Monthly Raid
 #### Frost Giant: Legacy Monolith
