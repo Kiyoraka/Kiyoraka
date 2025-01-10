@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Patrol: Variable Scope Dungeon
+#### Current Quest: Meditating on Design Patterns
 
 ### 📅 Weekly Quest
 #### Current Mission: DevOps Pipeline Challenge
