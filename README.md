@@ -19,8 +19,8 @@
 ## 📊 Battle Stats
 
 ### ⚔️ Attack Power  : 149 
-### 🛡️ Defense Power : 143 
-### ❤️ Health Point  : 383 
+### 🛡️ Defense Power : 144 
+### ❤️ Health Point  : 384 
 ### 🔮 Mana Point    : 191 
 ### 🎯 Accuracy      : 44 
 ### ⚡ Speed         : 74
@@ -32,7 +32,7 @@
 ### 🎨 CSS : 137
 ### 🐘 PHP : 93
 ### 🌐 HTML : 83
-### 🎭 Ren'Py : 71
+### 🎭 Ren'Py : 72
 ### 📝 Blade : 35
 ### 🐍 Python : 18
 ### 📝 Batchfile : 16
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Meditating on Design Patterns
+#### Current Quest: Mission: Git Conflict Critters
 
 ### 📅 Weekly Quest
 #### Current Mission: DevOps Pipeline Challenge
