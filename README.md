@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Git Conflict Critters
+#### Current Quest: Cataloging Code Libraries
 
 ### 📅 Weekly Quest
 #### Current Mission: DevOps Pipeline Challenge
