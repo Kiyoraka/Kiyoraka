@@ -21,7 +21,7 @@
 ### ⚔️ Attack Power  : 149 
 ### 🛡️ Defense Power : 144 
 ### ❤️ Health Point  : 384 
-### 🔮 Mana Point    : 191 
+### 🔮 Mana Point    : 192 
 ### 🎯 Accuracy      : 44 
 ### ⚡ Speed         : 74
 
@@ -32,7 +32,7 @@
 ### 🎨 CSS : 137
 ### 🐘 PHP : 93
 ### 🌐 HTML : 83
-### 🎭 Ren'Py : 73
+### 🎭 Ren'Py : 75
 ### 📝 Blade : 35
 ### 🐍 Python : 18
 ### 📝 Batchfile : 16
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Git Conflict Critters
+#### Current Quest: Quest: Fix Runtime Exception Goblins
 
 ### 📅 Weekly Quest
 #### Current Mission: DevOps Pipeline Challenge
