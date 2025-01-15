@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Quest: Fix Runtime Exception Goblins
+#### Current Quest: Studying Ancient Code Manuscripts
 
 ### 📅 Weekly Quest
 #### Current Mission: DevOps Pipeline Challenge
