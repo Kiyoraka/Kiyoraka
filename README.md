@@ -46,10 +46,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Studying Ancient Code Manuscripts
+#### Current Quest: Resting in IDE Haven
 
 ### 📅 Weekly Quest
-#### Current Mission: DevOps Pipeline Challenge
+#### Current Mission: Mobile App Optimization Quest
 
 ### 🌙 Monthly Raid
 #### Frost Giant: Legacy Monolith
