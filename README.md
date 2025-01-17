@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Resting in IDE Haven
+#### Current Quest: Brewing Algorithm Potions
 
 ### 📅 Weekly Quest
 #### Current Mission: Mobile App Optimization Quest
