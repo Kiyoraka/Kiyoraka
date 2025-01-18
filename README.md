@@ -32,7 +32,7 @@
 ### 🎨 CSS : 137
 ### 🐘 PHP : 93
 ### 🌐 HTML : 83
-### 🎭 Ren'Py : 75
+### 🎭 Ren'Py : 77
 ### 📝 Blade : 35
 ### 🐍 Python : 18
 ### 📝 Batchfile : 16
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Brewing Algorithm Potions
+#### Current Quest: Hunt: Console.log Spirits
 
 ### 📅 Weekly Quest
 #### Current Mission: Mobile App Optimization Quest
