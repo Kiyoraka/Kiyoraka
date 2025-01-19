@@ -13,26 +13,26 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : G 
-### ⭐ Level : 18
+### ⭐ Level : 19
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 149 
-### 🛡️ Defense Power : 144 
-### ❤️ Health Point  : 384 
-### 🔮 Mana Point    : 192 
-### 🎯 Accuracy      : 44 
-### ⚡ Speed         : 74
+### ⚔️ Attack Power  : 157 
+### 🛡️ Defense Power : 152 
+### ❤️ Health Point  : 393 
+### 🔮 Mana Point    : 196 
+### 🎯 Accuracy      : 47 
+### ⚡ Speed         : 77
 
 ---
 ## 💻 Programming Skills
 
 ### 📋 JavaScript : 325
 ### 🎨 CSS : 137
+### 🎭 Ren'Py : 94
 ### 🐘 PHP : 93
 ### 🌐 HTML : 83
-### 🎭 Ren'Py : 77
 ### 📝 Blade : 35
 ### 🐍 Python : 18
 ### 📝 Batchfile : 16
@@ -46,7 +46,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Hunt: Console.log Spirits
+#### Current Quest: Quest: Infinite Loop Labyrinth
 
 ### 📅 Weekly Quest
 #### Current Mission: Mobile App Optimization Quest
