@@ -18,27 +18,28 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 157 
-### 🛡️ Defense Power : 152 
-### ❤️ Health Point  : 393 
-### 🔮 Mana Point    : 196 
+### ⚔️ Attack Power  : 160 
+### 🛡️ Defense Power : 154 
+### ❤️ Health Point  : 417 
+### 🔮 Mana Point    : 201 
 ### 🎯 Accuracy      : 47 
 ### ⚡ Speed         : 77
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 325
-### 🎨 CSS : 137
+### 📋 JavaScript : 329
+### 🎨 CSS : 142
 ### 🎭 Ren'Py : 94
 ### 🐘 PHP : 93
-### 🌐 HTML : 83
+### 🌐 HTML : 85
 ### 📝 Blade : 35
 ### 🐍 Python : 18
-### 📝 Batchfile : 16
+### 📝 Batchfile : 18
 ### 💅 SCSS : 8
 ### ☕ Java : 8
 ### 🎯 C# : 6
+### 📝 VBA : 4
 ### ⚡ Hack : 2
 
 ---
@@ -46,7 +47,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Quest: Infinite Loop Labyrinth
+#### Current Quest: Mission: Cache Invalidation Caves
 
 ### 📅 Weekly Quest
 #### Current Mission: Mobile App Optimization Quest
