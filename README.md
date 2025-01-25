@@ -47,7 +47,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Raid: API Integration Abyss
+#### Current Quest: Brewing Algorithm Potions
 
 ### 📅 Weekly Quest
 #### Current Mission: Cloud Infrastructure Expedition
