@@ -47,7 +47,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Brewing Algorithm Potions
+#### Current Quest: Drinking Coffee at home
 
 ### 📅 Weekly Quest
 #### Current Mission: Cloud Infrastructure Expedition
