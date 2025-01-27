@@ -47,7 +47,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Drinking Coffee at home
+#### Current Quest: Studying Ancient Code Manuscripts
 
 ### 📅 Weekly Quest
 #### Current Mission: Cloud Infrastructure Expedition
