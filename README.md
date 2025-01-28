@@ -47,7 +47,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Studying Ancient Code Manuscripts
+#### Current Quest: Sharpening Debug Tools
 
 ### 📅 Weekly Quest
 #### Current Mission: Cloud Infrastructure Expedition
