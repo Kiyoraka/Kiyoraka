@@ -47,10 +47,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Brewing Algorithm Potions
+#### Current Quest: Maintaining Development Tools
 
 ### 📅 Weekly Quest
-#### Current Mission: Cloud Infrastructure Expedition
+#### Current Mission: Data Analytics Adventure
 
 ### 🌙 Monthly Raid
 #### Frost Giant: Legacy Monolith
