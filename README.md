@@ -53,8 +53,8 @@
 #### Current Mission: Data Analytics Adventure
 
 ### 🌙 Monthly Raid
-#### Frost Giant: Legacy Monolith
-#### Convert ancient monolithic system into microservices
+#### Love Bug: Security Breach
+#### Patch critical security vulnerabilities
 
 ### 🌠 Seasonal Epic
 #### The Great System Renewal
