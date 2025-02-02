@@ -47,7 +47,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Organizing Code Sanctuary
+#### Current Quest: Studying Ancient Code Manuscripts
 
 ### 📅 Weekly Quest
 #### Current Mission: Data Analytics Adventure
