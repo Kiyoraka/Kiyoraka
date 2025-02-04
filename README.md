@@ -47,7 +47,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Studying Ancient Code Manuscripts
+#### Current Quest: Resting in IDE Haven
 
 ### 📅 Weekly Quest
 #### Current Mission: Data Analytics Adventure
