@@ -12,25 +12,25 @@
 ### 👤 Name : Kiyoraka Ken
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
-### 🔰 Rank : G 
+### 🔰 Rank : F 
 ### ⭐ Level : 19
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 163 
-### 🛡️ Defense Power : 158 
-### ❤️ Health Point  : 422 
-### 🔮 Mana Point    : 205 
+### ⚔️ Attack Power  : 166 
+### 🛡️ Defense Power : 160 
+### ❤️ Health Point  : 429 
+### 🔮 Mana Point    : 207 
 ### 🎯 Accuracy      : 47 
 ### ⚡ Speed         : 77
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 330
-### 🎨 CSS : 149
-### 🌐 HTML : 102
+### 📋 JavaScript : 335
+### 🎨 CSS : 158
+### 🌐 HTML : 107
 ### 🎭 Ren'Py : 94
 ### 🐘 PHP : 93
 ### 📝 Blade : 35
@@ -47,10 +47,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Cataloging Code Libraries
+#### Current Quest: Hunting Memory Leak Demons
 
 ### 📅 Weekly Quest
-#### Current Mission: Data Analytics Adventure
+#### Current Mission: Machine Learning Marathon
 
 ### 🌙 Monthly Raid
 #### Love Bug: Security Breach
