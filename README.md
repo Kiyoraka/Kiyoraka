@@ -47,7 +47,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Hunting Memory Leak Demons
+#### Current Quest: Reading Documentation Scrolls
 
 ### 📅 Weekly Quest
 #### Current Mission: Machine Learning Marathon
