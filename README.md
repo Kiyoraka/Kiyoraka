@@ -50,7 +50,7 @@
 #### Current Quest: Sharpening Debug Tools
 
 ### 📅 Weekly Quest
-#### Current Mission: Machine Learning Marathon
+#### Current Mission: Blockchain Integration Battle
 
 ### 🌙 Monthly Raid
 #### Love Bug: Security Breach
