@@ -30,7 +30,7 @@
 
 ### 📋 JavaScript : 335
 ### 🎨 CSS : 158
-### 🌐 HTML : 107
+### 🌐 HTML : 108
 ### 🎭 Ren'Py : 94
 ### 🐘 PHP : 93
 ### 📝 Blade : 35
@@ -47,7 +47,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Sharpening Debug Tools
+#### Current Quest: Hunting Null Pointer Imps
 
 ### 📅 Weekly Quest
 #### Current Mission: Blockchain Integration Battle
