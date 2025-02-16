@@ -18,9 +18,9 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 176 
-### 🛡️ Defense Power : 169 
-### ❤️ Health Point  : 449 
+### ⚔️ Attack Power  : 177 
+### 🛡️ Defense Power : 170 
+### ❤️ Health Point  : 453 
 ### 🔮 Mana Point    : 213 
 ### 🎯 Accuracy      : 50 
 ### ⚡ Speed         : 81
@@ -28,14 +28,14 @@
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 335
+### 📋 JavaScript : 336
 ### 🎨 CSS : 167
 ### 🌐 HTML : 115
 ### 🎭 Ren'Py : 94
 ### 🐘 PHP : 93
 ### 📝 Blade : 35
+### 📝 Batchfile : 19
 ### 🐍 Python : 18
-### 📝 Batchfile : 18
 ### 💅 SCSS : 8
 ### ☕ Java : 8
 ### 🎯 C# : 6
@@ -47,7 +47,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Epic: Container Orchestration Oracle
+#### Current Quest: Hunting Null Pointer Imps
 
 ### 📅 Weekly Quest
 #### Current Mission: Blockchain Integration Battle
