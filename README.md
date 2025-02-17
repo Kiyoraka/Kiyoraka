@@ -20,7 +20,7 @@
 
 ### ⚔️ Attack Power  : 177 
 ### 🛡️ Defense Power : 170 
-### ❤️ Health Point  : 453 
+### ❤️ Health Point  : 454 
 ### 🔮 Mana Point    : 213 
 ### 🎯 Accuracy      : 50 
 ### ⚡ Speed         : 81
@@ -47,7 +47,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Hunting Null Pointer Imps
+#### Current Quest: Quest: CSS Selector Specters
 
 ### 📅 Weekly Quest
 #### Current Mission: Blockchain Integration Battle
