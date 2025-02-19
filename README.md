@@ -18,10 +18,10 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 177 
-### 🛡️ Defense Power : 170 
-### ❤️ Health Point  : 454 
-### 🔮 Mana Point    : 213 
+### ⚔️ Attack Power  : 178 
+### 🛡️ Defense Power : 171 
+### ❤️ Health Point  : 458 
+### 🔮 Mana Point    : 214 
 ### 🎯 Accuracy      : 50 
 ### ⚡ Speed         : 81
 
@@ -29,10 +29,10 @@
 ## 💻 Programming Skills
 
 ### 📋 JavaScript : 336
-### 🎨 CSS : 167
+### 🎨 CSS : 169
 ### 🌐 HTML : 115
+### 🐘 PHP : 98
 ### 🎭 Ren'Py : 94
-### 🐘 PHP : 93
 ### 📝 Blade : 35
 ### 📝 Batchfile : 19
 ### 🐍 Python : 18
@@ -47,7 +47,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Resting in IDE Haven
+#### Current Quest: Patrol: Variable Scope Dungeon
 
 ### 📅 Weekly Quest
 #### Current Mission: Blockchain Integration Battle
