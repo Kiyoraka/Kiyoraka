@@ -47,10 +47,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Patrol: Variable Scope Dungeon
+#### Current Quest: Cataloging Code Libraries
 
 ### 📅 Weekly Quest
-#### Current Mission: Blockchain Integration Battle
+#### Current Mission: IoT Implementation Initiative
 
 ### 🌙 Monthly Raid
 #### Love Bug: Security Breach
