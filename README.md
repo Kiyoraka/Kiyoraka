@@ -47,7 +47,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Cataloging Code Libraries
+#### Current Quest: Studying Ancient Code Manuscripts
 
 ### 📅 Weekly Quest
 #### Current Mission: IoT Implementation Initiative
