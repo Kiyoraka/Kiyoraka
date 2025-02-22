@@ -18,36 +18,36 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 178 
-### 🛡️ Defense Power : 171 
-### ❤️ Health Point  : 458 
-### 🔮 Mana Point    : 214 
+### ⚔️ Attack Power  : 180 
+### 🛡️ Defense Power : 172 
+### ❤️ Health Point  : 460 
+### 🔮 Mana Point    : 216 
 ### 🎯 Accuracy      : 50 
 ### ⚡ Speed         : 81
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 336
-### 🎨 CSS : 169
-### 🌐 HTML : 115
+### 📋 JavaScript : 338
+### 🎨 CSS : 172
+### 🌐 HTML : 116
 ### 🐘 PHP : 98
 ### 🎭 Ren'Py : 94
 ### 📝 Blade : 35
-### 📝 Batchfile : 19
+### 📝 Batchfile : 21
 ### 🐍 Python : 18
 ### 💅 SCSS : 8
 ### ☕ Java : 8
+### ⚡ Hack : 6
 ### 🎯 C# : 6
 ### 📝 VBA : 4
-### ⚡ Hack : 2
 
 ---
 ## 📜 Active Quests
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Studying Ancient Code Manuscripts
+#### Current Quest: Raid: API Integration Abyss
 
 ### 📅 Weekly Quest
 #### Current Mission: IoT Implementation Initiative
