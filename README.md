@@ -47,7 +47,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Raid: API Integration Abyss
+#### Current Quest: Reading Documentation Scrolls
 
 ### 📅 Weekly Quest
 #### Current Mission: IoT Implementation Initiative
