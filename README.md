@@ -19,8 +19,8 @@
 ## 📊 Battle Stats
 
 ### ⚔️ Attack Power  : 180 
-### 🛡️ Defense Power : 172 
-### ❤️ Health Point  : 460 
+### 🛡️ Defense Power : 173 
+### ❤️ Health Point  : 461 
 ### 🔮 Mana Point    : 216 
 ### 🎯 Accuracy      : 50 
 ### ⚡ Speed         : 81
@@ -28,10 +28,10 @@
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 338
+### 📋 JavaScript : 339
 ### 🎨 CSS : 172
 ### 🌐 HTML : 116
-### 🐘 PHP : 98
+### 🐘 PHP : 100
 ### 🎭 Ren'Py : 94
 ### 📝 Blade : 35
 ### 📝 Batchfile : 21
@@ -47,7 +47,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Reading Documentation Scrolls
+#### Current Quest: Raid: DOM Element Elementals
 
 ### 📅 Weekly Quest
 #### Current Mission: IoT Implementation Initiative
