@@ -18,20 +18,20 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 181 
-### 🛡️ Defense Power : 174 
-### ❤️ Health Point  : 463 
-### 🔮 Mana Point    : 217 
+### ⚔️ Attack Power  : 182 
+### 🛡️ Defense Power : 175 
+### ❤️ Health Point  : 464 
+### 🔮 Mana Point    : 218 
 ### 🎯 Accuracy      : 50 
 ### ⚡ Speed         : 81
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 343
+### 📋 JavaScript : 345
 ### 🎨 CSS : 174
 ### 🌐 HTML : 115
-### 🐘 PHP : 104
+### 🐘 PHP : 107
 ### 🎭 Ren'Py : 94
 ### 📝 Blade : 35
 ### 📝 Batchfile : 21
@@ -47,7 +47,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Quest: Fix Runtime Exception Goblins
+#### Current Quest: Raid: DOM Element Elementals
 
 ### 📅 Weekly Quest
 #### Current Mission: IoT Implementation Initiative
