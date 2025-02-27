@@ -13,44 +13,48 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : F 
-### ⭐ Level : 20
+### ⭐ Level : 19
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 182 
-### 🛡️ Defense Power : 175 
-### ❤️ Health Point  : 464 
-### 🔮 Mana Point    : 218 
-### 🎯 Accuracy      : 50 
-### ⚡ Speed         : 81
+### ⚔️ Attack Power  : 178 
+### 🛡️ Defense Power : 172 
+### ❤️ Health Point  : 512 
+### 🔮 Mana Point    : 229 
+### 🎯 Accuracy      : 47 
+### ⚡ Speed         : 77
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 345
-### 🎨 CSS : 174
+### 📋 JavaScript : 348
+### 🎨 CSS : 176
 ### 🌐 HTML : 115
-### 🐘 PHP : 107
+### 🐘 PHP : 111
 ### 🎭 Ren'Py : 94
 ### 📝 Blade : 35
 ### 📝 Batchfile : 21
 ### 🐍 Python : 18
-### 💅 SCSS : 8
 ### ☕ Java : 8
-### ⚡ Hack : 6
+### 💅 SCSS : 8
+### ⚡ Hack : 7
 ### 🎯 C# : 6
 ### 📝 VBA : 4
+### 🎯 Dart : 0
+### 💎 Ruby : 0
+### 🏃 Swift : 0
+### 🎯 Objective-C : 0
 
 ---
 ## 📜 Active Quests
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Raid: DOM Element Elementals
+#### Current Quest: Debug Patrol: Syntax Error Plains
 
 ### 📅 Weekly Quest
-#### Current Mission: IoT Implementation Initiative
+#### Current Mission: Serverless Architecture Sprint
 
 ### 🌙 Monthly Raid
 #### Love Bug: Security Breach
