@@ -51,7 +51,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Debug Patrol: Syntax Error Plains
+#### Current Quest: Reading Documentation Scrolls
 
 ### 📅 Weekly Quest
 #### Current Mission: Serverless Architecture Sprint
