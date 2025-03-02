@@ -21,9 +21,9 @@
 ### ⚔️ Attack Power  : 178 
 ### 🛡️ Defense Power : 172 
 ### ❤️ Health Point  : 512 
-### 🔮 Mana Point    : 229 
-### 🎯 Accuracy      : 47 
-### ⚡ Speed         : 77
+### 🔮 Mana Point    : 240 
+### 🎯 Accuracy      : 49 
+### ⚡ Speed         : 82
 
 ---
 ## 💻 Programming Skills
@@ -51,7 +51,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Sharpening Debug Tools
+#### Current Quest: Meditating on Design Patterns
 
 ### 📅 Weekly Quest
 #### Current Mission: Serverless Architecture Sprint
