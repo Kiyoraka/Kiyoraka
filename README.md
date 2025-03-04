@@ -18,20 +18,20 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 178 
-### 🛡️ Defense Power : 172 
-### ❤️ Health Point  : 512 
-### 🔮 Mana Point    : 240 
+### ⚔️ Attack Power  : 179 
+### 🛡️ Defense Power : 173 
+### ❤️ Health Point  : 514 
+### 🔮 Mana Point    : 241 
 ### 🎯 Accuracy      : 49 
 ### ⚡ Speed         : 82
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 348
+### 📋 JavaScript : 354
 ### 🎨 CSS : 176
+### 🐘 PHP : 116
 ### 🌐 HTML : 115
-### 🐘 PHP : 111
 ### 🎭 Ren'Py : 94
 ### 📝 Blade : 35
 ### 📝 Batchfile : 21
@@ -51,7 +51,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Studying Ancient Code Manuscripts
+#### Current Quest: Raid: DOM Element Elementals
 
 ### 📅 Weekly Quest
 #### Current Mission: Serverless Architecture Sprint
