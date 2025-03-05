@@ -51,7 +51,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Raid: DOM Element Elementals
+#### Current Quest: Resting in IDE Haven
 
 ### 📅 Weekly Quest
 #### Current Mission: Serverless Architecture Sprint
