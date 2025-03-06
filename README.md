@@ -51,10 +51,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Resting in IDE Haven
+#### Current Quest: Drinking Coffee at home
 
 ### 📅 Weekly Quest
-#### Current Mission: Serverless Architecture Sprint
+#### Current Mission: CI/CD Pipeline Project
 
 ### 🌙 Monthly Raid
 #### Spring Cleaning: Technical Debt
