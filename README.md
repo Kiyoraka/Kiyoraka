@@ -13,25 +13,25 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : F 
-### ⭐ Level : 19
+### ⭐ Level : 20
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 179 
-### 🛡️ Defense Power : 173 
-### ❤️ Health Point  : 514 
-### 🔮 Mana Point    : 241 
-### 🎯 Accuracy      : 49 
-### ⚡ Speed         : 82
+### ⚔️ Attack Power  : 187 
+### 🛡️ Defense Power : 181 
+### ❤️ Health Point  : 527 
+### 🔮 Mana Point    : 245 
+### 🎯 Accuracy      : 52 
+### ⚡ Speed         : 86
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 354
-### 🎨 CSS : 176
+### 📋 JavaScript : 361
+### 🎨 CSS : 178
+### 🌐 HTML : 117
 ### 🐘 PHP : 116
-### 🌐 HTML : 115
 ### 🎭 Ren'Py : 94
 ### 📝 Blade : 35
 ### 📝 Batchfile : 21
@@ -51,7 +51,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Drinking Coffee at home
+#### Current Quest: Quest: Database Migration Maze
 
 ### 📅 Weekly Quest
 #### Current Mission: CI/CD Pipeline Project
