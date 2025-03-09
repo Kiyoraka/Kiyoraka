@@ -20,7 +20,7 @@
 
 ### ⚔️ Attack Power  : 187 
 ### 🛡️ Defense Power : 181 
-### ❤️ Health Point  : 527 
+### ❤️ Health Point  : 523 
 ### 🔮 Mana Point    : 245 
 ### 🎯 Accuracy      : 52 
 ### ⚡ Speed         : 86
@@ -28,13 +28,13 @@
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 361
-### 🎨 CSS : 178
-### 🌐 HTML : 117
+### 📋 JavaScript : 370
+### 🎨 CSS : 181
+### 🌐 HTML : 119
 ### 🐘 PHP : 116
 ### 🎭 Ren'Py : 94
 ### 📝 Blade : 35
-### 📝 Batchfile : 21
+### 📝 Batchfile : 22
 ### 🐍 Python : 18
 ### ☕ Java : 8
 ### 💅 SCSS : 8
@@ -51,7 +51,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Quest: Database Migration Maze
+#### Current Quest: Quest: Infinite Loop Labyrinth
 
 ### 📅 Weekly Quest
 #### Current Mission: CI/CD Pipeline Project
