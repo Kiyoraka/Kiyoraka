@@ -18,9 +18,9 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 187 
+### ⚔️ Attack Power  : 188 
 ### 🛡️ Defense Power : 181 
-### ❤️ Health Point  : 523 
+### ❤️ Health Point  : 524 
 ### 🔮 Mana Point    : 245 
 ### 🎯 Accuracy      : 52 
 ### ⚡ Speed         : 86
@@ -28,9 +28,9 @@
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 370
+### 📋 JavaScript : 371
 ### 🎨 CSS : 181
-### 🌐 HTML : 119
+### 🌐 HTML : 120
 ### 🐘 PHP : 116
 ### 🎭 Ren'Py : 94
 ### 📝 Blade : 35
@@ -51,7 +51,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Quest: Infinite Loop Labyrinth
+#### Current Quest: Quest: CSS Selector Specters
 
 ### 📅 Weekly Quest
 #### Current Mission: CI/CD Pipeline Project
