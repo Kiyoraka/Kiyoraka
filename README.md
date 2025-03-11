@@ -19,17 +19,17 @@
 ## 📊 Battle Stats
 
 ### ⚔️ Attack Power  : 188 
-### 🛡️ Defense Power : 181 
+### 🛡️ Defense Power : 182 
 ### ❤️ Health Point  : 524 
-### 🔮 Mana Point    : 245 
+### 🔮 Mana Point    : 246 
 ### 🎯 Accuracy      : 52 
 ### ⚡ Speed         : 86
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 371
-### 🎨 CSS : 181
+### 📋 JavaScript : 372
+### 🎨 CSS : 182
 ### 🌐 HTML : 120
 ### 🐘 PHP : 116
 ### 🎭 Ren'Py : 94
@@ -51,7 +51,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Quest: CSS Selector Specters
+#### Current Quest: Raid: DOM Element Elementals
 
 ### 📅 Weekly Quest
 #### Current Mission: CI/CD Pipeline Project
