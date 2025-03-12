@@ -18,27 +18,27 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 188 
-### 🛡️ Defense Power : 182 
-### ❤️ Health Point  : 524 
-### 🔮 Mana Point    : 246 
+### ⚔️ Attack Power  : 189 
+### 🛡️ Defense Power : 183 
+### ❤️ Health Point  : 526 
+### 🔮 Mana Point    : 247 
 ### 🎯 Accuracy      : 52 
 ### ⚡ Speed         : 86
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 372
-### 🎨 CSS : 182
+### 📋 JavaScript : 374
+### 🎨 CSS : 185
 ### 🌐 HTML : 120
-### 🐘 PHP : 116
+### 🐘 PHP : 118
 ### 🎭 Ren'Py : 94
 ### 📝 Blade : 35
 ### 📝 Batchfile : 22
 ### 🐍 Python : 18
 ### ☕ Java : 8
+### ⚡ Hack : 8
 ### 💅 SCSS : 8
-### ⚡ Hack : 7
 ### 🎯 C# : 6
 ### 📝 VBA : 4
 ### 🎯 Dart : 0
@@ -51,7 +51,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Raid: DOM Element Elementals
+#### Current Quest: Debug Patrol: Syntax Error Plains
 
 ### 📅 Weekly Quest
 #### Current Mission: CI/CD Pipeline Project
