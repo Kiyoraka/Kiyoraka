@@ -51,10 +51,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Debug Patrol: Syntax Error Plains
+#### Current Quest: Maintaining Development Tools
 
 ### 📅 Weekly Quest
-#### Current Mission: CI/CD Pipeline Project
+#### Current Mission: API Gateway Guardians
 
 ### 🌙 Monthly Raid
 #### Spring Cleaning: Technical Debt
