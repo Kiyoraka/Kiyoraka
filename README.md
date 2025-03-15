@@ -20,7 +20,7 @@
 
 ### ⚔️ Attack Power  : 190 
 ### 🛡️ Defense Power : 184 
-### ❤️ Health Point  : 527 
+### ❤️ Health Point  : 531 
 ### 🔮 Mana Point    : 248 
 ### 🎯 Accuracy      : 52 
 ### ⚡ Speed         : 88
@@ -29,8 +29,8 @@
 ## 💻 Programming Skills
 
 ### 📋 JavaScript : 374
-### 🎨 CSS : 185
-### 🌐 HTML : 120
+### 🎨 CSS : 187
+### 🌐 HTML : 121
 ### 🐘 PHP : 118
 ### 🎭 Ren'Py : 94
 ### 📝 Blade : 35
@@ -51,7 +51,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Organizing Code Sanctuary
+#### Current Quest: Patrol: Variable Scope Dungeon
 
 ### 📅 Weekly Quest
 #### Current Mission: API Gateway Guardians
