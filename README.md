@@ -13,24 +13,24 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : F 
-### ⭐ Level : 20
+### ⭐ Level : 19
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 190 
-### 🛡️ Defense Power : 184 
-### ❤️ Health Point  : 531 
-### 🔮 Mana Point    : 248 
-### 🎯 Accuracy      : 52 
-### ⚡ Speed         : 88
+### ⚔️ Attack Power  : 186 
+### 🛡️ Defense Power : 180 
+### ❤️ Health Point  : 568 
+### 🔮 Mana Point    : 256 
+### 🎯 Accuracy      : 49 
+### ⚡ Speed         : 84
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 374
-### 🎨 CSS : 187
-### 🌐 HTML : 121
+### 📋 JavaScript : 375
+### 🎨 CSS : 188
+### 🌐 HTML : 123
 ### 🐘 PHP : 118
 ### 🎭 Ren'Py : 94
 ### 📝 Blade : 35
@@ -39,9 +39,12 @@
 ### ☕ Java : 8
 ### ⚡ Hack : 8
 ### 💅 SCSS : 8
-### 🎯 Dart : 6
 ### 🎯 C# : 6
 ### 📝 VBA : 4
+### 🎯 Dart : 3
+### ©️ C : 2
+### ➕ C++ : 2
+### 🏗️ CMake : 1
 ### 💎 Ruby : 0
 ### 🏃 Swift : 0
 ### 🎯 Objective-C : 0
@@ -51,7 +54,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Patrol: Variable Scope Dungeon
+#### Current Quest: Hunt: Console.log Spirits
 
 ### 📅 Weekly Quest
 #### Current Mission: API Gateway Guardians
