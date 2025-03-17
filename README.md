@@ -54,7 +54,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Hunt: Console.log Spirits
+#### Current Quest: Mission: Type Error Wildlands
 
 ### 📅 Weekly Quest
 #### Current Mission: API Gateway Guardians
