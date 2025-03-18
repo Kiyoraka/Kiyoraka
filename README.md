@@ -54,7 +54,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Type Error Wildlands
+#### Current Quest: Meditating on Design Patterns
 
 ### 📅 Weekly Quest
 #### Current Mission: API Gateway Guardians
