@@ -54,10 +54,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Drinking Coffee at home
+#### Current Quest: Organizing Code Sanctuary
 
 ### 📅 Weekly Quest
-#### Current Mission: API Gateway Guardians
+#### Current Mission: Database Sharding Showdown
 
 ### 🌙 Monthly Raid
 #### Spring Cleaning: Technical Debt
