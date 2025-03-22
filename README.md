@@ -20,10 +20,10 @@
 
 ### ⚔️ Attack Power  : 186 
 ### 🛡️ Defense Power : 180 
-### ❤️ Health Point  : 568 
-### 🔮 Mana Point    : 256 
-### 🎯 Accuracy      : 49 
-### ⚡ Speed         : 84
+### ❤️ Health Point  : 569 
+### 🔮 Mana Point    : 257 
+### 🎯 Accuracy      : 50 
+### ⚡ Speed         : 89
 
 ---
 ## 💻 Programming Skills
@@ -40,10 +40,10 @@
 ### ⚡ Hack : 8
 ### 💅 SCSS : 8
 ### 🎯 C# : 6
+### 🎯 Dart : 5
 ### 📝 VBA : 4
-### 🎯 Dart : 3
-### ©️ C : 2
-### ➕ C++ : 2
+### ©️ C : 3
+### ➕ C++ : 3
 ### 🏗️ CMake : 1
 ### 💎 Ruby : 0
 ### 🏃 Swift : 0
@@ -54,7 +54,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Maintaining Development Tools
+#### Current Quest: Debug: Unit Test Gremlins
 
 ### 📅 Weekly Quest
 #### Current Mission: Database Sharding Showdown
