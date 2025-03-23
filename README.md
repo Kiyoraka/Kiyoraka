@@ -19,7 +19,7 @@
 ## 📊 Battle Stats
 
 ### ⚔️ Attack Power  : 186 
-### 🛡️ Defense Power : 180 
+### 🛡️ Defense Power : 181 
 ### ❤️ Health Point  : 569 
 ### 🔮 Mana Point    : 257 
 ### 🎯 Accuracy      : 50 
@@ -28,7 +28,7 @@
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 375
+### 📋 JavaScript : 376
 ### 🎨 CSS : 188
 ### 🌐 HTML : 123
 ### 🐘 PHP : 118
@@ -39,8 +39,8 @@
 ### ☕ Java : 8
 ### ⚡ Hack : 8
 ### 💅 SCSS : 8
+### 🎯 Dart : 6
 ### 🎯 C# : 6
-### 🎯 Dart : 5
 ### 📝 VBA : 4
 ### ©️ C : 3
 ### ➕ C++ : 3
@@ -54,7 +54,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Debug: Unit Test Gremlins
+#### Current Quest: Patrol: Variable Scope Dungeon
 
 ### 📅 Weekly Quest
 #### Current Mission: Database Sharding Showdown
