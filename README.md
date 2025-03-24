@@ -18,19 +18,19 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 186 
+### ⚔️ Attack Power  : 187 
 ### 🛡️ Defense Power : 181 
-### ❤️ Health Point  : 569 
-### 🔮 Mana Point    : 257 
+### ❤️ Health Point  : 570 
+### 🔮 Mana Point    : 258 
 ### 🎯 Accuracy      : 50 
 ### ⚡ Speed         : 89
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 376
-### 🎨 CSS : 188
-### 🌐 HTML : 123
+### 📋 JavaScript : 378
+### 🎨 CSS : 189
+### 🌐 HTML : 124
 ### 🐘 PHP : 118
 ### 🎭 Ren'Py : 94
 ### 📝 Blade : 35
@@ -44,7 +44,7 @@
 ### 📝 VBA : 4
 ### ©️ C : 3
 ### ➕ C++ : 3
-### 🏗️ CMake : 1
+### 🏗️ CMake : 2
 ### 💎 Ruby : 0
 ### 🏃 Swift : 0
 ### 🎯 Objective-C : 0
@@ -54,7 +54,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Patrol: Variable Scope Dungeon
+#### Current Quest: Mission: Type Error Wildlands
 
 ### 📅 Weekly Quest
 #### Current Mission: Database Sharding Showdown
