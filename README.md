@@ -13,35 +13,35 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : F 
-### ⭐ Level : 19
+### ⭐ Level : 20
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 190 
-### 🛡️ Defense Power : 184 
-### ❤️ Health Point  : 596 
-### 🔮 Mana Point    : 264 
-### 🎯 Accuracy      : 50 
-### ⚡ Speed         : 89
+### ⚔️ Attack Power  : 199 
+### 🛡️ Defense Power : 193 
+### ❤️ Health Point  : 606 
+### 🔮 Mana Point    : 268 
+### 🎯 Accuracy      : 54 
+### ⚡ Speed         : 96
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 378
+### 📋 JavaScript : 379
 ### 🎨 CSS : 190
-### 🌐 HTML : 126
+### 🌐 HTML : 128
 ### 🐘 PHP : 118
 ### 🎭 Ren'Py : 94
+### 🎯 Dart : 36
 ### 📝 Blade : 35
-### 🎯 Dart : 24
 ### 📝 Batchfile : 22
 ### 🐍 Python : 18
 ### ☕ Java : 8
 ### ⚡ Hack : 8
 ### 💅 SCSS : 8
+### ➕ C++ : 6
 ### 🎯 C# : 6
-### ➕ C++ : 4
 ### 📝 VBA : 4
 ### 🏗️ CMake : 1
 ### ©️ C : 1
@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Patrol: Variable Scope Dungeon
+#### Current Quest: Hunting Memory Leak Demons
 
 ### 📅 Weekly Quest
 #### Current Mission: Database Sharding Showdown
