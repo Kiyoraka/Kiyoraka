@@ -19,19 +19,19 @@
 ## 📊 Battle Stats
 
 ### ⚔️ Attack Power  : 200 
-### 🛡️ Defense Power : 194 
-### ❤️ Health Point  : 608 
-### 🔮 Mana Point    : 269 
+### 🛡️ Defense Power : 195 
+### ❤️ Health Point  : 609 
+### 🔮 Mana Point    : 270 
 ### 🎯 Accuracy      : 54 
 ### ⚡ Speed         : 96
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 380
-### 🎨 CSS : 192
-### 🌐 HTML : 131
-### 🐘 PHP : 118
+### 📋 JavaScript : 382
+### 🎨 CSS : 193
+### 🌐 HTML : 132
+### 🐘 PHP : 120
 ### 🎭 Ren'Py : 94
 ### 🎯 Dart : 37
 ### 📝 Blade : 35
@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Hunting Null Pointer Imps
+#### Current Quest: Patrol: Variable Scope Dungeon
 
 ### 📅 Weekly Quest
 #### Current Mission: Cache Strategy Challenge
