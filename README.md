@@ -18,7 +18,7 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 200 
+### ⚔️ Attack Power  : 201 
 ### 🛡️ Defense Power : 195 
 ### ❤️ Health Point  : 609 
 ### 🔮 Mana Point    : 270 
@@ -28,7 +28,7 @@
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 382
+### 📋 JavaScript : 383
 ### 🎨 CSS : 193
 ### 🌐 HTML : 132
 ### 🐘 PHP : 120
@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Patrol: Variable Scope Dungeon
+#### Current Quest: Raid: DOM Element Elementals
 
 ### 📅 Weekly Quest
 #### Current Mission: Cache Strategy Challenge
