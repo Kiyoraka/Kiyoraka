@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Raid: DOM Element Elementals
+#### Current Quest: Meditating on Design Patterns
 
 ### 📅 Weekly Quest
 #### Current Mission: Cache Strategy Challenge
