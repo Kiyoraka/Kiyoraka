@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Meditating on Design Patterns
+#### Current Quest: Cataloging Code Libraries
 
 ### 📅 Weekly Quest
 #### Current Mission: Cache Strategy Challenge
