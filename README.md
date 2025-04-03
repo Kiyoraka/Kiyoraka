@@ -55,10 +55,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Cataloging Code Libraries
+#### Current Quest: Sharpening Debug Tools
 
 ### 📅 Weekly Quest
-#### Current Mission: Cache Strategy Challenge
+#### Current Mission: Message Queue Marathon
 
 ### 🌙 Monthly Raid
 #### Rain Bearer: Data Flood
