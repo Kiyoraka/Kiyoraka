@@ -18,19 +18,19 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 201 
-### 🛡️ Defense Power : 195 
-### ❤️ Health Point  : 609 
-### 🔮 Mana Point    : 270 
+### ⚔️ Attack Power  : 203 
+### 🛡️ Defense Power : 197 
+### ❤️ Health Point  : 617 
+### 🔮 Mana Point    : 272 
 ### 🎯 Accuracy      : 54 
 ### ⚡ Speed         : 96
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 383
-### 🎨 CSS : 193
-### 🌐 HTML : 132
+### 📋 JavaScript : 389
+### 🎨 CSS : 198
+### 🌐 HTML : 135
 ### 🐘 PHP : 120
 ### 🎭 Ren'Py : 94
 ### 🎯 Dart : 37
@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Sharpening Debug Tools
+#### Current Quest: Debug: Async/Await Curse
 
 ### 📅 Weekly Quest
 #### Current Mission: Message Queue Marathon
