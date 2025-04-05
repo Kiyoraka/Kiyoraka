@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Debug: Async/Await Curse
+#### Current Quest: Drinking Coffee at home
 
 ### 📅 Weekly Quest
 #### Current Mission: Message Queue Marathon
