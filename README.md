@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Drinking Coffee at home
+#### Current Quest: Cataloging Code Libraries
 
 ### 📅 Weekly Quest
 #### Current Mission: Message Queue Marathon
