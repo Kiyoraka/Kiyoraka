@@ -30,7 +30,7 @@
 
 ### 📋 JavaScript : 389
 ### 🎨 CSS : 198
-### 🌐 HTML : 135
+### 🌐 HTML : 136
 ### 🐘 PHP : 120
 ### 🎭 Ren'Py : 94
 ### 🎯 Dart : 37
@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Cataloging Code Libraries
+#### Current Quest: Patrol: Variable Scope Dungeon
 
 ### 📅 Weekly Quest
 #### Current Mission: Message Queue Marathon
