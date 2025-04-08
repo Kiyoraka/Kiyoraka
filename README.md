@@ -33,7 +33,7 @@
 ### 🌐 HTML : 136
 ### 🐘 PHP : 120
 ### 🎭 Ren'Py : 94
-### 🎯 Dart : 37
+### 🎯 Dart : 39
 ### 📝 Blade : 35
 ### 📝 Batchfile : 22
 ### 🐍 Python : 18
