@@ -18,28 +18,28 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 203 
-### 🛡️ Defense Power : 197 
-### ❤️ Health Point  : 617 
-### 🔮 Mana Point    : 272 
+### ⚔️ Attack Power  : 205 
+### 🛡️ Defense Power : 199 
+### ❤️ Health Point  : 621 
+### 🔮 Mana Point    : 274 
 ### 🎯 Accuracy      : 54 
 ### ⚡ Speed         : 96
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 389
-### 🎨 CSS : 198
+### 📋 JavaScript : 393
+### 🎨 CSS : 200
 ### 🌐 HTML : 136
-### 🐘 PHP : 121
+### 🐘 PHP : 131
 ### 🎭 Ren'Py : 94
 ### 🎯 Dart : 39
 ### 📝 Blade : 35
 ### 📝 Batchfile : 22
 ### 🐍 Python : 18
 ### ☕ Java : 8
-### ⚡ Hack : 8
 ### 💅 SCSS : 8
+### ⚡ Hack : 6
 ### ➕ C++ : 6
 ### 🎯 C# : 6
 ### 📝 VBA : 4
@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Resting in IDE Haven
+#### Current Quest: Hunting Memory Leak Demons
 
 ### 📅 Weekly Quest
 #### Current Mission: Load Balancing Legend
