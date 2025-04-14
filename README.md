@@ -21,17 +21,17 @@
 ### ⚔️ Attack Power  : 205 
 ### 🛡️ Defense Power : 199 
 ### ❤️ Health Point  : 621 
-### 🔮 Mana Point    : 274 
+### 🔮 Mana Point    : 275 
 ### 🎯 Accuracy      : 54 
 ### ⚡ Speed         : 96
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 393
+### 📋 JavaScript : 394
 ### 🎨 CSS : 200
 ### 🌐 HTML : 136
-### 🐘 PHP : 131
+### 🐘 PHP : 132
 ### 🎭 Ren'Py : 94
 ### 🎯 Dart : 39
 ### 📝 Blade : 35
@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Hunting Memory Leak Demons
+#### Current Quest: Mission: Git Conflict Critters
 
 ### 📅 Weekly Quest
 #### Current Mission: Load Balancing Legend
