@@ -19,9 +19,9 @@
 ## 📊 Battle Stats
 
 ### ⚔️ Attack Power  : 206 
-### 🛡️ Defense Power : 200 
-### ❤️ Health Point  : 643 
-### 🔮 Mana Point    : 278 
+### 🛡️ Defense Power : 199 
+### ❤️ Health Point  : 625 
+### 🔮 Mana Point    : 275 
 ### 🎯 Accuracy      : 54 
 ### ⚡ Speed         : 96
 
@@ -31,7 +31,7 @@
 ### 📋 JavaScript : 394
 ### 🎨 CSS : 200
 ### 🌐 HTML : 136
-### 🐘 PHP : 133
+### 🐘 PHP : 132
 ### 🎭 Ren'Py : 94
 ### 🎯 Dart : 39
 ### 📝 Blade : 35
@@ -49,14 +49,13 @@
 ### 🏃 Swift : 0
 ### 🎯 Objective-C : 0
 ### 🔰 Kotlin : 0
-### 🐚 Shell : 0
 
 ---
 ## 📜 Active Quests
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Quest: Fix Runtime Exception Goblins
+#### Current Quest: Resting in IDE Haven
 
 ### 📅 Weekly Quest
 #### Current Mission: Load Balancing Legend
