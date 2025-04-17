@@ -19,8 +19,8 @@
 ## 📊 Battle Stats
 
 ### ⚔️ Attack Power  : 206 
-### 🛡️ Defense Power : 199 
-### ❤️ Health Point  : 625 
+### 🛡️ Defense Power : 200 
+### ❤️ Health Point  : 626 
 ### 🔮 Mana Point    : 275 
 ### 🎯 Accuracy      : 54 
 ### ⚡ Speed         : 96
@@ -33,18 +33,18 @@
 ### 🌐 HTML : 136
 ### 🐘 PHP : 132
 ### 🎭 Ren'Py : 94
-### 🎯 Dart : 39
-### 📝 Blade : 35
+### 🎯 Dart : 40
+### 📝 Blade : 36
 ### 📝 Batchfile : 22
 ### 🐍 Python : 18
 ### ☕ Java : 8
 ### 💅 SCSS : 8
+### ➕ C++ : 7
 ### ⚡ Hack : 6
-### ➕ C++ : 6
 ### 🎯 C# : 6
 ### 📝 VBA : 4
+### ©️ C : 2
 ### 🏗️ CMake : 1
-### ©️ C : 1
 ### 💎 Ruby : 0
 ### 🏃 Swift : 0
 ### 🎯 Objective-C : 0
@@ -55,10 +55,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Resting in IDE Haven
+#### Current Quest: Quest: Fix Runtime Exception Goblins
 
 ### 📅 Weekly Quest
-#### Current Mission: Load Balancing Legend
+#### Current Mission: Security Hardening Hunt
 
 ### 🌙 Monthly Raid
 #### Rain Bearer: Data Flood
