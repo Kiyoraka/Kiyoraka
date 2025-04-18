@@ -28,9 +28,9 @@
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 394
+### 📋 JavaScript : 395
 ### 🎨 CSS : 200
-### 🌐 HTML : 136
+### 🌐 HTML : 137
 ### 🐘 PHP : 132
 ### 🎭 Ren'Py : 94
 ### 🎯 Dart : 40
@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Quest: Fix Runtime Exception Goblins
+#### Current Quest: Debug: Unit Test Gremlins
 
 ### 📅 Weekly Quest
 #### Current Mission: Security Hardening Hunt
