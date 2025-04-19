@@ -6,115 +6,46 @@ const TOKEN = process.env.PERSONAL_GITHUB_TOKEN;
 
 // Language icons mapping
 const LANGUAGE_ICONS = {
-  // Web & Frontend Languages
-  HTML: '🌐',           // .html, .htm
-  CSS: '🎨',            // .css
-  JavaScript: '📋',     // .js, .jsx
-  TypeScript: '🔷',     // .ts, .tsx
-  PHP: '🐘',            // .php
-  WebAssembly: '⚡',    // .wasm
+    // Web & Frontend
+    HTML: '🌐',           // .html
+    CSS: '🎨',            // .css
+    JavaScript: '📜',     // .js
+    PHP: '🐘',            // .php
+    Blade: '🗡️',          // .blade.php
+    SQL: '🧮',            // .sql
   
-  // CSS Preprocessors & Variants
-  SCSS: '💅',           // .scss
-  Sass: '💅',           // .sass
-  Less: '💄',           // .less
-  Stylus: '🎨',         // .styl
+    // Backend / General Purpose
+    Java: '☕',           // .java
+    Python: '🐍',         // .py
+    Bash: '💻',           // .sh
+    Shell: '🐚',          // .sh
+    
+    // Game Dev / Visual Novel
+    "Ren'Py": '🎭',       // .rpy
   
-  // Core Programming Languages
-  Python: '🐍',         // .py
-  Java: '☕',           // .java
-  'C++': '➕',          // .cpp, .cc, .cxx
-  'C#': '🎯',           // .cs
-  C: '©️',              // .c
-  Ruby: '💎',           // .rb
-  Swift: '🏃',          // .swift
-  Kotlin: '🔰',         // .kt
-  Go: '🐹',            // .go
-  Rust: '🦀',          // .rs
-  Hack: '⚡',           // .hack
-  Perl: '🐪',           // .pl, .pm
-  Lua: '🌙',           // .lua
-  R: '📊',              // .r
-  Julia: '🔯',          // .jl
-  Scala: '⚡',          // .scala
-  Dart: '🎯',          // .dart
-  Haskell: 'λ',        // .hs
-  Erlang: '☎️',         // .erl
-  Elixir: '💧',         // .ex, .exs
-  Clojure: '🔄',        // .clj
-  'F#': '🎼',           // .fs
-  MATLAB: '🧮',         // .m
-  Pascal: '📐',         // .pas
-  Fortran: '🔢',        // .f, .for
-  Groovy: '🎵',         // .groovy
+    // Scripting / Config / Markup
+    JSON: '🧾',           // .json
+    YAML: '📄',           // .yml, .yaml
+    Markdown: '📝',       // .md
   
-  // Shell & Scripting
-  Shell: '🐚',          // .sh
-  Bash: '📺',           // .bash
-  PowerShell: '💠',     // .ps1
-  Batch: '📋',          // .bat, .cmd
-  AWK: '🔍',            // .awk
-  Tcl: '🔧',            // .tcl
+    // Build / Environment
+    Dockerfile: '🐳',     // Dockerfile
+    Makefile: '🔧',       // Makefile
   
-  // Game Development
-  "Ren'Py": '🎭',       // .rpy
-  GDScript: '🎮',       // .gd
-  UnrealScript: '🎯',   // .uc
-  GLSL: '🌈',           // .glsl
-  HLSL: '🎨',           // .hlsl
+    // Template / Framework Specific
+    Twig: '🌿',           // .twig
+    EJS: '📄',            // .ejs
   
-  // System & Low-Level
-  Assembly: '⚙️',       // .asm
-  'Objective-C': '🎯',  // .m, .mm
-  'Objective-C++': '🎯',// .mm
-  VHDL: '💻',           // .vhdl
-  Verilog: '🔌',        // .v
+    // Likely Future Usage
+    TypeScript: '🔷',     // .ts
+    Kotlin: '📱',         // .kt (for Android dev)
+    C: '📘',              // .c (for low-level or performance-critical code)
+    'C++': '➕',            // .cpp (possible game dev)
+    'C#': '🧩',           // .cs
+    XML: '📄',            // .xml (used in Android)
+    GraphQL: '🕸️',        // .graphql
+  };
   
-  // Web3 & Blockchain
-  Solidity: '💎',       // .sol
-  Vyper: '🐍',          // .vy
-  
-  // Data & Config Languages
-  JSON: '📦',           // .json
-  YAML: '⚙️',           // .yml, .yaml
-  XML: '📄',            // .xml
-  TOML: '📝',           // .toml
-  INI: '📋',            // .ini
-  Markdown: '📝',       // .md
-  AsciiDoc: '📄',       // .adoc
-  
-  // Query & Database
-  SQL: '🗃️',           // .sql
-  GraphQL: '📊',        // .graphql, .gql
-  CQL: '🗄️',           // .cql
-  PLpgSQL: '🐘',        // .pgsql
-  
-  // Template Languages
-  Handlebars: '🤲',     // .hbs
-  EJS: '📑',            // .ejs
-  Twig: '🌱',           // .twig
-  Jinja: '🐍',          // .jinja
-  
-  // Build & Config
-  Dockerfile: '🐳',     // Dockerfile
-  HCL: '⚙️',            // .hcl
-  Makefile: '🔨',       // Makefile
-  CMake: '🏗️',         // CMakeLists.txt
-  
-  // Other Notable Languages
-  APL: '⌨️',            // .apl
-  COBOL: '👴',          // .cob, .cbl
-  D: '🔵',              // .d
-  Elm: '🌳',            // .elm
-  Forth: '4️⃣',         // .forth
-  Lisp: '👄',           // .lisp
-  Prolog: '🧩',         // .pl
-  Racket: '🎾',         // .rkt
-  Scheme: '🔄',         // .scm
-  Smalltalk: '💭',      // .st
-  Vim: '📝',            // .vim
-  
-};
 
 // Configure axios with longer timeout and retry logic
 axios.defaults.timeout = 30000;
