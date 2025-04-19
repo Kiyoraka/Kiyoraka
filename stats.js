@@ -6,107 +6,29 @@ const TOKEN = process.env.PERSONAL_GITHUB_TOKEN;
 
 // Language icons mapping
 const LANGUAGE_ICONS = {
-    // Web & Frontend Languages
-    HTML: '🌐',
-    CSS: '🎨',
-    JavaScript: '📋',
-    TypeScript: '📘',
-    PHP: '🐘',
-    Blade: '🗡️',
-  
-    // Core Programming Languages
-    Python: '🐍',
-    Java: '☕',
-    'C++': '➕➕',
-    'C#': '🧩',
-    C: '©️',
-    Ruby: '💎',
-    Swift: '🏃',
-    Kotlin: '🔰',
-    Go: '🐹',
-    Rust: '🦀',
-    Hack: '⚡',
-    Perl: '🐪',
-    Lua: '🌙',
-    R: '📉',
-    Julia: '🔯',
-    Scala: '🌀',
-    Dart: '🎯',
-    Haskell: 'λ',
-    Erlang: '☎️',
-    Elixir: '💧',
-    Clojure: '🔄',
-    'F#': '🎼',
-    MATLAB: '🧮',
-    Pascal: '📐',
-    Fortran: '🔢',
-    Groovy: '🎵',
-  
-    // Shell & Scripting
-    Shell: '🐚',
-    Bash: '📺',
-    PowerShell: '💠',
-    Batch: '🖥️',
-    AWK: '🔍',
-    Tcl: '🔧',
-  
-    // Game Development
-    "Ren'Py": '🎭',
-    GDScript: '🎮',
-    UnrealScript: '🎯',
-    GLSL: '🌈',
-    HLSL: '🎨',
-  
-    // System & Low-Level
-    Assembly: '⚙️',
-    'Objective-C': '🍏',
-    'Objective-C++': '🍏',
-    VHDL: '💻',
-    Verilog: '🔌',
-  
-    // Web3 & Blockchain
-    Solidity: '💎',
-    Vyper: '🐍',
-  
-    // Data & Config Languages
-    JSON: '🧩',
-    YAML: '⚙️',
-    XML: '📄',
-    TOML: '📘',
-    INI: '📋',
-    Markdown: '✍️',
-    AsciiDoc: '📄',
-  
-    // Query & Database
-    SQL: '🗃️',
-    GraphQL: '🕸️',
-    CQL: '🗄️',
-    PLpgSQL: '🐘',
-  
-    // Template Languages
-    Handlebars: '🤲',
-    EJS: '📑',
-    Twig: '🌱',
-    Jinja: '🧞',
-  
-    // Build & Config
-    Dockerfile: '🐳',
-    HCL: '⚙️',
-    Makefile: '🔨',
-    CMake: '🏗️',
-  
-    // Other Notable Languages
-    APL: '⌨️',
-    COBOL: '👴',
-    D: '🔵',
-    Elm: '🌳',
-    Forth: '4️⃣',
-    Lisp: '👄',
-    Racket: '🎾',
-    Scheme: '🔄',
-    Smalltalk: '💭',
-    Vim: '✒️',
+    JavaScript: '🟨',      // Yellow block, matches JS branding
+    CSS: '💅',             // Represents style and appearance
+    HTML: '📄',            // Represents web content structure
+    PHP: '🐘',             // The iconic PHP elephant
+    "Ren'Py": '📚',        // Visual novel = storybook
+    Blade: '🧷',           // Symbolizes template binding
+    Dart: '🪃',            // Boomerang, sharp and fast like Dart
+    Batchfile: '🗂️',       // Batch = file automation
+    Python: '🐍',          // The iconic Python snake
+    Java: '☕',            // Java = coffee
+    SCSS: '👗',            // SCSS = stylizing, fashionable
+    "C++": '🧠',           // Complex, powerful
+    Hack: '🧬',            // Mutation/scripting
+    "C#": '🎻',            // Classical string instrument (sharp)
+    VBA: '📊',             // Excel/Office scripting
+    C: '🛠️',              // Foundational low-level language
+    CMake: '🧱',           // Building blocks, compilation
+    Ruby: '🔻',            // Ruby gem in red/diamond shape
+    Swift: '🦅',           // Swift bird = speed & elegance
+    "Objective-C": '🍎',    // Apple-related
+    Kotlin: '🎯',          // Precise, modern target
   };
+  
   
   
 
