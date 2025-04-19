@@ -6,45 +6,108 @@ const TOKEN = process.env.PERSONAL_GITHUB_TOKEN;
 
 // Language icons mapping
 const LANGUAGE_ICONS = {
-    // Web & Frontend
-    HTML: '🌐',           // .html
-    CSS: '🎨',            // .css
-    JavaScript: '📜',     // .js
-    PHP: '🐘',            // .php
-    Blade: '🗡️',          // .blade.php
-    SQL: '🧮',            // .sql
+    // Web & Frontend Languages
+    HTML: '🌐',
+    CSS: '🎨',
+    JavaScript: '📋',
+    TypeScript: '📘',
+    PHP: '🐘',
+    Blade: '🗡️',
   
-    // Backend / General Purpose
-    Java: '☕',           // .java
-    Python: '🐍',         // .py
-    Bash: '💻',           // .sh
-    Shell: '🐚',          // .sh
-    
-    // Game Dev / Visual Novel
-    "Ren'Py": '🎭',       // .rpy
+    // Core Programming Languages
+    Python: '🐍',
+    Java: '☕',
+    'C++': '➕➕',
+    'C#': '🧩',
+    C: '©️',
+    Ruby: '💎',
+    Swift: '🏃',
+    Kotlin: '🔰',
+    Go: '🐹',
+    Rust: '🦀',
+    Hack: '⚡',
+    Perl: '🐪',
+    Lua: '🌙',
+    R: '📉',
+    Julia: '🔯',
+    Scala: '🌀',
+    Dart: '🎯',
+    Haskell: 'λ',
+    Erlang: '☎️',
+    Elixir: '💧',
+    Clojure: '🔄',
+    'F#': '🎼',
+    MATLAB: '🧮',
+    Pascal: '📐',
+    Fortran: '🔢',
+    Groovy: '🎵',
   
-    // Scripting / Config / Markup
-    JSON: '🧾',           // .json
-    YAML: '📄',           // .yml, .yaml
-    Markdown: '📝',       // .md
+    // Shell & Scripting
+    Shell: '🐚',
+    Bash: '📺',
+    PowerShell: '💠',
+    Batch: '🖥️',
+    AWK: '🔍',
+    Tcl: '🔧',
   
-    // Build / Environment
-    Dockerfile: '🐳',     // Dockerfile
-    Makefile: '🔧',       // Makefile
+    // Game Development
+    "Ren'Py": '🎭',
+    GDScript: '🎮',
+    UnrealScript: '🎯',
+    GLSL: '🌈',
+    HLSL: '🎨',
   
-    // Template / Framework Specific
-    Twig: '🌿',           // .twig
-    EJS: '📄',            // .ejs
+    // System & Low-Level
+    Assembly: '⚙️',
+    'Objective-C': '🍏',
+    'Objective-C++': '🍏',
+    VHDL: '💻',
+    Verilog: '🔌',
   
-    // Likely Future Usage
-    TypeScript: '🔷',     // .ts
-    Kotlin: '📱',         // .kt (for Android dev)
-    C: '📘',              // .c (for low-level or performance-critical code)
-    'C++': '➕',            // .cpp (possible game dev)
-    'C#': '🧩',           // .cs
-    XML: '📄',            // .xml (used in Android)
-    GraphQL: '🕸️',        // .graphql
+    // Web3 & Blockchain
+    Solidity: '💎',
+    Vyper: '🐍',
+  
+    // Data & Config Languages
+    JSON: '🧩',
+    YAML: '⚙️',
+    XML: '📄',
+    TOML: '📘',
+    INI: '📋',
+    Markdown: '✍️',
+    AsciiDoc: '📄',
+  
+    // Query & Database
+    SQL: '🗃️',
+    GraphQL: '🕸️',
+    CQL: '🗄️',
+    PLpgSQL: '🐘',
+  
+    // Template Languages
+    Handlebars: '🤲',
+    EJS: '📑',
+    Twig: '🌱',
+    Jinja: '🧞',
+  
+    // Build & Config
+    Dockerfile: '🐳',
+    HCL: '⚙️',
+    Makefile: '🔨',
+    CMake: '🏗️',
+  
+    // Other Notable Languages
+    APL: '⌨️',
+    COBOL: '👴',
+    D: '🔵',
+    Elm: '🌳',
+    Forth: '4️⃣',
+    Lisp: '👄',
+    Racket: '🎾',
+    Scheme: '🔄',
+    Smalltalk: '💭',
+    Vim: '✒️',
   };
+  
   
 
 // Configure axios with longer timeout and retry logic

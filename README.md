@@ -18,36 +18,36 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 206 
-### 🛡️ Defense Power : 200 
-### ❤️ Health Point  : 626 
-### 🔮 Mana Point    : 275 
+### ⚔️ Attack Power  : 208 
+### 🛡️ Defense Power : 202 
+### ❤️ Health Point  : 629 
+### 🔮 Mana Point    : 277 
 ### 🎯 Accuracy      : 54 
 ### ⚡ Speed         : 96
 
 ---
 ## 💻 Programming Skills
 
-### 📋 JavaScript : 395
-### 🎨 CSS : 200
+### 📋 JavaScript : 397
+### 🎨 CSS : 201
 ### 🌐 HTML : 137
-### 🐘 PHP : 132
+### 🐘 PHP : 136
 ### 🎭 Ren'Py : 94
+### 🗡️ Blade : 43
 ### 🎯 Dart : 40
-### 📝 Blade : 36
 ### 📝 Batchfile : 22
 ### 🐍 Python : 18
 ### ☕ Java : 8
-### 💅 SCSS : 8
-### ➕ C++ : 7
+### 📝 SCSS : 8
+### ➕➕ C++ : 7
 ### ⚡ Hack : 6
-### 🎯 C# : 6
+### 🧩 C# : 6
 ### 📝 VBA : 4
 ### ©️ C : 2
 ### 🏗️ CMake : 1
 ### 💎 Ruby : 0
 ### 🏃 Swift : 0
-### 🎯 Objective-C : 0
+### 🍏 Objective-C : 0
 ### 🔰 Kotlin : 0
 
 ---
@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Debug: Unit Test Gremlins
+#### Current Quest: Raid: Recursive Function Cave
 
 ### 📅 Weekly Quest
 #### Current Mission: Security Hardening Hunt
