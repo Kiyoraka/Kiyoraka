@@ -18,10 +18,10 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 209 
-### 🛡️ Defense Power : 203 
-### ❤️ Health Point  : 631 
-### 🔮 Mana Point    : 278 
+### ⚔️ Attack Power  : 211 
+### 🛡️ Defense Power : 204 
+### ❤️ Health Point  : 633 
+### 🔮 Mana Point    : 280 
 ### 🎯 Accuracy      : 54 
 ### ⚡ Speed         : 96
 
@@ -29,11 +29,11 @@
 ## 💻 Programming Skills
 
 ### 🟨 JavaScript : 399
-### 💅 CSS : 202
-### 🐘 PHP : 138
+### 💅 CSS : 203
+### 🐘 PHP : 141
 ### 📄 HTML : 137
 ### 📚 Ren'Py : 94
-### 🧷 Blade : 46
+### 🧷 Blade : 51
 ### 🪃 Dart : 40
 ### 🗂️ Batchfile : 22
 ### 🐍 Python : 18
@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Quest: Database Optimization Odyssey
+#### Current Quest: Hunt: Console.log Spirits
 
 ### 📅 Weekly Quest
 #### Current Mission: Security Hardening Hunt
