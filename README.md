@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Hunt: Console.log Spirits
+#### Current Quest: Meditating on Design Patterns
 
 ### 📅 Weekly Quest
 #### Current Mission: Security Hardening Hunt
