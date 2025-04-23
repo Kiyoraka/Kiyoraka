@@ -13,24 +13,24 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : F 
-### ⭐ Level : 20
+### ⭐ Level : 21
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 211 
-### 🛡️ Defense Power : 204 
-### ❤️ Health Point  : 633 
-### 🔮 Mana Point    : 280 
-### 🎯 Accuracy      : 54 
-### ⚡ Speed         : 96
+### ⚔️ Attack Power  : 218 
+### 🛡️ Defense Power : 212 
+### ❤️ Health Point  : 641 
+### 🔮 Mana Point    : 283 
+### 🎯 Accuracy      : 56 
+### ⚡ Speed         : 99
 
 ---
 ## 💻 Programming Skills
 
-### 🟨 JavaScript : 399
+### 🟨 JavaScript : 403
 ### 💅 CSS : 203
-### 🐘 PHP : 141
+### 🐘 PHP : 144
 ### 📄 HTML : 137
 ### 📚 Ren'Py : 94
 ### 🧷 Blade : 51
@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Organizing Code Sanctuary
+#### Current Quest: Mission: Type Error Wildlands
 
 ### 📅 Weekly Quest
 #### Current Mission: Security Hardening Hunt
