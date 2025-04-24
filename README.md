@@ -18,23 +18,23 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 218 
-### 🛡️ Defense Power : 212 
-### ❤️ Health Point  : 641 
-### 🔮 Mana Point    : 283 
+### ⚔️ Attack Power  : 221 
+### 🛡️ Defense Power : 214 
+### ❤️ Health Point  : 646 
+### 🔮 Mana Point    : 285 
 ### 🎯 Accuracy      : 56 
 ### ⚡ Speed         : 99
 
 ---
 ## 💻 Programming Skills
 
-### 🟨 JavaScript : 403
+### 🟨 JavaScript : 404
 ### 💅 CSS : 203
-### 🐘 PHP : 144
+### 🐘 PHP : 146
 ### 📄 HTML : 137
 ### 📚 Ren'Py : 94
+### 🪃 Dart : 56
 ### 🧷 Blade : 51
-### 🪃 Dart : 40
 ### 🗂️ Batchfile : 22
 ### 🐍 Python : 18
 ### ☕ Java : 8
@@ -55,10 +55,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Type Error Wildlands
+#### Current Quest: Debug Patrol: Syntax Error Plains
 
 ### 📅 Weekly Quest
-#### Current Mission: Security Hardening Hunt
+#### Current Mission: Monitoring System Setup
 
 ### 🌙 Monthly Raid
 #### Rain Bearer: Data Flood
