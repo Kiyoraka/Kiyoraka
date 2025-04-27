@@ -18,23 +18,23 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 226 
-### 🛡️ Defense Power : 219 
-### ❤️ Health Point  : 662 
-### 🔮 Mana Point    : 290 
+### ⚔️ Attack Power  : 228 
+### 🛡️ Defense Power : 220 
+### ❤️ Health Point  : 664 
+### 🔮 Mana Point    : 291 
 ### 🎯 Accuracy      : 56 
 ### ⚡ Speed         : 99
 
 ---
 ## 💻 Programming Skills
 
-### 🟨 JavaScript : 414
-### 💅 CSS : 211
-### 📄 HTML : 156
-### 🐘 PHP : 146
+### 🟨 JavaScript : 415
+### 💅 CSS : 212
+### 📄 HTML : 157
+### 🐘 PHP : 145
 ### 📚 Ren'Py : 94
 ### 🪃 Dart : 56
-### 🧷 Blade : 51
+### 🧷 Blade : 56
 ### 🗂️ Batchfile : 21
 ### 🐍 Python : 18
 ### ☕ Java : 8
@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Debug: Authentication Apparitions
+#### Current Quest: Quest: Fix Runtime Exception Goblins
 
 ### 📅 Weekly Quest
 #### Current Mission: Monitoring System Setup
