@@ -13,25 +13,25 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : F 
-### ⭐ Level : 21
+### ⭐ Level : 22
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 228 
-### 🛡️ Defense Power : 220 
-### ❤️ Health Point  : 664 
-### 🔮 Mana Point    : 291 
-### 🎯 Accuracy      : 56 
-### ⚡ Speed         : 99
+### ⚔️ Attack Power  : 241 
+### 🛡️ Defense Power : 234 
+### ❤️ Health Point  : 685 
+### 🔮 Mana Point    : 300 
+### 🎯 Accuracy      : 59 
+### ⚡ Speed         : 103
 
 ---
 ## 💻 Programming Skills
 
-### 🟨 JavaScript : 415
+### 🟨 JavaScript : 427
 ### 💅 CSS : 212
-### 📄 HTML : 157
-### 🐘 PHP : 145
+### 🐘 PHP : 177
+### 📄 HTML : 158
 ### 📚 Ren'Py : 94
 ### 🪃 Dart : 56
 ### 🧷 Blade : 56
@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Quest: Fix Runtime Exception Goblins
+#### Current Quest: Mission: High Availability Heroes
 
 ### 📅 Weekly Quest
 #### Current Mission: Monitoring System Setup
