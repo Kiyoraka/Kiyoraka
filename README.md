@@ -28,7 +28,7 @@
 ---
 ## 💻 Programming Skills
 
-### 🟨 JavaScript : 427
+### 🟨 JavaScript : 428
 ### 💅 CSS : 212
 ### 🐘 PHP : 177
 ### 📄 HTML : 158
@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: High Availability Heroes
+#### Current Quest: Quest: Fix Runtime Exception Goblins
 
 ### 📅 Weekly Quest
 #### Current Mission: Monitoring System Setup
