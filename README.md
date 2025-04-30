@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Quest: Fix Runtime Exception Goblins
+#### Current Quest: Drinking Coffee at home
 
 ### 📅 Weekly Quest
 #### Current Mission: Monitoring System Setup
