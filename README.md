@@ -30,7 +30,7 @@
 
 ### 🟨 JavaScript : 440
 ### 💅 CSS : 224
-### 🐘 PHP : 180
+### 🐘 PHP : 181
 ### 📄 HTML : 177
 ### 📚 Ren'Py : 94
 ### 🪃 Dart : 56
@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Raid: Recursive Function Cave
+#### Current Quest: Hunting Null Pointer Imps
 
 ### 📅 Weekly Quest
 #### Current Mission: Logging Infrastructure Launch
