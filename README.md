@@ -18,24 +18,24 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 251 
-### 🛡️ Defense Power : 243 
-### ❤️ Health Point  : 708 
-### 🔮 Mana Point    : 309 
+### ⚔️ Attack Power  : 253 
+### 🛡️ Defense Power : 245 
+### ❤️ Health Point  : 711 
+### 🔮 Mana Point    : 311 
 ### 🎯 Accuracy      : 59 
 ### ⚡ Speed         : 103
 
 ---
 ## 💻 Programming Skills
 
-### 🟨 JavaScript : 442
-### 💅 CSS : 224
-### 🐘 PHP : 198
-### 📄 HTML : 177
+### 🟨 JavaScript : 447
+### 💅 CSS : 229
+### 🐘 PHP : 199
+### 📄 HTML : 180
 ### 📚 Ren'Py : 94
+### 🧷 Blade : 57
 ### 🪃 Dart : 56
-### 🧷 Blade : 56
-### 🗂️ Batchfile : 21
+### 🗂️ Batchfile : 20
 ### 🐍 Python : 18
 ### ☕ Java : 8
 ### 👗 SCSS : 8
@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Raid: API Integration Abyss
+#### Current Quest: Mission: Promise Chain Cavern
 
 ### 📅 Weekly Quest
 #### Current Mission: Logging Infrastructure Launch
