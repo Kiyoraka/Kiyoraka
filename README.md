@@ -13,25 +13,25 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : F 
-### ⭐ Level : 22
+### ⭐ Level : 23
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 253 
-### 🛡️ Defense Power : 245 
-### ❤️ Health Point  : 711 
-### 🔮 Mana Point    : 311 
-### 🎯 Accuracy      : 59 
-### ⚡ Speed         : 103
+### ⚔️ Attack Power  : 265 
+### 🛡️ Defense Power : 256 
+### ❤️ Health Point  : 732 
+### 🔮 Mana Point    : 316 
+### 🎯 Accuracy      : 62 
+### ⚡ Speed         : 108
 
 ---
 ## 💻 Programming Skills
 
-### 🟨 JavaScript : 447
-### 💅 CSS : 229
+### 🟨 JavaScript : 458
+### 💅 CSS : 235
 ### 🐘 PHP : 199
-### 📄 HTML : 180
+### 📄 HTML : 186
 ### 📚 Ren'Py : 94
 ### 🧷 Blade : 57
 ### 🪃 Dart : 56
@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Promise Chain Cavern
+#### Current Quest: Hunt: Distributed Systems Dragons
 
 ### 📅 Weekly Quest
 #### Current Mission: Logging Infrastructure Launch
