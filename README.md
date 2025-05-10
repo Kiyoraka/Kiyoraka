@@ -13,25 +13,25 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : F 
-### ⭐ Level : 23
+### ⭐ Level : 24
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 273 
-### 🛡️ Defense Power : 263 
-### ❤️ Health Point  : 759 
-### 🔮 Mana Point    : 323 
-### 🎯 Accuracy      : 62 
-### ⚡ Speed         : 108
+### ⚔️ Attack Power  : 283 
+### 🛡️ Defense Power : 273 
+### ❤️ Health Point  : 770 
+### 🔮 Mana Point    : 328 
+### 🎯 Accuracy      : 65 
+### ⚡ Speed         : 112
 
 ---
 ## 💻 Programming Skills
 
-### 🟨 JavaScript : 474
+### 🟨 JavaScript : 477
 ### 💅 CSS : 247
-### 🐘 PHP : 202
-### 📄 HTML : 197
+### 🐘 PHP : 213
+### 📄 HTML : 199
 ### 📚 Ren'Py : 94
 ### 🧷 Blade : 63
 ### 🪃 Dart : 56
@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Quest: Database Migration Maze
+#### Current Quest: Debug: Async/Await Curse
 
 ### 📅 Weekly Quest
 #### Current Mission: Error Handling Enhancement
