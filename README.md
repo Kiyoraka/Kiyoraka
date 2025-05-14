@@ -13,29 +13,29 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : F 
-### ⭐ Level : 24
+### ⭐ Level : 25
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 293 
-### 🛡️ Defense Power : 281 
-### ❤️ Health Point  : 807 
-### 🔮 Mana Point    : 335 
-### 🎯 Accuracy      : 65 
-### ⚡ Speed         : 112
+### ⚔️ Attack Power  : 302 
+### 🛡️ Defense Power : 290 
+### ❤️ Health Point  : 819 
+### 🔮 Mana Point    : 338 
+### 🎯 Accuracy      : 68 
+### ⚡ Speed         : 116
 
 ---
 ## 💻 Programming Skills
 
 ### 🟨 JavaScript : 496
 ### 💅 CSS : 258
-### 🐘 PHP : 216
+### 🐘 PHP : 217
 ### 📄 HTML : 206
 ### 📚 Ren'Py : 94
-### 🪃 Dart : 64
+### 🪃 Dart : 67
 ### 🧷 Blade : 63
-### 🗂️ Batchfile : 21
+### 🗂️ Batchfile : 22
 ### 🐍 Python : 18
 ### 🧠 C++ : 10
 ### ☕ Java : 8
@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Security Hardening Crusade
+#### Current Quest: Raid: DOM Element Elementals
 
 ### 📅 Weekly Quest
 #### Current Mission: Error Handling Enhancement
