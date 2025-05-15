@@ -18,23 +18,23 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 302 
-### 🛡️ Defense Power : 290 
-### ❤️ Health Point  : 819 
-### 🔮 Mana Point    : 338 
-### 🎯 Accuracy      : 68 
-### ⚡ Speed         : 116
+### ⚔️ Attack Power  : 305 
+### 🛡️ Defense Power : 292 
+### ❤️ Health Point  : 822 
+### 🔮 Mana Point    : 340 
+### 🎯 Accuracy      : 70 
+### ⚡ Speed         : 123
 
 ---
 ## 💻 Programming Skills
 
-### 🟨 JavaScript : 496
-### 💅 CSS : 258
-### 🐘 PHP : 217
-### 📄 HTML : 206
+### 🟨 JavaScript : 500
+### 💅 CSS : 261
+### 🐘 PHP : 219
+### 📄 HTML : 207
 ### 📚 Ren'Py : 94
-### 🪃 Dart : 67
-### 🧷 Blade : 63
+### 🪃 Dart : 70
+### 🧷 Blade : 66
 ### 🗂️ Batchfile : 22
 ### 🐍 Python : 18
 ### 🧠 C++ : 10
@@ -55,10 +55,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Raid: DOM Element Elementals
+#### Current Quest: Hunt: State Management Specters
 
 ### 📅 Weekly Quest
-#### Current Mission: Error Handling Enhancement
+#### Current Mission: Code Quality Crusade
 
 ### 🌙 Monthly Raid
 #### Blossom Boss: UI Revolution
