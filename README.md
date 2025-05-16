@@ -18,20 +18,20 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 305 
-### 🛡️ Defense Power : 292 
-### ❤️ Health Point  : 822 
-### 🔮 Mana Point    : 340 
+### ⚔️ Attack Power  : 306 
+### 🛡️ Defense Power : 294 
+### ❤️ Health Point  : 829 
+### 🔮 Mana Point    : 341 
 ### 🎯 Accuracy      : 70 
 ### ⚡ Speed         : 123
 
 ---
 ## 💻 Programming Skills
 
-### 🟨 JavaScript : 500
-### 💅 CSS : 261
+### 🟨 JavaScript : 501
+### 💅 CSS : 265
 ### 🐘 PHP : 219
-### 📄 HTML : 207
+### 📄 HTML : 212
 ### 📚 Ren'Py : 94
 ### 🪃 Dart : 70
 ### 🧷 Blade : 66
@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Hunt: State Management Specters
+#### Current Quest: Quest: Fix Runtime Exception Goblins
 
 ### 📅 Weekly Quest
 #### Current Mission: Code Quality Crusade
