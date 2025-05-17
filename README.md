@@ -18,10 +18,10 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 306 
-### 🛡️ Defense Power : 294 
-### ❤️ Health Point  : 829 
-### 🔮 Mana Point    : 341 
+### ⚔️ Attack Power  : 308 
+### 🛡️ Defense Power : 295 
+### ❤️ Health Point  : 835 
+### 🔮 Mana Point    : 343 
 ### 🎯 Accuracy      : 70 
 ### ⚡ Speed         : 123
 
@@ -33,10 +33,10 @@
 ### 🐘 PHP : 219
 ### 📄 HTML : 212
 ### 📚 Ren'Py : 94
-### 🪃 Dart : 70
+### 🪃 Dart : 71
 ### 🧷 Blade : 66
+### 🐍 Python : 28
 ### 🗂️ Batchfile : 22
-### 🐍 Python : 18
 ### 🧠 C++ : 10
 ### ☕ Java : 8
 ### 👗 SCSS : 8
@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Quest: Fix Runtime Exception Goblins
+#### Current Quest: Quest: Database Migration Maze
 
 ### 📅 Weekly Quest
 #### Current Mission: Code Quality Crusade
