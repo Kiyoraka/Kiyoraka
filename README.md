@@ -13,30 +13,30 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : F 
-### ⭐ Level : 26
+### ⭐ Level : 25
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 326 
-### 🛡️ Defense Power : 311 
-### ❤️ Health Point  : 866 
-### 🔮 Mana Point    : 352 
-### 🎯 Accuracy      : 74 
-### ⚡ Speed         : 130
+### ⚔️ Attack Power  : 309 
+### 🛡️ Defense Power : 294 
+### ❤️ Health Point  : 847 
+### 🔮 Mana Point    : 342 
+### 🎯 Accuracy      : 71 
+### ⚡ Speed         : 125
 
 ---
 ## 💻 Programming Skills
 
-### 🟨 JavaScript : 516
-### 💅 CSS : 271
-### 🐘 PHP : 239
-### 📄 HTML : 218
+### 🟨 JavaScript : 504
+### 💅 CSS : 264
+### 🐘 PHP : 232
+### 📄 HTML : 221
 ### 📚 Ren'Py : 94
 ### 🪃 Dart : 75
-### 🧷 Blade : 66
+### 🧷 Blade : 31
 ### 🐍 Python : 28
-### 🗂️ Batchfile : 22
+### 🗂️ Batchfile : 24
 ### 🧠 C++ : 10
 ### ☕ Java : 8
 ### 👗 SCSS : 8
@@ -55,7 +55,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Git Conflict Critters
+#### Current Quest: Quest: Database Migration Maze
 
 ### 📅 Weekly Quest
 #### Current Mission: Code Quality Crusade
