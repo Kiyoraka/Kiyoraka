@@ -13,28 +13,28 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : F 
-### ⭐ Level : 25
+### ⭐ Level : 26
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 311 
-### 🛡️ Defense Power : 297 
-### ❤️ Health Point  : 850 
-### 🔮 Mana Point    : 344 
-### 🎯 Accuracy      : 71 
-### ⚡ Speed         : 125
+### ⚔️ Attack Power  : 324 
+### 🛡️ Defense Power : 309 
+### ❤️ Health Point  : 867 
+### 🔮 Mana Point    : 350 
+### 🎯 Accuracy      : 74 
+### ⚡ Speed         : 130
 
 ---
 ## 💻 Programming Skills
 
-### 🟨 JavaScript : 509
-### 💅 CSS : 268
-### 🐘 PHP : 236
-### 📄 HTML : 222
+### 🟨 JavaScript : 512
+### 💅 CSS : 273
+### 🐘 PHP : 235
+### 📄 HTML : 225
 ### 📚 Ren'Py : 94
-### 🪃 Dart : 75
-### 🧷 Blade : 31
+### 🪃 Dart : 79
+### 🧷 Blade : 46
 ### 🐍 Python : 28
 ### 🗂️ Batchfile : 24
 ### 🧠 C++ : 10
@@ -55,10 +55,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Promise Chain Cavern
+#### Current Quest: Mission: Security Hardening Crusade
 
 ### 📅 Weekly Quest
-#### Current Mission: Code Quality Crusade
+#### Current Mission: Technical Debt Takedown
 
 ### 🌙 Monthly Raid
 #### Blossom Boss: UI Revolution
