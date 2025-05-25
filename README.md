@@ -13,36 +13,36 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : F 
-### ⭐ Level : 25
+### ⭐ Level : 26
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 326 
-### 🛡️ Defense Power : 313 
-### ❤️ Health Point  : 956 
-### 🔮 Mana Point    : 370 
-### 🎯 Accuracy      : 71 
-### ⚡ Speed         : 125
+### ⚔️ Attack Power  : 339 
+### 🛡️ Defense Power : 325 
+### ❤️ Health Point  : 974 
+### 🔮 Mana Point    : 376 
+### 🎯 Accuracy      : 74 
+### ⚡ Speed         : 130
 
 ---
 ## 💻 Programming Skills
 
-### 🟨 JavaScript : 543
+### 🟨 JavaScript : 550
 ### 💅 CSS : 284
-### 🐘 PHP : 261
+### 🐘 PHP : 263
 ### 📄 HTML : 225
 ### 📚 Ren'Py : 94
-### 🪃 Dart : 79
+### 🪃 Dart : 88
 ### 🧷 Blade : 46
 ### 🐍 Python : 28
 ### 🗂️ Batchfile : 24
-### 🧠 C++ : 10
+### 🧠 C++ : 14
 ### ☕ Java : 8
 ### 🧬 Hack : 8
 ### 👗 SCSS : 8
+### 🧱 CMake : 7
 ### 🎻 C# : 6
-### 🧱 CMake : 4
 ### 📊 VBA : 4
 ### 🛠️ C : 2
 ### 🔻 Ruby : 0
@@ -59,7 +59,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Security Hardening Crusade
+#### Current Quest: Epic: Microservices Mastery
 
 ### 📅 Weekly Quest
 #### Current Mission: Technical Debt Takedown
