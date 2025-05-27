@@ -18,10 +18,10 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 344 
-### 🛡️ Defense Power : 330 
-### ❤️ Health Point  : 986 
-### 🔮 Mana Point    : 380 
+### ⚔️ Attack Power  : 345 
+### 🛡️ Defense Power : 331 
+### ❤️ Health Point  : 996 
+### 🔮 Mana Point    : 381 
 ### 🎯 Accuracy      : 74 
 ### ⚡ Speed         : 130
 
@@ -35,8 +35,8 @@
 ### 📚 Ren'Py : 94
 ### 🪃 Dart : 89
 ### 🧷 Blade : 59
-### 🐍 Python : 28
-### 🗂️ Batchfile : 24
+### 🐍 Python : 32
+### 🗂️ Batchfile : 23
 ### 🧠 C++ : 14
 ### ☕ Java : 8
 ### 🧬 Hack : 8
@@ -59,7 +59,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Quest: Load Balancing Leviathan
+#### Current Quest: Patrol: Variable Scope Dungeon
 
 ### 📅 Weekly Quest
 #### Current Mission: Technical Debt Takedown
