@@ -59,7 +59,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Patrol: Variable Scope Dungeon
+#### Current Quest: Drinking Coffee at home
 
 ### 📅 Weekly Quest
 #### Current Mission: Technical Debt Takedown
