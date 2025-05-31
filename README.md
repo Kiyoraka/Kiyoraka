@@ -18,25 +18,26 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 365 
-### 🛡️ Defense Power : 350 
-### ❤️ Health Point  : 1020 
-### 🔮 Mana Point    : 392 
+### ⚔️ Attack Power  : 371 
+### 🛡️ Defense Power : 356 
+### ❤️ Health Point  : 1029 
+### 🔮 Mana Point    : 397 
 ### 🎯 Accuracy      : 77 
 ### ⚡ Speed         : 134
 
 ---
 ## 💻 Programming Skills
 
-### 🟨 JavaScript : 602
-### 💅 CSS : 300
-### 🐘 PHP : 267
+### 🟨 JavaScript : 606
+### 💅 CSS : 303
+### 🐘 PHP : 280
 ### 📄 HTML : 240
 ### 📚 Ren'Py : 94
 ### 🪃 Dart : 89
 ### 🧷 Blade : 60
 ### 🐍 Python : 32
 ### 🗂️ Batchfile : 23
+### 📝 Vue : 18
 ### 🧠 C++ : 14
 ### ☕ Java : 8
 ### 🧬 Hack : 8
@@ -51,7 +52,6 @@
 ### 📝 TypeScript : 0
 ### 🎯 Kotlin : 0
 ### 📝 Go : 0
-### 📝 Vue : 0
 ### 📝 Shell : 0
 
 ---
@@ -59,7 +59,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Type Error Wildlands
+#### Current Quest: Mission: High Availability Heroes
 
 ### 📅 Weekly Quest
 #### Current Mission: Authentication System Upgrade
