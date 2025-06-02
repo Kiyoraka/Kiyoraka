@@ -18,29 +18,29 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 371 
-### 🛡️ Defense Power : 356 
-### ❤️ Health Point  : 1029 
-### 🔮 Mana Point    : 397 
+### ⚔️ Attack Power  : 374 
+### 🛡️ Defense Power : 359 
+### ❤️ Health Point  : 1038 
+### 🔮 Mana Point    : 400 
 ### 🎯 Accuracy      : 77 
 ### ⚡ Speed         : 134
 
 ---
 ## 💻 Programming Skills
 
-### 🟨 JavaScript : 606
-### 💅 CSS : 304
-### 🐘 PHP : 280
-### 📄 HTML : 240
+### 🟨 JavaScript : 609
+### 💅 CSS : 311
+### 🐘 PHP : 283
+### 📄 HTML : 242
 ### 📚 Ren'Py : 94
-### 🪃 Dart : 89
+### 🪃 Dart : 90
 ### 🧷 Blade : 60
 ### 🐍 Python : 32
 ### 🗂️ Batchfile : 23
 ### 📝 Vue : 18
-### 🧠 C++ : 14
+### 🧠 C++ : 15
+### 🧬 Hack : 9
 ### ☕ Java : 8
-### 🧬 Hack : 8
 ### 👗 SCSS : 8
 ### 🧱 CMake : 7
 ### 🎻 C# : 6
@@ -59,7 +59,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Raid: DOM Element Elementals
+#### Current Quest: Hunting Memory Leak Demons
 
 ### 📅 Weekly Quest
 #### Current Mission: Authentication System Upgrade
