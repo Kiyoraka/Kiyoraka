@@ -18,20 +18,20 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 374 
-### 🛡️ Defense Power : 359 
-### ❤️ Health Point  : 1038 
-### 🔮 Mana Point    : 400 
+### ⚔️ Attack Power  : 376 
+### 🛡️ Defense Power : 361 
+### ❤️ Health Point  : 1046 
+### 🔮 Mana Point    : 402 
 ### 🎯 Accuracy      : 77 
 ### ⚡ Speed         : 134
 
 ---
 ## 💻 Programming Skills
 
-### 🟨 JavaScript : 609
-### 💅 CSS : 311
-### 🐘 PHP : 283
-### 📄 HTML : 242
+### 🟨 JavaScript : 611
+### 💅 CSS : 313
+### 🐘 PHP : 284
+### 📄 HTML : 249
 ### 📚 Ren'Py : 94
 ### 🪃 Dart : 90
 ### 🧷 Blade : 60
@@ -59,7 +59,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Resting in IDE Haven
+#### Current Quest: Mission: Promise Chain Cavern
 
 ### 📅 Weekly Quest
 #### Current Mission: Authentication System Upgrade
