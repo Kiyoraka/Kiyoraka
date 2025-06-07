@@ -18,10 +18,10 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 392 
-### 🛡️ Defense Power : 376 
-### ❤️ Health Point  : 1063 
-### 🔮 Mana Point    : 409 
+### ⚔️ Attack Power  : 395 
+### 🛡️ Defense Power : 379 
+### ❤️ Health Point  : 1067 
+### 🔮 Mana Point    : 411 
 ### 🎯 Accuracy      : 80 
 ### ⚡ Speed         : 139
 
@@ -30,14 +30,14 @@
 
 ### 🟨 JavaScript : 613
 ### 💅 CSS : 318
-### 🐘 PHP : 293
+### 🐘 PHP : 296
 ### 📄 HTML : 249
 ### 📚 Ren'Py : 94
 ### 🪃 Dart : 90
-### 🧷 Blade : 80
+### 🧷 Blade : 81
+### 📝 Vue : 34
 ### 🐍 Python : 32
 ### 🗂️ Batchfile : 23
-### 📝 Vue : 22
 ### 🧠 C++ : 15
 ### 🧬 Hack : 9
 ### ☕ Java : 8
@@ -59,7 +59,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Security Hardening Crusade
+#### Current Quest: Debug: Authentication Apparitions
 
 ### 📅 Weekly Quest
 #### Current Mission: Authorization Framework Fix
