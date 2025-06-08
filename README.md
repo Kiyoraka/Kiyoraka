@@ -21,7 +21,7 @@
 ### ⚔️ Attack Power  : 395 
 ### 🛡️ Defense Power : 379 
 ### ❤️ Health Point  : 1067 
-### 🔮 Mana Point    : 411 
+### 🔮 Mana Point    : 412 
 ### 🎯 Accuracy      : 80 
 ### ⚡ Speed         : 139
 
@@ -59,7 +59,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Debug: Authentication Apparitions
+#### Current Quest: Hunting Null Pointer Imps
 
 ### 📅 Weekly Quest
 #### Current Mission: Authorization Framework Fix
