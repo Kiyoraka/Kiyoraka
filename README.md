@@ -18,10 +18,10 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 395 
-### 🛡️ Defense Power : 379 
-### ❤️ Health Point  : 1067 
-### 🔮 Mana Point    : 412 
+### ⚔️ Attack Power  : 396 
+### 🛡️ Defense Power : 380 
+### ❤️ Health Point  : 1069 
+### 🔮 Mana Point    : 413 
 ### 🎯 Accuracy      : 80 
 ### ⚡ Speed         : 139
 
@@ -30,12 +30,12 @@
 
 ### 🟨 JavaScript : 613
 ### 💅 CSS : 318
-### 🐘 PHP : 296
+### 🐘 PHP : 303
 ### 📄 HTML : 249
 ### 📚 Ren'Py : 94
 ### 🪃 Dart : 90
-### 🧷 Blade : 81
-### 📝 Vue : 34
+### 🧷 Blade : 82
+### 📝 Vue : 36
 ### 🐍 Python : 32
 ### 🗂️ Batchfile : 23
 ### 🧠 C++ : 15
@@ -59,7 +59,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Hunting Null Pointer Imps
+#### Current Quest: Mission: Type Error Wildlands
 
 ### 📅 Weekly Quest
 #### Current Mission: Authorization Framework Fix
