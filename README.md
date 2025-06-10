@@ -18,9 +18,9 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 396 
-### 🛡️ Defense Power : 380 
-### ❤️ Health Point  : 1069 
+### ⚔️ Attack Power  : 397 
+### 🛡️ Defense Power : 381 
+### ❤️ Health Point  : 1070 
 ### 🔮 Mana Point    : 413 
 ### 🎯 Accuracy      : 80 
 ### ⚡ Speed         : 139
@@ -28,17 +28,17 @@
 ---
 ## 💻 Programming Skills
 
-### 🟨 JavaScript : 613
+### 🟨 JavaScript : 614
 ### 💅 CSS : 318
 ### 🐘 PHP : 303
 ### 📄 HTML : 249
 ### 📚 Ren'Py : 94
-### 🪃 Dart : 90
+### 🪃 Dart : 93
 ### 🧷 Blade : 82
 ### 📝 Vue : 36
 ### 🐍 Python : 32
 ### 🗂️ Batchfile : 23
-### 🧠 C++ : 15
+### 🧠 C++ : 14
 ### 🧬 Hack : 9
 ### ☕ Java : 8
 ### 👗 SCSS : 8
