@@ -13,28 +13,28 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : F 
-### ⭐ Level : 28
+### ⭐ Level : 29
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 408 
-### 🛡️ Defense Power : 392 
-### ❤️ Health Point  : 1091 
-### 🔮 Mana Point    : 423 
-### 🎯 Accuracy      : 80 
-### ⚡ Speed         : 139
+### ⚔️ Attack Power  : 422 
+### 🛡️ Defense Power : 406 
+### ❤️ Health Point  : 1105 
+### 🔮 Mana Point    : 429 
+### 🎯 Accuracy      : 84 
+### ⚡ Speed         : 144
 
 ---
 ## 💻 Programming Skills
 
 ### 🟨 JavaScript : 644
-### 💅 CSS : 326
-### 🐘 PHP : 302
+### 💅 CSS : 327
+### 🐘 PHP : 304
 ### 📄 HTML : 254
+### 🧷 Blade : 103
 ### 📚 Ren'Py : 94
 ### 🪃 Dart : 93
-### 🧷 Blade : 81
 ### 📝 Vue : 68
 ### 🐍 Python : 32
 ### 🗂️ Batchfile : 22
@@ -59,7 +59,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Promise Chain Cavern
+#### Current Quest: Quest: Database Optimization Odyssey
 
 ### 📅 Weekly Quest
 #### Current Mission: Data Migration Marathon
