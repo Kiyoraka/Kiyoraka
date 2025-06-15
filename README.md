@@ -18,23 +18,23 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 424 
-### 🛡️ Defense Power : 407 
-### ❤️ Health Point  : 1111 
-### 🔮 Mana Point    : 430 
+### ⚔️ Attack Power  : 426 
+### 🛡️ Defense Power : 409 
+### ❤️ Health Point  : 1114 
+### 🔮 Mana Point    : 431 
 ### 🎯 Accuracy      : 84 
 ### ⚡ Speed         : 144
 
 ---
 ## 💻 Programming Skills
 
-### 🟨 JavaScript : 645
-### 💅 CSS : 327
-### 🐘 PHP : 306
-### 📄 HTML : 254
-### 🧷 Blade : 109
+### 🟨 JavaScript : 643
+### 💅 CSS : 324
+### 🐘 PHP : 309
+### 📄 HTML : 255
+### 🧷 Blade : 115
+### 🪃 Dart : 99
 ### 📚 Ren'Py : 94
-### 🪃 Dart : 93
 ### 📝 Vue : 68
 ### 🐍 Python : 32
 ### 🗂️ Batchfile : 22
@@ -42,8 +42,8 @@
 ### 🧬 Hack : 9
 ### ☕ Java : 8
 ### 👗 SCSS : 8
-### 🧱 CMake : 7
 ### 🎻 C# : 6
+### 🧱 CMake : 6
 ### 📊 VBA : 4
 ### 🛠️ C : 2
 ### 🔻 Ruby : 0
@@ -59,7 +59,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Hunting Null Pointer Imps
+#### Current Quest: Raid: Recursive Function Cave
 
 ### 📅 Weekly Quest
 #### Current Mission: Data Migration Marathon
