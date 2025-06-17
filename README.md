@@ -59,7 +59,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Cache Invalidation Caves
+#### Current Quest: Brewing Algorithm Potions
 
 ### 📅 Weekly Quest
 #### Current Mission: Data Migration Marathon
