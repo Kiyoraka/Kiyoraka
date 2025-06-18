@@ -13,29 +13,29 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : F 
-### ⭐ Level : 29
+### ⭐ Level : 30
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 428 
-### 🛡️ Defense Power : 411 
-### ❤️ Health Point  : 1117 
-### 🔮 Mana Point    : 433 
-### 🎯 Accuracy      : 84 
-### ⚡ Speed         : 144
+### ⚔️ Attack Power  : 451 
+### 🛡️ Defense Power : 433 
+### ❤️ Health Point  : 1151 
+### 🔮 Mana Point    : 445 
+### 🎯 Accuracy      : 87 
+### ⚡ Speed         : 148
 
 ---
 ## 💻 Programming Skills
 
-### 🟨 JavaScript : 668
-### 💅 CSS : 322
-### 🐘 PHP : 311
-### 📄 HTML : 254
-### 🧷 Blade : 116
+### 🟨 JavaScript : 682
+### 💅 CSS : 339
+### 🐘 PHP : 317
+### 📄 HTML : 269
+### 🧷 Blade : 118
 ### 🪃 Dart : 99
 ### 📚 Ren'Py : 94
-### 📝 Vue : 55
+### 📝 Vue : 73
 ### 🐍 Python : 32
 ### 🗂️ Batchfile : 22
 ### 🧠 C++ : 14
@@ -59,7 +59,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Brewing Algorithm Potions
+#### Current Quest: Legend: Architecture Evolution
 
 ### 📅 Weekly Quest
 #### Current Mission: Data Migration Marathon
