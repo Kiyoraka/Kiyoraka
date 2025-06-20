@@ -13,53 +13,53 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : E 
-### ⭐ Level : 45
+### ⭐ Level : 43
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 1019 
-### 🛡️ Defense Power : 998 
-### ❤️ Health Point  : 1724 
-### 🔮 Mana Point    : 676 
-### 🎯 Accuracy      : 598 
-### ⚡ Speed         : 946
+### ⚔️ Attack Power  : 934 
+### 🛡️ Defense Power : 912 
+### ❤️ Health Point  : 1647 
+### 🔮 Mana Point    : 701 
+### 🎯 Accuracy      : 786 
+### ⚡ Speed         : 1096
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 1237
-### 🐘 PHP : 575
-### 🎨 CSS : 519
-### 🌐 HTML : 392
+### 📜 JavaScript : 1045
+### 🐘 PHP : 570
+### 🎨 CSS : 562
+### 🌐 HTML : 408
 ### 🧷 Blade : 302
-### 🐍 Python : 154
+### 🎯 Dart : 202
+### 📚 Ren'Py : 188
 ### 💚 Vue : 146
-### 🎯 Dart : 134
-### 📚 Ren'Py : 94
-### 🗂️ Batchfile : 44
+### 🐍 Python : 71
 ### ☕ Java : 33
 ### 🧬 Hack : 30
+### ➕ C++ : 28
+### 🗂️ Batchfile : 27
 ### 🎯 C# : 23
-### ➕ C++ : 21
-### 📊 VBA : 12
-### 🧱 CMake : 11
-### 🎯 C : 2
+### 🧱 CMake : 12
+### 🎨 SCSS : 8
+### 🎯 C : 4
+### 📊 VBA : 4
+### 🔷 TypeScript : 1
 ### 💎 Ruby : 0
-### 🔷 TypeScript : 0
-### 🔰 Kotlin : 0
 ### 📱 Swift : 0
+### 🍎 Objective-C : 0
+### 🔰 Kotlin : 0
 ### 🐹 Go : 0
 ### 🐚 Shell : 0
-### 🍎 Objective-C : 0
-### 🎨 SCSS : 0
 
 ---
 ## 📜 Active Quests
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Organizing Code Sanctuary
+#### Current Quest: Hunting Null Pointer Imps
 
 ### 📅 Weekly Quest
 #### Current Mission: Schema Evolution Exercise
