@@ -12,54 +12,54 @@
 ### 👤 Name : Kiyoraka Ken
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
-### 🔰 Rank : F 
-### ⭐ Level : 30
+### 🔰 Rank : E 
+### ⭐ Level : 45
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 454 
-### 🛡️ Defense Power : 436 
-### ❤️ Health Point  : 1156 
-### 🔮 Mana Point    : 448 
-### 🎯 Accuracy      : 87 
-### ⚡ Speed         : 148
+### ⚔️ Attack Power  : 1019 
+### 🛡️ Defense Power : 998 
+### ❤️ Health Point  : 1724 
+### 🔮 Mana Point    : 676 
+### 🎯 Accuracy      : 598 
+### ⚡ Speed         : 946
 
 ---
 ## 💻 Programming Skills
 
-### 🟨 JavaScript : 682
-### 💅 CSS : 342
-### 🐘 PHP : 319
-### 📄 HTML : 269
-### 🧷 Blade : 133
-### 🪃 Dart : 99
+### 📜 JavaScript : 1237
+### 🐘 PHP : 575
+### 🎨 CSS : 519
+### 🌐 HTML : 392
+### 🧷 Blade : 302
+### 🐍 Python : 154
+### 💚 Vue : 146
+### 🎯 Dart : 134
 ### 📚 Ren'Py : 94
-### 📝 Vue : 73
-### 🐍 Python : 32
-### 🗂️ Batchfile : 22
-### 🧠 C++ : 14
-### 🧬 Hack : 9
-### ☕ Java : 8
-### 👗 SCSS : 8
-### 🎻 C# : 6
-### 🧱 CMake : 6
-### 📊 VBA : 4
-### 🛠️ C : 2
-### 🔻 Ruby : 0
-### 🦅 Swift : 0
+### 🗂️ Batchfile : 44
+### ☕ Java : 33
+### 🧬 Hack : 30
+### 🎯 C# : 23
+### ➕ C++ : 21
+### 📊 VBA : 12
+### 🧱 CMake : 11
+### 🎯 C : 2
+### 💎 Ruby : 0
+### 🔷 TypeScript : 0
+### 🔰 Kotlin : 0
+### 📱 Swift : 0
+### 🐹 Go : 0
+### 🐚 Shell : 0
 ### 🍎 Objective-C : 0
-### 📝 TypeScript : 0
-### 🎯 Kotlin : 0
-### 📝 Go : 0
-### 📝 Shell : 0
+### 🎨 SCSS : 0
 
 ---
 ## 📜 Active Quests
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Raid: API Integration Abyss
+#### Current Quest: Organizing Code Sanctuary
 
 ### 📅 Weekly Quest
 #### Current Mission: Schema Evolution Exercise

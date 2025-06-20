@@ -284,7 +284,7 @@ const fetchGitHubStats = async () => {
         let privateRepoCount = 0;
         let publicRepoCount = 0;
 
-        // First, load cached data for all repos not being processed
+        // First, load cached data for all repos not being processed        
         for (const repo of repos) {
             if (repo.private) {
                 privateRepoCount++;
@@ -295,20 +295,23 @@ const fetchGitHubStats = async () => {
             const repoKey = repo.full_name;
             const cachedRepo = cache.repos[repoKey];
             
-            // If repo is not being processed fresh, use cached data
-            if (!reposToProcess.find(r => r.full_name === repo.full_name) && cachedRepo) {
-                totalCommits += cachedRepo.commits || 0;
-                totalSolvedIssues += cachedRepo.solvedIssues || 0;
-                totalSpeedPoints += cachedRepo.speedPoints || 0;
-                
-                if (cachedRepo.solvedIssues > 0) {
-                    reposWithSolvedIssues.add(repo.name);
-                }
-                
-                // Merge language stats
-                if (cachedRepo.languages) {
-                    for (const [language, commits] of Object.entries(cachedRepo.languages)) {
-                        languageStats[language] = (languageStats[language] || 0) + commits;
+            // If repo is not being processed fresh, use cached data OR estimate
+            if (!reposToProcess.find(r => r.full_name === repo.full_name)) {
+                if (cachedRepo) {
+                    // Use cached data
+                    totalCommits += cachedRepo.commits || 0;
+                    totalSolvedIssues += cachedRepo.solvedIssues || 0;
+                    totalSpeedPoints += cachedRepo.speedPoints || 0;
+                    
+                    if (cachedRepo.solvedIssues > 0) {
+                        reposWithSolvedIssues.add(repo.name);
+                    }
+                    
+                    // Merge language stats
+                    if (cachedRepo.languages) {
+                        for (const [language, commits] of Object.entries(cachedRepo.languages)) {
+                            languageStats[language] = (languageStats[language] || 0) + commits;
+                        }
                     }
                 }
             }
@@ -368,6 +371,14 @@ const fetchGitHubStats = async () => {
             }
         }
 
+        // Additional stats for creator bonuses
+        let originalReposCount = 0;
+        let totalRepoSize = 0;
+        let totalStars = 0;
+        let totalForks = 0;
+        let creatorBonusAccuracy = 0;
+        let creatorBonusSpeed = 0;
+
         // Process only selected repositories (fresh data)
         for (const repo of reposToProcess) {
             const repoName = repo.full_name;
@@ -400,6 +411,30 @@ const fetchGitHubStats = async () => {
                 const repoSpeedPoints = await calculateSpeedPoints(repo.url, headers);
                 totalSpeedPoints += repoSpeedPoints;
 
+                // Calculate creator bonuses for this repo
+                if (!repo.fork) { // Original repository (not forked)
+                    originalReposCount++;
+                    totalRepoSize += repo.size || 0;
+                    totalStars += repo.stargazers_count || 0;
+                    totalForks += repo.forks_count || 0;
+
+                    // Creator Accuracy Bonus: Based on repo quality and completion
+                    const repoQualityScore = Math.min(50, (repo.size || 0) / 20); // Size indicates effort
+                    const communityScore = Math.min(30, (repo.stargazers_count || 0) * 2); // Community recognition
+                    const impactScore = Math.min(20, (repo.forks_count || 0) * 5); // Impact/usefulness
+                    const consistencyScore = Math.min(25, commitCount / 5); // Consistent development
+                    
+                    creatorBonusAccuracy += repoQualityScore + communityScore + impactScore + consistencyScore;
+
+                    // Creator Speed Bonus: Based on development velocity and repo management
+                    const repoAge = Math.max(1, (Date.now() - new Date(repo.created_at).getTime()) / (1000 * 60 * 60 * 24 * 30)); // months
+                    const developmentVelocity = Math.min(40, commitCount / repoAge * 10); // Commits per month
+                    const maintenanceScore = Math.min(20, (Date.now() - new Date(repo.updated_at).getTime()) < (90 * 24 * 60 * 60 * 1000) ? 20 : 0); // Recently maintained
+                    const completionScore = Math.min(30, (repo.size || 0) > 100 ? 30 : (repo.size || 0) / 3.33); // Project completion
+                    
+                    creatorBonusSpeed += developmentVelocity + maintenanceScore + completionScore;
+                }
+
                 // Calculate language stats for this repo
                 const repoLanguageStats = {};
                 const totalBytes = Object.values(languages).reduce((a, b) => a + b, 0);
@@ -410,12 +445,16 @@ const fetchGitHubStats = async () => {
                     repoLanguageStats[language] = languageCommits;
                 }
 
-                // Cache this repo's data
+                // Cache this repo's data (now includes creator bonus info)
                 cache.repos[repoKey] = {
                     commits: commitCount,
                     solvedIssues: solvedIssues,
                     speedPoints: repoSpeedPoints,
                     languages: repoLanguageStats,
+                    isOriginal: !repo.fork,
+                    size: repo.size || 0,
+                    stars: repo.stargazers_count || 0,
+                    forks: repo.forks_count || 0,
                     lastProcessed: Date.now(),
                     lastUpdated: new Date(repo.updated_at).getTime()
                 };
@@ -425,18 +464,99 @@ const fetchGitHubStats = async () => {
             }
         }
 
+        // Process all remaining repos (cached or estimated)
+        for (const repo of repos) {
+            const repoKey = repo.full_name;
+            const cachedRepo = cache.repos[repoKey];
+            
+            // Skip repos that were already processed fresh
+            if (reposToProcess.find(r => r.full_name === repo.full_name)) {
+                continue;
+            }
+            
+            if (cachedRepo) {
+                // Use cached data
+                totalCommits += cachedRepo.commits || 0;
+                totalSolvedIssues += cachedRepo.solvedIssues || 0;
+                totalSpeedPoints += cachedRepo.speedPoints || 0;
+                
+                if (cachedRepo.solvedIssues > 0) {
+                    reposWithSolvedIssues.add(repo.name);
+                }
+                
+                // Merge language stats
+                if (cachedRepo.languages) {
+                    for (const [language, commits] of Object.entries(cachedRepo.languages)) {
+                        languageStats[language] = (languageStats[language] || 0) + commits;
+                    }
+                }
+                
+                // Add cached creator bonus data for original repos
+                if (cachedRepo.isOriginal) {
+                    originalReposCount++;
+                    totalRepoSize += cachedRepo.size || 0;
+                    totalStars += cachedRepo.stars || 0;
+                    totalForks += cachedRepo.forks || 0;
+                    
+                    // Estimate creator bonuses from cached data (simplified)
+                    const estimatedAccuracyBonus = Math.min(100, (cachedRepo.size || 0) / 10 + (cachedRepo.stars || 0) * 3);
+                    const estimatedSpeedBonus = Math.min(90, (cachedRepo.commits || 0) / 8 + (cachedRepo.size || 0) / 15);
+                    
+                    creatorBonusAccuracy += estimatedAccuracyBonus;
+                    creatorBonusSpeed += estimatedSpeedBonus;
+                }
+            } else {
+                // Estimate for uncached repos to preserve historical value
+                const repoAge = Math.max(1, (Date.now() - new Date(repo.created_at).getTime()) / (1000 * 60 * 60 * 24 * 30)); // months
+                const sizeIndicator = Math.min(100, (repo.size || 0) / 10); // Size-based commit estimate
+                const activityIndicator = repo.stargazers_count > 0 || repo.forks_count > 0 ? 20 : 5; // Activity bonus
+                
+                const estimatedCommits = Math.floor(Math.min(200, sizeIndicator + activityIndicator + (repoAge > 12 ? 30 : repoAge * 2)));
+                totalCommits += estimatedCommits;
+                
+                // Estimate creator bonuses for uncached original repos
+                if (!repo.fork) {
+                    originalReposCount++;
+                    totalRepoSize += repo.size || 0;
+                    totalStars += repo.stargazers_count || 0;
+                    totalForks += repo.forks_count || 0;
+                    
+                    // Conservative creator bonus estimates
+                    const estimatedAccuracyBonus = Math.min(80, (repo.size || 0) / 15 + (repo.stargazers_count || 0) * 3);
+                    const estimatedSpeedBonus = Math.min(70, estimatedCommits / 10 + (repo.size || 0) / 20);
+                    
+                    creatorBonusAccuracy += estimatedAccuracyBonus;
+                    creatorBonusSpeed += estimatedSpeedBonus;
+                }
+                
+                // Basic language estimation (simplified)
+                if (repo.language) {
+                    languageStats[repo.language] = (languageStats[repo.language] || 0) + Math.floor(estimatedCommits * 0.8);
+                }
+            }
+        }
+
         // Save updated cache
         cache.lastUpdate = Date.now();
         saveCache(cache);
 
+        // Calculate cached vs processed repos
+        const cachedRepoCount = totalRepos - reposToProcess.length;
+        
         // Log optimization summary
         console.log('\n=== Optimization Summary ===');
         console.log(`Total repositories: ${totalRepos}`);
         console.log(`Processed fresh: ${reposToProcess.length}`);
-        console.log(`Used cached data: ${totalRepos - reposToProcess.length}`);
-        console.log(`API calls saved: ~${(totalRepos - reposToProcess.length) * 3}`);
-        console.log(`Cache hit ratio: ${((totalRepos - reposToProcess.length) / totalRepos * 100).toFixed(1)}%`);
+        console.log(`Used cached/estimated: ${cachedRepoCount}`);
+        console.log(`API calls saved: ~${cachedRepoCount * 3}`);
+        console.log(`Cache hit ratio: ${(cachedRepoCount / totalRepos * 100).toFixed(1)}%`);
         console.log(`Max repos limit: ${maxReposToProcess} (${maxReposToProcess === CONFIG.MAX_REPOS_TO_PROCESS ? 'normal' : 'rate-limited'})`);
+        console.log(`\n=== Creator Bonus Stats ===`);
+        console.log(`Original repositories: ${originalReposCount}/${totalRepos}`);
+        console.log(`Total project size: ${totalRepoSize} KB`);
+        console.log(`Community recognition: ${totalStars} stars, ${totalForks} forks`);
+        console.log(`Creator accuracy bonus: ${Math.floor(creatorBonusAccuracy)}`);
+        console.log(`Creator speed bonus: ${Math.floor(creatorBonusSpeed)}`);
         console.log('=============================\n');
 
         // Calculate level with adjusted formula - more balanced progression
@@ -487,19 +607,24 @@ const fetchGitHubStats = async () => {
             (1 + (reposWithSolvedIssues.size / 20)) // Quality scaling
         )*0.15);
 
-        // Accuracy Points: Good balance with solved issues
+        // Accuracy Points: Balanced between issue solving and repository creation
         const accuracypoint = Math.floor((
             (7 + // Base accuracy
-            (totalSolvedIssues * 2.5) + // Issue resolution impact
+            (totalSolvedIssues * 2.5) + // Issue resolution impact (traditional contributors)
             (reposWithSolvedIssues.size * 3.5) + // Repo quality impact
+            (creatorBonusAccuracy * 0.8) + // Creator bonus: project quality, community recognition
+            (originalReposCount * 8) + // Bonus for original repositories
             (level * 9)) * // Level bonus
             (1 + (level / 45)) // Level scaling
         )*0.15);
 
-        // Speed Points: Good overall balance
+        // Speed Points: Balanced between issue closing speed and development velocity
         const speedpoint = Math.floor((
             (7 + // Base speed
-            (totalSpeedPoints * 0.9) + // Completion bonus
+            (totalSpeedPoints * 0.9) + // Issue completion speed (traditional contributors)
+            (creatorBonusSpeed * 0.7) + // Creator bonus: development velocity, maintenance
+            (originalReposCount * 6) + // Bonus for managing original repositories
+            (totalCommits * 0.08) + // Consistent development activity
             (level * 9) + // Level bonus
             (totalSolvedIssues * 1.5)) * // Issue efficiency bonus
             (1 + (level / 35)) // Level scaling
@@ -560,7 +685,13 @@ const fetchGitHubStats = async () => {
                 privateRepos: privateRepoCount,
                 totalRankPoints,
                 totalSolvedIssues,
-                reposWithSolvedIssuesCount: reposWithSolvedIssues.size
+                reposWithSolvedIssuesCount: reposWithSolvedIssues.size,
+                originalReposCount,
+                totalRepoSize,
+                totalStars,
+                totalForks,
+                creatorBonusAccuracy: Math.floor(creatorBonusAccuracy),
+                creatorBonusSpeed: Math.floor(creatorBonusSpeed)
             }
         };
     } catch (error) {
