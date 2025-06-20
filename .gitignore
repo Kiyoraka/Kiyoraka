@@ -9,4 +9,5 @@ coverage/
 .vscode/
 .idea/
 *.lock
+# github_cache.json  # Uncomment this line if you want to use GitHub Actions cache instead
 
