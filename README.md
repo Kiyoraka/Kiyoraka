@@ -13,40 +13,40 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : E 
-### ⭐ Level : 43
+### ⭐ Level : 45
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 934 
-### 🛡️ Defense Power : 912 
-### ❤️ Health Point  : 1647 
-### 🔮 Mana Point    : 701 
-### 🎯 Accuracy      : 786 
-### ⚡ Speed         : 1096
+### ⚔️ Attack Power  : 1022 
+### 🛡️ Defense Power : 997 
+### ❤️ Health Point  : 1727 
+### 🔮 Mana Point    : 740 
+### 🎯 Accuracy      : 872 
+### ⚡ Speed         : 1156
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 1045
-### 🐘 PHP : 570
-### 🎨 CSS : 562
-### 🌐 HTML : 408
+### 📜 JavaScript : 1158
+### 🎨 CSS : 660
+### 🐘 PHP : 638
+### 🌐 HTML : 521
 ### 🧷 Blade : 302
 ### 🎯 Dart : 202
 ### 📚 Ren'Py : 188
 ### 💚 Vue : 146
-### 🐍 Python : 71
-### ☕ Java : 33
-### 🧬 Hack : 30
+### 🐍 Python : 61
+### 🗂️ Batchfile : 29
 ### ➕ C++ : 28
-### 🗂️ Batchfile : 27
-### 🎯 C# : 23
+### 🧬 Hack : 16
+### 🎨 SCSS : 16
 ### 🧱 CMake : 12
-### 🎨 SCSS : 8
+### ☕ Java : 8
+### 📊 VBA : 8
+### 🎯 C# : 6
+### 🔷 TypeScript : 5
 ### 🎯 C : 4
-### 📊 VBA : 4
-### 🔷 TypeScript : 1
 ### 💎 Ruby : 0
 ### 📱 Swift : 0
 ### 🍎 Objective-C : 0
@@ -59,7 +59,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Hunting Null Pointer Imps
+#### Current Quest: Mission: Security Hardening Crusade
 
 ### 📅 Weekly Quest
 #### Current Mission: Schema Evolution Exercise
