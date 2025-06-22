@@ -18,21 +18,21 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 1022 
-### 🛡️ Defense Power : 997 
-### ❤️ Health Point  : 1727 
-### 🔮 Mana Point    : 740 
-### 🎯 Accuracy      : 872 
-### ⚡ Speed         : 1156
+### ⚔️ Attack Power  : 1020 
+### 🛡️ Defense Power : 995 
+### ❤️ Health Point  : 1725 
+### 🔮 Mana Point    : 739 
+### 🎯 Accuracy      : 892 
+### ⚡ Speed         : 1202
 
 ---
 ## 💻 Programming Skills
 
 ### 📜 JavaScript : 1158
 ### 🎨 CSS : 660
-### 🐘 PHP : 638
+### 🐘 PHP : 635
 ### 🌐 HTML : 521
-### 🧷 Blade : 302
+### 🧷 Blade : 295
 ### 🎯 Dart : 202
 ### 📚 Ren'Py : 188
 ### 💚 Vue : 146
@@ -59,7 +59,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Mission: Security Hardening Crusade
+#### Current Quest: Debug: Unit Test Gremlins
 
 ### 📅 Weekly Quest
 #### Current Mission: Schema Evolution Exercise
