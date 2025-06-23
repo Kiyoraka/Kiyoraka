@@ -13,31 +13,31 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : E 
-### ⭐ Level : 45
+### ⭐ Level : 44
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 1020 
-### 🛡️ Defense Power : 995 
-### ❤️ Health Point  : 1725 
-### 🔮 Mana Point    : 739 
-### 🎯 Accuracy      : 892 
-### ⚡ Speed         : 1202
+### ⚔️ Attack Power  : 991 
+### 🛡️ Defense Power : 966 
+### ❤️ Health Point  : 1704 
+### 🔮 Mana Point    : 729 
+### 🎯 Accuracy      : 902 
+### ⚡ Speed         : 1206
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 1158
-### 🎨 CSS : 660
-### 🐘 PHP : 635
+### 📜 JavaScript : 1141
+### 🎨 CSS : 659
+### 🐘 PHP : 559
 ### 🌐 HTML : 521
-### 🧷 Blade : 295
+### 🧷 Blade : 331
 ### 🎯 Dart : 202
 ### 📚 Ren'Py : 188
 ### 💚 Vue : 146
 ### 🐍 Python : 61
-### 🗂️ Batchfile : 29
+### 🗂️ Batchfile : 28
 ### ➕ C++ : 28
 ### 🧬 Hack : 16
 ### 🎨 SCSS : 16
@@ -59,7 +59,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Debug: Unit Test Gremlins
+#### Current Quest: Debug: Scalability Sphinx
 
 ### 📅 Weekly Quest
 #### Current Mission: Schema Evolution Exercise
