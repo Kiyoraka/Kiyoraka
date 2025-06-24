@@ -18,24 +18,24 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 991 
-### 🛡️ Defense Power : 966 
-### ❤️ Health Point  : 1704 
-### 🔮 Mana Point    : 729 
-### 🎯 Accuracy      : 902 
-### ⚡ Speed         : 1206
+### ⚔️ Attack Power  : 976 
+### 🛡️ Defense Power : 951 
+### ❤️ Health Point  : 1686 
+### 🔮 Mana Point    : 719 
+### 🎯 Accuracy      : 921 
+### ⚡ Speed         : 1227
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 1141
-### 🎨 CSS : 659
-### 🐘 PHP : 559
+### 📜 JavaScript : 1156
+### 🎨 CSS : 655
+### 🐘 PHP : 532
 ### 🌐 HTML : 521
-### 🧷 Blade : 331
+### 🧷 Blade : 328
 ### 🎯 Dart : 202
 ### 📚 Ren'Py : 188
-### 💚 Vue : 146
+### 💚 Vue : 90
 ### 🐍 Python : 61
 ### 🗂️ Batchfile : 28
 ### ➕ C++ : 28
@@ -59,7 +59,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Debug: Scalability Sphinx
+#### Current Quest: Hunt: Distributed Systems Dragons
 
 ### 📅 Weekly Quest
 #### Current Mission: Schema Evolution Exercise
