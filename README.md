@@ -18,11 +18,11 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 976 
-### 🛡️ Defense Power : 951 
-### ❤️ Health Point  : 1686 
+### ⚔️ Attack Power  : 977 
+### 🛡️ Defense Power : 952 
+### ❤️ Health Point  : 1687 
 ### 🔮 Mana Point    : 719 
-### 🎯 Accuracy      : 921 
+### 🎯 Accuracy      : 922 
 ### ⚡ Speed         : 1227
 
 ---
@@ -30,12 +30,12 @@
 
 ### 📜 JavaScript : 1156
 ### 🎨 CSS : 655
-### 🐘 PHP : 532
+### 🐘 PHP : 533
 ### 🌐 HTML : 521
-### 🧷 Blade : 328
+### 🧷 Blade : 331
 ### 🎯 Dart : 202
 ### 📚 Ren'Py : 188
-### 💚 Vue : 90
+### 💚 Vue : 91
 ### 🐍 Python : 61
 ### 🗂️ Batchfile : 28
 ### ➕ C++ : 28
@@ -59,7 +59,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Hunt: Distributed Systems Dragons
+#### Current Quest: Quest: CSS Selector Specters
 
 ### 📅 Weekly Quest
 #### Current Mission: Schema Evolution Exercise
