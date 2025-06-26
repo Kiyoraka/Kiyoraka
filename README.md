@@ -13,29 +13,29 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : E 
-### ⭐ Level : 44
+### ⭐ Level : 42
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 977 
-### 🛡️ Defense Power : 952 
-### ❤️ Health Point  : 1687 
-### 🔮 Mana Point    : 719 
-### 🎯 Accuracy      : 922 
-### ⚡ Speed         : 1227
+### ⚔️ Attack Power  : 901 
+### 🛡️ Defense Power : 877 
+### ❤️ Health Point  : 1627 
+### 🔮 Mana Point    : 687 
+### 🎯 Accuracy      : 932 
+### ⚡ Speed         : 1230
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 1156
-### 🎨 CSS : 655
-### 🐘 PHP : 533
-### 🌐 HTML : 521
-### 🧷 Blade : 331
+### 📜 JavaScript : 1132
+### 🎨 CSS : 627
+### 🐘 PHP : 515
+### 🌐 HTML : 513
 ### 🎯 Dart : 202
+### 🧷 Blade : 200
 ### 📚 Ren'Py : 188
-### 💚 Vue : 91
+### 💚 Vue : 93
 ### 🐍 Python : 61
 ### 🗂️ Batchfile : 28
 ### ➕ C++ : 28
@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Quest: CSS Selector Specters
+#### Current Quest: Raid: Recursive Function Cave
 
 ### 📅 Weekly Quest
-#### Current Mission: Schema Evolution Exercise
+#### Current Mission: API Version Management
 
 ### 🌙 Monthly Raid
 #### Summer Solstice: Performance Peak
