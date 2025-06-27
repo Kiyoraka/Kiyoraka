@@ -13,53 +13,53 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🔰 Rank : E 
-### ⭐ Level : 42
+### ⭐ Level : 39
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 901 
-### 🛡️ Defense Power : 877 
-### ❤️ Health Point  : 1627 
-### 🔮 Mana Point    : 687 
-### 🎯 Accuracy      : 932 
-### ⚡ Speed         : 1230
+### ⚔️ Attack Power  : 780 
+### 🛡️ Defense Power : 757 
+### ❤️ Health Point  : 1514 
+### 🔮 Mana Point    : 628 
+### 🎯 Accuracy      : 965 
+### ⚡ Speed         : 1314
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 1132
-### 🎨 CSS : 627
-### 🐘 PHP : 515
-### 🌐 HTML : 513
-### 🎯 Dart : 202
-### 🧷 Blade : 200
+### 📜 JavaScript : 892
+### 🎨 CSS : 548
+### 🐘 PHP : 450
+### 🌐 HTML : 432
+### 🧷 Blade : 210
 ### 📚 Ren'Py : 188
-### 💚 Vue : 93
-### 🐍 Python : 61
-### 🗂️ Batchfile : 28
-### ➕ C++ : 28
-### 🧬 Hack : 16
+### 🎯 Dart : 132
+### 💚 Vue : 79
+### 🐍 Python : 72
+### ☕ Java : 33
+### 🗂️ Batchfile : 32
+### ➕ C++ : 25
+### 🎯 C# : 23
+### 🧬 Hack : 23
 ### 🎨 SCSS : 16
-### 🧱 CMake : 12
-### ☕ Java : 8
+### 🧱 CMake : 10
 ### 📊 VBA : 8
-### 🎯 C# : 6
 ### 🔷 TypeScript : 5
 ### 🎯 C : 4
 ### 💎 Ruby : 0
-### 📱 Swift : 0
-### 🍎 Objective-C : 0
 ### 🔰 Kotlin : 0
+### 📱 Swift : 0
 ### 🐹 Go : 0
 ### 🐚 Shell : 0
+### 🍎 Objective-C : 0
 
 ---
 ## 📜 Active Quests
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Raid: Recursive Function Cave
+#### Current Quest: Raid: API Integration Abyss
 
 ### 📅 Weekly Quest
 #### Current Mission: API Version Management
