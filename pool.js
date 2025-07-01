@@ -483,6 +483,50 @@ const processPoolStats = async () => {
         // Level calculation
         const level = Math.floor((attackPower + defensePower + healthPoint + manaPoint + accuracy + speed) / 100);
         
+        // Rank calculation based on level
+        function calculateRank(level) {
+            if (level >= 5000) return "SSS";
+            if (level >= 2000) return "SS";
+            if (level >= 1000) return "S";
+            if (level >= 500) return "A";
+            if (level >= 300) return "B";
+            if (level >= 200) return "C";
+            if (level >= 100) return "D";
+            return "E";
+        }
+        
+        function getRankIcon(rank) {
+            const rankIcons = {
+                "E": "🔰",
+                "D": "🥉", 
+                "C": "🥈",
+                "B": "🥇",
+                "A": "💎",
+                "S": "👑",
+                "SS": "🌟",
+                "SSS": "⭐"
+            };
+            return rankIcons[rank] || "🔰";
+        }
+        
+        function getRankName(rank) {
+            const rankNames = {
+                "E": "Novice",
+                "D": "Bronze", 
+                "C": "Silver",
+                "B": "Gold",
+                "A": "Platinum",
+                "S": "Legend",
+                "SS": "Mythic",
+                "SSS": "Divine"
+            };
+            return rankNames[rank] || "Novice";
+        }
+        
+        const currentRank = calculateRank(level);
+        const rankIcon = getRankIcon(currentRank);
+        const rankName = getRankName(currentRank);
+        
         // Sort languages by commits
         const sortedLanguages = Object.entries(pool.languageStats)
             .sort(([,a], [,b]) => b - a)
@@ -510,7 +554,7 @@ const processPoolStats = async () => {
 ### 👤 Name : Kiyoraka Ken
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
-### 🔰 Rank : E 
+### ${rankIcon} Rank : ${currentRank} (${rankName})
 ### ⭐ Level : ${level}
 
 ---

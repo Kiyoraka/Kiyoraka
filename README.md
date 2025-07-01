@@ -12,7 +12,7 @@
 ### 👤 Name : Kiyoraka Ken
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
-### 🔰 Rank : E 
+### 🥈 Rank : C (Silver)
 ### ⭐ Level : 210
 
 ---
@@ -62,7 +62,7 @@
 #### Current Quest: Merging Parallel Dimensions
 
 ### 📅 Weekly Quest
-#### Current Mission: Load Balancing Legend
+#### Current Mission: Error Handling Enhancement
 
 ### 🌙 Monthly Raid
 #### Heat Wave: Server Stress
