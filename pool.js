@@ -115,6 +115,18 @@ async function initializePool(headers) {
         return pool;
     }
 
+    // Load existing cache to get better baseline data
+    let existingCache = {};
+    try {
+        if (fs.existsSync('github_cache.json')) {
+            const cacheData = JSON.parse(fs.readFileSync('github_cache.json', 'utf8'));
+            existingCache = cacheData.repos || {};
+            console.log('📊 Loaded existing cache data for better baseline');
+        }
+    } catch (error) {
+        console.log('⚠️  Could not load existing cache, starting fresh');
+    }
+
     // Fetch user data
     const userData = await apiCallWithRetry(`https://api.github.com/users/${USERNAME}`, headers);
     pool.accountCreationYear = new Date(userData.data.created_at).getFullYear();
@@ -127,35 +139,60 @@ async function initializePool(headers) {
     
     for (const repo of repos) {
         console.log(`Processing: ${repo.name}`);
+        const repoKey = repo.full_name;
         
         try {
-            // Get languages
-            const languagesResponse = await apiCallWithRetry(`${repo.url}/languages`, headers);
-            const languages = languagesResponse.data;
+            let commitCount = 0;
+            let solvedIssues = 0;
+            let speedPoints = 0;
+            let repoLanguageStats = {};
             
-            // Get ALL commits
-            const commits = await fetchAllCommits(repo.url, USERNAME, headers);
-            const commitCount = commits.length;
+            // Check if we have cached data for this repo
+            if (existingCache[repoKey]) {
+                console.log(`📋 Using cached data for ${repo.name}`);
+                const cachedRepo = existingCache[repoKey];
+                commitCount = cachedRepo.commits || 0;
+                solvedIssues = cachedRepo.solvedIssues || 0;
+                speedPoints = cachedRepo.speedPoints || 0;
+                repoLanguageStats = cachedRepo.languages || {};
+            } else {
+                console.log(`🔄 Processing fresh data for ${repo.name}`);
+                
+                // Get languages
+                const languagesResponse = await apiCallWithRetry(`${repo.url}/languages`, headers);
+                const languages = languagesResponse.data;
+                
+                // Get ALL commits
+                const commits = await fetchAllCommits(repo.url, USERNAME, headers);
+                commitCount = commits.length;
+                
+                // Get solved issues
+                const closedIssuesResponse = await apiCallWithRetry(
+                    `${repo.url}/issues?state=closed&creator=${USERNAME}`,
+                    headers
+                );
+                solvedIssues = closedIssuesResponse.data.length;
+                
+                // Calculate speed points
+                speedPoints = await calculateSpeedPoints(repo.url, headers);
+                
+                // Process languages
+                const totalBytes = Object.values(languages).reduce((a, b) => a + b, 0);
+                for (const [language, bytes] of Object.entries(languages)) {
+                    const percentage = bytes / totalBytes;
+                    const languageCommits = Math.round(commitCount * percentage);
+                    repoLanguageStats[language] = languageCommits;
+                }
+            }
+            
+            // Add to pool totals
             pool.totalCommits += commitCount;
-            
-            // Get solved issues
-            const closedIssuesResponse = await apiCallWithRetry(
-                `${repo.url}/issues?state=closed&creator=${USERNAME}`,
-                headers
-            );
-            const solvedIssues = closedIssuesResponse.data.length;
             pool.totalSolvedIssues += solvedIssues;
-            
-            // Calculate speed points
-            const speedPoints = await calculateSpeedPoints(repo.url, headers);
             pool.totalSpeedPoints += speedPoints;
             
-            // Process languages
-            const totalBytes = Object.values(languages).reduce((a, b) => a + b, 0);
-            for (const [language, bytes] of Object.entries(languages)) {
-                const percentage = bytes / totalBytes;
-                const languageCommits = Math.round(commitCount * percentage);
-                pool.languageStats[language] = (pool.languageStats[language] || 0) + languageCommits;
+            // Merge language stats
+            for (const [language, commits] of Object.entries(repoLanguageStats)) {
+                pool.languageStats[language] = (pool.languageStats[language] || 0) + commits;
             }
             
             // Creator bonuses for original repos
@@ -191,6 +228,7 @@ async function initializePool(headers) {
     
     console.log('✅ Pool initialization complete!');
     console.log(`📊 Initial Stats: ${pool.totalCommits} commits, ${pool.totalSolvedIssues} issues, ${pool.totalSpeedPoints} speed points`);
+    console.log(`🎯 Top Languages: JavaScript: ${pool.languageStats.JavaScript || 0}, PHP: ${pool.languageStats.PHP || 0}, CSS: ${pool.languageStats.CSS || 0}`);
     
     return pool;
 }
@@ -329,7 +367,7 @@ async function calculateSpeedPoints(repoUrl, headers) {
     }
 }
 
-// Quest functions (same as original)
+// Quest functions (fixed to work with actual Quest.json structure)
 async function getDailyQuest(commits) {
     const questsData = JSON.parse(fs.readFileSync('Quest.json', 'utf8'));
     const currentDate = new Date().toLocaleDateString();
@@ -355,22 +393,45 @@ async function getDailyQuest(commits) {
 
 async function getWeeklyQuest() {
     const questsData = JSON.parse(fs.readFileSync('Quest.json', 'utf8'));
-    return questsData.weekly.current;
+    if (questsData.weekly && questsData.weekly.special_quests) {
+        const randomIndex = Math.floor(Math.random() * questsData.weekly.special_quests.length);
+        return questsData.weekly.special_quests[randomIndex];
+    }
+    return "API Version Management";
 }
 
 async function getMonthlyQuest() {
     const questsData = JSON.parse(fs.readFileSync('Quest.json', 'utf8'));
-    return questsData.monthly.current;
+    if (questsData.monthly && questsData.monthly.boss_raids) {
+        const currentMonth = new Date().toLocaleString('default', { month: 'long' });
+        const monthlyRaid = questsData.monthly.boss_raids.find(raid => raid.month === currentMonth);
+        return monthlyRaid ? monthlyRaid.raid : "Legacy Code Migration Marathon";
+    }
+    return "Legacy Code Migration Marathon";
 }
 
 async function getSeasonalQuest() {
     const questsData = JSON.parse(fs.readFileSync('Quest.json', 'utf8'));
-    return questsData.seasonal.current;
+    if (questsData.seasonal && questsData.seasonal.epic_quests) {
+        const currentMonth = new Date().getMonth() + 1; // 1-12
+        let currentSeason;
+        if (currentMonth >= 3 && currentMonth <= 5) currentSeason = "Spring";
+        else if (currentMonth >= 6 && currentMonth <= 8) currentSeason = "Summer";
+        else if (currentMonth >= 9 && currentMonth <= 11) currentSeason = "Fall";
+        else currentSeason = "Winter";
+        
+        const seasonalQuest = questsData.seasonal.epic_quests.find(quest => quest.season === currentSeason);
+        return seasonalQuest ? seasonalQuest.quest : "The Great System Renewal";
+    }
+    return "The Great System Renewal";
 }
 
 async function getYearlyQuest() {
     const questsData = JSON.parse(fs.readFileSync('Quest.json', 'utf8'));
-    return questsData.yearly.current;
+    if (questsData.yearly && questsData.yearly.legendary_quest) {
+        return questsData.yearly.legendary_quest.name;
+    }
+    return "The Grand Architecture Evolution";
 }
 
 // Main pool processing function
@@ -492,7 +553,6 @@ ${sortedLanguages.map(([language, commits]) => {
 ---
 <div align="center">
   This profile auto update based on time by github workflow set by the user.
-  📊 Pool System Active - Level Only Increases! 📈
 </div>`;
 
         fs.writeFileSync('README.md', readmeContent);
