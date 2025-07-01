@@ -233,7 +233,7 @@ async function initializePool(headers) {
     return pool;
 }
 
-// Add only today's new activity to pool
+// Add only today's new activity to pool (OPTIMIZED for rate limits)
 async function updatePoolWithTodayActivity(headers, pool) {
     const today = getTodayDate();
     
@@ -244,53 +244,82 @@ async function updatePoolWithTodayActivity(headers, pool) {
     
     console.log(`📈 Adding today's activity to pool (last update: ${pool.lastUpdateDate})...`);
     
-    const reposResponse = await apiCallWithRetry(`https://api.github.com/user/repos?per_page=100&type=all`, headers);
-    const repos = reposResponse.data;
+    // OPTIMIZATION: Only fetch repositories with recent push activity
+    // Get repositories sorted by when they were last pushed to
+    const sinceDate = pool.lastUpdateDate || today;
+    console.log(`🔍 Checking repositories updated since: ${sinceDate}`);
+    
+    const reposResponse = await apiCallWithRetry(
+        `https://api.github.com/user/repos?sort=pushed&direction=desc&per_page=100&type=all`, 
+        headers
+    );
+    const allRepos = reposResponse.data;
+    
+    // Filter repositories that have been updated since our last pool update
+    const activeRepos = allRepos.filter(repo => {
+        const lastPush = new Date(repo.pushed_at);
+        const lastPoolUpdate = new Date(sinceDate + 'T00:00:00Z');
+        return lastPush >= lastPoolUpdate;
+    });
+    
+    console.log(`🎯 Rate Limit Optimization: Checking ${activeRepos.length} active repos out of ${allRepos.length} total repos`);
+    
+    if (activeRepos.length === 0) {
+        console.log('📭 No repositories have been updated since last pool update');
+        pool.lastUpdateDate = today;
+        return pool;
+    }
     
     let todayCommits = 0;
     let todayIssues = 0;
     let todaySpeedPoints = 0;
     const todayLanguages = {};
     
-    for (const repo of repos) {
+    for (const repo of activeRepos) {
         try {
-            // Get today's commits only
-            const todayCommitsResponse = await apiCallWithRetry(
-                `${repo.url}/commits?author=${USERNAME}&since=${today}T00:00:00Z&until=${today}T23:59:59Z`,
+            console.log(`🔄 Checking active repo: ${repo.name} (last pushed: ${repo.pushed_at})`);
+            
+            // Get commits since last pool update (not just today, in case we missed days)
+            const newCommitsResponse = await apiCallWithRetry(
+                `${repo.url}/commits?author=${USERNAME}&since=${sinceDate}T00:00:00Z`,
                 headers
             );
-            const todayRepoCommits = todayCommitsResponse.data.length;
+            const newRepoCommits = newCommitsResponse.data.length;
             
-            if (todayRepoCommits > 0) {
-                todayCommits += todayRepoCommits;
-                console.log(`📝 ${repo.name}: ${todayRepoCommits} new commits today`);
+            if (newRepoCommits > 0) {
+                todayCommits += newRepoCommits;
+                console.log(`📝 ${repo.name}: ${newRepoCommits} new commits since last update`);
                 
-                // Get languages for today's commits
+                // Get languages for these new commits
                 const languagesResponse = await apiCallWithRetry(`${repo.url}/languages`, headers);
                 const languages = languagesResponse.data;
                 const totalBytes = Object.values(languages).reduce((a, b) => a + b, 0);
                 
                 for (const [language, bytes] of Object.entries(languages)) {
                     const percentage = bytes / totalBytes;
-                    const languageCommits = Math.round(todayRepoCommits * percentage);
+                    const languageCommits = Math.round(newRepoCommits * percentage);
                     todayLanguages[language] = (todayLanguages[language] || 0) + languageCommits;
                 }
             }
             
-            // Check for new closed issues today
-            const todayIssuesResponse = await apiCallWithRetry(
-                `${repo.url}/issues?state=closed&creator=${USERNAME}&since=${today}T00:00:00Z`,
+            // Check for new closed issues since last update
+            const newIssuesResponse = await apiCallWithRetry(
+                `${repo.url}/issues?state=closed&creator=${USERNAME}&since=${sinceDate}T00:00:00Z`,
                 headers
             );
-            const todayRepoIssues = todayIssuesResponse.data.length;
-            todayIssues += todayRepoIssues;
+            const newRepoIssues = newIssuesResponse.data.length;
+            todayIssues += newRepoIssues;
+            
+            if (newRepoIssues > 0) {
+                console.log(`🎯 ${repo.name}: ${newRepoIssues} new issues closed since last update`);
+            }
             
         } catch (error) {
-            console.log(`Error checking today's activity for ${repo.name}:`, error.message);
+            console.log(`Error checking activity for ${repo.name}:`, error.message);
         }
     }
     
-    // Add today's activity to pool
+    // Add new activity to pool
     pool.totalCommits += todayCommits;
     pool.totalSolvedIssues += todayIssues;
     pool.totalSpeedPoints += todaySpeedPoints;
@@ -301,8 +330,9 @@ async function updatePoolWithTodayActivity(headers, pool) {
     
     pool.lastUpdateDate = today;
     
-    console.log(`📈 Today's additions: ${todayCommits} commits, ${todayIssues} issues`);
+    console.log(`📈 Activity since last update: ${todayCommits} commits, ${todayIssues} issues`);
     console.log(`📊 Updated totals: ${pool.totalCommits} commits, ${pool.totalSolvedIssues} issues`);
+    console.log(`⚡ API Calls Saved: ${allRepos.length - activeRepos.length} repos skipped (rate limit optimization)`);
     
     return pool;
 }
