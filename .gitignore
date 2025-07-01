@@ -2,6 +2,7 @@ token.txt
 run-stats.bat
 run-stats.bat
 node_modules/
+package-lock.json
 *.log
 .env
 .DS_Store
@@ -10,4 +11,8 @@ coverage/
 .idea/
 *.lock
 # github_cache.json  # Uncomment this line if you want to use GitHub Actions cache instead
+
+# Keep pool.json tracked - this is our persistent data
+# github_cache.json can be ignored as it's just for optimization
+github_cache.json
 
