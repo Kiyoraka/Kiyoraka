@@ -13,28 +13,28 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🥈 Rank : C (Silver)
-### ⭐ Level : 210
+### ⭐ Level : 212
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 2208 
-### 🛡️ Defense Power : 2472 
-### ❤️ Health Point  : 3798 
+### ⚔️ Attack Power  : 2239 
+### 🛡️ Defense Power : 2499 
+### ❤️ Health Point  : 3845 
 ### 🔮 Mana Point    : 1628 
-### 🎯 Accuracy      : 3389 
-### ⚡ Speed         : 7584
+### 🎯 Accuracy      : 3401 
+### ⚡ Speed         : 7604
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 712
-### 🐘 PHP : 391
-### 🎨 CSS : 364
+### 📜 JavaScript : 719
+### 🐘 PHP : 402
+### 🎨 CSS : 366
 ### 🌐 HTML : 273
-### 🧷 Blade : 241
+### 🧷 Blade : 244
+### 💚 Vue : 114
 ### 🎯 Dart : 101
-### 💚 Vue : 97
 ### 📚 Ren'Py : 94
 ### 🐍 Python : 32
 ### 🗂️ Batchfile : 21
@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Optimizing the Data Streams
+#### Current Quest: Debugging the Ancient Scripts
 
 ### 📅 Weekly Quest
-#### Current Mission: Query Performance Quest
+#### Current Mission: Disaster Recovery Design
 
 ### 🌙 Monthly Raid
 #### Heat Wave: Server Stress
