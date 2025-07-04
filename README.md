@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Merging Parallel Dimensions
+#### Current Quest: Testing the Battle Scenarios
 
 ### 📅 Weekly Quest
-#### Current Mission: Container Orchestration Quest
+#### Current Mission: API Version Management
 
 ### 🌙 Monthly Raid
 #### Heat Wave: Server Stress
