@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Testing the Battle Scenarios
+#### Current Quest: Organizing Code Sanctuary
 
 ### 📅 Weekly Quest
-#### Current Mission: API Version Management
+#### Current Mission: Authentication System Upgrade
 
 ### 🌙 Monthly Raid
 #### Heat Wave: Server Stress
