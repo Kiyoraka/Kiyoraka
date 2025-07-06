@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Organizing Code Sanctuary
+#### Current Quest: Documenting the Wisdom Scrolls
 
 ### 📅 Weekly Quest
-#### Current Mission: UI/UX Enhancement Expedition
+#### Current Mission: API Integration Tournament
 
 ### 🌙 Monthly Raid
 #### Heat Wave: Server Stress
