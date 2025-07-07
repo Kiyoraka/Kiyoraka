@@ -32,7 +32,7 @@
 ### 🐘 PHP : 407
 ### 🎨 CSS : 369
 ### 🌐 HTML : 273
-### 🧷 Blade : 265
+### 🧷 Blade : 266
 ### 💚 Vue : 113
 ### 🎯 Dart : 101
 ### 📚 Ren'Py : 94
@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Documenting the Wisdom Scrolls
+#### Current Quest: Merging Parallel Dimensions
 
 ### 📅 Weekly Quest
-#### Current Mission: API Integration Tournament
+#### Current Mission: Security Vulnerability Hunt
 
 ### 🌙 Monthly Raid
 #### Heat Wave: Server Stress
