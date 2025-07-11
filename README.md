@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Optimizing the Data Streams
+#### Current Quest: Testing the Battle Scenarios
 
 ### 📅 Weekly Quest
-#### Current Mission: UI/UX Enhancement Expedition
+#### Current Mission: IoT Implementation Initiative
 
 ### 🌙 Monthly Raid
 #### Heat Wave: Server Stress
