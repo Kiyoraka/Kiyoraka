@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Testing the Battle Scenarios
+#### Current Quest: Refactoring the Legacy Temple
 
 ### 📅 Weekly Quest
-#### Current Mission: IoT Implementation Initiative
+#### Current Mission: Data Migration Marathon
 
 ### 🌙 Monthly Raid
 #### Heat Wave: Server Stress
