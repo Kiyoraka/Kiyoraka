@@ -13,31 +13,31 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🥈 Rank : C (Silver)
-### ⭐ Level : 213
+### ⭐ Level : 221
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 2279 
-### 🛡️ Defense Power : 2533 
-### ❤️ Health Point  : 3904 
-### 🔮 Mana Point    : 1628 
-### 🎯 Accuracy      : 3416 
-### ⚡ Speed         : 7628
+### ⚔️ Attack Power  : 2364 
+### 🛡️ Defense Power : 2616 
+### ❤️ Health Point  : 4033 
+### 🔮 Mana Point    : 1618 
+### 🎯 Accuracy      : 2573 
+### ⚡ Speed         : 3535
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 730
-### 🐘 PHP : 408
-### 🎨 CSS : 369
-### 🌐 HTML : 273
-### 🧷 Blade : 267
-### 💚 Vue : 118
+### 📜 JavaScript : 693
+### 🐘 PHP : 434
+### 🎨 CSS : 379
+### 🧷 Blade : 323
+### 🌐 HTML : 274
+### 💚 Vue : 139
 ### 🎯 Dart : 101
 ### 📚 Ren'Py : 94
+### 🗂️ Batchfile : 46
 ### 🐍 Python : 32
-### 🗂️ Batchfile : 21
 ### ➕ C++ : 14
 ### 🧬 Hack : 9
 ### ☕ Java : 8
@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Refactoring the Legacy Temple
+#### Current Quest: Testing the Battle Scenarios
 
 ### 📅 Weekly Quest
-#### Current Mission: Data Migration Marathon
+#### Current Mission: Machine Learning Marathon
 
 ### 🌙 Monthly Raid
 #### Heat Wave: Server Stress
