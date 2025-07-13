@@ -89,12 +89,12 @@ Your GitHub workflow will now:
 ✅ **Consistent Results**: No more fluctuating stats  
 ✅ **Motivational**: See constant progress  
 
-## 🔄 Switching Back (If Needed)
+## 🔄 Resetting Pool (If Needed)
 
-If you ever want to go back to the old system:
-1. Change workflow to use `stats.js` instead of `pool.js`
-2. Delete `pool.json`
-3. The old caching system will resume
+If you want to reset your pool data:
+1. Delete `pool.json`
+2. Run `node pool.js` again to reinitialize
+3. Your stats will be recalculated from scratch
 
 ## 🆘 Troubleshooting
 

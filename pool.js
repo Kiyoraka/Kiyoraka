@@ -502,60 +502,117 @@ const processPoolStats = async () => {
         const currentYear = new Date().getFullYear();
         const totalYears = currentYear - pool.accountCreationYear;
         
-        // Battle stats calculation (same formula as original)
-        const attackPower = Math.floor(pool.totalCommits * 0.8 + pool.totalSolvedIssues * 2 + pool.creatorBonusAccuracy * 0.1);
-        const defensePower = Math.floor(pool.totalCommits * 0.7 + pool.totalRepos * 5 + pool.creatorBonusAccuracy * 0.15);
-        const healthPoint = Math.floor(pool.totalCommits * 1.2 + pool.totalRepos * 8 + totalYears * 50);
-        const manaPoint = Math.floor(Object.values(pool.languageStats).length * 25 + pool.totalSpeedPoints * 2 + pool.creatorBonusSpeed * 0.1);
-        const accuracy = Math.floor(pool.totalSolvedIssues * 15 + pool.totalCommits * 0.3 + pool.creatorBonusAccuracy);
-        const speed = Math.floor(pool.totalSpeedPoints * 5 + pool.totalCommits * 0.5 + pool.creatorBonusSpeed);
+        // Calculate level with proper formula - more balanced progression
+        const totalLanguages = Object.keys(pool.languageStats).length || 1;
+        const level = Math.floor(
+            totalYears * 2 + // Base from years
+            (pool.totalCommits * 0.08) + // Commit impact (adjusted for proper scaling)
+            (pool.totalRepos / totalLanguages) * 1.5 // Repo/language ratio impact
+        );
+
+        // Simpler battle stats calculation (closer to original system)
+        const attackPower = Math.floor(
+            pool.totalCommits * 0.8 + // Primary commit impact
+            pool.totalSolvedIssues * 2 + // Issue resolution bonus
+            (pool.creatorBonusAccuracy * 0.1) // Small creator bonus
+        );
+
+        const defensePower = Math.floor(
+            pool.totalCommits * 0.7 + // Primary commit impact  
+            pool.totalRepos * 5 + // Repository diversity
+            (pool.creatorBonusAccuracy * 0.15) // Small creator bonus
+        );
+
+        const healthPoint = Math.floor(
+            pool.totalCommits * 1.2 + // Primary commit impact
+            pool.totalRepos * 8 + // Repository bonus
+            totalYears * 50 // Experience bonus
+        );
+
+        const manaPoint = Math.floor(
+            totalLanguages * 25 + // Language diversity
+            pool.totalSpeedPoints * 2 + // Speed contribution
+            (pool.creatorBonusSpeed * 0.1) // Small creator bonus
+        );
+
+        // Simpler accuracy calculation (matched to current values)
+        const accuracy = Math.floor(
+            pool.totalSolvedIssues * 15 + // Basic issue solving
+            pool.totalCommits * 0.3 + // Commit consistency
+            (pool.creatorBonusAccuracy * 1.0) // Creator bonus
+        );
+
+        // Simpler speed calculation (matched to current values)
+        const speed = Math.floor(
+            pool.totalSpeedPoints * 5 + // Basic speed points
+            pool.totalCommits * 0.5 + // Development velocity
+            (pool.creatorBonusSpeed * 1.0) // Creator bonus
+        );
         
-        // Level calculation
-        const level = Math.floor((attackPower + defensePower + healthPoint + manaPoint + accuracy + speed) / 100);
-        
-        // Rank calculation based on level
-        function calculateRank(level) {
-            if (level >= 5000) return "SSS";
-            if (level >= 2000) return "SS";
-            if (level >= 1000) return "S";
-            if (level >= 500) return "A";
-            if (level >= 300) return "B";
-            if (level >= 200) return "C";
-            if (level >= 100) return "D";
-            return "E";
+        // Rank point calculation with proper weights
+        const totalRankPoints = Math.floor(
+            attackPower * 1.25 +    // Offensive weight
+            defensePower * 1.25 +   // Defensive weight
+            healthPoint * 1 +       // HP weight
+            manaPoint * 1 +         // MP weight
+            accuracy * 1.5 +        // Accuracy weight
+            speed * 1.25            // Speed weight
+        );
+
+        // Rank thresholds with proper progression
+        let rank;
+        if (totalRankPoints <= 1200) {
+            rank = 'G';
+        } else if (totalRankPoints <= 3600) {
+            rank = 'F';
+        } else if (totalRankPoints <= 8400) {
+            rank = 'E';
+        } else if (totalRankPoints <= 14400) {
+            rank = 'D';
+        } else if (totalRankPoints <= 24000) {
+            rank = 'C';
+        } else if (totalRankPoints <= 42000) {
+            rank = 'B';
+        } else if (totalRankPoints <= 72000) {
+            rank = 'A';
+        } else if (totalRankPoints <= 120000) {
+            rank = 'S';
+        } else {
+            rank = 'X';
         }
-        
+
         function getRankIcon(rank) {
             const rankIcons = {
-                "E": "🔰",
-                "D": "🥉", 
+                "G": "🔰",
+                "F": "🥉", 
+                "E": "🥈",
+                "D": "🥇",
                 "C": "🥈",
                 "B": "🥇",
                 "A": "💎",
                 "S": "👑",
-                "SS": "🌟",
-                "SSS": "⭐"
+                "X": "⭐"
             };
             return rankIcons[rank] || "🔰";
         }
         
         function getRankName(rank) {
             const rankNames = {
-                "E": "Novice",
-                "D": "Bronze", 
+                "G": "Novice",
+                "F": "Bronze", 
+                "E": "Silver",
+                "D": "Gold",
                 "C": "Silver",
                 "B": "Gold",
                 "A": "Platinum",
                 "S": "Legend",
-                "SS": "Mythic",
-                "SSS": "Divine"
+                "X": "Mythic"
             };
             return rankNames[rank] || "Novice";
         }
         
-        const currentRank = calculateRank(level);
-        const rankIcon = getRankIcon(currentRank);
-        const rankName = getRankName(currentRank);
+        const rankIcon = getRankIcon(rank);
+        const rankName = getRankName(rank);
         
         // Sort languages by commits
         const sortedLanguages = Object.entries(pool.languageStats)
@@ -584,7 +641,7 @@ const processPoolStats = async () => {
 ### 👤 Name : Kiyoraka Ken
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
-### ${rankIcon} Rank : ${currentRank} (${rankName})
+### ${rankIcon} Rank : ${rank} (${rankName})
 ### ⭐ Level : ${level}
 
 ---
