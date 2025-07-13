@@ -535,18 +535,18 @@ const processPoolStats = async () => {
             (pool.creatorBonusSpeed * 0.1) // Small creator bonus
         );
 
-        // Simpler accuracy calculation (matched to current values)
+        // Balanced accuracy calculation (emphasizes problem-solving quality)
         const accuracy = Math.floor(
-            pool.totalSolvedIssues * 15 + // Basic issue solving
-            pool.totalCommits * 0.3 + // Commit consistency
-            (pool.creatorBonusAccuracy * 1.0) // Creator bonus
+            pool.totalSolvedIssues * 25 + // Issue solving (increased from 15 to 25)
+            pool.totalCommits * 0.3 + // Commit consistency (same)
+            (pool.creatorBonusAccuracy * 0.5) // Creator bonus (reduced from 1.0 to 0.5)
         );
 
-        // Simpler speed calculation (matched to current values)
+        // Balanced speed calculation (reduced for better balance)
         const speed = Math.floor(
-            pool.totalSpeedPoints * 5 + // Basic speed points
-            pool.totalCommits * 0.5 + // Development velocity
-            (pool.creatorBonusSpeed * 1.0) // Creator bonus
+            pool.totalSpeedPoints * 2 + // Basic speed points (reduced from 5 to 2)
+            pool.totalCommits * 0.2 + // Development velocity (reduced from 0.5 to 0.2)
+            (pool.creatorBonusSpeed * 0.5) // Creator bonus (reduced from 1.0 to 0.5)
         );
         
         // Rank point calculation with proper weights
