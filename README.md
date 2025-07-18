@@ -31,7 +31,7 @@
 ### 📜 JavaScript : 739
 ### 🐘 PHP : 431
 ### 🎨 CSS : 373
-### 🧷 Blade : 344
+### 🧷 Blade : 343
 ### 🌐 HTML : 273
 ### 💚 Vue : 123
 ### 🎯 Dart : 101
@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Optimizing the Data Streams
+#### Current Quest: Debugging the Ancient Scripts
 
 ### 📅 Weekly Quest
-#### Current Mission: Thread Safety Challenge
+#### Current Mission: Technical Debt Takedown
 
 ### 🌙 Monthly Raid
 #### Heat Wave: Server Stress
