@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Debugging the Ancient Scripts
+#### Current Quest: Testing the Battle Scenarios
 
 ### 📅 Weekly Quest
-#### Current Mission: Technical Debt Takedown
+#### Current Mission: Code Documentation Drive
 
 ### 🌙 Monthly Raid
 #### Heat Wave: Server Stress
