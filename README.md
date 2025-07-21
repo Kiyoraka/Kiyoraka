@@ -31,7 +31,7 @@
 ### 📜 JavaScript : 740
 ### 🐘 PHP : 434
 ### 🎨 CSS : 373
-### 🧷 Blade : 357
+### 🧷 Blade : 358
 ### 🌐 HTML : 273
 ### 💚 Vue : 123
 ### 🎯 Dart : 101
@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Debugging the Ancient Scripts
+#### Current Quest: Refactoring the Legacy Temple
 
 ### 📅 Weekly Quest
-#### Current Mission: Container Orchestration Quest
+#### Current Mission: Security Vulnerability Hunt
 
 ### 🌙 Monthly Raid
 #### Heat Wave: Server Stress
