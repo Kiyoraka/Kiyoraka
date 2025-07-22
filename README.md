@@ -13,17 +13,17 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🥈 Rank : C (Silver)
-### ⭐ Level : 224
+### ⭐ Level : 226
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 2391 
-### 🛡️ Defense Power : 2632 
-### ❤️ Health Point  : 4073 
+### ⚔️ Attack Power  : 2414 
+### 🛡️ Defense Power : 2651 
+### ❤️ Health Point  : 4106 
 ### 🔮 Mana Point    : 1678 
-### 🎯 Accuracy      : 2562 
-### ⚡ Speed         : 3595
+### 🎯 Accuracy      : 2571 
+### ⚡ Speed         : 3601
 
 ---
 ## 💻 Programming Skills
@@ -36,33 +36,33 @@
 ### 💚 Vue : 123
 ### 🎯 Dart : 101
 ### 📚 Ren'Py : 94
+### 🎯 C# : 33
 ### 🐍 Python : 32
 ### 🗂️ Batchfile : 23
 ### ➕ C++ : 14
 ### 🧬 Hack : 9
 ### ☕ Java : 8
-### 🎯 C# : 8
 ### 🎨 SCSS : 8
 ### 🧱 CMake : 6
 ### 🔷 TypeScript : 5
 ### 📊 VBA : 4
+### 📄 ShaderLab : 3
 ### 🎯 C : 2
+### 📄 HLSL : 1
 ### 💎 Ruby : 0
 ### 📱 Swift : 0
 ### 🍎 Objective-C : 0
 ### 🔰 Kotlin : 0
-### 🐹 Go : 0
-### 🐚 Shell : 0
 
 ---
 ## 📜 Active Quests
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Refactoring the Legacy Temple
+#### Current Quest: Documenting the Wisdom Scrolls
 
 ### 📅 Weekly Quest
-#### Current Mission: Security Vulnerability Hunt
+#### Current Mission: Performance Tuning Trial
 
 ### 🌙 Monthly Raid
 #### Heat Wave: Server Stress
