@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2025-07-22",
-  "totalCommits": 2669,
+  "lastUpdateDate": "2025-07-23",
+  "totalCommits": 2675,
   "totalSolvedIssues": 25,
   "totalSpeedPoints": 244,
   "languageStats": {
@@ -17,7 +17,7 @@
     "HTML": 273,
     "TypeScript": 5,
     "Kotlin": 0,
-    "C#": 33,
+    "C#": 34,
     "Go": 0,
     "Python": 32,
     "Vue": 123,
@@ -30,8 +30,8 @@
     "C": 2,
     "Ren'Py": 94,
     "VBA": 4,
-    "ShaderLab": 3,
-    "HLSL": 1
+    "ShaderLab": 2,
+    "HLSL": 0
   },
   "totalRepos": 88,
   "accountCreationYear": 2021,

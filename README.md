@@ -18,12 +18,12 @@
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 2414 
-### 🛡️ Defense Power : 2651 
-### ❤️ Health Point  : 4106 
+### ⚔️ Attack Power  : 2419 
+### 🛡️ Defense Power : 2656 
+### ❤️ Health Point  : 4114 
 ### 🔮 Mana Point    : 1678 
-### 🎯 Accuracy      : 2571 
-### ⚡ Speed         : 3601
+### 🎯 Accuracy      : 2573 
+### ⚡ Speed         : 3602
 
 ---
 ## 💻 Programming Skills
@@ -36,7 +36,7 @@
 ### 💚 Vue : 123
 ### 🎯 Dart : 101
 ### 📚 Ren'Py : 94
-### 🎯 C# : 33
+### 🎯 C# : 34
 ### 🐍 Python : 32
 ### 🗂️ Batchfile : 23
 ### ➕ C++ : 14
@@ -46,23 +46,23 @@
 ### 🧱 CMake : 6
 ### 🔷 TypeScript : 5
 ### 📊 VBA : 4
-### 📄 ShaderLab : 3
 ### 🎯 C : 2
-### 📄 HLSL : 1
+### 📄 ShaderLab : 2
 ### 💎 Ruby : 0
 ### 📱 Swift : 0
 ### 🍎 Objective-C : 0
 ### 🔰 Kotlin : 0
+### 🐹 Go : 0
 
 ---
 ## 📜 Active Quests
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Documenting the Wisdom Scrolls
+#### Current Quest: Testing the Battle Scenarios
 
 ### 📅 Weekly Quest
-#### Current Mission: Performance Tuning Trial
+#### Current Mission: Performance Monitoring Mission
 
 ### 🌙 Monthly Raid
 #### Heat Wave: Server Stress
