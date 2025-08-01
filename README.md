@@ -13,38 +13,38 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🥈 Rank : C (Silver)
-### ⭐ Level : 237
+### ⭐ Level : 242
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 2524 
-### 🛡️ Defense Power : 2748 
-### ❤️ Health Point  : 4272 
+### ⚔️ Attack Power  : 2580 
+### 🛡️ Defense Power : 2795 
+### ❤️ Health Point  : 4352 
 ### 🔮 Mana Point    : 1678 
-### 🎯 Accuracy      : 2612 
-### ⚡ Speed         : 3628
+### 🎯 Accuracy      : 2657 
+### ⚡ Speed         : 3642
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 759
+### 📜 JavaScript : 762
 ### 🐘 PHP : 449
-### 🎨 CSS : 377
+### 🎨 CSS : 393
 ### 🧷 Blade : 361
-### 🌐 HTML : 275
+### 🌐 HTML : 281
 ### 💚 Vue : 147
-### 🎯 Dart : 108
+### 🎯 Dart : 109
 ### 📚 Ren'Py : 94
+### 🔷 TypeScript : 43
 ### 🎯 C# : 34
 ### 🐍 Python : 32
 ### 🗂️ Batchfile : 23
 ### ➕ C++ : 17
 ### 🧬 Hack : 9
+### 🧱 CMake : 9
 ### ☕ Java : 8
 ### 🎨 SCSS : 8
-### 🧱 CMake : 8
-### 🔷 TypeScript : 5
 ### 📊 VBA : 4
 ### 🎯 C : 2
 ### 📄 ShaderLab : 2
@@ -59,13 +59,13 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Testing the Battle Scenarios
+#### Current Quest: Documenting the Wisdom Scrolls
 
 ### 📅 Weekly Quest
-#### Current Mission: Service Discovery Setup
+#### Current Mission: Serverless Architecture Sprint
 
 ### 🌙 Monthly Raid
-#### Heat Wave: Server Stress
+#### Thunder Lord: Cloud Migration
 
 ### 🌠 Seasonal Epic
 #### Scaling the Cloud Peaks
