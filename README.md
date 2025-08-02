@@ -13,37 +13,37 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🥈 Rank : C (Silver)
-### ⭐ Level : 242
+### ⭐ Level : 244
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 2580 
-### 🛡️ Defense Power : 2795 
-### ❤️ Health Point  : 4352 
+### ⚔️ Attack Power  : 2601 
+### 🛡️ Defense Power : 2814 
+### ❤️ Health Point  : 4385 
 ### 🔮 Mana Point    : 1678 
-### 🎯 Accuracy      : 2657 
-### ⚡ Speed         : 3642
+### 🎯 Accuracy      : 2665 
+### ⚡ Speed         : 3647
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 762
-### 🐘 PHP : 449
-### 🎨 CSS : 393
-### 🧷 Blade : 361
+### 📜 JavaScript : 763
+### 🐘 PHP : 455
+### 🎨 CSS : 395
+### 🧷 Blade : 362
 ### 🌐 HTML : 281
-### 💚 Vue : 147
-### 🎯 Dart : 109
+### 💚 Vue : 161
+### 🎯 Dart : 110
 ### 📚 Ren'Py : 94
-### 🔷 TypeScript : 43
+### 🔷 TypeScript : 45
 ### 🎯 C# : 34
 ### 🐍 Python : 32
 ### 🗂️ Batchfile : 23
-### ➕ C++ : 17
+### ➕ C++ : 18
+### ☕ Java : 9
 ### 🧬 Hack : 9
 ### 🧱 CMake : 9
-### ☕ Java : 8
 ### 🎨 SCSS : 8
 ### 📊 VBA : 4
 ### 🎯 C : 2
@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Documenting the Wisdom Scrolls
+#### Current Quest: Debugging the Ancient Scripts
 
 ### 📅 Weekly Quest
-#### Current Mission: Serverless Architecture Sprint
+#### Current Mission: The Great Refactoring Challenge
 
 ### 🌙 Monthly Raid
 #### Thunder Lord: Cloud Migration
