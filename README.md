@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Merging Parallel Dimensions
+#### Current Quest: Refactoring the Legacy Temple
 
 ### 📅 Weekly Quest
-#### Current Mission: Machine Learning Marathon
+#### Current Mission: IoT Implementation Initiative
 
 ### 🌙 Monthly Raid
 #### Thunder Lord: Cloud Migration
