@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Refactoring the Legacy Temple
+#### Current Quest: Testing the Battle Scenarios
 
 ### 📅 Weekly Quest
-#### Current Mission: IoT Implementation Initiative
+#### Current Mission: Message Queue Marathon
 
 ### 🌙 Monthly Raid
 #### Thunder Lord: Cloud Migration
