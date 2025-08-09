@@ -12,57 +12,51 @@
 ### 👤 Name : Kiyoraka Ken
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
-### 🥈 Rank : C (Silver)
-### ⭐ Level : 247
+### 🥇 Rank : B (Gold)
+### ⭐ Level : 351
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 2634 
-### 🛡️ Defense Power : 2836 
-### ❤️ Health Point  : 4422 
-### 🔮 Mana Point    : 1678 
-### 🎯 Accuracy      : 2775 
-### ⚡ Speed         : 3653
+### ⚔️ Attack Power  : 3697 
+### 🛡️ Defense Power : 3858 
+### ❤️ Health Point  : 6035 
+### 🔮 Mana Point    : 1629 
+### 🎯 Accuracy      : 3412 
+### ⚡ Speed         : 4261
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 763
-### 🐘 PHP : 454
-### 🎨 CSS : 395
-### 🧷 Blade : 363
-### 🌐 HTML : 282
-### 💚 Vue : 161
-### 🎯 Dart : 134
-### 📚 Ren'Py : 94
-### 🔷 TypeScript : 45
-### 🎯 C# : 34
-### 🐍 Python : 32
-### 🗂️ Batchfile : 23
-### ➕ C++ : 21
-### 🧱 CMake : 11
-### ☕ Java : 9
-### 🧬 Hack : 9
-### 🎨 SCSS : 8
-### 📊 VBA : 4
-### 🎯 C : 2
-### 📄 ShaderLab : 2
-### 💎 Ruby : 0
-### 📱 Swift : 0
-### 🍎 Objective-C : 0
-### 🔰 Kotlin : 0
-### 🐹 Go : 0
+### 📜 JavaScript : 498
+### 🌐 HTML : 442
+### 🎨 CSS : 371
+### 🐘 PHP : 270
+### 🎯 Dart : 164
+### 🗂️ Batchfile : 148
+### 🧷 Blade : 140
+### 💚 Vue : 70
+### 🔷 TypeScript : 64
+### 📚 Ren'Py : 47
+### 🎯 C# : 42
+### 🐍 Python : 24
+### 🧱 CMake : 15
+### ➕ C++ : 13
+### 🔰 Kotlin : 8
+### 📱 Swift : 7
+### 🎯 C : 5
+### ☕ Java : 5
+### 📊 VBA : 1
 
 ---
 ## 📜 Active Quests
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Testing the Battle Scenarios
+#### Current Quest: Optimizing the Data Streams
 
 ### 📅 Weekly Quest
-#### Current Mission: Message Queue Marathon
+#### Current Mission: Blockchain Integration Battle
 
 ### 🌙 Monthly Raid
 #### Thunder Lord: Cloud Migration

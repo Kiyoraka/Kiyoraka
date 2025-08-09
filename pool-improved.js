@@ -38,7 +38,7 @@ const LANGUAGE_ICONS = {
     Perl: '🌟',
 };
 
-// Language file extensions mapping for improved detection
+// Language file extensions mapping for commit analysis
 const LANGUAGE_EXTENSIONS = {
     'JavaScript': ['.js', '.jsx', '.mjs', '.cjs'],
     'TypeScript': ['.ts', '.tsx'],
@@ -157,26 +157,75 @@ function getTodayDate() {
     return new Date().toISOString().split('T')[0];
 }
 
-// Initialize pool with ALL current data (one-time setup)
+// IMPROVED: Analyze commits to count languages by actual work
+async function analyzeCommitsByLanguage(repoUrl, headers, maxCommits = 50) {
+    const languageCommits = {};
+    let page = 1;
+    let totalAnalyzed = 0;
+    
+    while (page <= 5 && totalAnalyzed < maxCommits) { // Limit pages to avoid rate limits
+        try {
+            const commitsResponse = await apiCallWithRetry(
+                `${repoUrl}/commits?author=${USERNAME}&per_page=100&page=${page}`,
+                headers
+            );
+            
+            const commits = commitsResponse.data;
+            if (commits.length === 0) break;
+            
+            for (const commit of commits) {
+                if (totalAnalyzed >= maxCommits) break;
+                
+                try {
+                    // Get commit details to see changed files
+                    const commitDetailResponse = await apiCallWithRetry(
+                        commit.url,
+                        headers
+                    );
+                    
+                    const commitDetail = commitDetailResponse.data;
+                    
+                    // Count files by language
+                    if (commitDetail.files) {
+                        for (const file of commitDetail.files) {
+                            const language = getLanguageFromFile(file.filename);
+                            if (language) {
+                                languageCommits[language] = (languageCommits[language] || 0) + 1;
+                            }
+                        }
+                    }
+                    
+                    totalAnalyzed++;
+                    
+                    // Rate limit protection
+                    await new Promise(resolve => setTimeout(resolve, 50));
+                    
+                } catch (error) {
+                    console.log(`Error analyzing commit: ${error.message}`);
+                    continue;
+                }
+            }
+            
+            if (commits.length < 100) break;
+            page++;
+            
+        } catch (error) {
+            console.log(`Error fetching commits page ${page}:`, error.message);
+            break;
+        }
+    }
+    
+    return languageCommits;
+}
+
+// Initialize pool with ALL current data (IMPROVED with commit-based language detection)
 async function initializePool(headers) {
-    console.log('🚀 Initializing pool with all current data...');
+    console.log('🚀 Initializing pool with all current data (IMPROVED language detection)...');
     
     const pool = loadPool();
     if (pool.initialized) {
         console.log('⚠️  Pool already initialized, skipping...');
         return pool;
-    }
-
-    // Load existing cache to get better baseline data
-    let existingCache = {};
-    try {
-        if (fs.existsSync('github_cache.json')) {
-            const cacheData = JSON.parse(fs.readFileSync('github_cache.json', 'utf8'));
-            existingCache = cacheData.repos || {};
-            console.log('📊 Loaded existing cache data for better baseline');
-        }
-    } catch (error) {
-        console.log('⚠️  Could not load existing cache, starting fresh');
     }
 
     // Fetch user data
@@ -199,46 +248,34 @@ async function initializePool(headers) {
             let speedPoints = 0;
             let repoLanguageStats = {};
             
-            // Check if we have cached data for this repo
-            if (existingCache[repoKey]) {
-                console.log(`📋 Using cached data for ${repo.name}`);
-                const cachedRepo = existingCache[repoKey];
-                commitCount = cachedRepo.commits || 0;
-                solvedIssues = cachedRepo.solvedIssues || 0;
-                speedPoints = cachedRepo.speedPoints || 0;
-                repoLanguageStats = cachedRepo.languages || {};
-            } else {
-                console.log(`🔄 Processing fresh data for ${repo.name}`);
-                
-                // Get languages
-                const languagesResponse = await apiCallWithRetry(`${repo.url}/languages`, headers);
-                const languages = languagesResponse.data;
-                
-                // Get ALL commits
-                const commits = await fetchAllCommits(repo.url, USERNAME, headers);
-                commitCount = commits.length;
-                
-                // Get solved issues
-                const closedIssuesResponse = await apiCallWithRetry(
-                    `${repo.url}/issues?state=closed&creator=${USERNAME}`,
-                    headers
-                );
-                solvedIssues = closedIssuesResponse.data.length;
-                
-                // Calculate speed points
-                speedPoints = await calculateSpeedPoints(repo.url, headers);
-                
-                // IMPROVED: Process languages based on actual commits, not file size
-                console.log(`🔍 Analyzing ${Math.min(commitCount, 50)} commits for accurate language detection...`);
-                repoLanguageStats = await getLanguageStatsFromCommits(repo.url, headers, commitCount);
+            console.log(`🔄 Processing fresh data for ${repo.name}`);
+            
+            // Get ALL commits
+            const commits = await fetchAllCommits(repo.url, USERNAME, headers);
+            commitCount = commits.length;
+            
+            // IMPROVED: Get language stats by analyzing actual commits
+            if (commitCount > 0) {
+                console.log(`📊 Analyzing ${Math.min(commitCount, 50)} commits for language detection...`);
+                repoLanguageStats = await analyzeCommitsByLanguage(repo.url, headers, Math.min(commitCount, 50));
             }
+            
+            // Get solved issues
+            const closedIssuesResponse = await apiCallWithRetry(
+                `${repo.url}/issues?state=closed&creator=${USERNAME}`,
+                headers
+            );
+            solvedIssues = closedIssuesResponse.data.length;
+            
+            // Calculate speed points
+            speedPoints = await calculateSpeedPoints(repo.url, headers);
             
             // Add to pool totals
             pool.totalCommits += commitCount;
             pool.totalSolvedIssues += solvedIssues;
             pool.totalSpeedPoints += speedPoints;
             
-            // Merge language stats
+            // Merge language stats (now based on actual commits!)
             for (const [language, commits] of Object.entries(repoLanguageStats)) {
                 pool.languageStats[language] = (pool.languageStats[language] || 0) + commits;
             }
@@ -276,108 +313,7 @@ async function initializePool(headers) {
     
     console.log('✅ Pool initialization complete!');
     console.log(`📊 Initial Stats: ${pool.totalCommits} commits, ${pool.totalSolvedIssues} issues, ${pool.totalSpeedPoints} speed points`);
-    console.log(`🎯 Top Languages: JavaScript: ${pool.languageStats.JavaScript || 0}, PHP: ${pool.languageStats.PHP || 0}, CSS: ${pool.languageStats.CSS || 0}`);
-    
-    return pool;
-}
-
-// Add only today's new activity to pool (OPTIMIZED for rate limits)
-async function updatePoolWithTodayActivity(headers, pool) {
-    const today = getTodayDate();
-    
-    if (pool.lastUpdateDate === today) {
-        console.log('✅ Pool already updated today, skipping...');
-        return pool;
-    }
-    
-    console.log(`📈 Adding today's activity to pool (last update: ${pool.lastUpdateDate})...`);
-    
-    // OPTIMIZATION: Only fetch repositories with recent push activity
-    // Get repositories sorted by when they were last pushed to
-    const sinceDate = pool.lastUpdateDate || today;
-    console.log(`🔍 Checking repositories updated since: ${sinceDate}`);
-    
-    const reposResponse = await apiCallWithRetry(
-        `https://api.github.com/user/repos?sort=pushed&direction=desc&per_page=100&type=all`, 
-        headers
-    );
-    const allRepos = reposResponse.data;
-    
-    // Filter repositories that have been updated since our last pool update
-    const activeRepos = allRepos.filter(repo => {
-        const lastPush = new Date(repo.pushed_at);
-        const lastPoolUpdate = new Date(sinceDate + 'T00:00:00Z');
-        return lastPush >= lastPoolUpdate;
-    });
-    
-    console.log(`🎯 Rate Limit Optimization: Checking ${activeRepos.length} active repos out of ${allRepos.length} total repos`);
-    
-    if (activeRepos.length === 0) {
-        console.log('📭 No repositories have been updated since last pool update');
-        pool.lastUpdateDate = today;
-        return pool;
-    }
-    
-    let todayCommits = 0;
-    let todayIssues = 0;
-    let todaySpeedPoints = 0;
-    const todayLanguages = {};
-    
-    for (const repo of activeRepos) {
-        try {
-            console.log(`🔄 Checking active repo: ${repo.name} (last pushed: ${repo.pushed_at})`);
-            
-            // Get commits since last pool update (not just today, in case we missed days)
-            const newCommitsResponse = await apiCallWithRetry(
-                `${repo.url}/commits?author=${USERNAME}&since=${sinceDate}T00:00:00Z`,
-                headers
-            );
-            const newRepoCommits = newCommitsResponse.data.length;
-            
-            if (newRepoCommits > 0) {
-                todayCommits += newRepoCommits;
-                console.log(`📝 ${repo.name}: ${newRepoCommits} new commits since last update`);
-                
-                // IMPROVED: Get languages based on actual new commits
-                console.log(`🔍 Analyzing ${newRepoCommits} new commits for language detection...`);
-                const newLanguageStats = await getLanguageStatsFromCommits(repo.url, headers, newRepoCommits);
-                
-                for (const [language, commits] of Object.entries(newLanguageStats)) {
-                    todayLanguages[language] = (todayLanguages[language] || 0) + commits;
-                }
-            }
-            
-            // Check for new closed issues since last update
-            const newIssuesResponse = await apiCallWithRetry(
-                `${repo.url}/issues?state=closed&creator=${USERNAME}&since=${sinceDate}T00:00:00Z`,
-                headers
-            );
-            const newRepoIssues = newIssuesResponse.data.length;
-            todayIssues += newRepoIssues;
-            
-            if (newRepoIssues > 0) {
-                console.log(`🎯 ${repo.name}: ${newRepoIssues} new issues closed since last update`);
-            }
-            
-        } catch (error) {
-            console.log(`Error checking activity for ${repo.name}:`, error.message);
-        }
-    }
-    
-    // Add new activity to pool
-    pool.totalCommits += todayCommits;
-    pool.totalSolvedIssues += todayIssues;
-    pool.totalSpeedPoints += todaySpeedPoints;
-    
-    for (const [language, commits] of Object.entries(todayLanguages)) {
-        pool.languageStats[language] = (pool.languageStats[language] || 0) + commits;
-    }
-    
-    pool.lastUpdateDate = today;
-    
-    console.log(`📈 Activity since last update: ${todayCommits} commits, ${todayIssues} issues`);
-    console.log(`📊 Updated totals: ${pool.totalCommits} commits, ${pool.totalSolvedIssues} issues`);
-    console.log(`⚡ API Calls Saved: ${allRepos.length - activeRepos.length} repos skipped (rate limit optimization)`);
+    console.log(`🎯 Top Languages: JavaScript: ${pool.languageStats.JavaScript || 0}, PHP: ${pool.languageStats.PHP || 0}, Blade: ${pool.languageStats.Blade || 0}`);
     
     return pool;
 }
@@ -442,76 +378,7 @@ async function calculateSpeedPoints(repoUrl, headers) {
     }
 }
 
-// IMPROVED: Get language stats based on actual commits, not file size
-async function getLanguageStatsFromCommits(repoUrl, headers, commitCount) {
-    const languageCommits = {};
-    let page = 1;
-    let totalAnalyzed = 0;
-    const maxAnalyze = Math.min(commitCount, 50); // Analyze up to 50 commits per repo
-    
-    while (page <= 3 && totalAnalyzed < maxAnalyze) {
-        try {
-            const commitsResponse = await apiCallWithRetry(
-                `${repoUrl}/commits?author=${USERNAME}&per_page=100&page=${page}`,
-                headers
-            );
-            
-            const commits = commitsResponse.data;
-            if (commits.length === 0) break;
-            
-            for (const commit of commits) {
-                if (totalAnalyzed >= maxAnalyze) break;
-                
-                try {
-                    // Get commit details to see changed files
-                    const commitDetailResponse = await apiCallWithRetry(
-                        commit.url,
-                        headers
-                    );
-                    
-                    const commitDetail = commitDetailResponse.data;
-                    
-                    // Count unique languages touched in this commit
-                    const commitLanguages = new Set();
-                    if (commitDetail.files) {
-                        for (const file of commitDetail.files) {
-                            const language = getLanguageFromFile(file.filename);
-                            if (language) {
-                                commitLanguages.add(language);
-                            }
-                        }
-                    }
-                    
-                    // Each commit counts as 1 for each language it touched
-                    for (const language of commitLanguages) {
-                        languageCommits[language] = (languageCommits[language] || 0) + 1;
-                    }
-                    
-                    totalAnalyzed++;
-                    
-                    // Rate limit protection
-                    await new Promise(resolve => setTimeout(resolve, 100));
-                    
-                } catch (error) {
-                    console.log(`Error analyzing commit: ${error.message}`);
-                    continue;
-                }
-            }
-            
-            if (commits.length < 100) break;
-            page++;
-            
-        } catch (error) {
-            console.log(`Error fetching commits for language analysis:`, error.message);
-            break;
-        }
-    }
-    
-    console.log(`📊 Analyzed ${totalAnalyzed} commits, found languages:`, Object.keys(languageCommits));
-    return languageCommits;
-}
-
-// Quest functions (fixed to work with actual Quest.json structure)
+// Quest functions (same as original)
 async function getDailyQuest(commits) {
     const questsData = JSON.parse(fs.readFileSync('Quest.json', 'utf8'));
     const currentDate = new Date().toLocaleDateString();
@@ -578,7 +445,7 @@ async function getYearlyQuest() {
     return "The Grand Architecture Evolution";
 }
 
-// Main pool processing function
+// Main pool processing function (IMPROVED)
 const processPoolStats = async () => {
     if (!TOKEN) {
         throw new Error('PERSONAL_GITHUB_TOKEN is not set in environment variables');
@@ -591,7 +458,7 @@ const processPoolStats = async () => {
     };
 
     try {
-        console.log('🔄 Starting IMPROVED pool-based stats processing (commit-based language detection)...');
+        console.log('🔄 Starting IMPROVED pool-based stats processing...');
         
         // Load or initialize pool
         let pool = loadPool();
@@ -605,14 +472,13 @@ const processPoolStats = async () => {
         if (!pool.initialized) {
             pool = await initializePool(headers);
         } else {
-            // Add today's new activity
-            pool = await updatePoolWithTodayActivity(headers, pool);
+            console.log('⚠️  Pool already initialized. To use improved language detection, delete pool.json and run again.');
         }
         
         // Save pool
         savePool(pool);
         
-        // Calculate stats from pool
+        // Calculate stats from pool (same formulas as before)
         const currentYear = new Date().getFullYear();
         const totalYears = currentYear - pool.accountCreationYear;
         
@@ -802,11 +668,11 @@ ${sortedLanguages.map(([language, commits]) => {
 
         fs.writeFileSync('README.md', readmeContent);
         
-        console.log('✅ README updated successfully with pool stats!');
-        console.log(`🎯 Current Level: ${level} (Pool-based, always increasing!)`);
+        console.log('✅ README updated successfully with IMPROVED pool stats!');
+        console.log(`🎯 Current Level: ${level} (IMPROVED commit-based language detection!)`);
         
     } catch (error) {
-        console.error('❌ Error in pool stats processing:', error);
+        console.error('❌ Error in improved pool stats processing:', error);
         throw error;
     }
 };
@@ -816,4 +682,4 @@ if (require.main === module) {
     processPoolStats().catch(console.error);
 }
 
-module.exports = { processPoolStats }; 
+module.exports = { processPoolStats };
