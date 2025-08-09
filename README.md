@@ -12,55 +12,57 @@
 ### 👤 Name : Kiyoraka Ken
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
-### 🥇 Rank : B (Gold)
-### ⭐ Level : 350
+### 🥈 Rank : C (Silver)
+### ⭐ Level : 250
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 3645 
-### 🛡️ Defense Power : 3780 
-### ❤️ Health Point  : 6035 
-### 🔮 Mana Point    : 1578 
-### 🎯 Accuracy      : 3154 
-### ⚡ Speed         : 3906
+### ⚔️ Attack Power  : 2660 
+### 🛡️ Defense Power : 2858 
+### ❤️ Health Point  : 4460 
+### 🔮 Mana Point    : 1678 
+### 🎯 Accuracy      : 2784 
+### ⚡ Speed         : 3660
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 763
-### 🌐 HTML : 480
-### 🐘 PHP : 454
-### 🎨 CSS : 442
-### 🧷 Blade : 363
-### 🎯 Dart : 179
+### 📜 JavaScript : 765
+### 🐘 PHP : 459
+### 🎨 CSS : 398
+### 🧷 Blade : 389
+### 🌐 HTML : 282
 ### 💚 Vue : 161
-### 🗂️ Batchfile : 160
-### 🔷 TypeScript : 110
+### 🎯 Dart : 134
 ### 📚 Ren'Py : 94
-### 🎯 C# : 73
+### 🔷 TypeScript : 45
+### 🎯 C# : 34
 ### 🐍 Python : 32
+### 🗂️ Batchfile : 24
 ### ➕ C++ : 21
-### 🧱 CMake : 17
-### 🔰 Kotlin : 10
-### 📱 Swift : 9
+### 🧱 CMake : 11
 ### ☕ Java : 9
 ### 🧬 Hack : 9
 ### 🎨 SCSS : 8
-### 🎯 C : 5
 ### 📊 VBA : 4
+### 🎯 C : 2
 ### 📄 ShaderLab : 2
-### 🐚 Shell : 1
+### 💎 Ruby : 0
+### 📱 Swift : 0
+### 🍎 Objective-C : 0
+### 🔰 Kotlin : 0
+### 🐹 Go : 0
 
 ---
 ## 📜 Active Quests
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Optimizing the Data Streams
+#### Current Quest: Debugging the Ancient Scripts
 
 ### 📅 Weekly Quest
-#### Current Mission: Query Performance Quest
+#### Current Mission: IoT Implementation Initiative
 
 ### 🌙 Monthly Raid
 #### Thunder Lord: Cloud Migration
