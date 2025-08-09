@@ -28,7 +28,7 @@ echo 📦 Installing dependencies...
 call npm install
 
 echo 🚀 Initializing pool with all your current data...
-call node initialize-pool.js
+call node pool.js
 
 if %ERRORLEVEL% neq 0 (
     echo.

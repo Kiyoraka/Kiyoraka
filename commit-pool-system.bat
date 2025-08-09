@@ -7,7 +7,6 @@ echo.
 
 echo 📋 Adding pool system files...
 git add pool.js
-git add initialize-pool.js
 git add .github/workflows/update-readme.yml
 git add .gitignore
 git add POOL_SETUP.md

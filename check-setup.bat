@@ -64,12 +64,7 @@ if exist pool.js (
     set /a errors+=1
 )
 
-if exist initialize-pool.js (
-    echo ✅ initialize-pool.js found
-) else (
-    echo ❌ initialize-pool.js not found
-    set /a errors+=1
-)
+REM initialize-pool.js is now integrated into pool.js
 
 if exist setup-pool.bat (
     echo ✅ setup-pool.bat found

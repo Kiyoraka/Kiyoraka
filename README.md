@@ -13,40 +13,44 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🥇 Rank : B (Gold)
-### ⭐ Level : 351
+### ⭐ Level : 350
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 3697 
-### 🛡️ Defense Power : 3858 
+### ⚔️ Attack Power  : 3645 
+### 🛡️ Defense Power : 3780 
 ### ❤️ Health Point  : 6035 
-### 🔮 Mana Point    : 1629 
-### 🎯 Accuracy      : 3412 
-### ⚡ Speed         : 4261
+### 🔮 Mana Point    : 1578 
+### 🎯 Accuracy      : 3154 
+### ⚡ Speed         : 3906
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 498
-### 🌐 HTML : 442
-### 🎨 CSS : 371
-### 🐘 PHP : 270
-### 🎯 Dart : 164
-### 🗂️ Batchfile : 148
-### 🧷 Blade : 140
-### 💚 Vue : 70
-### 🔷 TypeScript : 64
-### 📚 Ren'Py : 47
-### 🎯 C# : 42
-### 🐍 Python : 24
-### 🧱 CMake : 15
-### ➕ C++ : 13
-### 🔰 Kotlin : 8
-### 📱 Swift : 7
+### 📜 JavaScript : 763
+### 🌐 HTML : 480
+### 🐘 PHP : 454
+### 🎨 CSS : 442
+### 🧷 Blade : 363
+### 🎯 Dart : 179
+### 💚 Vue : 161
+### 🗂️ Batchfile : 160
+### 🔷 TypeScript : 110
+### 📚 Ren'Py : 94
+### 🎯 C# : 73
+### 🐍 Python : 32
+### ➕ C++ : 21
+### 🧱 CMake : 17
+### 🔰 Kotlin : 10
+### 📱 Swift : 9
+### ☕ Java : 9
+### 🧬 Hack : 9
+### 🎨 SCSS : 8
 ### 🎯 C : 5
-### ☕ Java : 5
-### 📊 VBA : 1
+### 📊 VBA : 4
+### 📄 ShaderLab : 2
+### 🐚 Shell : 1
 
 ---
 ## 📜 Active Quests
@@ -56,7 +60,7 @@
 #### Current Quest: Optimizing the Data Streams
 
 ### 📅 Weekly Quest
-#### Current Mission: Blockchain Integration Battle
+#### Current Mission: Query Performance Quest
 
 ### 🌙 Monthly Raid
 #### Thunder Lord: Cloud Migration
