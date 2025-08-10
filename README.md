@@ -13,33 +13,33 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🥈 Rank : C (Silver)
-### ⭐ Level : 250
+### ⭐ Level : 254
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 2660 
-### 🛡️ Defense Power : 2858 
-### ❤️ Health Point  : 4460 
+### ⚔️ Attack Power  : 2703 
+### 🛡️ Defense Power : 2894 
+### ❤️ Health Point  : 4523 
 ### 🔮 Mana Point    : 1678 
-### 🎯 Accuracy      : 2784 
-### ⚡ Speed         : 3660
+### 🎯 Accuracy      : 2825 
+### ⚡ Speed         : 3670
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 765
-### 🐘 PHP : 459
-### 🎨 CSS : 398
-### 🧷 Blade : 389
+### 📜 JavaScript : 767
+### 🐘 PHP : 464
+### 🧷 Blade : 415
+### 🎨 CSS : 401
 ### 🌐 HTML : 282
 ### 💚 Vue : 161
 ### 🎯 Dart : 134
 ### 📚 Ren'Py : 94
-### 🔷 TypeScript : 45
+### 🔷 TypeScript : 64
 ### 🎯 C# : 34
 ### 🐍 Python : 32
-### 🗂️ Batchfile : 24
+### 🗂️ Batchfile : 25
 ### ➕ C++ : 21
 ### 🧱 CMake : 11
 ### ☕ Java : 9
@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Debugging the Ancient Scripts
+#### Current Quest: Testing the Battle Scenarios
 
 ### 📅 Weekly Quest
-#### Current Mission: IoT Implementation Initiative
+#### Current Mission: Authentication System Upgrade
 
 ### 🌙 Monthly Raid
 #### Thunder Lord: Cloud Migration
