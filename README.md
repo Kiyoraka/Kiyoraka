@@ -12,46 +12,46 @@
 ### 👤 Name : Kiyoraka Ken
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
-### 🥈 Rank : C (Silver)
-### ⭐ Level : 254
+### 🥇 Rank : B (Gold)
+### ⭐ Level : 350
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 2703 
-### 🛡️ Defense Power : 2894 
-### ❤️ Health Point  : 4523 
-### 🔮 Mana Point    : 1678 
-### 🎯 Accuracy      : 2825 
-### ⚡ Speed         : 3670
+### ⚔️ Attack Power  : 3666 
+### 🛡️ Defense Power : 3788 
+### ❤️ Health Point  : 6048 
+### 🔮 Mana Point    : 3518 
+### 🎯 Accuracy      : 3307 
+### ⚡ Speed         : 5748
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 767
-### 🐘 PHP : 464
-### 🧷 Blade : 415
-### 🎨 CSS : 401
-### 🌐 HTML : 282
-### 💚 Vue : 161
-### 🎯 Dart : 134
+### 📜 JavaScript : 786
+### 🐘 PHP : 486
+### 🎨 CSS : 439
+### 🧷 Blade : 432
+### 🌐 HTML : 302
+### 🎯 Dart : 173
+### 💚 Vue : 171
+### 🔷 TypeScript : 130
 ### 📚 Ren'Py : 94
-### 🔷 TypeScript : 64
-### 🎯 C# : 34
+### 🎯 C# : 57
 ### 🐍 Python : 32
 ### 🗂️ Batchfile : 25
-### ➕ C++ : 21
-### 🧱 CMake : 11
-### ☕ Java : 9
+### ➕ C++ : 22
+### 🧱 CMake : 14
+### ☕ Java : 12
 ### 🧬 Hack : 9
 ### 🎨 SCSS : 8
+### 📱 Swift : 4
 ### 📊 VBA : 4
 ### 🎯 C : 2
 ### 📄 ShaderLab : 2
+### 🔰 Kotlin : 1
 ### 💎 Ruby : 0
-### 📱 Swift : 0
 ### 🍎 Objective-C : 0
-### 🔰 Kotlin : 0
 ### 🐹 Go : 0
 
 ---
@@ -62,7 +62,7 @@
 #### Current Quest: Testing the Battle Scenarios
 
 ### 📅 Weekly Quest
-#### Current Mission: Authentication System Upgrade
+#### Current Mission: Cloud Infrastructure Expedition
 
 ### 🌙 Monthly Raid
 #### Thunder Lord: Cloud Migration
