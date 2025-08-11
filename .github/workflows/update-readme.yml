@@ -34,8 +34,9 @@ jobs:
           path: |
             pool.json
             github_cache.json
-          key: github-pool-cache-${{ github.repository }}-${{ hashFiles('pool.js') }}
+          key: github-pool-cache-${{ github.repository }}-v3-stable
           restore-keys: |
+            github-pool-cache-${{ github.repository }}-v3-
             github-pool-cache-${{ github.repository }}-
 
       - name: Install dependencies
@@ -55,7 +56,7 @@ jobs:
           path: |
             pool.json
             github_cache.json
-          key: github-pool-cache-${{ github.repository }}-${{ hashFiles('pool.js') }}-${{ github.run_id }}
+          key: github-pool-cache-${{ github.repository }}-v3-stable-${{ github.run_id }}
 
       - name: Commit and Push Changes
         run: |
