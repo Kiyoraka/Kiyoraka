@@ -13,29 +13,29 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🥈 Rank : C (Silver)
-### ⭐ Level : 257
+### ⭐ Level : 264
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 2749 
-### 🛡️ Defense Power : 2925 
-### ❤️ Health Point  : 4576 
+### ⚔️ Attack Power  : 2828 
+### 🛡️ Defense Power : 2987 
+### ❤️ Health Point  : 4682 
 ### 🔮 Mana Point    : 1678 
-### 🎯 Accuracy      : 2963 
-### ⚡ Speed         : 3679
+### 🎯 Accuracy      : 3090 
+### ⚡ Speed         : 3697
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 768
+### 📜 JavaScript : 779
 ### 🐘 PHP : 464
+### 🎨 CSS : 439
 ### 🧷 Blade : 415
-### 🎨 CSS : 402
-### 🌐 HTML : 283
+### 🌐 HTML : 307
 ### 💚 Vue : 161
 ### 🎯 Dart : 134
-### 🔷 TypeScript : 94
+### 🔷 TypeScript : 124
 ### 📚 Ren'Py : 94
 ### 🎯 C# : 34
 ### 🐍 Python : 32
@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Merging Parallel Dimensions
+#### Current Quest: Testing the Battle Scenarios
 
 ### 📅 Weekly Quest
-#### Current Mission: Testing Framework Trials
+#### Current Mission: Schema Evolution Exercise
 
 ### 🌙 Monthly Raid
 #### Thunder Lord: Cloud Migration
