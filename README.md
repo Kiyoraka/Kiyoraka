@@ -13,29 +13,29 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🥈 Rank : C (Silver)
-### ⭐ Level : 274
+### ⭐ Level : 276
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 2921 
-### 🛡️ Defense Power : 3069 
-### ❤️ Health Point  : 4823 
+### ⚔️ Attack Power  : 2949 
+### 🛡️ Defense Power : 3093 
+### ❤️ Health Point  : 4864 
 ### 🔮 Mana Point    : 1678 
-### 🎯 Accuracy      : 3125 
-### ⚡ Speed         : 3720
+### 🎯 Accuracy      : 3135 
+### ⚡ Speed         : 3727
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 793
-### 🐘 PHP : 496
-### 🎨 CSS : 457
+### 📜 JavaScript : 791
+### 🐘 PHP : 509
+### 🎨 CSS : 455
 ### 🧷 Blade : 445
 ### 🌐 HTML : 310
 ### 💚 Vue : 178
 ### 🎯 Dart : 156
-### 🔷 TypeScript : 127
+### 🔷 TypeScript : 146
 ### 📚 Ren'Py : 94
 ### 🎯 C# : 34
 ### 🐍 Python : 32
@@ -62,7 +62,7 @@
 #### Current Quest: Debugging the Ancient Scripts
 
 ### 📅 Weekly Quest
-#### Current Mission: API Integration Tournament
+#### Current Mission: Frontend Framework Update
 
 ### 🌙 Monthly Raid
 #### Thunder Lord: Cloud Migration
