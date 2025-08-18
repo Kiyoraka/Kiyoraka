@@ -28,19 +28,19 @@
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 801
+### 📜 JavaScript : 803
 ### 🐘 PHP : 509
-### 🎨 CSS : 458
-### 🧷 Blade : 445
-### 🌐 HTML : 320
-### 💚 Vue : 192
-### 🔷 TypeScript : 160
+### 🎨 CSS : 457
+### 🧷 Blade : 443
+### 🌐 HTML : 322
+### 💚 Vue : 186
+### 🔷 TypeScript : 158
 ### 🎯 Dart : 156
 ### 📚 Ren'Py : 94
 ### 🎯 C# : 34
 ### 🐍 Python : 32
+### ☕ Java : 26
 ### 🗂️ Batchfile : 25
-### ☕ Java : 24
 ### ➕ C++ : 22
 ### 🧱 CMake : 12
 ### 🧬 Hack : 9
@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Merging Parallel Dimensions
+#### Current Quest: Organizing Code Sanctuary
 
 ### 📅 Weekly Quest
-#### Current Mission: Memory Management Mission
+#### Current Mission: Data Migration Marathon
 
 ### 🌙 Monthly Raid
 #### Thunder Lord: Cloud Migration
