@@ -29,9 +29,9 @@
 ## 💻 Programming Skills
 
 ### 📜 JavaScript : 803
-### 🐘 PHP : 490
-### 🎨 CSS : 465
-### 🧷 Blade : 465
+### 🐘 PHP : 498
+### 🎨 CSS : 466
+### 🧷 Blade : 456
 ### 🌐 HTML : 322
 ### 💚 Vue : 186
 ### 🔷 TypeScript : 158
@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Testing the Battle Scenarios
+#### Current Quest: Merging Parallel Dimensions
 
 ### 📅 Weekly Quest
-#### Current Mission: Query Performance Quest
+#### Current Mission: Logging Infrastructure Launch
 
 ### 🌙 Monthly Raid
 #### Thunder Lord: Cloud Migration
