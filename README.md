@@ -12,33 +12,33 @@
 ### 👤 Name : Kiyoraka Ken
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
-### 🥈 Rank : C (Silver)
-### ⭐ Level : 279
+### 🥇 Rank : B (Gold)
+### ⭐ Level : 284
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 2981 
-### 🛡️ Defense Power : 3113 
-### ❤️ Health Point  : 4897 
+### ⚔️ Attack Power  : 3039 
+### 🛡️ Defense Power : 3156 
+### ❤️ Health Point  : 4972 
 ### 🔮 Mana Point    : 1678 
-### 🎯 Accuracy      : 3268 
-### ⚡ Speed         : 3733
+### 🎯 Accuracy      : 3387 
+### ⚡ Speed         : 3745
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 803
+### 📜 JavaScript : 817
 ### 🐘 PHP : 504
+### 🎨 CSS : 479
 ### 🧷 Blade : 465
-### 🎨 CSS : 464
-### 🌐 HTML : 324
+### 🌐 HTML : 335
 ### 💚 Vue : 186
+### 🔷 TypeScript : 161
 ### 🎯 Dart : 156
-### 🔷 TypeScript : 136
 ### 📚 Ren'Py : 94
+### 🐍 Python : 44
 ### 🎯 C# : 34
-### 🐍 Python : 32
 ### ☕ Java : 26
 ### 🗂️ Batchfile : 25
 ### ➕ C++ : 22
@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Documenting the Wisdom Scrolls
+#### Current Quest: Debugging the Ancient Scripts
 
 ### 📅 Weekly Quest
-#### Current Mission: Thread Safety Challenge
+#### Current Mission: Frontend Framework Update
 
 ### 🌙 Monthly Raid
 #### Thunder Lord: Cloud Migration
