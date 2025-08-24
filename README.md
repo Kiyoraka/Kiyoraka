@@ -62,7 +62,7 @@
 #### Current Quest: Debugging the Ancient Scripts
 
 ### 📅 Weekly Quest
-#### Current Mission: Frontend Framework Update
+#### Current Mission: Service Discovery Setup
 
 ### 🌙 Monthly Raid
 #### Thunder Lord: Cloud Migration
