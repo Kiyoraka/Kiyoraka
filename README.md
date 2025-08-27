@@ -13,28 +13,28 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🥇 Rank : B (Gold)
-### ⭐ Level : 286
+### ⭐ Level : 287
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 3092 
-### 🛡️ Defense Power : 3180 
-### ❤️ Health Point  : 5012 
+### ⚔️ Attack Power  : 3096 
+### 🛡️ Defense Power : 3183 
+### ❤️ Health Point  : 5018 
 ### 🔮 Mana Point    : 1678 
-### 🎯 Accuracy      : 3722 
-### ⚡ Speed         : 3752
+### 🎯 Accuracy      : 3724 
+### ⚡ Speed         : 3753
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 823
-### 🐘 PHP : 509
-### 🎨 CSS : 483
-### 🧷 Blade : 466
-### 🌐 HTML : 341
-### 💚 Vue : 193
-### 🔷 TypeScript : 167
+### 📜 JavaScript : 825
+### 🐘 PHP : 514
+### 🎨 CSS : 487
+### 🧷 Blade : 473
+### 🌐 HTML : 334
+### 💚 Vue : 195
+### 🔷 TypeScript : 161
 ### 🎯 Dart : 159
 ### 📚 Ren'Py : 94
 ### 🐍 Python : 46
@@ -46,13 +46,13 @@
 ### 🧬 Hack : 9
 ### 🎨 SCSS : 8
 ### 📊 VBA : 4
+### 🐚 Shell : 3
 ### 🎯 C : 2
 ### 📄 ShaderLab : 2
 ### 🔰 Kotlin : 1
 ### 💎 Ruby : 0
 ### 📱 Swift : 0
 ### 🍎 Objective-C : 0
-### 🐹 Go : 0
 
 ---
 ## 📜 Active Quests
@@ -62,7 +62,7 @@
 #### Current Quest: Testing the Battle Scenarios
 
 ### 📅 Weekly Quest
-#### Current Mission: Testing Framework Trials
+#### Current Mission: Mobile App Optimization Quest
 
 ### 🌙 Monthly Raid
 #### Thunder Lord: Cloud Migration
