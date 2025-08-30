@@ -16,3 +16,4 @@ coverage/
 # github_cache.json can be ignored as it's just for optimization
 github_cache.json
 
+.claude/settings.local.json
