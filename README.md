@@ -13,44 +13,44 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🥇 Rank : B (Gold)
-### ⭐ Level : 350
+### ⭐ Level : 288
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 3666 
-### 🛡️ Defense Power : 3788 
-### ❤️ Health Point  : 6048 
-### 🔮 Mana Point    : 3518 
-### 🎯 Accuracy      : 3307 
-### ⚡ Speed         : 5748
+### ⚔️ Attack Power  : 3114 
+### 🛡️ Defense Power : 3196 
+### ❤️ Health Point  : 5040 
+### 🔮 Mana Point    : 1678 
+### 🎯 Accuracy      : 3779 
+### ⚡ Speed         : 3756
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 786
-### 🐘 PHP : 486
-### 🎨 CSS : 439
-### 🧷 Blade : 432
-### 🌐 HTML : 302
-### 🎯 Dart : 173
-### 💚 Vue : 171
-### 🔷 TypeScript : 130
+### 📜 JavaScript : 852
+### 🐘 PHP : 519
+### 🎨 CSS : 511
+### 🧷 Blade : 482
+### 🌐 HTML : 335
+### 💚 Vue : 214
+### 🎯 Dart : 159
+### 🔷 TypeScript : 158
 ### 📚 Ren'Py : 94
-### 🎯 C# : 57
-### 🐍 Python : 32
-### 🗂️ Batchfile : 25
+### 🐍 Python : 46
+### 🎯 C# : 34
+### 🗂️ Batchfile : 27
+### ☕ Java : 26
 ### ➕ C++ : 22
-### 🧱 CMake : 14
-### ☕ Java : 12
+### 🧱 CMake : 12
 ### 🧬 Hack : 9
 ### 🎨 SCSS : 8
-### 📱 Swift : 4
 ### 📊 VBA : 4
 ### 🎯 C : 2
 ### 📄 ShaderLab : 2
 ### 🔰 Kotlin : 1
 ### 💎 Ruby : 0
+### 📱 Swift : 0
 ### 🍎 Objective-C : 0
 ### 🐹 Go : 0
 
@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Testing the Battle Scenarios
+#### Current Quest: Documenting the Wisdom Scrolls
 
 ### 📅 Weekly Quest
-#### Current Mission: Cloud Infrastructure Expedition
+#### Current Mission: Message Queue Marathon
 
 ### 🌙 Monthly Raid
 #### Thunder Lord: Cloud Migration
