@@ -28,7 +28,7 @@
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 872
+### 📜 JavaScript : 870
 ### 🐘 PHP : 550
 ### 🎨 CSS : 515
 ### 🧷 Blade : 494
@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Testing the Battle Scenarios
+#### Current Quest: Merging Parallel Dimensions
 
 ### 📅 Weekly Quest
-#### Current Mission: Backend Service Upgrade
+#### Current Mission: Machine Learning Marathon
 
 ### 🌙 Monthly Raid
 #### Autumn Oracle: AI Integration
