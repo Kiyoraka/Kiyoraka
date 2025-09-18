@@ -28,16 +28,24 @@ jobs:
           node-version: '18'
           cache: 'npm'
 
-      - name: Restore Pool Cache
+      - name: Preserve existing pool.json from repository
+        run: |
+          echo "📊 Checking for existing pool.json in repository..."
+          if [ -f pool.json ]; then
+            echo "✅ Found pool.json in repository, using it as base"
+            cp pool.json pool_backup.json
+          else
+            echo "⚠️ No pool.json found in repository"
+          fi
+
+      - name: Restore Pool Cache (Secondary)
         uses: actions/cache@v3
         with:
           path: |
-            pool.json
             github_cache.json
-          key: github-pool-cache-${{ github.repository }}-v3-stable
+          key: github-pool-cache-${{ github.repository }}-v4-${{ github.run_id }}
           restore-keys: |
-            github-pool-cache-${{ github.repository }}-v3-
-            github-pool-cache-${{ github.repository }}-
+            github-pool-cache-${{ github.repository }}-v4-
 
       - name: Install dependencies
         run: |
@@ -47,6 +55,11 @@ jobs:
         env:
           PERSONAL_GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
         run: |
+          # Ensure we use the repository's pool.json, not cached one
+          if [ -f pool_backup.json ] && [ ! -f pool.json ]; then
+            echo "🔄 Restoring pool.json from repository backup"
+            cp pool_backup.json pool.json
+          fi
           node pool.js
 
       - name: Save Pool Cache
@@ -54,9 +67,8 @@ jobs:
         if: always()
         with:
           path: |
-            pool.json
             github_cache.json
-          key: github-pool-cache-${{ github.repository }}-v3-stable-${{ github.run_id }}
+          key: github-pool-cache-${{ github.repository }}-v4-${{ github.run_id }}
 
       - name: Commit and Push Changes
         run: |
