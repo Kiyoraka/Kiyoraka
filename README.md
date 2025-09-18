@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Testing the Battle Scenarios
+#### Current Quest: Debugging the Ancient Scripts
 
 ### 📅 Weekly Quest
-#### Current Mission: Performance Monitoring Mission
+#### Current Mission: Code Documentation Drive
 
 ### 🌙 Monthly Raid
 #### Autumn Oracle: AI Integration
