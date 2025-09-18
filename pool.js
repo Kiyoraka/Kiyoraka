@@ -389,6 +389,23 @@ async function updatePoolWithTodayActivity(headers, pool) {
         pool.languageStats[language] = Math.max(pool.languageStats[language] || 0, baselineValue);
     }
 
+    // UPDATE: Always update total repos count and track new repositories
+    pool.totalRepos = allRepos.length;
+
+    // Count original (non-fork) repos and add new repos to processedRepos
+    let originalCount = 0;
+    for (const repo of allRepos) {
+        if (!repo.fork) {
+            originalCount++;
+        }
+        // Add any new repos to the processedRepos list
+        if (!pool.processedRepos.has(repo.full_name)) {
+            console.log(`🆕 New repository detected: ${repo.name}`);
+            pool.processedRepos.add(repo.full_name);
+        }
+    }
+    pool.originalReposCount = originalCount;
+
     pool.lastUpdateDate = today;
 
     console.log(`📈 Activity since last update: ${todayCommits} commits, ${todayIssues} issues`);
