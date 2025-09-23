@@ -13,27 +13,27 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 🥇 Rank : B (Gold)
-### ⭐ Level : 373
+### ⭐ Level : 380
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 3992 
-### 🛡️ Defense Power : 3996 
-### ❤️ Health Point  : 6404 
+### ⚔️ Attack Power  : 4062 
+### 🛡️ Defense Power : 4058 
+### ❤️ Health Point  : 6510 
 ### 🔮 Mana Point    : 3518 
-### 🎯 Accuracy      : 4496 
-### ⚡ Speed         : 5808
+### 🎯 Accuracy      : 4523 
+### ⚡ Speed         : 5825
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 970
-### 🎨 CSS : 628
-### 🐘 PHP : 624
-### 🧷 Blade : 564
-### 🌐 HTML : 385
-### 💚 Vue : 338
+### 📜 JavaScript : 975
+### 🐘 PHP : 647
+### 🎨 CSS : 636
+### 🧷 Blade : 607
+### 🌐 HTML : 386
+### 💚 Vue : 360
 ### 🔷 TypeScript : 186
 ### 🎯 Dart : 159
 ### 📚 Ren'Py : 94
@@ -62,7 +62,7 @@
 #### Current Quest: Refactoring the Legacy Temple
 
 ### 📅 Weekly Quest
-#### Current Mission: CI/CD Pipeline Project
+#### Current Mission: Backend Service Upgrade
 
 ### 🌙 Monthly Raid
 #### Autumn Oracle: AI Integration

@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2025-09-22",
-  "totalCommits": 4504,
+  "lastUpdateDate": "2025-09-23",
+  "totalCommits": 4592,
   "totalSolvedIssues": 80,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -11,19 +11,19 @@
     "Swift": 0,
     "Java": 26,
     "Objective-C": 0,
-    "JavaScript": 970,
-    "PHP": 624,
-    "CSS": 628,
-    "HTML": 385,
+    "JavaScript": 975,
+    "PHP": 647,
+    "CSS": 636,
+    "HTML": 386,
     "TypeScript": 186,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 51,
-    "Vue": 338,
+    "Vue": 360,
     "Hack": 9,
     "Shell": 0,
-    "Blade": 564,
+    "Blade": 607,
     "SCSS": 8,
     "C++": 22,
     "CMake": 12,
@@ -163,6 +163,7 @@
     "roboshoptech/roboskool-booking",
     "Kiyoraka/Flutter-Hadis-App",
     "Kiyoraka/Web-Application-Bekam",
-    "roboshoptech/code-dungeon"
+    "roboshoptech/code-dungeon",
+    "Kiyoraka/Project-MrMuscle"
   ]
 }
