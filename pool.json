@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2025-09-25",
-  "totalCommits": 4753,
+  "lastUpdateDate": "2025-09-26",
+  "totalCommits": 4906,
   "totalSolvedIssues": 80,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -11,19 +11,19 @@
     "Swift": 0,
     "Java": 26,
     "Objective-C": 0,
-    "JavaScript": 1012,
-    "PHP": 698,
-    "CSS": 690,
-    "HTML": 396,
+    "JavaScript": 1060,
+    "PHP": 738,
+    "CSS": 748,
+    "HTML": 429,
     "TypeScript": 186,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 51,
-    "Vue": 385,
+    "Vue": 432,
     "Hack": 9,
     "Shell": 0,
-    "Blade": 685,
+    "Blade": 704,
     "SCSS": 8,
     "C++": 22,
     "CMake": 12,
@@ -165,6 +165,7 @@
     "Kiyoraka/Web-Application-Bekam",
     "roboshoptech/code-dungeon",
     "Kiyoraka/Project-MrMuscle",
-    "Kiyoraka/Project-UTG-Corporate"
+    "Kiyoraka/Project-UTG-Corporate",
+    "Kiyoraka/ProjectDemo-Umrah-Travel-Management-System"
   ]
 }
