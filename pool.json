@@ -1,8 +1,8 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2025-09-27",
-  "totalCommits": 5042,
-  "totalSolvedIssues": 85,
+  "lastUpdateDate": "2025-09-28",
+  "totalCommits": 5155,
+  "totalSolvedIssues": 90,
   "totalSpeedPoints": 1164,
   "languageStats": {
     "Dart": 159,
@@ -11,19 +11,19 @@
     "Swift": 0,
     "Java": 26,
     "Objective-C": 0,
-    "JavaScript": 1065,
-    "PHP": 769,
-    "CSS": 773,
-    "HTML": 437,
-    "TypeScript": 204,
+    "JavaScript": 1087,
+    "PHP": 791,
+    "CSS": 818,
+    "HTML": 445,
+    "TypeScript": 222,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 51,
-    "Vue": 454,
+    "Vue": 473,
     "Hack": 9,
     "Shell": 0,
-    "Blade": 744,
+    "Blade": 767,
     "SCSS": 8,
     "C++": 22,
     "CMake": 12,
@@ -166,6 +166,7 @@
     "roboshoptech/code-dungeon",
     "Kiyoraka/Project-MrMuscle",
     "Kiyoraka/Project-UTG-Corporate",
-    "Kiyoraka/ProjectDemo-Umrah-Travel-Management-System"
+    "Kiyoraka/ProjectDemo-Umrah-Travel-Management-System",
+    "Kiyoraka/Project-POS-System-The-Komunal"
   ]
 }
