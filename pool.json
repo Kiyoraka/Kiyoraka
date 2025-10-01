@@ -1,8 +1,8 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2025-09-30",
-  "totalCommits": 5278,
-  "totalSolvedIssues": 94,
+  "lastUpdateDate": "2025-10-01",
+  "totalCommits": 5381,
+  "totalSolvedIssues": 95,
   "totalSpeedPoints": 1164,
   "languageStats": {
     "Dart": 159,
@@ -11,19 +11,19 @@
     "Swift": 0,
     "Java": 26,
     "Objective-C": 0,
-    "JavaScript": 1132,
-    "PHP": 837,
-    "CSS": 872,
+    "JavaScript": 1143,
+    "PHP": 882,
+    "CSS": 884,
     "HTML": 445,
-    "TypeScript": 232,
+    "TypeScript": 257,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 51,
-    "Vue": 511,
+    "Vue": 525,
     "Hack": 9,
     "Shell": 0,
-    "Blade": 787,
+    "Blade": 807,
     "SCSS": 8,
     "C++": 22,
     "CMake": 12,
@@ -167,6 +167,7 @@
     "Kiyoraka/Project-MrMuscle",
     "Kiyoraka/Project-UTG-Corporate",
     "Kiyoraka/ProjectDemo-Umrah-Travel-Management-System",
-    "Kiyoraka/Project-POS-System-The-Komunal"
+    "Kiyoraka/Project-POS-System-The-Komunal",
+    "Kiyoraka/The-Komunal-IMS"
   ]
 }
