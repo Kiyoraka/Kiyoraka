@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2025-10-10",
-  "totalCommits": 6136,
+  "lastUpdateDate": "2025-10-11",
+  "totalCommits": 6227,
   "totalSolvedIssues": 96,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -11,19 +11,19 @@
     "Swift": 0,
     "Java": 26,
     "Objective-C": 0,
-    "JavaScript": 1325,
-    "PHP": 1142,
-    "CSS": 1012,
-    "HTML": 498,
-    "TypeScript": 280,
+    "JavaScript": 1345,
+    "PHP": 1155,
+    "CSS": 1050,
+    "HTML": 517,
+    "TypeScript": 283,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 51,
-    "Vue": 738,
+    "Vue": 761,
     "Hack": 9,
     "Shell": 0,
-    "Blade": 874,
+    "Blade": 881,
     "SCSS": 8,
     "C++": 22,
     "CMake": 12,
@@ -171,6 +171,7 @@
     "Kiyoraka/The-Komunal-IMS",
     "Kiyoraka/Project-Certitrack",
     "Kiyoraka/Project-UT-Generation",
-    "Kiyoraka/Project-Pocky-Lucky-Draw"
+    "Kiyoraka/Project-Pocky-Lucky-Draw",
+    "Kiyoraka/Project-Recovery-Expert"
   ]
 }
