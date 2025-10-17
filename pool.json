@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2025-10-16",
-  "totalCommits": 6704,
+  "lastUpdateDate": "2025-10-17",
+  "totalCommits": 6784,
   "totalSolvedIssues": 96,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -11,19 +11,19 @@
     "Swift": 0,
     "Java": 26,
     "Objective-C": 0,
-    "JavaScript": 1443,
-    "PHP": 1332,
-    "CSS": 1178,
-    "HTML": 583,
+    "JavaScript": 1455,
+    "PHP": 1357,
+    "CSS": 1192,
+    "HTML": 584,
     "TypeScript": 286,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 51,
-    "Vue": 884,
+    "Vue": 923,
     "Hack": 9,
     "Shell": 0,
-    "Blade": 917,
+    "Blade": 927,
     "SCSS": 8,
     "C++": 22,
     "CMake": 12,
@@ -172,6 +172,7 @@
     "Kiyoraka/Project-Certitrack",
     "Kiyoraka/Project-UT-Generation",
     "Kiyoraka/Project-Pocky-Lucky-Draw",
-    "Kiyoraka/Project-Recovery-Expert"
+    "Kiyoraka/Project-Recovery-Expert",
+    "roboshoptech/roboskool-campus"
   ]
 }

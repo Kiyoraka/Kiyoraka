@@ -13,27 +13,27 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 💎 Rank : A (Platinum)
-### ⭐ Level : 549
+### ⭐ Level : 556
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 5784 
-### 🛡️ Defense Power : 5536 
-### ❤️ Health Point  : 9044 
+### ⚔️ Attack Power  : 5848 
+### 🛡️ Defense Power : 5592 
+### ❤️ Health Point  : 9140 
 ### 🔮 Mana Point    : 3518 
-### 🎯 Accuracy      : 5556 
-### ⚡ Speed         : 6248
+### 🎯 Accuracy      : 5580 
+### ⚡ Speed         : 6264
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 1443
-### 🐘 PHP : 1332
-### 🎨 CSS : 1178
-### 🧷 Blade : 917
-### 💚 Vue : 884
-### 🌐 HTML : 583
+### 📜 JavaScript : 1455
+### 🐘 PHP : 1357
+### 🎨 CSS : 1192
+### 🧷 Blade : 927
+### 💚 Vue : 923
+### 🌐 HTML : 584
 ### 🔷 TypeScript : 286
 ### 🎯 Dart : 159
 ### 📚 Ren'Py : 94
@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Organizing Code Sanctuary
+#### Current Quest: Testing the Battle Scenarios
 
 ### 📅 Weekly Quest
-#### Current Mission: Concurrent Programming Project
+#### Current Mission: Machine Learning Marathon
 
 ### 🌙 Monthly Raid
 #### Halloween Horror: Bug Hunt
