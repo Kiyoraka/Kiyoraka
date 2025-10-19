@@ -13,34 +13,34 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 💎 Rank : A (Platinum)
-### ⭐ Level : 562
+### ⭐ Level : 569
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 5913 
-### 🛡️ Defense Power : 5647 
-### ❤️ Health Point  : 9235 
+### ⚔️ Attack Power  : 5983 
+### 🛡️ Defense Power : 5707 
+### ❤️ Health Point  : 9337 
 ### 🔮 Mana Point    : 3518 
-### 🎯 Accuracy      : 5629 
-### ⚡ Speed         : 6280
+### 🎯 Accuracy      : 5679 
+### ⚡ Speed         : 6297
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 1457
-### 🐘 PHP : 1381
-### 🎨 CSS : 1195
-### 💚 Vue : 972
-### 🧷 Blade : 928
-### 🌐 HTML : 584
-### 🔷 TypeScript : 287
+### 📜 JavaScript : 1465
+### 🐘 PHP : 1407
+### 🎨 CSS : 1209
+### 💚 Vue : 1001
+### 🧷 Blade : 933
+### 🌐 HTML : 592
+### 🔷 TypeScript : 288
 ### 🎯 Dart : 159
 ### 📚 Ren'Py : 94
 ### 🐍 Python : 51
 ### 🎯 C# : 34
+### ☕ Java : 32
 ### 🗂️ Batchfile : 29
-### ☕ Java : 26
 ### ➕ C++ : 22
 ### 🧱 CMake : 12
 ### 🧬 Hack : 9
@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Documenting the Wisdom Scrolls
+#### Current Quest: Optimizing the Data Streams
 
 ### 📅 Weekly Quest
-#### Current Mission: Security Hardening Hunt
+#### Current Mission: Schema Evolution Exercise
 
 ### 🌙 Monthly Raid
 #### Halloween Horror: Bug Hunt
