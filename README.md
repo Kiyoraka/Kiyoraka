@@ -13,33 +13,33 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 💎 Rank : A (Platinum)
-### ⭐ Level : 569
+### ⭐ Level : 573
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 5983 
-### 🛡️ Defense Power : 5707 
-### ❤️ Health Point  : 9337 
+### ⚔️ Attack Power  : 6023 
+### 🛡️ Defense Power : 5742 
+### ❤️ Health Point  : 9397 
 ### 🔮 Mana Point    : 3518 
-### 🎯 Accuracy      : 5679 
-### ⚡ Speed         : 6297
+### 🎯 Accuracy      : 5694 
+### ⚡ Speed         : 6307
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 1465
-### 🐘 PHP : 1407
-### 🎨 CSS : 1209
-### 💚 Vue : 1001
-### 🧷 Blade : 933
-### 🌐 HTML : 592
+### 📜 JavaScript : 1474
+### 🐘 PHP : 1413
+### 🎨 CSS : 1220
+### 💚 Vue : 1020
+### 🧷 Blade : 937
+### 🌐 HTML : 600
 ### 🔷 TypeScript : 288
 ### 🎯 Dart : 159
 ### 📚 Ren'Py : 94
 ### 🐍 Python : 51
+### ☕ Java : 38
 ### 🎯 C# : 34
-### ☕ Java : 32
 ### 🗂️ Batchfile : 29
 ### ➕ C++ : 22
 ### 🧱 CMake : 12
@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Optimizing the Data Streams
+#### Current Quest: Refactoring the Legacy Temple
 
 ### 📅 Weekly Quest
-#### Current Mission: Schema Evolution Exercise
+#### Current Mission: Database Sharding Showdown
 
 ### 🌙 Monthly Raid
 #### Halloween Horror: Bug Hunt
