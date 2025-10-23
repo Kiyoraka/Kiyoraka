@@ -13,32 +13,32 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 💎 Rank : A (Platinum)
-### ⭐ Level : 588
+### ⭐ Level : 598
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 6172 
-### 🛡️ Defense Power : 5872 
-### ❤️ Health Point  : 9620 
+### ⚔️ Attack Power  : 6277 
+### 🛡️ Defense Power : 5964 
+### ❤️ Health Point  : 9779 
 ### 🔮 Mana Point    : 3518 
-### 🎯 Accuracy      : 5750 
-### ⚡ Speed         : 6344
+### 🎯 Accuracy      : 5790 
+### ⚡ Speed         : 6370
 
 ---
 ## 💻 Programming Skills
 
-### 📜 JavaScript : 1495
-### 🐘 PHP : 1477
-### 🎨 CSS : 1225
-### 💚 Vue : 1094
-### 🧷 Blade : 960
-### 🌐 HTML : 607
+### 📜 JavaScript : 1528
+### 🐘 PHP : 1523
+### 🎨 CSS : 1247
+### 💚 Vue : 1163
+### 🧷 Blade : 969
+### 🌐 HTML : 614
 ### 🔷 TypeScript : 288
 ### 🎯 Dart : 159
 ### 📚 Ren'Py : 94
+### ☕ Java : 58
 ### 🐍 Python : 51
-### ☕ Java : 48
 ### 🎯 C# : 34
 ### 🗂️ Batchfile : 29
 ### ➕ C++ : 22
@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Optimizing the Data Streams
+#### Current Quest: Debugging the Ancient Scripts
 
 ### 📅 Weekly Quest
-#### Current Mission: The Great Refactoring Challenge
+#### Current Mission: Test Coverage Challenge
 
 ### 🌙 Monthly Raid
 #### Halloween Horror: Bug Hunt
