@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2025-11-18",
-  "totalCommits": 8955,
+  "lastUpdateDate": "2025-11-19",
+  "totalCommits": 9078,
   "totalSolvedIssues": 98,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -11,16 +11,16 @@
     "Swift": 0,
     "Java": 90,
     "Objective-C": 0,
-    "JavaScript": 1785,
-    "PHP": 1938,
-    "CSS": 1467,
+    "JavaScript": 1818,
+    "PHP": 1963,
+    "CSS": 1482,
     "HTML": 657,
     "TypeScript": 288,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
-    "Python": 51,
-    "Vue": 2107,
+    "Python": 54,
+    "Vue": 2185,
     "Hack": 9,
     "Shell": 0,
     "Blade": 1072,
@@ -179,6 +179,7 @@
     "Kiyoraka/Project-OceanFag",
     "Kiyoraka/Project-Centralised-System-TNK-SPM",
     "Kiyoraka/Ocean-FG",
-    "roboshoptech/roboskool-makerhub"
+    "roboshoptech/roboskool-makerhub",
+    "Kiyoraka/Project-VN-OCR"
   ]
 }
