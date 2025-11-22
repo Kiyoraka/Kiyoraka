@@ -13,26 +13,26 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 💎 Rank : A (Platinum)
-### ⭐ Level : 750
+### ⭐ Level : 756
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 7797 
-### 🛡️ Defense Power : 7294 
-### ❤️ Health Point  : 12058 
+### ⚔️ Attack Power  : 7849 
+### 🛡️ Defense Power : 7340 
+### ❤️ Health Point  : 12137 
 ### 🔮 Mana Point    : 3518 
-### 🎯 Accuracy      : 6360 
-### ⚡ Speed         : 6750
+### 🎯 Accuracy      : 6379 
+### ⚡ Speed         : 6763
 
 ---
 ## 💻 Programming Skills
 
-### 💚 Vue : 2253
-### 🐘 PHP : 2001
-### 📜 JavaScript : 1864
+### 💚 Vue : 2300
+### 🐘 PHP : 2018
+### 📜 JavaScript : 1866
 ### 🎨 CSS : 1503
-### 🧷 Blade : 1073
+### 🧷 Blade : 1074
 ### 🌐 HTML : 657
 ### 🔷 TypeScript : 288
 ### 🎯 Dart : 159
@@ -62,7 +62,7 @@
 #### Current Quest: Testing the Battle Scenarios
 
 ### 📅 Weekly Quest
-#### Current Mission: Frontend Framework Update
+#### Current Mission: Legacy Code Migration Marathon
 
 ### 🌙 Monthly Raid
 #### Harvest Handler: Data Analytics
