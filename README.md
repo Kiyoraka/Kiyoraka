@@ -13,31 +13,31 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 💎 Rank : A (Platinum)
-### ⭐ Level : 761
+### ⭐ Level : 769
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 7905 
-### 🛡️ Defense Power : 7389 
-### ❤️ Health Point  : 12221 
+### ⚔️ Attack Power  : 7987 
+### 🛡️ Defense Power : 7460 
+### ❤️ Health Point  : 12343 
 ### 🔮 Mana Point    : 3518 
-### 🎯 Accuracy      : 6400 
-### ⚡ Speed         : 6777
+### 🎯 Accuracy      : 6431 
+### ⚡ Speed         : 6798
 
 ---
 ## 💻 Programming Skills
 
-### 💚 Vue : 2346
-### 🐘 PHP : 2030
-### 📜 JavaScript : 1895
-### 🎨 CSS : 1530
+### 💚 Vue : 2398
+### 🐘 PHP : 2036
+### 📜 JavaScript : 1924
+### 🎨 CSS : 1557
 ### 🧷 Blade : 1074
-### 🌐 HTML : 661
+### 🌐 HTML : 665
 ### 🔷 TypeScript : 288
 ### 🎯 Dart : 159
+### ☕ Java : 126
 ### 📚 Ren'Py : 94
-### ☕ Java : 90
 ### 🐍 Python : 57
 ### 🎯 C# : 34
 ### 🗂️ Batchfile : 29
@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Documenting the Wisdom Scrolls
+#### Current Quest: Optimizing the Data Streams
 
 ### 📅 Weekly Quest
-#### Current Mission: Code Documentation Drive
+#### Current Mission: Code Quality Crusade
 
 ### 🌙 Monthly Raid
 #### Harvest Handler: Data Analytics
