@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2025-11-24",
-  "totalCommits": 9453,
+  "lastUpdateDate": "2025-11-25",
+  "totalCommits": 9565,
   "totalSolvedIssues": 98,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -9,18 +9,18 @@
     "Ruby": 0,
     "Batchfile": 29,
     "Swift": 0,
-    "Java": 126,
+    "Java": 162,
     "Objective-C": 0,
-    "JavaScript": 1924,
-    "PHP": 2036,
-    "CSS": 1557,
+    "JavaScript": 1949,
+    "PHP": 2061,
+    "CSS": 1581,
     "HTML": 665,
     "TypeScript": 288,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 57,
-    "Vue": 2398,
+    "Vue": 2467,
     "Hack": 9,
     "Shell": 0,
     "Blade": 1074,
@@ -180,6 +180,7 @@
     "Kiyoraka/Project-Centralised-System-TNK-SPM",
     "Kiyoraka/Ocean-FG",
     "roboshoptech/roboskool-makerhub",
-    "Kiyoraka/Project-VN-OCR"
+    "Kiyoraka/Project-VN-OCR",
+    "roboshoptech/registration-form"
   ]
 }
