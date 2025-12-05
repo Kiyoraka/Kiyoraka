@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2025-12-04",
-  "totalCommits": 10489,
+  "lastUpdateDate": "2025-12-05",
+  "totalCommits": 10589,
   "totalSolvedIssues": 98,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -9,18 +9,18 @@
     "Ruby": 0,
     "Batchfile": 29,
     "Swift": 0,
-    "Java": 242,
+    "Java": 272,
     "Objective-C": 0,
-    "JavaScript": 2149,
-    "PHP": 2193,
-    "CSS": 1710,
-    "HTML": 669,
+    "JavaScript": 2167,
+    "PHP": 2194,
+    "CSS": 1714,
+    "HTML": 670,
     "TypeScript": 288,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 57,
-    "Vue": 3035,
+    "Vue": 3067,
     "Hack": 9,
     "Shell": 0,
     "Blade": 1074,
@@ -183,6 +183,7 @@
     "Kiyoraka/Project-VN-OCR",
     "roboshoptech/registration-form",
     "roboshoptech/production-management-system",
-    "Kiyoraka/Project-Salesman-App"
+    "Kiyoraka/Project-Salesman-App",
+    "Kiyoraka/Project-PWA-Hadith"
   ]
 }
