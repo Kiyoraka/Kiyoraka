@@ -13,28 +13,28 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 💎 Rank : A (Platinum)
-### ⭐ Level : 947
+### ⭐ Level : 956
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 9767 
-### 🛡️ Defense Power : 9018 
-### ❤️ Health Point  : 15013 
+### ⚔️ Attack Power  : 9853 
+### 🛡️ Defense Power : 9093 
+### ❤️ Health Point  : 15142 
 ### 🔮 Mana Point    : 3518 
-### 🎯 Accuracy      : 7098 
-### ⚡ Speed         : 7243
+### 🎯 Accuracy      : 7131 
+### ⚡ Speed         : 7264
 
 ---
 ## 💻 Programming Skills
 
-### 💚 Vue : 3684
-### 📜 JavaScript : 2338
-### 🐘 PHP : 2283
-### 🎨 CSS : 1775
-### 🧷 Blade : 1080
-### 🌐 HTML : 682
-### ☕ Java : 499
+### 💚 Vue : 3748
+### 📜 JavaScript : 2354
+### 🐘 PHP : 2290
+### 🎨 CSS : 1777
+### 🧷 Blade : 1084
+### 🌐 HTML : 683
+### ☕ Java : 515
 ### 🔷 TypeScript : 288
 ### 🎯 Dart : 159
 ### 📚 Ren'Py : 94
@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Testing the Battle Scenarios
+#### Current Quest: Documenting the Wisdom Scrolls
 
 ### 📅 Weekly Quest
-#### Current Mission: Query Performance Quest
+#### Current Mission: Concurrent Programming Project
 
 ### 🌙 Monthly Raid
 #### Frost Phoenix: System Resurrection
