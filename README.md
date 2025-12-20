@@ -13,28 +13,28 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 💎 Rank : A (Platinum)
-### ⭐ Level : 960
+### ⭐ Level : 964
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 9894 
-### 🛡️ Defense Power : 9129 
-### ❤️ Health Point  : 15204 
+### ⚔️ Attack Power  : 9937 
+### 🛡️ Defense Power : 9167 
+### ❤️ Health Point  : 15269 
 ### 🔮 Mana Point    : 3518 
-### 🎯 Accuracy      : 7146 
-### ⚡ Speed         : 7274
+### 🎯 Accuracy      : 7162 
+### ⚡ Speed         : 7285
 
 ---
 ## 💻 Programming Skills
 
-### 💚 Vue : 3780
-### 📜 JavaScript : 2355
-### 🐘 PHP : 2296
+### 💚 Vue : 3802
+### 📜 JavaScript : 2356
+### 🐘 PHP : 2298
 ### 🎨 CSS : 1777
-### 🧷 Blade : 1088
-### 🌐 HTML : 686
-### ☕ Java : 518
+### 🧷 Blade : 1104
+### 🌐 HTML : 688
+### ☕ Java : 523
 ### 🔷 TypeScript : 288
 ### 🎯 Dart : 159
 ### 📚 Ren'Py : 94
@@ -62,7 +62,7 @@
 #### Current Quest: Refactoring the Legacy Temple
 
 ### 📅 Weekly Quest
-#### Current Mission: Error Handling Enhancement
+#### Current Mission: DevOps Pipeline Challenge
 
 ### 🌙 Monthly Raid
 #### Frost Phoenix: System Resurrection
