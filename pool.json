@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2025-12-20",
-  "totalCommits": 11891,
+  "lastUpdateDate": "2025-12-21",
+  "totalCommits": 11963,
   "totalSolvedIssues": 98,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -9,10 +9,10 @@
     "Ruby": 0,
     "Batchfile": 29,
     "Swift": 0,
-    "Java": 523,
+    "Java": 526,
     "Objective-C": 0,
-    "JavaScript": 2356,
-    "PHP": 2298,
+    "JavaScript": 2357,
+    "PHP": 2322,
     "CSS": 1777,
     "HTML": 688,
     "TypeScript": 288,
@@ -20,10 +20,10 @@
     "C#": 34,
     "Go": 0,
     "Python": 57,
-    "Vue": 3802,
+    "Vue": 3825,
     "Hack": 9,
     "Shell": 0,
-    "Blade": 1104,
+    "Blade": 1134,
     "SCSS": 8,
     "C++": 22,
     "CMake": 12,
@@ -184,6 +184,7 @@
     "roboshoptech/registration-form",
     "roboshoptech/production-management-system",
     "Kiyoraka/Project-Salesman-App",
-    "Kiyoraka/Project-PWA-Hadith"
+    "Kiyoraka/Project-PWA-Hadith",
+    "Kiyoraka/Jaulah-kembara-TMS"
   ]
 }
