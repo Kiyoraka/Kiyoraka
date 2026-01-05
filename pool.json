@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-01-04",
-  "totalCommits": 12846,
+  "lastUpdateDate": "2026-01-05",
+  "totalCommits": 12913,
   "totalSolvedIssues": 98,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -11,16 +11,16 @@
     "Swift": 0,
     "Java": 626,
     "Objective-C": 0,
-    "JavaScript": 2544,
-    "PHP": 2538,
-    "CSS": 1942,
-    "HTML": 712,
+    "JavaScript": 2562,
+    "PHP": 2540,
+    "CSS": 1971,
+    "HTML": 741,
     "TypeScript": 288,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 107,
-    "Vue": 4193,
+    "Vue": 4198,
     "Hack": 9,
     "Shell": 0,
     "Blade": 1150,
@@ -189,6 +189,8 @@
     "Kiyoraka/Crypto-Trading-Management-System",
     "Kiyoraka/Git-GUI-Alice-Edition",
     "Kiyoraka/Project-Online-Resume-System",
-    "Kiyoraka/Fantasy-Book-E-Commerce"
+    "Kiyoraka/Fantasy-Book-E-Commerce",
+    "Kiyoraka/Project-Schedule-Management-App",
+    "Kiyoraka/Project-10-publication"
   ]
 }
