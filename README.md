@@ -59,7 +59,7 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Testing the Battle Scenarios
+#### Current Quest: Documenting the Wisdom Scrolls
 
 ### 📅 Weekly Quest
 #### Current Mission: Blockchain Integration Battle
