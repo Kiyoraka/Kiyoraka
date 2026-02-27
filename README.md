@@ -13,33 +13,33 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 👑 Rank : S (Legend)
-### ⭐ Level : 1357
+### ⭐ Level : 1367
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 13865 
-### 🛡️ Defense Power : 12583 
-### ❤️ Health Point  : 21175 
+### ⚔️ Attack Power  : 13965 
+### 🛡️ Defense Power : 12670 
+### ❤️ Health Point  : 21324 
 ### 🔮 Mana Point    : 3518 
-### 🎯 Accuracy      : 8926 
-### ⚡ Speed         : 8261
+### 🎯 Accuracy      : 8964 
+### ⚡ Speed         : 8286
 
 ---
 ## 💻 Programming Skills
 
-### 💚 Vue : 5540
-### 🐘 PHP : 3429
-### 📜 JavaScript : 3033
-### 🎨 CSS : 2587
-### 🧷 Blade : 1765
+### 💚 Vue : 5567
+### 🐘 PHP : 3463
+### 📜 JavaScript : 3053
+### 🎨 CSS : 2608
+### 🧷 Blade : 1791
 ### ☕ Java : 901
-### 🌐 HTML : 792
+### 🌐 HTML : 794
 ### 🔷 TypeScript : 336
 ### 🎯 Dart : 159
-### 🐍 Python : 141
+### 🐍 Python : 148
 ### 📚 Ren'Py : 94
-### 🗂️ Batchfile : 39
+### 🗂️ Batchfile : 40
 ### 🎯 C# : 34
 ### ➕ C++ : 22
 ### 🧱 CMake : 12
@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Testing the Battle Scenarios
+#### Current Quest: Merging Parallel Dimensions
 
 ### 📅 Weekly Quest
-#### Current Mission: Load Balancing Legend
+#### Current Mission: Security Vulnerability Hunt
 
 ### 🌙 Monthly Raid
 #### Love Bug: Security Breach
