@@ -13,26 +13,26 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 👑 Rank : S (Legend)
-### ⭐ Level : 1497
+### ⭐ Level : 1498
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 15269 
-### 🛡️ Defense Power : 13811 
-### ❤️ Health Point  : 23281 
+### ⚔️ Attack Power  : 15273 
+### 🛡️ Defense Power : 13815 
+### ❤️ Health Point  : 23287 
 ### 🔮 Mana Point    : 3518 
-### 🎯 Accuracy      : 9453 
-### ⚡ Speed         : 8612
+### 🎯 Accuracy      : 9454 
+### ⚡ Speed         : 8613
 
 ---
 ## 💻 Programming Skills
 
 ### 💚 Vue : 5894
-### 🐘 PHP : 3944
+### 🐘 PHP : 3947
 ### 📜 JavaScript : 3216
 ### 🎨 CSS : 2764
-### 🧷 Blade : 2077
+### 🧷 Blade : 2078
 ### ☕ Java : 945
 ### 🌐 HTML : 798
 ### 🔷 TypeScript : 336
@@ -62,7 +62,7 @@
 #### Current Quest: Documenting the Wisdom Scrolls
 
 ### 📅 Weekly Quest
-#### Current Mission: API Integration Tournament
+#### Current Mission: The Great Refactoring Challenge
 
 ### 🌙 Monthly Raid
 #### Spring Cleaning: Technical Debt
