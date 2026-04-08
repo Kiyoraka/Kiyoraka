@@ -13,30 +13,30 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 👑 Rank : S (Legend)
-### ⭐ Level : 1560
+### ⭐ Level : 1568
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 15900 
-### 🛡️ Defense Power : 14363 
-### ❤️ Health Point  : 24226 
+### ⚔️ Attack Power  : 15983 
+### 🛡️ Defense Power : 14436 
+### ❤️ Health Point  : 24351 
 ### 🔮 Mana Point    : 3518 
-### 🎯 Accuracy      : 9689 
-### ⚡ Speed         : 8770
+### 🎯 Accuracy      : 9720 
+### ⚡ Speed         : 8791
 
 ---
 ## 💻 Programming Skills
 
-### 💚 Vue : 6221
-### 🐘 PHP : 4087
-### 📜 JavaScript : 3318
+### 💚 Vue : 6254
+### 🐘 PHP : 4089
+### 📜 JavaScript : 3319
 ### 🎨 CSS : 2790
 ### 🧷 Blade : 2125
-### ☕ Java : 1064
-### 🌐 HTML : 804
+### ☕ Java : 1072
+### 🌐 HTML : 805
 ### 🔷 TypeScript : 336
-### 🐍 Python : 259
+### 🐍 Python : 273
 ### 🎯 Dart : 159
 ### 📚 Ren'Py : 94
 ### 🗂️ Batchfile : 42
@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Merging Parallel Dimensions
+#### Current Quest: Testing the Battle Scenarios
 
 ### 📅 Weekly Quest
-#### Current Mission: Backup System Implementation
+#### Current Mission: Code Review Championship
 
 ### 🌙 Monthly Raid
 #### Rain Bearer: Data Flood
