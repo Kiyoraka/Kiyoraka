@@ -13,30 +13,30 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 👑 Rank : S (Legend)
-### ⭐ Level : 1578
+### ⭐ Level : 1583
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 16073 
-### 🛡️ Defense Power : 14515 
-### ❤️ Health Point  : 24487 
+### ⚔️ Attack Power  : 16125 
+### 🛡️ Defense Power : 14560 
+### ❤️ Health Point  : 24564 
 ### 🔮 Mana Point    : 3518 
-### 🎯 Accuracy      : 9754 
-### ⚡ Speed         : 8813
+### 🎯 Accuracy      : 9774 
+### ⚡ Speed         : 8826
 
 ---
 ## 💻 Programming Skills
 
-### 💚 Vue : 6292
-### 🐘 PHP : 4090
-### 📜 JavaScript : 3320
+### 💚 Vue : 6321
+### 🐘 PHP : 4095
+### 📜 JavaScript : 3321
 ### 🎨 CSS : 2790
 ### 🧷 Blade : 2125
-### ☕ Java : 1088
+### ☕ Java : 1096
 ### 🌐 HTML : 806
 ### 🔷 TypeScript : 336
-### 🐍 Python : 286
+### 🐍 Python : 294
 ### 🎯 Dart : 159
 ### 📚 Ren'Py : 94
 ### 🗂️ Batchfile : 42
@@ -62,7 +62,7 @@
 #### Current Quest: Optimizing the Data Streams
 
 ### 📅 Weekly Quest
-#### Current Mission: Code Documentation Drive
+#### Current Mission: Machine Learning Marathon
 
 ### 🌙 Monthly Raid
 #### Rain Bearer: Data Flood
