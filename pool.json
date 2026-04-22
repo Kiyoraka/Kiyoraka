@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-04-21",
-  "totalCommits": 20430,
+  "lastUpdateDate": "2026-04-22",
+  "totalCommits": 20542,
   "totalSolvedIssues": 110,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -11,16 +11,16 @@
     "Swift": 0,
     "Java": 1124,
     "Objective-C": 0,
-    "JavaScript": 3393,
+    "JavaScript": 3436,
     "PHP": 4331,
-    "CSS": 2868,
-    "HTML": 848,
+    "CSS": 2882,
+    "HTML": 890,
     "TypeScript": 336,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 312,
-    "Vue": 6552,
+    "Vue": 6570,
     "Hack": 9,
     "Shell": 0,
     "Blade": 2125,
@@ -212,6 +212,8 @@
     "Kiyoraka/Project-Guru-Quran",
     "Kiyoraka/Tnex-WorkFlow",
     "Kiyoraka/TNEX-Knowledge-Management-System",
-    "Kiyoraka/Project-Demo-Rental-Management-System"
+    "Kiyoraka/Project-Demo-Rental-Management-System",
+    "Kiyoraka/Project-Demo-Intel-Dashboard",
+    "Kiyoraka/Project-Demo-TravelAgencySystem"
   ]
 }
