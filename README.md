@@ -13,28 +13,28 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### 👑 Rank : S (Legend)
-### ⭐ Level : 1658
+### ⭐ Level : 1667
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 16882 
-### 🛡️ Defense Power : 15223 
-### ❤️ Health Point  : 25700 
+### ⚔️ Attack Power  : 16973 
+### 🛡️ Defense Power : 15302 
+### ❤️ Health Point  : 25836 
 ### 🔮 Mana Point    : 3518 
-### 🎯 Accuracy      : 10058 
-### ⚡ Speed         : 9015
+### 🎯 Accuracy      : 10092 
+### ⚡ Speed         : 9038
 
 ---
 ## 💻 Programming Skills
 
-### 💚 Vue : 6570
-### 🐘 PHP : 4331
-### 📜 JavaScript : 3436
-### 🎨 CSS : 2882
+### 💚 Vue : 6605
+### 🐘 PHP : 4356
+### 📜 JavaScript : 3467
+### 🎨 CSS : 2902
 ### 🧷 Blade : 2125
 ### ☕ Java : 1124
-### 🌐 HTML : 890
+### 🌐 HTML : 910
 ### 🔷 TypeScript : 336
 ### 🐍 Python : 312
 ### 🎯 Dart : 159
@@ -62,7 +62,7 @@
 #### Current Quest: Debugging the Ancient Scripts
 
 ### 📅 Weekly Quest
-#### Current Mission: Data Analytics Adventure
+#### Current Mission: CI/CD Pipeline Project
 
 ### 🌙 Monthly Raid
 #### Rain Bearer: Data Flood
