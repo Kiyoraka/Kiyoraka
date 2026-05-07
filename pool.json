@@ -1,6 +1,6 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-05-06",
+  "lastUpdateDate": "2026-05-07",
   "totalCommits": 21872,
   "totalSolvedIssues": 110,
   "totalSpeedPoints": 1164,
@@ -228,6 +228,7 @@
     "Kiyoraka/Project-Hostel-Management-System",
     "Kiyoraka/Hijir-Travel-Tours-Business-Management-System",
     "Kiyoraka/Project-Homemade-Food-Ordering-System",
-    "Kiyoraka/Sheepy-Farm-E-Commerce-Warehouse-Management-System"
+    "Kiyoraka/Sheepy-Farm-E-Commerce-Warehouse-Management-System",
+    "216723-ai/Malaysia-Based-Project"
   ]
 }
