@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-05-08",
-  "totalCommits": 21927,
+  "lastUpdateDate": "2026-05-09",
+  "totalCommits": 21997,
   "totalSolvedIssues": 110,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -11,16 +11,16 @@
     "Swift": 0,
     "Java": 1140,
     "Objective-C": 0,
-    "JavaScript": 3719,
-    "PHP": 4574,
-    "CSS": 3136,
-    "HTML": 1133,
+    "JavaScript": 3726,
+    "PHP": 4588,
+    "CSS": 3156,
+    "HTML": 1145,
     "TypeScript": 336,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 330,
-    "Vue": 7029,
+    "Vue": 7059,
     "Hack": 9,
     "Shell": 0,
     "Blade": 2133,
@@ -229,6 +229,7 @@
     "Kiyoraka/Hijir-Travel-Tours-Business-Management-System",
     "Kiyoraka/Project-Homemade-Food-Ordering-System",
     "Kiyoraka/Sheepy-Farm-E-Commerce-Warehouse-Management-System",
-    "216723-ai/Malaysia-Based-Project"
+    "216723-ai/Malaysia-Based-Project",
+    "Kiyoraka/Project-Resort-Management-System"
   ]
 }
