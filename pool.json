@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-05-14",
-  "totalCommits": 22344,
+  "lastUpdateDate": "2026-05-15",
+  "totalCommits": 22438,
   "totalSolvedIssues": 110,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -9,21 +9,21 @@
     "Ruby": 0,
     "Batchfile": 42,
     "Swift": 0,
-    "Java": 1142,
+    "Java": 1148,
     "Objective-C": 0,
-    "JavaScript": 3800,
-    "PHP": 4683,
-    "CSS": 3225,
-    "HTML": 1153,
+    "JavaScript": 3829,
+    "PHP": 4702,
+    "CSS": 3243,
+    "HTML": 1155,
     "TypeScript": 336,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 330,
-    "Vue": 7208,
+    "Vue": 7251,
     "Hack": 9,
     "Shell": 0,
-    "Blade": 2135,
+    "Blade": 2136,
     "SCSS": 8,
     "C++": 22,
     "CMake": 12,
@@ -231,6 +231,8 @@
     "Kiyoraka/Sheepy-Farm-E-Commerce-Warehouse-Management-System",
     "216723-ai/Malaysia-Based-Project",
     "Kiyoraka/Project-Resort-Management-System",
-    "Kiyoraka/Project-Warehouse-Management-System"
+    "Kiyoraka/Project-Warehouse-Management-System",
+    "Kiyoraka/Project-PDMS-Hostel-Management-System",
+    "Kiyoraka/Project-Lelong-Property-Intelligence"
   ]
 }
