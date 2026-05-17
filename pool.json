@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-05-16",
-  "totalCommits": 22520,
+  "lastUpdateDate": "2026-05-17",
+  "totalCommits": 22603,
   "totalSolvedIssues": 110,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -11,16 +11,16 @@
     "Swift": 0,
     "Java": 1154,
     "Objective-C": 0,
-    "JavaScript": 3848,
-    "PHP": 4719,
-    "CSS": 3247,
-    "HTML": 1157,
+    "JavaScript": 3862,
+    "PHP": 4730,
+    "CSS": 3249,
+    "HTML": 1158,
     "TypeScript": 336,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 330,
-    "Vue": 7280,
+    "Vue": 7317,
     "Hack": 9,
     "Shell": 0,
     "Blade": 2137,
@@ -233,6 +233,9 @@
     "Kiyoraka/Project-Resort-Management-System",
     "Kiyoraka/Project-Warehouse-Management-System",
     "Kiyoraka/Project-PDMS-Hostel-Management-System",
-    "Kiyoraka/Project-Lelong-Property-Intelligence"
+    "Kiyoraka/Project-Lelong-Property-Intelligence",
+    "Kiyoraka/Project-MyBurger-Management-System",
+    "Kiyoraka/Project-Zack-Pizza",
+    "Kiyoraka/Project-Burger-Stall-Management-System"
   ]
 }
