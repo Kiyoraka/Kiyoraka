@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-05-24",
-  "totalCommits": 23532,
+  "lastUpdateDate": "2026-05-25",
+  "totalCommits": 23697,
   "totalSolvedIssues": 110,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -11,19 +11,19 @@
     "Swift": 0,
     "Java": 1154,
     "Objective-C": 0,
-    "JavaScript": 4096,
-    "PHP": 4852,
-    "CSS": 3409,
-    "HTML": 1280,
+    "JavaScript": 4114,
+    "PHP": 4887,
+    "CSS": 3419,
+    "HTML": 1288,
     "TypeScript": 336,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 330,
-    "Vue": 7499,
+    "Vue": 7548,
     "Hack": 9,
     "Shell": 0,
-    "Blade": 2138,
+    "Blade": 2139,
     "SCSS": 8,
     "C++": 22,
     "CMake": 12,
@@ -236,6 +236,10 @@
     "Kiyoraka/Project-Lelong-Property-Intelligence",
     "Kiyoraka/Project-MyBurger-Management-System",
     "Kiyoraka/Project-Zack-Pizza",
-    "Kiyoraka/Project-Burger-Stall-Management-System"
+    "Kiyoraka/Project-Burger-Stall-Management-System",
+    "roboshoptech/roboshop-web-profile",
+    "roboshoptech/smartboard-pages",
+    "Kiyoraka/Alice-Image-Generation-Guide",
+    "Kiyoraka/Alice-Image-Generation-Architecture"
   ]
 }
