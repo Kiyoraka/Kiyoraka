@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-05-25",
-  "totalCommits": 23697,
+  "lastUpdateDate": "2026-05-26",
+  "totalCommits": 23805,
   "totalSolvedIssues": 110,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -11,16 +11,16 @@
     "Swift": 0,
     "Java": 1154,
     "Objective-C": 0,
-    "JavaScript": 4114,
-    "PHP": 4887,
-    "CSS": 3419,
-    "HTML": 1288,
+    "JavaScript": 4129,
+    "PHP": 4902,
+    "CSS": 3429,
+    "HTML": 1295,
     "TypeScript": 336,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 330,
-    "Vue": 7548,
+    "Vue": 7571,
     "Hack": 9,
     "Shell": 0,
     "Blade": 2139,
@@ -240,6 +240,7 @@
     "roboshoptech/roboshop-web-profile",
     "roboshoptech/smartboard-pages",
     "Kiyoraka/Alice-Image-Generation-Guide",
-    "Kiyoraka/Alice-Image-Generation-Architecture"
+    "Kiyoraka/Alice-Image-Generation-Architecture",
+    "roboshoptech/order-system-roboshop"
   ]
 }
