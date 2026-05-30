@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Refactoring the Legacy Temple
+#### Current Quest: Documenting the Wisdom Scrolls
 
 ### 📅 Weekly Quest
-#### Current Mission: Monitoring System Setup
+#### Current Mission: Serverless Architecture Sprint
 
 ### 🌙 Monthly Raid
 #### Blossom Boss: UI Revolution
