@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Documenting the Wisdom Scrolls
+#### Current Quest: Testing the Battle Scenarios
 
 ### 📅 Weekly Quest
-#### Current Mission: Serverless Architecture Sprint
+#### Current Mission: Data Analytics Adventure
 
 ### 🌙 Monthly Raid
 #### Blossom Boss: UI Revolution
