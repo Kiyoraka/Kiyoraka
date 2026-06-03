@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-06-02",
-  "totalCommits": 24005,
+  "lastUpdateDate": "2026-06-03",
+  "totalCommits": 24114,
   "totalSolvedIssues": 112,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -9,18 +9,18 @@
     "Ruby": 0,
     "Batchfile": 42,
     "Swift": 0,
-    "Java": 1154,
+    "Java": 1159,
     "Objective-C": 0,
-    "JavaScript": 4159,
-    "PHP": 4957,
-    "CSS": 3441,
-    "HTML": 1295,
+    "JavaScript": 4172,
+    "PHP": 4964,
+    "CSS": 3442,
+    "HTML": 1302,
     "TypeScript": 336,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 330,
-    "Vue": 7622,
+    "Vue": 7661,
     "Hack": 9,
     "Shell": 0,
     "Blade": 2140,
@@ -242,6 +242,8 @@
     "Kiyoraka/Alice-Image-Generation-Guide",
     "Kiyoraka/Alice-Image-Generation-Architecture",
     "roboshoptech/order-system-roboshop",
-    "Kiyoraka/Project-RTACD"
+    "Kiyoraka/Project-RTACD",
+    "Kiyoraka/The-Sunnah-Business-Management-System",
+    "Kiyoraka/Alice-Skill-Reverie-Full-Architecture"
   ]
 }
