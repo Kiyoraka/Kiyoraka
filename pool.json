@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-06-11",
-  "totalCommits": 24456,
+  "lastUpdateDate": "2026-06-12",
+  "totalCommits": 24519,
   "totalSolvedIssues": 112,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -9,18 +9,18 @@
     "Ruby": 0,
     "Batchfile": 42,
     "Swift": 0,
-    "Java": 1192,
+    "Java": 1200,
     "Objective-C": 0,
-    "JavaScript": 4231,
+    "JavaScript": 4251,
     "PHP": 5015,
     "CSS": 3447,
-    "HTML": 1302,
+    "HTML": 1303,
     "TypeScript": 336,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 330,
-    "Vue": 7777,
+    "Vue": 7799,
     "Hack": 9,
     "Shell": 0,
     "Blade": 2141,
@@ -244,6 +244,8 @@
     "roboshoptech/order-system-roboshop",
     "Kiyoraka/Project-RTACD",
     "Kiyoraka/The-Sunnah-Business-Management-System",
-    "Kiyoraka/Alice-Skill-Reverie-Full-Architecture"
+    "Kiyoraka/Alice-Skill-Reverie-Full-Architecture",
+    "Kiyoraka/Project-Tiramisu",
+    "roboshoptech/codylab-math"
   ]
 }
