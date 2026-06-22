@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Debugging the Ancient Scripts
+#### Current Quest: Refactoring the Legacy Temple
 
 ### 📅 Weekly Quest
-#### Current Mission: Code Review Championship
+#### Current Mission: Performance Tuning Trial
 
 ### 🌙 Monthly Raid
 #### Summer Solstice: Performance Peak
