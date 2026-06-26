@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Organizing Code Sanctuary
+#### Current Quest: Documenting the Wisdom Scrolls
 
 ### 📅 Weekly Quest
-#### Current Mission: Logging Infrastructure Launch
+#### Current Mission: Schema Evolution Exercise
 
 ### 🌙 Monthly Raid
 #### Summer Solstice: Performance Peak
