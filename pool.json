@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-06-28",
-  "totalCommits": 25978,
+  "lastUpdateDate": "2026-06-29",
+  "totalCommits": 26091,
   "totalSolvedIssues": 113,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -9,18 +9,18 @@
     "Ruby": 0,
     "Batchfile": 43,
     "Swift": 0,
-    "Java": 1378,
+    "Java": 1390,
     "Objective-C": 0,
-    "JavaScript": 4467,
-    "PHP": 5132,
-    "CSS": 3501,
+    "JavaScript": 4477,
+    "PHP": 5136,
+    "CSS": 3508,
     "HTML": 1321,
     "TypeScript": 339,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 333,
-    "Vue": 8223,
+    "Vue": 8259,
     "Hack": 9,
     "Shell": 0,
     "Blade": 2146,
@@ -250,6 +250,7 @@
     "Kiyoraka/Project-Misu-E-commerce-BMS",
     "Kiyoraka/Project-Snapshot-Event",
     "Kiyoraka/Project-Moss-Cave",
-    "Kiyoraka/Project-AK"
+    "Kiyoraka/Project-AK",
+    "Kiyoraka/Project-The-Cave"
   ]
 }
