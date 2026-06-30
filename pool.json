@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-06-29",
-  "totalCommits": 26091,
+  "lastUpdateDate": "2026-06-30",
+  "totalCommits": 26285,
   "totalSolvedIssues": 113,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -9,18 +9,18 @@
     "Ruby": 0,
     "Batchfile": 43,
     "Swift": 0,
-    "Java": 1390,
+    "Java": 1415,
     "Objective-C": 0,
-    "JavaScript": 4477,
-    "PHP": 5136,
-    "CSS": 3508,
-    "HTML": 1321,
+    "JavaScript": 4505,
+    "PHP": 5141,
+    "CSS": 3527,
+    "HTML": 1344,
     "TypeScript": 339,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 333,
-    "Vue": 8259,
+    "Vue": 8315,
     "Hack": 9,
     "Shell": 0,
     "Blade": 2146,
@@ -251,6 +251,7 @@
     "Kiyoraka/Project-Snapshot-Event",
     "Kiyoraka/Project-Moss-Cave",
     "Kiyoraka/Project-AK",
-    "Kiyoraka/Project-The-Cave"
+    "Kiyoraka/Project-The-Cave",
+    "Kiyoraka/Project-Al-Hufaz-E-Commerce"
   ]
 }
