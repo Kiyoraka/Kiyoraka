@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Merging Parallel Dimensions
+#### Current Quest: Refactoring the Legacy Temple
 
 ### 📅 Weekly Quest
-#### Current Mission: Thread Safety Challenge
+#### Current Mission: Concurrent Programming Project
 
 ### 🌙 Monthly Raid
 #### Heat Wave: Server Stress
