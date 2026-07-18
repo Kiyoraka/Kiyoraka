@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-07-17",
-  "totalCommits": 28118,
+  "lastUpdateDate": "2026-07-18",
+  "totalCommits": 28247,
   "totalSolvedIssues": 113,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -9,18 +9,18 @@
     "Ruby": 0,
     "Batchfile": 43,
     "Swift": 0,
-    "Java": 1751,
+    "Java": 1769,
     "Objective-C": 0,
-    "JavaScript": 4763,
-    "PHP": 5315,
-    "CSS": 3626,
-    "HTML": 1381,
+    "JavaScript": 4795,
+    "PHP": 5323,
+    "CSS": 3638,
+    "HTML": 1394,
     "TypeScript": 344,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 342,
-    "Vue": 9001,
+    "Vue": 9035,
     "Hack": 9,
     "Shell": 0,
     "Blade": 2148,
@@ -255,6 +255,7 @@
     "Kiyoraka/Project-Al-Hufaz-E-Commerce",
     "Kiyoraka/Project-Centralised-System-Al-Khaadem",
     "Kiyoraka/Website-Basic-Company-Profile-Fable-5",
-    "Kiyoraka/Website-Basic-Company-Profile-Opus-4.8"
+    "Kiyoraka/Website-Basic-Company-Profile-Opus-4.8",
+    "Kiyoraka/Project-Sport-Management-System"
   ]
 }
