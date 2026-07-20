@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Documenting the Wisdom Scrolls
+#### Current Quest: Testing the Battle Scenarios
 
 ### 📅 Weekly Quest
-#### Current Mission: Blockchain Integration Battle
+#### Current Mission: Disaster Recovery Design
 
 ### 🌙 Monthly Raid
 #### Heat Wave: Server Stress
