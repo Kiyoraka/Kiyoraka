@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-07-21",
-  "totalCommits": 28505,
+  "lastUpdateDate": "2026-07-22",
+  "totalCommits": 28682,
   "totalSolvedIssues": 113,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -9,18 +9,18 @@
     "Ruby": 0,
     "Batchfile": 43,
     "Swift": 0,
-    "Java": 1800,
+    "Java": 1822,
     "Objective-C": 0,
-    "JavaScript": 4854,
-    "PHP": 5332,
-    "CSS": 3656,
-    "HTML": 1406,
+    "JavaScript": 4906,
+    "PHP": 5346,
+    "CSS": 3677,
+    "HTML": 1422,
     "TypeScript": 344,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 344,
-    "Vue": 9135,
+    "Vue": 9196,
     "Hack": 9,
     "Shell": 0,
     "Blade": 2148,
@@ -258,6 +258,8 @@
     "Kiyoraka/Website-Basic-Company-Profile-Opus-4.8",
     "Kiyoraka/Project-Sport-Management-System",
     "Kiyoraka/Project-X-Data-Wiper",
-    "Kiyoraka/Project-Blue-Sea-Cafe"
+    "Kiyoraka/Project-Blue-Sea-Cafe",
+    "Kiyoraka/Project-ATAMEME-Online-System",
+    "Kiyoraka/Project-DormGate"
   ]
 }
