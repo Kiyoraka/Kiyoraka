@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-07-23",
-  "totalCommits": 28814,
+  "lastUpdateDate": "2026-07-24",
+  "totalCommits": 28996,
   "totalSolvedIssues": 113,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -9,21 +9,21 @@
     "Ruby": 0,
     "Batchfile": 43,
     "Swift": 0,
-    "Java": 1835,
+    "Java": 1865,
     "Objective-C": 0,
-    "JavaScript": 4944,
-    "PHP": 5363,
-    "CSS": 3694,
-    "HTML": 1443,
+    "JavaScript": 4975,
+    "PHP": 5400,
+    "CSS": 3699,
+    "HTML": 1448,
     "TypeScript": 344,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 344,
-    "Vue": 9226,
+    "Vue": 9289,
     "Hack": 9,
     "Shell": 0,
-    "Blade": 2148,
+    "Blade": 2150,
     "SCSS": 8,
     "C++": 22,
     "CMake": 12,
@@ -261,6 +261,7 @@
     "Kiyoraka/Project-Blue-Sea-Cafe",
     "Kiyoraka/Project-ATAMEME-Online-System",
     "Kiyoraka/Project-DormGate",
-    "Kiyoraka/Atameme-Cafe-Management-System"
+    "Kiyoraka/Atameme-Cafe-Management-System",
+    "Kiyoraka/Dormitory-Student-Movement-System"
   ]
 }

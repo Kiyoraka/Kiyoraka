@@ -13,28 +13,28 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### ⭐ Rank : X (Mythic)
-### ⭐ Level : 2320
+### ⭐ Level : 2335
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 23506 
-### 🛡️ Defense Power : 21013 
-### ❤️ Health Point  : 35626 
+### ⚔️ Attack Power  : 23651 
+### 🛡️ Defense Power : 21140 
+### ❤️ Health Point  : 35845 
 ### 🔮 Mana Point    : 3518 
-### 🎯 Accuracy      : 12614 
-### ⚡ Speed         : 10670
+### 🎯 Accuracy      : 12669 
+### ⚡ Speed         : 10706
 
 ---
 ## 💻 Programming Skills
 
-### 💚 Vue : 9226
-### 🐘 PHP : 5363
-### 📜 JavaScript : 4944
-### 🎨 CSS : 3694
-### 🧷 Blade : 2148
-### ☕ Java : 1835
-### 🌐 HTML : 1443
+### 💚 Vue : 9289
+### 🐘 PHP : 5400
+### 📜 JavaScript : 4975
+### 🎨 CSS : 3699
+### 🧷 Blade : 2150
+### ☕ Java : 1865
+### 🌐 HTML : 1448
 ### 🔷 TypeScript : 344
 ### 🐍 Python : 344
 ### 🎯 Dart : 159
@@ -62,7 +62,7 @@
 #### Current Quest: Documenting the Wisdom Scrolls
 
 ### 📅 Weekly Quest
-#### Current Mission: DevOps Pipeline Challenge
+#### Current Mission: API Integration Tournament
 
 ### 🌙 Monthly Raid
 #### Heat Wave: Server Stress
