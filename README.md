@@ -13,27 +13,27 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### ⭐ Rank : X (Mythic)
-### ⭐ Level : 2380
+### ⭐ Level : 2394
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 24103 
-### 🛡️ Defense Power : 21536 
-### ❤️ Health Point  : 36523 
+### ⚔️ Attack Power  : 24243 
+### 🛡️ Defense Power : 21658 
+### ❤️ Health Point  : 36733 
 ### 🔮 Mana Point    : 3518 
-### 🎯 Accuracy      : 12838 
-### ⚡ Speed         : 10819
+### 🎯 Accuracy      : 12891 
+### ⚡ Speed         : 10854
 
 ---
 ## 💻 Programming Skills
 
-### 💚 Vue : 9567
-### 🐘 PHP : 5442
-### 📜 JavaScript : 5136
-### 🎨 CSS : 3706
+### 💚 Vue : 9648
+### 🐘 PHP : 5466
+### 📜 JavaScript : 5162
+### 🎨 CSS : 3707
 ### 🧷 Blade : 2154
-### ☕ Java : 1938
+### ☕ Java : 1980
 ### 🌐 HTML : 1452
 ### 🔷 TypeScript : 344
 ### 🐍 Python : 344
@@ -62,7 +62,7 @@
 #### Current Quest: Debugging the Ancient Scripts
 
 ### 📅 Weekly Quest
-#### Current Mission: Technical Debt Takedown
+#### Current Mission: Error Handling Enhancement
 
 ### 🌙 Monthly Raid
 #### Heat Wave: Server Stress
