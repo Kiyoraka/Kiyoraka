@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-08-04",
-  "totalCommits": 30440,
+  "lastUpdateDate": "2026-08-05",
+  "totalCommits": 30572,
   "totalSolvedIssues": 113,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -9,18 +9,18 @@
     "Ruby": 0,
     "Batchfile": 43,
     "Swift": 0,
-    "Java": 2127,
+    "Java": 2139,
     "Objective-C": 0,
-    "JavaScript": 5311,
-    "PHP": 5556,
-    "CSS": 3775,
-    "HTML": 1493,
+    "JavaScript": 5336,
+    "PHP": 5583,
+    "CSS": 3792,
+    "HTML": 1506,
     "TypeScript": 344,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 346,
-    "Vue": 9878,
+    "Vue": 9905,
     "Hack": 9,
     "Shell": 0,
     "Blade": 2154,
@@ -266,6 +266,7 @@
     "nrlsyahirah/Malaysia-Based-Project",
     "Kiyoraka/TNEX-Project-Management-System",
     "Kiyoraka/Project-GHB-Learning-Management-System",
-    "Kiyoraka/Project-Chatbot-Intelligent"
+    "Kiyoraka/Project-Chatbot-Intelligent",
+    "Kiyoraka/AR-Learning-Management-System"
   ]
 }
