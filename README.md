@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Refactoring the Legacy Temple
+#### Current Quest: Debugging the Ancient Scripts
 
 ### 📅 Weekly Quest
-#### Current Mission: Backup System Implementation
+#### Current Mission: Serverless Architecture Sprint
 
 ### 🌙 Monthly Raid
 #### Thunder Lord: Cloud Migration
