@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-08-13",
-  "totalCommits": 31659,
+  "lastUpdateDate": "2026-08-14",
+  "totalCommits": 31852,
   "totalSolvedIssues": 113,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -9,21 +9,21 @@
     "Ruby": 0,
     "Batchfile": 43,
     "Swift": 0,
-    "Java": 2325,
+    "Java": 2332,
     "Objective-C": 0,
-    "JavaScript": 5552,
-    "PHP": 5787,
-    "CSS": 3824,
-    "HTML": 1522,
+    "JavaScript": 5605,
+    "PHP": 5814,
+    "CSS": 3857,
+    "HTML": 1528,
     "TypeScript": 344,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 348,
-    "Vue": 10339,
+    "Vue": 10407,
     "Hack": 9,
     "Shell": 0,
-    "Blade": 2159,
+    "Blade": 2161,
     "SCSS": 8,
     "C++": 22,
     "CMake": 12,
@@ -269,6 +269,8 @@
     "Kiyoraka/Project-Chatbot-Intelligent",
     "Kiyoraka/AR-Learning-Management-System",
     "Kiyoraka/Project-Chatbot-Ai-Intel",
-    "Kiyoraka/Project-GHB-LMS"
+    "Kiyoraka/Project-GHB-LMS",
+    "Kiyoraka/Project-MPWAGC",
+    "Kiyoraka/Project-MWAGC"
   ]
 }
