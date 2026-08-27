@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Optimizing the Data Streams
+#### Current Quest: Debugging the Ancient Scripts
 
 ### 📅 Weekly Quest
-#### Current Mission: Technical Debt Takedown
+#### Current Mission: Code Quality Crusade
 
 ### 🌙 Monthly Raid
 #### Thunder Lord: Cloud Migration
