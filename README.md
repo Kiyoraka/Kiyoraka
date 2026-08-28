@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Debugging the Ancient Scripts
+#### Current Quest: Documenting the Wisdom Scrolls
 
 ### 📅 Weekly Quest
-#### Current Mission: Code Quality Crusade
+#### Current Mission: Technical Debt Takedown
 
 ### 🌙 Monthly Raid
 #### Thunder Lord: Cloud Migration
