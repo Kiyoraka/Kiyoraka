@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Documenting the Wisdom Scrolls
+#### Current Quest: Testing the Battle Scenarios
 
 ### 📅 Weekly Quest
-#### Current Mission: Technical Debt Takedown
+#### Current Mission: UI/UX Enhancement Expedition
 
 ### 🌙 Monthly Raid
 #### Thunder Lord: Cloud Migration
