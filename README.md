@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Testing the Battle Scenarios
+#### Current Quest: Optimizing the Data Streams
 
 ### 📅 Weekly Quest
-#### Current Mission: UI/UX Enhancement Expedition
+#### Current Mission: CI/CD Pipeline Project
 
 ### 🌙 Monthly Raid
 #### Thunder Lord: Cloud Migration
