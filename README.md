@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Optimizing the Data Streams
+#### Current Quest: Refactoring the Legacy Temple
 
 ### 📅 Weekly Quest
-#### Current Mission: CI/CD Pipeline Project
+#### Current Mission: Blockchain Integration Battle
 
 ### 🌙 Monthly Raid
 #### Thunder Lord: Cloud Migration
