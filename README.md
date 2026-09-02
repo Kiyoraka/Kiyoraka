@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Merging Parallel Dimensions
+#### Current Quest: Refactoring the Legacy Temple
 
 ### 📅 Weekly Quest
-#### Current Mission: Documentation Sprint Saga
+#### Current Mission: Container Orchestration Quest
 
 ### 🌙 Monthly Raid
 #### Autumn Oracle: AI Integration
