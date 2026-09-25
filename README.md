@@ -59,10 +59,10 @@
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Merging Parallel Dimensions
+#### Current Quest: Debugging the Ancient Scripts
 
 ### 📅 Weekly Quest
-#### Current Mission: API Integration Tournament
+#### Current Mission: DevOps Pipeline Challenge
 
 ### 🌙 Monthly Raid
 #### Autumn Oracle: AI Integration
