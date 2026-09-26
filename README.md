@@ -62,7 +62,7 @@
 #### Current Quest: Debugging the Ancient Scripts
 
 ### 📅 Weekly Quest
-#### Current Mission: DevOps Pipeline Challenge
+#### Current Mission: Query Performance Quest
 
 ### 🌙 Monthly Raid
 #### Autumn Oracle: AI Integration
