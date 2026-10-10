@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-10-09",
-  "totalCommits": 35744,
+  "lastUpdateDate": "2026-10-10",
+  "totalCommits": 35854,
   "totalSolvedIssues": 114,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -9,18 +9,18 @@
     "Ruby": 0,
     "Batchfile": 47,
     "Swift": 0,
-    "Java": 2948,
+    "Java": 2955,
     "Objective-C": 0,
-    "JavaScript": 6432,
-    "PHP": 6598,
-    "CSS": 4175,
-    "HTML": 1639,
+    "JavaScript": 6452,
+    "PHP": 6614,
+    "CSS": 4185,
+    "HTML": 1648,
     "TypeScript": 344,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 363,
-    "Vue": 11678,
+    "Vue": 11722,
     "Hack": 9,
     "Shell": 0,
     "Blade": 2198,
@@ -286,6 +286,7 @@
     "Kiyoraka/Project-Gift-Management-System",
     "Kiyoraka/Project-Orchid-Dental-Care",
     "Kiyoraka/Project-LMS",
-    "Kiyoraka/Project-Crystal-CRM"
+    "Kiyoraka/Project-Crystal-CRM",
+    "Kiyoraka/Project-Zakat-Tech"
   ]
 }
