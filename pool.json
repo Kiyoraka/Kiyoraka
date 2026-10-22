@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-10-21",
-  "totalCommits": 36810,
+  "lastUpdateDate": "2026-10-22",
+  "totalCommits": 36889,
   "totalSolvedIssues": 114,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -9,21 +9,21 @@
     "Ruby": 0,
     "Batchfile": 47,
     "Swift": 0,
-    "Java": 3081,
+    "Java": 3109,
     "Objective-C": 0,
-    "JavaScript": 6829,
-    "PHP": 6751,
+    "JavaScript": 6851,
+    "PHP": 6756,
     "CSS": 4268,
     "HTML": 1673,
     "TypeScript": 344,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
-    "Python": 406,
-    "Vue": 12041,
+    "Python": 407,
+    "Vue": 12056,
     "Hack": 9,
     "Shell": 0,
-    "Blade": 2205,
+    "Blade": 2206,
     "SCSS": 8,
     "C++": 22,
     "CMake": 12,
@@ -290,6 +290,7 @@
     "Kiyoraka/Project-Zakat-Tech",
     "Kiyoraka/Project-Happy-Home",
     "roboshoptech/roboshop-order-management-system",
-    "Kiyoraka/Project-Woody-Forest-Homestay"
+    "Kiyoraka/Project-Woody-Forest-Homestay",
+    "Kiyoraka/Battle-Card-Game"
   ]
 }
