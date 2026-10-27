@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-10-26",
-  "totalCommits": 37329,
+  "lastUpdateDate": "2026-10-27",
+  "totalCommits": 37448,
   "totalSolvedIssues": 114,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -9,18 +9,18 @@
     "Ruby": 0,
     "Batchfile": 47,
     "Swift": 0,
-    "Java": 3211,
+    "Java": 3218,
     "Objective-C": 0,
-    "JavaScript": 6997,
-    "PHP": 6786,
-    "CSS": 4278,
-    "HTML": 1679,
+    "JavaScript": 7058,
+    "PHP": 6789,
+    "CSS": 4318,
+    "HTML": 1686,
     "TypeScript": 344,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 427,
-    "Vue": 12189,
+    "Vue": 12204,
     "Hack": 9,
     "Shell": 0,
     "Blade": 2210,
@@ -291,6 +291,8 @@
     "Kiyoraka/Project-Happy-Home",
     "roboshoptech/roboshop-order-management-system",
     "Kiyoraka/Project-Woody-Forest-Homestay",
-    "Kiyoraka/Battle-Card-Game"
+    "Kiyoraka/Battle-Card-Game",
+    "Kiyoraka/Project-Nasi-5-Min-Cafe-Management-System",
+    "Kiyoraka/Tujuh-Meja-Cafe-Management-System"
   ]
 }
