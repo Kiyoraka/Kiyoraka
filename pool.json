@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-10-29",
-  "totalCommits": 37552,
+  "lastUpdateDate": "2026-10-30",
+  "totalCommits": 37639,
   "totalSolvedIssues": 114,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -9,21 +9,21 @@
     "Ruby": 0,
     "Batchfile": 47,
     "Swift": 0,
-    "Java": 3231,
+    "Java": 3240,
     "Objective-C": 0,
-    "JavaScript": 7074,
-    "PHP": 6796,
-    "CSS": 4318,
-    "HTML": 1686,
+    "JavaScript": 7107,
+    "PHP": 6806,
+    "CSS": 4340,
+    "HTML": 1687,
     "TypeScript": 344,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
     "Python": 437,
-    "Vue": 12220,
+    "Vue": 12235,
     "Hack": 9,
     "Shell": 0,
-    "Blade": 2210,
+    "Blade": 2211,
     "SCSS": 8,
     "C++": 22,
     "CMake": 12,
@@ -293,6 +293,7 @@
     "Kiyoraka/Project-Woody-Forest-Homestay",
     "Kiyoraka/Battle-Card-Game",
     "Kiyoraka/Project-Nasi-5-Min-Cafe-Management-System",
-    "Kiyoraka/Tujuh-Meja-Cafe-Management-System"
+    "Kiyoraka/Tujuh-Meja-Cafe-Management-System",
+    "Kiyoraka/Project-Old-Town-Workshop"
   ]
 }
