@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-10-30",
-  "totalCommits": 37639,
+  "lastUpdateDate": "2026-10-31",
+  "totalCommits": 37728,
   "totalSolvedIssues": 114,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -9,21 +9,21 @@
     "Ruby": 0,
     "Batchfile": 47,
     "Swift": 0,
-    "Java": 3240,
+    "Java": 3250,
     "Objective-C": 0,
-    "JavaScript": 7107,
-    "PHP": 6806,
+    "JavaScript": 7127,
+    "PHP": 6828,
     "CSS": 4340,
     "HTML": 1687,
     "TypeScript": 344,
     "Kotlin": 1,
     "C#": 34,
     "Go": 0,
-    "Python": 437,
-    "Vue": 12235,
+    "Python": 442,
+    "Vue": 12268,
     "Hack": 9,
     "Shell": 0,
-    "Blade": 2211,
+    "Blade": 2217,
     "SCSS": 8,
     "C++": 22,
     "CMake": 12,
@@ -294,6 +294,7 @@
     "Kiyoraka/Battle-Card-Game",
     "Kiyoraka/Project-Nasi-5-Min-Cafe-Management-System",
     "Kiyoraka/Tujuh-Meja-Cafe-Management-System",
-    "Kiyoraka/Project-Old-Town-Workshop"
+    "Kiyoraka/Project-Old-Town-Workshop",
+    "Kiyoraka/Project-Alice-Pocket"
   ]
 }
