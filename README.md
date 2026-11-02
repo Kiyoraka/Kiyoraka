@@ -13,35 +13,35 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### ⭐ Rank : X (Mythic)
-### ⭐ Level : 3041
+### ⭐ Level : 3055
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 30717 
-### 🛡️ Defense Power : 27321 
-### ❤️ Health Point  : 46441 
+### ⚔️ Attack Power  : 30857 
+### 🛡️ Defense Power : 27444 
+### ❤️ Health Point  : 46651 
 ### 🔮 Mana Point    : 3518 
-### 🎯 Accuracy      : 15343 
-### ⚡ Speed         : 12472
+### 🎯 Accuracy      : 15395 
+### ⚡ Speed         : 12507
 
 ---
 ## 💻 Programming Skills
 
-### 💚 Vue : 12278
-### 📜 JavaScript : 7130
-### 🐘 PHP : 6833
-### 🎨 CSS : 4340
-### ☕ Java : 3273
+### 💚 Vue : 12323
+### 📜 JavaScript : 7171
+### 🐘 PHP : 6847
+### 🎨 CSS : 4342
+### ☕ Java : 3307
 ### 🧷 Blade : 2217
-### 🌐 HTML : 1688
-### 🐍 Python : 450
+### 🌐 HTML : 1691
+### 🐍 Python : 451
 ### 🔷 TypeScript : 344
 ### 🎯 Dart : 159
 ### 📚 Ren'Py : 94
-### 🗂️ Batchfile : 47
+### 🔰 Kotlin : 54
+### 🗂️ Batchfile : 48
 ### 🎯 C# : 34
-### 🔰 Kotlin : 30
 ### ➕ C++ : 22
 ### 🧱 CMake : 12
 ### 🧬 Hack : 9
@@ -62,7 +62,7 @@
 #### Current Quest: Debugging the Ancient Scripts
 
 ### 📅 Weekly Quest
-#### Current Mission: Authorization Framework Fix
+#### Current Mission: Frontend Framework Update
 
 ### 🌙 Monthly Raid
 #### Harvest Handler: Data Analytics
