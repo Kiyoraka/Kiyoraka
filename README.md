@@ -13,37 +13,38 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### ⭐ Rank : X (Mythic)
-### ⭐ Level : 3089
+### ⭐ Level : 3099
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 31199 
-### 🛡️ Defense Power : 27743 
-### ❤️ Health Point  : 47163 
-### 🔮 Mana Point    : 3518 
-### 🎯 Accuracy      : 15523 
-### ⚡ Speed         : 12593
+### ⚔️ Attack Power  : 31297 
+### 🛡️ Defense Power : 27828 
+### ❤️ Health Point  : 47310 
+### 🔮 Mana Point    : 3543 
+### 🎯 Accuracy      : 15560 
+### ⚡ Speed         : 12617
 
 ---
 ## 💻 Programming Skills
 
-### 💚 Vue : 12422
-### 📜 JavaScript : 7258
+### 💚 Vue : 12458
+### 📜 JavaScript : 7279
 ### 🐘 PHP : 6903
 ### 🎨 CSS : 4348
-### ☕ Java : 3395
+### ☕ Java : 3410
 ### 🧷 Blade : 2217
 ### 🌐 HTML : 1694
 ### 🐍 Python : 462
 ### 🔷 TypeScript : 344
 ### 🎯 Dart : 159
-### 🔰 Kotlin : 100
+### 🔰 Kotlin : 122
 ### 📚 Ren'Py : 94
 ### 🗂️ Batchfile : 48
 ### 🎯 C# : 34
 ### ➕ C++ : 22
 ### 🧱 CMake : 12
+### 🦀 Rust : 12
 ### 🧬 Hack : 9
 ### 🎨 SCSS : 8
 ### 📊 VBA : 4
@@ -52,17 +53,16 @@
 ### 💎 Ruby : 0
 ### 📱 Swift : 0
 ### 🍎 Objective-C : 0
-### 🐹 Go : 0
 
 ---
 ## 📜 Active Quests
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Debugging the Ancient Scripts
+#### Current Quest: Refactoring the Legacy Temple
 
 ### 📅 Weekly Quest
-#### Current Mission: Code Documentation Drive
+#### Current Mission: Query Performance Quest
 
 ### 🌙 Monthly Raid
 #### Harvest Handler: Data Analytics
