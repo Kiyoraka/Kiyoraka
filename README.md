@@ -13,32 +13,32 @@
 ### 🎖️ Class : Full-Stack Developer
 ### 🎪 Guild : Kiyo Software Tech Lab 
 ### ⭐ Rank : X (Mythic)
-### ⭐ Level : 3142
+### ⭐ Level : 3152
 
 ---
 ## 📊 Battle Stats
 
-### ⚔️ Attack Power  : 31730 
-### 🛡️ Defense Power : 28208 
-### ❤️ Health Point  : 47960 
+### ⚔️ Attack Power  : 31825 
+### 🛡️ Defense Power : 28291 
+### ❤️ Health Point  : 48103 
 ### 🔮 Mana Point    : 3543 
-### 🎯 Accuracy      : 15723 
-### ⚡ Speed         : 12725
+### 🎯 Accuracy      : 15758 
+### ⚡ Speed         : 12749
 
 ---
 ## 💻 Programming Skills
 
-### 💚 Vue : 12649
-### 📜 JavaScript : 7443
-### 🐘 PHP : 6922
-### 🎨 CSS : 4349
-### ☕ Java : 3462
+### 💚 Vue : 12696
+### 📜 JavaScript : 7489
+### 🐘 PHP : 6936
+### 🎨 CSS : 4350
+### ☕ Java : 3478
 ### 🧷 Blade : 2217
-### 🌐 HTML : 1694
+### 🌐 HTML : 1695
 ### 🐍 Python : 523
 ### 🔷 TypeScript : 344
 ### 🎯 Dart : 159
-### 🦀 Rust : 125
+### 🦀 Rust : 146
 ### 🔰 Kotlin : 122
 ### 📚 Ren'Py : 94
 ### 🗂️ Batchfile : 50
@@ -48,21 +48,21 @@
 ### 🧬 Hack : 9
 ### 🎨 SCSS : 8
 ### 📊 VBA : 4
+### 🐚 Shell : 3
 ### 🎯 C : 2
 ### 📄 ShaderLab : 2
 ### 💎 Ruby : 0
 ### 📱 Swift : 0
-### 🍎 Objective-C : 0
 
 ---
 ## 📜 Active Quests
 
 ### 🌅 Daily Quest
 
-#### Current Quest: Optimizing the Data Streams
+#### Current Quest: Documenting the Wisdom Scrolls
 
 ### 📅 Weekly Quest
-#### Current Mission: Thread Safety Challenge
+#### Current Mission: Schema Evolution Exercise
 
 ### 🌙 Monthly Raid
 #### Harvest Handler: Data Analytics
