@@ -1,7 +1,7 @@
 {
   "initialized": true,
-  "lastUpdateDate": "2026-11-15",
-  "totalCommits": 39211,
+  "lastUpdateDate": "2026-11-16",
+  "totalCommits": 39319,
   "totalSolvedIssues": 114,
   "totalSpeedPoints": 1164,
   "languageStats": {
@@ -9,21 +9,21 @@
     "Ruby": 0,
     "Batchfile": 50,
     "Swift": 0,
-    "Java": 3478,
+    "Java": 3482,
     "Objective-C": 0,
-    "JavaScript": 7489,
-    "PHP": 6936,
+    "JavaScript": 7513,
+    "PHP": 6944,
     "CSS": 4350,
-    "HTML": 1695,
+    "HTML": 1696,
     "TypeScript": 344,
     "Kotlin": 122,
     "C#": 34,
     "Go": 0,
-    "Python": 523,
-    "Vue": 12696,
+    "Python": 533,
+    "Vue": 12727,
     "Hack": 9,
-    "Shell": 3,
-    "Blade": 2217,
+    "Shell": 6,
+    "Blade": 2218,
     "SCSS": 8,
     "C++": 22,
     "CMake": 12,
@@ -32,7 +32,7 @@
     "VBA": 4,
     "ShaderLab": 2,
     "HLSL": 0,
-    "Rust": 146
+    "Rust": 159
   },
   "totalRepos": 100,
   "accountCreationYear": 2021,
@@ -303,6 +303,8 @@
     "Kiyoraka/Project-Alice-Keep",
     "Kiyoraka/Project-MemoryCore-Castle",
     "roboshoptech/roboshop-website",
-    "Kiyoraka/Oppa-Ninja-Mobile-App"
+    "Kiyoraka/Oppa-Ninja-Mobile-App",
+    "Kiyoraka/Bus-Application-PWA",
+    "Kiyoraka/Project-Bus-Management-System"
   ]
 }
